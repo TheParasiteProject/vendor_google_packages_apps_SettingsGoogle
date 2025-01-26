@@ -2,8 +2,6 @@ android_library {
     name: "SettingsGoogle-core",
     platform_apis: true,
 
-    srcs: ["src/**/*.java"],
-
     use_resource_processor: true,
     static_libs: [
         "Settings-core",
@@ -23,6 +21,8 @@ android_app {
     name: "SettingsGoogle",
     defaults: [
         "platform_app_defaults",
+        "SettingsLib-search-defaults",
+        "SettingsLintDefaults",
         "SpaPrivilegedLib-defaults",
     ],
     platform_apis: true,
