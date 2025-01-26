@@ -70,6 +70,29 @@
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"
         settings:userRestriction="no_adjust_volume" />
 
+    <!-- Increasing ring -->
+    <lineageos.preference.LineageSystemSettingSwitchPreference
+        android:key="increasing_ring"
+        android:title="@string/increasing_ring_volume_option_title"
+        android:order="-136"
+        settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
+
+    <!-- Increasing ring volume -->
+    <com.android.settings.notification.IncreasingRingVolumePreference
+        android:key="increasing_ring_volume"
+        android:icon="@drawable/ring_notif_increasing"
+        android:dependency="increasing_ring"
+        android:order="-135"
+        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
+
+    <!-- Volume steps -->
+    <Preference
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.android.settings.sound.VolumeSteps"
+        android:order="-134"/>
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.notification.zen.ZenModeSettings"
         android:key="zen_mode"
@@ -78,6 +101,14 @@
         settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"
         settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
         settings:useAdminDisabledSummary="true" />
+
+    <!-- Adaptive Playback -->
+    <Preference
+        android:key="sound_adaptive_playback_summary"
+        android:title="@string/adaptive_playback_screen_title"
+        android:fragment="com.android.settings.sound.AdaptivePlaybackSoundSettings"
+        android:order="-103"
+        settings:controller="com.android.settings.sound.AdaptivePlaybackParentPreferenceController" />
 
     <com.android.settings.DefaultRingtonePreference
         android:dialogTitle="@string/ringtone_title"
@@ -153,6 +184,13 @@
         android:title="@string/clear_calling_title"
         settings:controller="com.google.android.settings.notification.ClearCallingPreferenceController" />
 
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="false"
+        android:order="-5"/>
+
     <SwitchPreferenceCompat
         android:key="dial_pad_tones"
         android:order="-50"
@@ -168,6 +206,12 @@
         android:order="-40"
         android:title="@string/charging_sounds_title" />
 
+    <!-- Custom charging sounds -->
+    <lineageos.preference.LineagePartsPreference
+        android:key="charging_sounds_settings"
+        settings:replacesKey="charging_sounds"
+        settings:requiresConfig="@bool/config_show_charging_sounds" />
+
     <SwitchPreferenceCompat
         android:key="docking_sounds"
         android:order="-35"
@@ -178,12 +222,19 @@
         android:order="-30"
         android:title="@string/touch_sounds_title" />
 
+    <!-- Screenshot sound -->
+    <lineageos.preference.SystemSettingSwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title"
+        android:defaultValue="true"
+        android:order="-28"/>
+
     <SwitchPreferenceCompat
         android:key="vibrate_icon"
         android:order="-27"
         android:title="@string/vibrate_icon_title" />
 
-    <DropDownPreference
+    <ListPreference
         android:key="dock_audio_media"
         android:order="-25"
         android:summary="%s"
@@ -194,7 +245,7 @@
         android:order="-20"
         android:title="@string/boot_sounds_title" />
 
-    <DropDownPreference
+    <ListPreference
         android:key="emergency_tone"
         android:order="-15"
         android:summary="%s"
