@@ -2,6 +2,7 @@
 <resources>
     <integer name="app_bypass_bottom_sheet_notification_weight">500</integer>
     <integer name="config_battery_extra_tip_value">90</integer>
+    <integer name="config_vibration_supported_intensity_levels">3</integer>
     <integer name="screensaver_summary_text_max_line">6</integer>
     <integer name="screensaver_summary_text_min_line">3</integer>
 </resources>

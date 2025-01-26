@@ -40,8 +40,6 @@
     <dimen name="app_bypass_second_text_font_size">16.0sp</dimen>
     <dimen name="app_bypass_suggestion_button_padding_horizontal">16.0dip</dimen>
     <dimen name="app_bypass_suggestion_button_radius">100.0dip</dimen>
-    <dimen name="audio_streams_qrcode_preview_radius">30.0dip</dimen>
-    <dimen name="audio_streams_qrcode_size">264.0dip</dimen>
     <dimen name="biometric_enroll_introduction_message_padding_bottom">16.0dip</dimen>
     <dimen name="biometric_enroll_introduction_title_padding_vertical">24.0dip</dimen>
     <dimen name="columbus_action_list_item_spacing_vertical">16.0dip</dimen>
@@ -76,7 +74,6 @@
     <dimen name="suggestion_card_text_padding_end">24.0dip</dimen>
     <dimen name="suggestion_card_text_padding_start">16.0dip</dimen>
     <dimen name="suggestion_card_text_padding_start_two_pane">24.0dip</dimen>
-    <dimen name="suggestion_card_text_padding_vertical">18.0dip</dimen>
     <dimen name="suw_dream_item_corner_radius">20.0dip</dimen>
     <dimen name="suw_dream_item_icon_padding">10.0dip</dimen>
     <dimen name="suw_dream_item_margin">4.0dip</dimen>
@@ -89,5 +86,7 @@
     <dimen name="suw_warranty_dialog_textview_padding_bottom">24.0dip</dimen>
     <dimen name="suw_warranty_dialog_textview_padding_left">2.0dip</dimen>
     <dimen name="suw_warranty_dialog_textview_text_size">14.0sp</dimen>
-    <dimen name="udfps_lottie_translate_y">-500dp</dimen>
+    <dimen name="sync_across_devices_feature_icon_size">24.0dip</dimen>
+    <dimen name="wifi_sharing_qrcode_fragment_margin_size">23.0dip</dimen>
+    <dimen name="wifi_sharing_qrcode_fragment_size">264.0dip</dimen>
 </resources>

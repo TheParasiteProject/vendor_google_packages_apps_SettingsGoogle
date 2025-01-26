@@ -47,6 +47,13 @@
             settings:controller="com.android.settings.accessibility.ReduceBrightColorsPreferenceController"
             settings:keywords="@string/keywords_reduce_bright_colors" />
 
+        <SwitchPreferenceCompat
+            android:icon="@drawable/ic_reduce_bright_colors"
+            android:key="even_dimmer_activated"
+            android:summary="@string/even_dimmer_display_summary"
+            android:title="@string/even_dimmer_display_title"
+            settings:controller="com.android.settings.display.EvenDimmerPreferenceController" />
+
         <Preference
             android:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment"
             android:icon="@drawable/ic_accessibility_magnification"
@@ -63,6 +70,23 @@
             android:title="@string/accessibility_screen_magnifier_title"
             settings:controller="com.google.android.settings.accessibility.MagnifierPreferenceController"
             settings:keywords="@string/keywords_magnifier" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="simple_mode_category"
+        android:persistent="false"
+        android:title="@string/simple_mode_category"
+        settings:controller="com.google.android.settings.simplemode.SimpleModeCategoryController">
+
+        <Preference
+            android:fragment="com.google.android.settings.simplemode.SimpleModeSettingsFragment"
+            android:icon="@drawable/ic_simplemode_settings"
+            android:key="simple_mode_title"
+            android:persistent="false"
+            android:summary="@string/simple_mode_summary"
+            android:title="@string/simple_mode_title"
+            settings:controller="com.google.android.settings.simplemode.SimpleModePreferenceController" />
 
     </PreferenceCategory>
 
@@ -93,6 +117,16 @@
             android:title="@string/accessibility_vibration_settings_title"
             settings:controller="com.android.settings.accessibility.VibrationPreferenceController"
             settings:keywords="@string/keywords_vibration"
+            settings:searchable="true" />
+
+        <Preference
+            android:fragment="com.android.settings.inputmethod.PointerTouchpadFragment"
+            android:icon="@drawable/ic_pointer_and_touchpad"
+            android:key="pointer_and_touchpad"
+            android:persistent="false"
+            android:summary="@string/accessibility_pointer_and_touchpad_summary"
+            android:title="@string/accessibility_pointer_and_touchpad_title"
+            settings:controller="com.android.settings.inputmethod.PointerTouchpadPreferenceController"
             settings:searchable="true" />
 
     </PreferenceCategory>
@@ -178,10 +212,11 @@
         <Preference
             android:fragment="com.android.settings.accessibility.FlashNotificationsPreferenceFragment"
             android:icon="@drawable/ic_flash_notification"
-            android:key="flash_notifications_preference"
+            android:key="flash_notifications_preference_accessibility"
             android:persistent="false"
             android:title="@string/flash_notifications_title"
             settings:controller="com.android.settings.accessibility.FlashNotificationsPreferenceController"
+            settings:keywords="@string/flash_notifications_keywords"
             settings:searchable="true" />
 
         <Preference

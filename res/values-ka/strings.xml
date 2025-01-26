@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">ბატარეის მუშაობის გახანგრძლივების მიზნით თქვენი ტელეფონი შეისწავლის თქვენს დატენვის რუტინას და მოიცდის, სანამ სრულად დატენვა დაგჭირდებათ.</string>
     <string name="adaptive_charging_link_a11y">შეიტყვეთ მეტი ადაპტირებადი დატენვის შესახებ</string>
     <string name="adaptive_charging_main_switch_title">ადაპტირებადი დატენვის გამოყენება</string>
-    <string name="adaptive_charging_time_estimate"><b>ადაპტირებადი დატენვა</b> • სრულად დატენვამდე დარჩა %1$s</string>
+    <string name="adaptive_charging_time_estimate"><b>ადაპტიური დამუხტვა</b> • სრული დამუხტვის დრო: %1$s</string>
     <string name="adaptive_charging_title">ადაპტირებადი დატენვა</string>
     <string name="adaptive_touch_sensitivity_summary">შეხების მგრძნობიარობა ავტომატურად მოერგება თქვენს გარემოს, აქტივობებსა და ეკრანის დამცავს</string>
     <string name="adaptive_touch_sensitivity_title">მორგებადი შეხება</string>
+    <string name="adaptive_vibration_footer">თქვენი ტელეფონის მიკროფონი და სხვა სენსორები გამოიყენება ხმის დონეებისა და კონტექსტის დასადგენად. მონაცემები არასდროს იწერება.</string>
+    <string name="adaptive_vibration_settings_summary">ავტომატურად დააკორექტირეთ თქვენი ტელეფონის ვიბრაციები გარემოს მიხედვით, მაგალითად, როცა ჯიბეშია ან ხმაურიან ადგილას</string>
+    <string name="adaptive_vibration_summary_off">გამორთული</string>
+    <string name="adaptive_vibration_summary_on">ჩართული</string>
+    <string name="adaptive_vibration_title">მორგებადი ვიბრაცია</string>
+    <string name="adaptive_vibration_toggle_title">მორგებადი ვიბრაციის გამოყენება</string>
     <string name="add_bypassed_application_hint">აპები არ არის დამატებული</string>
     <string name="advanced_vpn_preference_group_title">ჩაშენებული</string>
     <string name="all_apps_category_title">ყველა აპი</string>
@@ -27,16 +33,6 @@
 
 წვდომის გაუქმების შემთხვევაში აპმა უნდა მოგთხოვოთ სისტემის ხარვეზის ანგარიშის შეგროვებისა და ატვირთვის ნებართვა, პრობლემის თითოეული ანგარიშისთვის."</string>
     <string name="app_and_notification_dashboard_summary">ასისტენტი, ბოლოდროინდელი აპები, ნაგულისხმევი აპები</string>
-    <string name="audio_sharing_switch_title">აუდიოს გაზიარება</string>
-    <string name="audio_sharing_title">აუდიოს გაზიარება</string>
-    <string name="audio_streams_category_title">დაუკავშირდით LE-აუდიო ნაკადს</string>
-    <string name="audio_streams_connect">დაკავშირება</string>
-    <string name="audio_streams_disconnect">კავშირის გაწყვეტა</string>
-    <string name="audio_streams_pref_title">ახლომახლო აუდიო ნაკადები</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">QR კოდის ფორმატი არასწორია</string>
-    <string name="audio_streams_qr_code_scanner">მოსმენის დასაწყებად ცენტრში მოაქციეთ ქვემოთ მოცემული QR კოდი</string>
-    <string name="audio_streams_qr_code_summary">დაუკავშირდით აუდიო ნაკადს QR კოდის გამოყენებით</string>
-    <string name="audio_streams_title">აუდიო ნაკადები</string>
     <string name="automatic_storage_manager_activation_warning">როცა ინტერნეტთან დაკავშირებული იქნებით, ფოტოები და ვიდეოები მაინც იქნება ხელმისაწვდომი იმ ხარისხით, რომელიც სარეზერვო ასლებისთვის აირჩიეთ</string>
     <string name="automatic_storage_manager_days_title">დარეზ. ფოტო/ვიდეოების ამოშლა</string>
     <string name="automatic_storage_manager_deactivation_warning">"გსურთ, გამორთოთ გონიერი მეხსიერება? 
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">სრულად დატენვა</string>
     <string name="battery_tip_limited_temporarily_extra_summary">თქვენი ბატარეის დასაცავად დატენვა დაპაუზებულია %1$s-ზე, სანამ თქვენი ტაბლეტი ჩამაგრებულია</string>
     <string name="battery_tip_smart_battery_summary">ადაპტაციური ბატარეის ჩართვა</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">შეიტყვეთ მეტი უსადენო დატენის შესახებ</string>
-    <string name="battery_tip_wireless_charging_summary">თქვენი ტელეფონის უსადენო დატენამ შესაძლოა, დატენის სხვა მეთოდებთან შედარებით, მეტი ენერგია მოიხმაროს</string>
-    <string name="battery_tip_wireless_charging_title">მიმდინარეობს უსადენო დატენა</string>
-    <string name="calls_and_alarms_device_title">ზარები და მაღვიძარები</string>
+    <string name="charging_optimization_charge_label">%1$s — დატენვის დასრულების დრო: %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - დატენვა დასრულებულია</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">დატენვა დასრულებულია</string>
+    <string name="charging_optimization_remaining_time_label">დატენვის დასრულების დრო: %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">უსადენო დატენვა დასრულებულია •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">უსადენო დატენვის დასრულების დრო: %1$s •</string>
     <string name="clear_calling_footer">"თქვენი კონფიდენციალურობის დასაცავად, სუფთა აუდიო არ უგზავნის Google-ს აუდიოს ან საუბრებს.
 
 სუფთა აუდიო მუშაობს Wi-Fi დარეკვისას და ქსელების უმეტესობაში, მაგრამ მიუწვდომელია 3G ქსელებისთვის."</string>
@@ -147,15 +145,23 @@
 
 ფიშინგი წარმოადგენს ავტორიზაციის მონაცემების ან სხვა პერსონალური ინფორმაციის მოპარვის მცდელობას."</string>
     <string name="content_protection_preference_subpage_summary">სკანირება მიმდინარეობს ფარულად თქვენს მოწყობილობაზე, ამოწმებს რა აპში აქტივობას ფიშინგის ან სხვა მავნე ქცევის კუთხით. თუ მსგავსი ქცევა გამოვლინდა, ზოგიერთი აპის ინფორმაცია გაეგზავნება Google Play Protect-ს, რათა გადამოწმდეს საფრთხე და ეცნობოთ აპის მომხმარებლებს.</string>
-    <string name="contextual_timeout_description">თუ არ იყენებთ მოწყობილობას, ის ავტომატურად გამორთავს ეკრანს ადრე</string>
+    <string name="contextual_timeout_description">თუ არ იყენებთ მოწყობილობას, ავტომატურად გამორთავს ეკრანს</string>
     <string name="contextual_timeout_title">ადაპტირებული გამორთვის დრო</string>
+    <string name="credentials_install_summary" product="default">სერტიფიკატების საცავიდან დაყენება</string>
     <string name="dark_ui_text">მუქი თემა იყენებს შავ ფონს იმისთვის, რომ თქვენმა ბატარეამ დიდხანს გაძლოს. მუქი თემის განრიგი ეკრანის გამორთვის შემდეგ გააქტიურდება.</string>
     <string name="debugging_data_title">გამართვის მონაცემები</string>
+    <string name="default_notification_summary">კლასიკური შეტყობინება</string>
+    <string name="default_ringtone_summary">კლასიკური ზარი</string>
     <string name="discover_tips_button">მინიშნებების აღმოჩენა</string>
+    <string name="display_dashboard_summary">მუქი თემა, შრიფტის ზომა, შეხება</string>
+    <string name="display_settings">ეკრანი და სენსორი</string>
     <string name="dock_summary_charging_phone">ტელეფონი იტენება</string>
     <string name="double_twist_for_camera_mode_summary">Google კამერაში სელფის რეჟიმის ჩასართავად/გამოსართავად, აპში ყოფნისას შეასრულეთ ორმაგი მოტრიალება.</string>
     <string name="duration_less_than_one_minute">1 წუთზე ნაკლები</string>
-    <string name="enable_glanceable_hub_toggle">ჰაბის რეჟიმი</string>
+    <string name="enable_glanceable_hub_toggle">ვიჯეტების ჩვენება ჩაკეტილ ეკრანზე</string>
+    <string name="enable_glanceable_hub_toggle_summary">თქვენი ტაბლეტის განბლოკვის გარეშე</string>
+    <string name="erase_external_storage" product="default">USB მეხსიერების წაშლა</string>
+    <string name="erase_external_storage_description" product="default">შიდა USB მეხსიერებიდან ყველა მონაცემების წაშლა, როგორიცაა მუსიკა ან ფოტოები</string>
     <string name="extreme_battery_saver_summary">მოიცავს ყველა ზემოხსენებულ ცვლილებას ასევე აპაუზებს უმნიშვნელო აპებს და მათ შეტყობინებებს.</string>
     <string name="extreme_battery_saver_title">ბატარეის სუპერდამზოგი</string>
     <string name="face_confirmation_hide_illustration_description">დღეიდან, როცა ხელში აიღებთ თქვენს ტელეფონს ან შეეხებით ეკრანს, შეძლებთ სახით განბლოკვას.</string>
@@ -199,8 +205,7 @@
 
 სარეზერვო მონაცემები Drive-ზე თქვენთვის გამოყოფილ მეხსიერების კვოტაზე გავლენას არ იქონიებს. დიდი ზომის ფაილები, ან ფაილები, რომლებიც დეველოპერების მიერ სერვისიდან გამოირიცხა, არ დაკოპირდება."</string>
     <string name="fullbackup_erase_dialog_message">გსურთ, შეწყდეს მოწყობილობის მონაცემებისა (მათ შორის, Wi-Fi-ს პაროლებისა და საუბრის ისტორიის) და აპების მონაცემების (მათ შორის, აპების მიერ შენახული პარამეტრებისა და ფაილების) სარეზერვო ასლების შექმნა და, ამასთანავე, წაიშალოს Google Drive-ში არსებული ყველა ასლი?</string>
-    <string name="gesture_settings_activity_title">ჟესტებით ნავიგაცია</string>
-    <string name="hub_mode_content_setting">ჰაბის რეჟიმში ნებისმიერი ვიჯეტის დაშვება</string>
+    <string name="help_footer_content_description">%1$s-ის შესახებ. %2$s</string>
     <string name="install_unknown_applications">Play Store-ისგან განსხვავებული წყაროებიდან აპების ინსტალაციის დაშვება</string>
     <string name="keywords_accessibility_menu">მოტორული, სწრაფი მენიუ, დამხმარე მენიუ, შეხება, უნარი, ართრიტი, RSI, ინსულტი, ტრემორი, გაფანტული სკლეროზი, ცერებრული დამბლა, ღილაკი, აპარატურა, დაჭერა, განმეორებითი დაძაბვის დაზიანება, ხელი, ტკივილი, ადაპტირებული, დახმარება</string>
     <string name="keywords_adaptive_alert_vibration">ჰაპტიკა, ვიბრაცია, ტელეფონი, ზარი, ზარი, გაფრთხილება, შეტყობინებები, ხმამაღალი, ჩუმი, ხმაური, ქეისი, ადაპტაციური</string>
@@ -223,16 +228,25 @@
     <string name="keywords_touch_sensitivity">შეხება, მგრძნობიარობა, სენსიტიური, ეკრანის დამცავი, ფირი, რეაგირებადი, რეაგირება</string>
     <string name="keywords_touch_sensitivity_settings">შეხება, ადაპტირებული, მგრძნობიარობა, სენსიტიური, ეკრანის დამცავი, ფილმი, რეაგირებადი, რეაგირება</string>
     <string name="keywords_voice_access">ხმა, ხმოვანი მართვა, ძრავა, ხელი, მიკროფონი, მიკროფონი, კარნახი, საუბარი, მართვა</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">შეიტყვეთ მეტი</a></string>
     <string name="led_preference_title">LED ინდიკატორის ნიმუშები</string>
     <string name="legal_source_code_description">ღია კოდის სახით ხელმისაწვდომი საწყისი კოდის კომპონენტების შესახებ დეტალური ინფორმაციის ნახვა შესაძლებელია Pixel-ის დახმარების ცენტრში.</string>
     <string name="legal_source_code_title">საწყისი კოდი</string>
     <string name="limited_warranty_introduction">შეხებით აირჩიეთ შეძენის ქვეყანა ამ მოწყობილობის გარანტიის სანახავად. გარანტია ასევე ხელმისაწვდომია აქ: g.co/devicewarranty</string>
     <string name="limited_warranty_title">შეზღუდული გარანტია</string>
-    <string name="lockscreen_show_weather_summary">ახლანდელი ამინდის ნახვა</string>
-    <string name="lockscreen_show_weather_title">ამინდის ჩვენება</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+მუსიკის, ფოტოების და მომხმარებლის სხვა მონაცემების წასაშლელად საჭიროა "<b>USB მეხსიერების</b> წაშლა.</string>
     <string name="my_device_info_account_preference_title">Google ანგარიში</string>
+    <string name="notification_dismissal_sync_summary">შეტყობინებები, რომლებსაც გააუქმებთ თქვენს Pixel-ის ტელეფონზე ან ტაბლეტზე, ორივეგან აღარ გამოჩნდება</string>
+    <string name="notification_dismissal_sync_title">შეტყობინებების სინქრონული გაუქმება Pixel-ის მოწყობილობებზე</string>
+    <string name="overrided_google_settings_summary">Google სერვისები და პარამეტრები</string>
+    <string name="overrided_google_settings_title">შესვლა</string>
     <string name="owner_info_settings_edit_text_hint">მაგ., ნიკას Pixel.</string>
     <string name="permit_debugging_data">სისტემის ხარვეზის ანგარიშზე წვდომის მინიჭება</string>
+    <string name="phone_notification_channel_sound_title">ხმა და ვიბრაცია</string>
+    <string name="phone_notification_title">შეტყობინება</string>
+    <string name="phone_ringtone_title">ზარის გაფრთხილება</string>
     <string name="play_application_detail_indication_summary">განახლებების შემოწმება</string>
     <string name="play_application_update_entry_title">აპის განახლებები</string>
     <string name="private_space_retry_summary">Google ანგარიშით კერძო სივრცით სარგებლობისთვის შედით თქვენს ანგარიშში</string>
@@ -243,7 +257,7 @@
     <string name="reverse_charging_auto_turn_on_subtitle">ავტომატურად ჩაირთვება ცოტა ხნით, როდესაც თქვენი ტელეფონი დამტენზე იქნება შეერთებული</string>
     <string name="reverse_charging_auto_turn_on_title">ავტომატურად ჩართვა</string>
     <string name="reverse_charging_charging_wirelessly_message">მიუწვდომელია, რადგან ტელეფონი უსადენოდ იტენება</string>
-    <string name="reverse_charging_detail_charging_overheat_message">ბატარეის გაზიარება მიუწვდომელია, რადგან Pixel გადახურებულია. დააცადეთ ტელეფონს გაგრილება და ცადეთ ხელახლა.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">მოწყობილობა არ არის ხელმისაწვდომი მაღალი ტემპერატურის გამო. დაელოდეთ ტელეფონის გაგრილებას და ცადეთ ხელახლა.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">ბატარეის გაზიარება მიუწვდომელია, რადგან ტელეფონი უსადენოდ იტენება</string>
     <string name="reverse_charging_detail_footer_title">ბატარეის გაზიარების გამოყენების შემთხვევაში, თქვენი ტელეფონის ბატარეა უფრო მალე დაიცლება. ბატარეის გაზიარება შესაძლებელია თავსებად ყურსაცვამებთან, საათებთან, ტელეფონებთან და სხვა მოწყობილობებთან. უკეთ დასატენად, მოაცილეთ ტელეფონის ბუდე.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"ბატარეის გაზიარება მუშაობს თავსებად ყურსაცვამებთან, ტელეფონებთან და ა.შ.
@@ -251,6 +265,7 @@
 ამ ფუნქციის გამოყენების შემთხვევაში, თქვენი ტელეფონის ბატარეა უფრო მალე დაიცლება. ბატარეის გაზიარება ავტომატურად გამოირთვება რამდენიმე წუთში, თუ სხვა მოწყობილობა არ იქნა ამოცნობილი. უკეთ დასატენად, მოაცილეთ ტელეფონს ბუდე და სხვა ხელისშემშლელი ელემენტები, მაგალითად, ლითონის საგნები."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">ბატარეის გაზიარება მიუწვდომელია, რადგან ჩართულია ბატარეის დამზოგი</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">ბატარეის გაზიარება მიუწვდომელია, რადგან მიერთებულია USB-C მოწყობილობა</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">ბატარეის გაზიარების ფუნქცია არ არის ხელმისაწვდომი დატენვისას</string>
     <string name="reverse_charging_instructions_title">"დატენეთ სხვა მოწყობილობები Pixel-ით.
 ამის საცდელად ამოაბრუნეთ ტელეფონი."</string>
     <string name="reverse_charging_is_off_summary">გამორთულია</string>
@@ -258,7 +273,6 @@
     <string name="reverse_charging_is_on_and_discharging_summary">ბატარეა ზიარდება</string>
     <string name="reverse_charging_is_on_summary">ჩართულია / დატენეთ სხვა მოწყობილობები</string>
     <string name="reverse_charging_main_switch">ბატარეის გაზიარების გამოყენება</string>
-    <string name="reverse_charging_overheat_summary">მიუწვდომელია, რადგან Pixel გადახურებულია. დააცადეთ ტელეფონს გაგრილება და ცადეთ ხელახლა.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">მიუწვდომელია, რადგან ჩართულია ბატარეის დამზოგი</string>
     <string name="reverse_charging_sharing_level_message">მიუწვდომელია, რადგან ბატარეის მუხტი გაზიარებისთვის საჭიროზე ნაკლებია</string>
     <string name="reverse_charging_switch_title">დატენეთ სხვა მოწყობილობები მათი მოთავსებით თქვენი Pixel მოწყობილობის უკანა მხარეზე</string>
@@ -266,6 +280,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">მიუწვდომელია, რადგან მიერთებულია USB-C მოწყობილობა</string>
     <string name="reverse_charging_warning_summary">მიუწვდომელია, რადგან ბატარეის მუხტი %1$s-ზე დაბალია</string>
     <string name="reverse_charging_warning_title">ბატარეის გაზიარება მიუწვდომელია, რადგან ბატარეის მუხტი %1$s-ზე ნაკლებია</string>
+    <string name="ringtone_synchronized_summary">სინქრონიზებული</string>
     <string name="rtt_settings_always_visible">ყოველთვის ხილვადი</string>
     <string name="rtt_settings_no_visible">ხილვადი არ არის</string>
     <string name="rtt_settings_title">შეტყობინება რეალურ დროში (RTT)</string>
@@ -273,13 +288,13 @@
     <string name="screen_time_summary_usage_today">%1$s დღეს</string>
     <string name="search_bar_account_avatar_content_description">პროფილის სურათი, Google ანგარიშის გასახსნელად შეეხეთ ორმაგად</string>
     <string name="search_gesture_category_title">ძიება</string>
+    <string name="search_gesture_feature_summary">ხანგრძლივად შეეხეთ მთავარი ეკრანის ღილაკს ან ნავიგაციის იდენტიფიკატორს ეკრანზე არსებული კონტენტის მოსაძებნად.</string>
     <string name="search_gesture_feature_title">ძიება წრის მოხაზვით</string>
-    <string name="search_long_press_home_button_summary">ხანგრძლივად შეეხეთ მთავარ ეკრანზე გადასვლის ფილაკს ეკრანის ბოლოში, შემდეგ შემოხაზეთ ან მონიშნეთ რაიმე საძიებელი</string>
-    <string name="search_press_hold_gesture_summary">ხანგრძლივად შეეხეთ სახელურს ეკრანის ქვედა ნაწილში, შემდეგ შემოხაზეთ ან მონიშნეთ რაიმე საძიებელი</string>
     <string name="security_dismiss_dialog_dismiss_button">დახურვა</string>
     <string name="security_dismiss_dialog_title">დაიხუროს ეს გაფრთხილება?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">შეეხეთ დასაყენებლად</string>
     <string name="security_settings_face_enroll_education_message">შემდეგ ეკრანზე შეატრიალეთ თავი, რომ სახე ყველა კუთხიდან გადაიღოთ</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">მომდევნო ეკრანზე ტელეფონი სახესთან, თვალების დონეზე მიიტანეთ</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">სახით განბლოკვის დაყენებამ ლოდინის დროს გადააჭარბა</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">ახლა უკვე შეგიძლიათ სახის გამოყენება ტელეფონის განსაბლოკად ან ვინაობის დასადასტურებლად აპებში შესვლის ან შენაძენის დადასტურების დროს</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"ახლა უკვე შეგიძლიათ სახის გამოყენება თქვენი ტელეფონის განსაბლოკად ან ვინაობის დასადასტურებლად, მაგალითად, აპებში შესვლისას ან შენაძენის დადასტურებისას.
@@ -293,21 +308,37 @@
 სახით განბლოკვა ეფექტურად მუშაობს, როცა საკმარისი განათებაა და არ გიკეთიათ ნიღაბი ან მზის სათვალე."</string>
     <string name="security_settings_face_enroll_finish_title">ყველაფერი რიგზეა!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">დაყენება შეზღუდული მხედველობით ან თავის მოძრაობით</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">სახით განბლოკვის გამოყენებისას შესაძლოა დაგჭირდეთ, სახე ტელეფონს უფრო მეტად უსწოროთ.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">მოითხოვს გახელილ თვალებს</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"თქვენ და თქვენს ბავშვს შეგიძლიათ სახის მოდელის წაშლა ან სახით განბლოკვის ნებისმიერ დროს გამორთვა პარამეტრებიდან. სახის მოდელები მათ წაშლამდე ტელეფონში შეინახება.&lt;br&gt;&lt;br&gt;შეიტყვეთ მეტი მისამართზე: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">თქვენ და თქვენი ბავშვი აკონტროლებთ ყველაფერს</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"თქვენი სახის მოდელის წაშლა ან სახით განბლოკვის გამორთვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან. სახის მოდელები ინახება ტელეფონში, სანამ არ წაშლით მათ.&lt;br&gt;&lt;br&gt;შეიტყვეთ მეტი აქ: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">ამას თქვენ აკონტროლებთ</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"სახით განბლოკვის ფუნქცია თქვენი ბავშვის სახის უნიკალურ მოდელს ქმნის მისი ვინაობის დადასტურების მიზნით. დაყენებისას სახის ამ მოდელის შესაქმნელად თქვენმა ბავშვმა უნდა გადაიღოს სახის სურათები სხვადასხვა რაკურსით.
+
+სახით განბლოკვის გამოყენებისას სახის მოდელი სურათების მეშვეობით განახლდება. სახის მოდელის შესაქმნელად გამოყენებული სურათები არ შეინახება, სახის მოდელი კი უსაფრთხოდ შეინახება ტელეფონში და არასდროს დატოვებს მას. ტელეფონში ყველაფერი უსაფრთხოდ დამუშავდება."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"სახით განბლოკვის ფუნქცია თქვენი სახის უნიკალურ მოდელს ქმნის თქვენი ვინაობის დასადასტურებლად. დაყენებისას სახის ამ მოდელის შესაქმნელად სახის სურათები სხვადასხვა რაკურსით უნდა გადაიღოთ.
+
+სახით განბლოკვის გამოყენებისას სახის მოდელი სურათების მეშვეობით განახლდება. სახის მოდელის შესაქმნელად გამოყენებული სურათები არ შეინახება, სახის მოდელი კი უსაფრთხოდ შეინახება თქვენს ტელეფონში და არასდროს დატოვებს მას. ტელეფონში ყველაფერი უსაფრთხოდ დამუშავდება."</string>
     <string name="security_settings_face_enroll_introduction_how_title">მუშაობის პრინციპი</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">სახით განბლოკვამ, ტელეფონის განსაბლოკად ან იმის დასადასტურებლად, რომ ნამდვილად ის არის, შეიძლება მოითხოვოს, რომ თქვენს ბავშვს თვალები გახელილი ჰქონდეს. თქვენ და თქვენს ბავშვს ამ ვარიანტის ჩართვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">თუ თქვენი ბავშვი, ჩვეულებრივ, სათვალეს ატარებს, მას სახით ამოცნობის დაყენების დროსაც შეუძლია მისი გამოყენება.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">თქვენი ბავშვის სახის გამოყენება მისი ტელეფონის განსაბლოკად შეიძლება ნაკლებად უსაფრთხო იყოს, ვიდრე სანდო ნიმუშის, PIN-კოდის ან პაროლის გამოყენება</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">ტელეფონზე დახედვისასაც შეიძლება განიბლოკოს ის, თუნდაც ამის განზრახვა არ ჰქონდეს ადამიანს. მისი ტელეფონის განბლოკვა შეუძლია სხვასაც, ვინც ტყუპისცალივით ჰგავს მას, ან იმ შემთხვევაში, თუ ვინმე სახესთან მიუტანს ტელეფონს.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">სახით განბლოკვამ, ტელეფონის განსაბლოკად ან იმის დასადასტურებლად, რომ ნამდვილად თქვენ ხართ, შეიძლება მოითხოვოს, რომ თვალები გახელილი გქონდეთ. ამ ვარიანტის ჩართვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">სათვალე ან მკრთალად შეფერილი მზის სათვალე დასაშვებია.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">სახით განბლოკვა, შესაძლოა, ძლიერ ნიმუშზე, PIN-კოდსა და პაროლზე ნაკლებად დაცული იყოს</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">ტელეფონი შეიძლება მასზე დახედვით უნებლიეთ განიბლოკოს, თუნდაც ამის განზრახვა არ გქონდეთ. თქვენი ტელეფონი შეიძლება განბლოკოს სხვა პირმა, რომელიც ძალიან გგავთ, მაგალითად, თქვენმა იდენტურმა ტყუპისცალმა; ან სხვა პირმა, თუ ტელეფონს თქვენს სახესთან მიიტანს.</string>
     <string name="security_settings_face_enroll_introduction_info_title">გაითვალისწინეთ</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">გამოიყენეთ სახე თქვენი ტელეფონის განსაბლოკად ან ვინაობის დასადასტურებლად ისეთ შემთხვევებში, როცა აპებში შედიხართ ან შეძენას ადასტურებთ.</string>
     <string name="security_settings_face_enroll_introduction_title">სახით განბლოკვის პარამეტრების დაყენება</string>
     <string name="security_settings_face_enroll_next">შემდეგი</string>
     <string name="security_settings_face_enroll_partial_message">მუშაობის გასაუმჯობესებლად, შეგიძლიათ, სახით განბლოკვა ხელახლა დააყენოთ პარამეტრებიდან</string>
     <string name="security_settings_face_enroll_partial_start_over">თავიდან დაწყება</string>
     <string name="security_settings_face_enroll_partial_title">სახით განბლოკვის დაყენება დასრულდა</string>
-    <string name="security_settings_face_enroll_timeout_message">"ცადეთ სწრაფი დაყენება. გაითვალისწინეთ, რომ როდესაც სახით განბლოკვას იყენებთ, საჭიროა, სახე უფრო მეტად უსწოროთ ტელეფონს.
+    <string name="security_settings_face_enroll_timeout_message">"ცადეთ სწრაფი დაყენება. გაითვალისწინეთ, როდესაც სახით განბლოკვას იყენებთ, შეიძლება დაგჭირდეთ თავის უფრო მეტად ტელეფონის პირისპირ დაჭერა.
 
-მუშაობის გასაუმჯობესებლად, შეგიძლიათ, სახით განბლოკვა ხელახლა დააყენოთ პარამეტრებიდან."</string>
+ეფექტურობის გასაუმჯობესებლად შეგიძლიათ სახით განბლოკვა ხელახლა დააყენოთ პარამეტრებში."</string>
     <string name="security_settings_face_enroll_timeout_title">დაყენების გაგრძელება ვერ ხერხდება</string>
     <string name="security_settings_face_enroll_timeout_try_again">ხელახლა ცდა</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">სწრაფი დაყენების გამოყენება</string>
@@ -325,15 +356,34 @@
     <string name="security_settings_fingerprint_preference_summary_none">შეეხეთ თითის ანაბეჭდის დასაყენებლად</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint ქმნის თქვენი თითის ანაბეჭდის უნიკალურ მოდელს, თქვენი ვინაობის დასადასტურებლად. დაყენებისას ამ თითის ანაბეჭდის მოდელის შესაქმნელად თითის ანაბეჭდი სხვადასხვა რაკურსიდან უნდა გადაიღოთ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">Pixel Imprint-ის გამოყენებისას თქვენი თითის ანაბეჭდის მოდელი სურათების მეშვეობით განახლდება. თითის ანაბეჭდის მოდელის შესაქმნელად გამოყენებული სურათები არასდროს შეინახება, თითის ანაბეჭდის მოდელი კი უსაფრთხოდ შეინახება თქვენს ტელეფონში და არასდროს დატოვებს მას. ტელეფონში ყველაფერი უსაფრთხოდ დამუშავდება.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">თქვენი თითის ანაბეჭდის მოდელის წაშლა ან Pixel Imprint-ის გამორთვა ნებისმიერ დროს შეგიძლიათ პარამეტრებიდან. თითის ანაბეჭდის მოდელები ტელეფონში შეინახება, სანამ მათ არ წაშლით.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint ქმნის თქვენი ბავშვის თითის ანაბეჭდის უნიკალურ მოდელს, მისი ვინაობის დასადასტურებლად. დაყენების პროცესში თითის ანაბეჭდის ამ მოდელის შესაქმნელად საჭირო იქნება თითის ანაბეჭდის სურათების გადაღება სხვადასხვა რაკურსიდან.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">Pixel Imprint-ის გამოყენებისას მისი თითის ანაბეჭდის მოდელი სურათების მეშვეობით განახლდება. თქვენი ბავშვის თითის ანაბეჭდის მოდელის შესაქმნელად გამოყენებული სურათები არასდროს შეინახება, მაგრამ თითის ანაბეჭდის მოდელი უსაფრთხოდ შეინახება ტელეფონში და არასდროს დატოვებს მას. ტელეფონში ყველაფერი უსაფრთხოდ დამუშავდება.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">თქვენ ან თქვენს ბავშვს შეგიძლიათ თითის ანაბეჭდის მოდელის წაშლა ან Pixel Imprint-ის ნებისმიერ დროს გამორთვა პარამეტრებიდან. ანაბეჭდის მოდელები მათ წაშლამდე შეინახება ტელეფონში.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"შეიტყვეთ მეტი Pixel თითის ანაბეჭდის განბლოკვის შესახებ აქ: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint სამსახურისთვის</string>
     <string name="setup_suggestion_summary">დარჩა რამდენიმე ეტაპი</string>
     <string name="setup_suggestion_title">დაასრულეთ დაყენება</string>
+    <string name="show_stylus_pointer_icon">აპებმა აჩვენოს მანიშენებელი კურსორის გადატარებისას</string>
+    <string name="simple_mode_category">სწრაფი წვდომა</string>
+    <string name="simple_mode_description">გაზარდეთ ტექსტის და ხატულის ზომა, გაამარტივეთ განლაგება და დაამატეთ ნავიგაციის ღილაკები. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">შეიტყვეთ მეტი</a> მარტივი ხედის პარამეტრის შესახებ.</string>
+    <string name="simple_mode_summary">ტექსტის გარჩევადობის გაუმჯობესება და ეკრანის განლაგების და ნავიგაციის გამარტივება</string>
+    <string name="simple_mode_suw_description">უფრო მინიმალისტური დიზაინისა და მარტივი მიჩვევისთვის Pixel-ს შეუძლია ავტომატურად ჩამოტვირთოს არსებითი აპები და ვიჯეტები, მოახდინოს ეკრანის განლაგების ოპტიმიზაცია, დააკორექტიროს შრიფტი და სხვა</string>
+    <string name="simple_mode_suw_done_button">მზადაა</string>
+    <string name="simple_mode_switch_title">მარტივი ხედის გამოყენება</string>
+    <string name="simple_mode_title">მარტივი ხედი</string>
+    <string name="simple_view_dialog_negative_button">გაუქმება</string>
+    <string name="simple_view_dialog_positive_button">გაგრძელება</string>
+    <string name="simple_view_feature_disabled_dialog_message">მარტივი ხედის პარამეტრის გამორთვით თქვენი მოწყობილობა დაბრუნდება შრიფტის, ეკრანისა და განლაგების საწყის პარამეტრებზე. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">შეიტყვეთ მეტი</a>, თუ როგორ შეცვალოთ შრიფტის ეს ინდივიდუალური პარამეტრები.</string>
+    <string name="simple_view_feature_disabled_dialog_title">თქვენი მოწყობილობა დაბრუნდება წინა პარამეტრებზე</string>
+    <string name="simple_view_feature_enabled_dialog_message">თქვენი მიმდინარე შრიფტი მარტივი ხედის პარამეტრებზე დიდია. მარტივი ხედის პარამეტრის გამოყენება შეამცირებს თქვენი შრიფტის ზომას.</string>
+    <string name="simple_view_feature_enabled_dialog_title">შრიფტის ზომა შემცირდება</string>
     <string name="smart_battery_a11y_collapse_label">ჩაკეცვა, ადაპტაციური ბატარეა</string>
     <string name="smart_battery_a11y_expand_label">გაშლა, ადაპტაციური ბატარეა</string>
     <string name="smart_battery_footer">ბატარეის მუშაობის გასახანგრძლივებლად ადაპტაციურმა ბატარეამ, შესაძლოა, შეამციროს ეფექტურობა და ფონური აქტივობა. გარკვეული შეტყობინებები, შესაძლოა, დაგვიანდეს.</string>
     <string name="smart_battery_manager_title">ადაპტაციური პარამეტრები</string>
+    <string name="smart_battery_summary" product="default">ადაპტაციური ბატარეა სწავლობს თქვენი ტელეფონის გამოყენების ნიმუშს, რათა მუდმივად მოახდინოს აპების მიერ ბატარეის გამოყენების ოპტიმიზაცია. ბატარეის მუშაობის გახანგრძლივების მიზნით, მან შეიძლება, შეამციროს ეფექტურობა და დააყოვნოს შეტყობინებები.</string>
     <string name="smart_battery_title">ადაპტაციური ბატარეა</string>
     <string name="software_update_can_be_updated_header">გააუმჯობესეთ თქვენი Pixel</string>
     <string name="software_update_detail_indication_1_update_available">1 ხელმისაწვდომი განახლება</string>
@@ -347,7 +397,8 @@
     <string name="software_update_up_to_date_summary">განახლებულია</string>
     <string name="software_update_up_to_specific_date_summary">განახლების თარიღია %1$s</string>
     <string name="software_update_update_available_summary">ხელმისაწვდომია განახლება</string>
-    <string name="sound_dashboard_summary">ხმის სიმძლავრე, შეხებისადმი მგრძნობელობა, არ შემაწუხოთ</string>
+    <string name="sound_dashboard_summary">ხმა და ჰაპტიკა</string>
+    <string name="sound_dashboard_summary_with_dnd">ხმა, ჰაპტიკა, არ შემაწუხოთ</string>
     <string name="spatial_audio_head_tracking_available">თავის მოძრაობაზე თვალყურის დევნება ხელმისაწვდომია</string>
     <string name="spatial_audio_head_tracking_unavailable">თავის მოძრაობაზე თვალყურის დევნება არ არის ხელმისაწვდომი</string>
     <string name="speed_boost_summary_off">გამორთული</string>
@@ -396,4 +447,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">შეეხეთ დასაკავშირებლად</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">დაკავშირება ვერ ხერხდება. შეეხეთ ხელახლა საცდელად.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">მიმდინარეობს დაკავშირება…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> შეიტყვეთ მეტი</annotation></string>
+    <string name="wireless_charging_learn_more_description">შეიტყვეთ მეტი უსადენო დატენის შესახებ</string>
+    <string name="wireless_charging_state">მიმდინარეობს უსადენო დატენა •</string>
+    <string name="wireless_charging_state_and_duration">იტენება უსადენოდ:• %1$s •</string>
 </resources>

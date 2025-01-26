@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">Telefonen lär sig när du brukar ladda batteriet och väntar tills du behöver full laddning.</string>
     <string name="adaptive_charging_link_a11y">Läs mer om Smart laddning</string>
     <string name="adaptive_charging_main_switch_title">Använd Smart laddning</string>
-    <string name="adaptive_charging_time_estimate"><b>Smart laddning</b> • Färdigt om %1$s</string>
+    <string name="adaptive_charging_time_estimate"><b>Smart laddning</b> • Fulladdat kl. %1$s</string>
     <string name="adaptive_charging_title">Smart laddning</string>
     <string name="adaptive_touch_sensitivity_summary">Tryckkänsligheten justeras automatiskt efter omgivning, aktiviteter och skärmskydd</string>
     <string name="adaptive_touch_sensitivity_title">Smart tryck</string>
+    <string name="adaptive_vibration_footer">Telefonens mikrofon och andra sensorer används för att fastställa ljudnivåer och sammanhang. Ingen data spelas in.</string>
+    <string name="adaptive_vibration_settings_summary">Justera din telefons vibrationer automatiskt baserat på omgivningen, som när den är i en ficka eller på en plats med mycket oväsen</string>
+    <string name="adaptive_vibration_summary_off">Av</string>
+    <string name="adaptive_vibration_summary_on">På</string>
+    <string name="adaptive_vibration_title">Anpassad vibration</string>
+    <string name="adaptive_vibration_toggle_title">Använd anpassad vibration</string>
     <string name="add_bypassed_application_hint">Inga appar har lagts till</string>
     <string name="advanced_vpn_preference_group_title">Inbyggt</string>
     <string name="all_apps_category_title">Alla appar</string>
@@ -27,16 +33,6 @@ Genom att ge åtkomst tillåter du att den här appen "<b>automatiskt samlar in 
 
 Om du återkallar åtkomsten måste appen begära tillstånd att samla in och ladda upp en felrapport för varje enskild problemrapport."</string>
     <string name="app_and_notification_dashboard_summary">Assistent, senaste apparna, standardappar</string>
-    <string name="audio_sharing_switch_title">Dela ljud</string>
-    <string name="audio_sharing_title">Ljuddelning</string>
-    <string name="audio_streams_category_title">Ansut till en LE Audio-stream</string>
-    <string name="audio_streams_connect">Anslut</string>
-    <string name="audio_streams_disconnect">Koppla från</string>
-    <string name="audio_streams_pref_title">Ljudstreamar i närheten</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">QR-kodens format är ogiltigt</string>
-    <string name="audio_streams_qr_code_scanner">Centrera QR-koden nedan om du vill börja lyssna</string>
-    <string name="audio_streams_qr_code_summary">Anslut till en ljudstream med QR-kod</string>
-    <string name="audio_streams_title">Ljudstreamar</string>
     <string name="automatic_storage_manager_activation_warning">När du är uppkopplad har du fortfarande tillgång till foton och videor i samma kvalitet som valdes för säkerhetskopiering</string>
     <string name="automatic_storage_manager_days_title">Ta bort säkerhetskopierade foton och videor</string>
     <string name="automatic_storage_manager_deactivation_warning">"Vill du inaktivera Smart lagring? 
@@ -73,10 +69,12 @@ Om lagringsutrymmet nästan är fullt frigörs inget utrymme av Smart lagring."<
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Laddar fullt</string>
     <string name="battery_tip_limited_temporarily_extra_summary">För att skydda batteriet pausas laddningen vid %1$s medan surfplattan är dockad</string>
     <string name="battery_tip_smart_battery_summary">Aktivera Smart batteri</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Läs mer om trådlös laddning</string>
-    <string name="battery_tip_wireless_charging_summary">Att ladda telefonen trådlöst kan använda mer energi än andra laddningsmetoder</string>
-    <string name="battery_tip_wireless_charging_title">Laddas trådlöst</string>
-    <string name="calls_and_alarms_device_title">Samtal och alarm</string>
+    <string name="charging_optimization_charge_label">%1$s – har laddat klart kl. %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s – Har laddats</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Färdigladdat</string>
+    <string name="charging_optimization_remaining_time_label">Har laddat klart kl. %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Laddas färdigt trådlöst •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Laddas färdigt trådlöst %1$s •</string>
     <string name="clear_calling_footer">"Klart samtalsljud skickar inte ljud eller konversationer till Google, för att skydda din integritet.
 
 Klart samtalsljud fungerar med wifi-samtal och nästan alla nätverk, men det är inte tillgängligt för 3G-nätverk."</string>
@@ -147,14 +145,22 @@ Klart samtalsljud fungerar med wifi-samtal och nästan alla nätverk, men det ä
 
 Nätfiske är ett försök att stjäla inloggningsuppgifter eller andra personliga uppgifter."</string>
     <string name="content_protection_preference_subpage_summary">Genomsökningen görs privat direkt på enheten. Appaktivitet kontrolleras för att upptäcka nätfiske och annat bedrägligt beteende. Om sådant upptäcks skickas viss appinformation till Google Play Protect för att bekräfta att det finns ett hot och varna appanvändare.</string>
-    <string name="contextual_timeout_description">Stänger automatiskt av skärmen tidigt om du inte använder enheten</string>
+    <string name="contextual_timeout_description">Stänger automatiskt av skärmen om du inte använder enheten</string>
     <string name="contextual_timeout_title">Självjusterande tidsgräns</string>
+    <string name="credentials_install_summary" product="default">Installera certifikat från lagringsenhet</string>
     <string name="debugging_data_title">Felsökningsdata</string>
+    <string name="default_notification_summary">Klassisk avisering</string>
+    <string name="default_ringtone_summary">Klassisk ringsignal</string>
     <string name="discover_tips_button">Upptäck tips</string>
+    <string name="display_dashboard_summary">Mörkt tema, teckensnittsstorlek, pekskärm</string>
+    <string name="display_settings">Visning och pekskärm</string>
     <string name="dock_summary_charging_phone">Ladda mobilen</string>
     <string name="double_twist_for_camera_mode_summary">Byt till och från selfieläget i Google Kamera genom att vrida snabbt två gånger när appen är öppen.</string>
     <string name="duration_less_than_one_minute">Mindre än 1 minut</string>
-    <string name="enable_glanceable_hub_toggle">Hubbläge</string>
+    <string name="enable_glanceable_hub_toggle">Visa widgetar på låsskärmen</string>
+    <string name="enable_glanceable_hub_toggle_summary">Utan att låsa upp surfplattan</string>
+    <string name="erase_external_storage" product="default">Radera USB-lagring</string>
+    <string name="erase_external_storage_description" product="default">Radera alla data på den interna USB-lagringsenheten, som musik och foton.</string>
     <string name="extreme_battery_saver_summary">Omfattar alla ändringar som anges ovan. Appar som inte är viktiga och deras aviseringar pausas också.</string>
     <string name="extreme_battery_saver_title">Effektivare batterisparläge</string>
     <string name="face_confirmation_hide_illustration_description">Nu kan du låsa upp telefonen med ditt ansikte när du tar upp den eller trycker på skärmen.</string>
@@ -198,10 +204,9 @@ När du aktiverar automatisk säkerhetskopiering sparas enhets- och appdata då 
 
 Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora filer eller filer som utvecklaren har valt att exkludera från tjänsten säkerhetskopieras inte."</string>
     <string name="fullbackup_erase_dialog_message">Vill du sluta säkerhetskopiera enhetsdata (t.ex. wifi-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar), och radera alla kopior på Google Drive?</string>
-    <string name="gesture_settings_activity_title">Navigering med rörelser</string>
-    <string name="hub_mode_content_setting">Tillåt alla widgetar i hubbläget</string>
+    <string name="help_footer_content_description">Om %1$s. %2$s</string>
     <string name="install_unknown_applications">Tillåt installation av appar från andra källor än Play Butik</string>
-    <string name="keywords_accessibility_menu">motorik, snabbmeny, stödmeny, trycka, fingerfärdighet, artrit, förslitningsskada, stroke, darrning, multipel skleros, cerebral pares, knapp, maskinvara, tryck, belastningsskada, hand, smärta, tillgänglig, hjälp</string>
+    <string name="keywords_accessibility_menu">motorik, snabbmeny, stödmeny, trycka, fingerfärdighet, artrit, förslitningsskada, stroke, darrning, multipel skleros, cerebral pares, knapp, hårdvara, tryck, belastningsskada, hand, smärta, tillgänglig, hjälp</string>
     <string name="keywords_adaptive_alert_vibration">haptik, vibration, telefon, samtal, ringa, avisering, aviseringar, högt, tyst, oljud, skal, anpassad</string>
     <string name="keywords_adaptive_charging">laddning, ladda, smart laddning, anpassad laddning, batteri, batterihälsa</string>
     <string name="keywords_battery_share">batteridelning, trådlös laddning</string>
@@ -221,19 +226,28 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="keywords_touch_sensitivity">tryck, känslighet, känslig, skärmskydd, film, tryckkänslig, tryckkänslighet</string>
     <string name="keywords_touch_sensitivity_settings">tryck, anpassning, känslighet, känslig, skärmskydd, film, tryckkänslig, tryckkänslighet</string>
     <string name="keywords_voice_access">röst, röststyrning, motorik, hand, mickdiktering, mikrofon, prata, styra</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Läs mer</a></string>
     <string name="led_preference_title">LED-indikatormönster</string>
     <string name="legal_source_code_description">Uppgifter om källkod för komponenter som är tillgängliga som öppen källkod hittar du i hjälpcentret för Pixel.</string>
     <string name="legal_source_code_title">Källkod</string>
     <string name="limited_warranty_introduction">Tryck på landet där du köpte enheten för att se din garanti. Garantin finns även på g.co/devicewarranty</string>
     <string name="limited_warranty_title">Begränsad garanti</string>
-    <string name="lockscreen_show_weather_summary">Se aktuella väderförhållanden</string>
-    <string name="lockscreen_show_weather_title">Visa väder</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Om du vill ta bort musik, bilder och annan användardata måste du rensa "<b>USB-lagringsenheten</b>.</string>
     <string name="my_device_info_account_preference_title">Google-konto</string>
+    <string name="notification_dismissal_sync_summary">Aviseringar som du stänger på Pixel-telefonen eller surfplattan visas inte längre på båda</string>
+    <string name="notification_dismissal_sync_title">Stäng aviseringar på alla Pixel-enheter</string>
+    <string name="overrided_google_settings_summary">Google-tjänster och inställningar</string>
+    <string name="overrided_google_settings_title">Logga in</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jonas Pixel.</string>
     <string name="permit_debugging_data">Tillåt åtkomst till felrapporter</string>
+    <string name="phone_notification_channel_sound_title">Ljud och vibration</string>
+    <string name="phone_notification_title">Avisering</string>
+    <string name="phone_ringtone_title">Ringsignal</string>
     <string name="play_application_detail_indication_summary">Sök efter uppdateringar</string>
     <string name="play_application_update_entry_title">Appuppdateringar</string>
-    <string name="private_space_retry_summary">Logga in på ett Google-konto för att använda det med ditt privata område</string>
+    <string name="private_space_retry_summary">Logga in på ett Google-konto för att använda det med ditt privata utrymme</string>
     <string name="repair_mode_active_summary">I reparationsläge</string>
     <string name="repair_mode_summary">Säker miljö för enhetsreparation</string>
     <string name="repair_mode_title">Reparationsläge</string>
@@ -241,7 +255,7 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
     <string name="reverse_charging_auto_turn_on_subtitle">Aktiveras automatiskt under en kort tid när telefonen ansluts till en laddare</string>
     <string name="reverse_charging_auto_turn_on_title">Aktivera automatiskt</string>
     <string name="reverse_charging_charging_wirelessly_message">Inte tillgängligt eftersom telefonen laddas trådlöst</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Batteridelning är inte tillgängligt eftersom Pixel-enheten är för varm. Låt enheten svalna och försök sedan igen.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Inte tillgänglig på grund av temperaturen. Låt telefonen svalna och försök sedan igen</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Batteridelning är inte tillgängligt eftersom telefonen laddas trådlöst</string>
     <string name="reverse_charging_detail_footer_title">Telefonens batteri tar slut snabbare när du använder batteridelning. Batteridelning fungerar med kompatibla hörsnäckor, klockor, telefoner och annat. Ta bort fodralet från telefonen så laddas den bättre.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Batteridelning fungerar med kompatibla hörsnäckor, telefoner och annat.
@@ -249,6 +263,7 @@ Säkerhetskopierad data räknas inte in i ditt lagringsutrymme på Drive. Stora 
 Telefonens batteri tar slut snabbare när du använder den här funktionen. Batteridelning inaktiveras automatiskt efter några minuter om ingen annan enhet upptäcks. Ta bort telefonens fodral och annat som kan störa, till exempel metallföremål, för att laddningen ska fungera så bra som möjligt."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Batteridelning är inte tillgängligt eftersom batterisparläget är på</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Batteridelning är inte tillgängligt eftersom en USB-C-enhet är inkopplad</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Det går inte att använda batteridelning under laddning</string>
     <string name="reverse_charging_instructions_title">"Ladda andra enheter med Pixel.
 Vänd på telefonen om du vill testa."</string>
     <string name="reverse_charging_is_off_summary">Av</string>
@@ -256,7 +271,6 @@ Vänd på telefonen om du vill testa."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Delar batteri</string>
     <string name="reverse_charging_is_on_summary">På/ladda andra enheter</string>
     <string name="reverse_charging_main_switch">Använd batteridelning</string>
-    <string name="reverse_charging_overheat_summary">Inte tillgängligt eftersom Pixel-enheten är för varm. Låt telefonen svalna och försök sedan igen.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Inte tillgängligt eftersom batterisparläget är på</string>
     <string name="reverse_charging_sharing_level_message">Delning är inte tillgängligt eftersom batterinivån är för låg</string>
     <string name="reverse_charging_switch_title">Ladda andra enheter genom att hålla dem mot baksidan på Pixel</string>
@@ -264,6 +278,7 @@ Vänd på telefonen om du vill testa."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Inte tillgängligt eftersom en USB-C-enhet är inkopplad</string>
     <string name="reverse_charging_warning_summary">Inte tillgängligt eftersom batterinivån är under %1$s</string>
     <string name="reverse_charging_warning_title">Batteridelning är inte tillgängligt eftersom batterinivån är under %1$s</string>
+    <string name="ringtone_synchronized_summary">Synkroniserad</string>
     <string name="rtt_settings_always_visible">Alltid synlig</string>
     <string name="rtt_settings_no_visible">Inte synlig</string>
     <string name="rtt_settings_title">RTT (realtidstext)</string>
@@ -271,13 +286,13 @@ Vänd på telefonen om du vill testa."</string>
     <string name="screen_time_summary_usage_today">%1$s i dag</string>
     <string name="search_bar_account_avatar_content_description">Profilbild, tryck snabbt två gånger för att öppna Google-kontot</string>
     <string name="search_gesture_category_title">Sök</string>
+    <string name="search_gesture_feature_summary">Tryck länge på hemknappen eller navigeringshandtaget för att söka med innehållet på skärmen.</string>
     <string name="search_gesture_feature_title">Circle to Search</string>
-    <string name="search_long_press_home_button_summary">Tryck länge på hemknappen längst ned på skärmen och ringa in eller markera sedan det du vill söka efter</string>
-    <string name="search_press_hold_gesture_summary">Tryck länge på handtaget längst ned på skärmen och cirkla eller markera sedan det du vill söka efter</string>
     <string name="security_dismiss_dialog_dismiss_button">Ignorera</string>
     <string name="security_dismiss_dialog_title">Vill du ignorera varningen?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Tryck för att ställa in</string>
     <string name="security_settings_face_enroll_education_message">Vrid på huvudet på nästa skärm så att ditt ansikte kan registreras ur olika vinklar</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Håll telefonen i ögonhöjd när du kommer till nästa skärm</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tidsgränsen för ansiktsregistrering har uppnåtts. Försök igen.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Konfigureringen av ansiktslås har nått tidsgränsen</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Nu kan du låsa upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp</string>
@@ -292,24 +307,40 @@ Ansiktslås fungerar bäst när det finns tillräckligt med ljus och du inte har
 Ansiktslås fungerar bäst när det finns tillräckligt med ljus och du inte har munskydd eller mörka glasögon på dig."</string>
     <string name="security_settings_face_enroll_finish_title">Det ser bra ut!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Konfigurering vid nedsatt syn eller rörelseförmåga</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">När du använder ansiktslås kan du behöva ha huvudet mer rakt framför telefonen.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Du måste ha ögonen öppna</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Du och ditt barn kan radera ansiktsmodellen eller inaktivera ansiktslås när som helst i inställningarna. Ansiktsmodeller lagras på telefonen tills de raderas.&lt;br&gt;&lt;br&gt;Läs mer på &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Det är du och ditt barn som har kontrollen</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Du kan radera ansiktsmodellen eller inaktivera ansiktslås när som helst i inställningarna. Ansiktsmodeller lagras på telefonen tills du raderar dem.&lt;br&gt;&lt;br&gt;Läs mer på &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Du bestämmer själv</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Med ansiktslås skapas en unik modell av ditt barns ansikte så att barnet kan verifiera sin identitet. Ansiktsmodellen skapas under konfigureringen genom att bilder tas av ansiktet från olika vinklar.
+
+När barnet använder ansiktslås uppdateras ansiktsmodellen med hjälp av bilder. De bilder som används för att skapa ansiktsmodellen lagras inte, men ansiktsmodellen lagras säkert på telefonen och lämnar den aldrig. All behandling görs säkert på telefonen."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Med ansiktslås skapas en unik modell av ditt ansikte så att du kan verifiera din identitet. Ansiktsmodellen skapas under konfigureringen genom att bilder tas av ansiktet från olika vinklar.
+
+När du använder ansiktslås uppdateras ansiktsmodellen med hjälp av bilder. De bilder som används för att skapa ansiktsmodellen lagras inte, men ansiktsmodellen lagras säkert på telefonen och lämnar den aldrig. All behandling görs säkert på telefonen."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Så fungerar det</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Ditt barn kan behöva ha öppna ögon för att låsa upp telefonen eller verifiera sin identitet med ansiktslåset. Du och ditt barn kan när som helst aktivera alternativet i inställningarna.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Om ditt barn vanligen använder glasögon kan barnet ha dem på sig under konfigureringen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Det kan vara mindre säkert att använda ditt barns ansikte för att låsa upp telefonen än att ha ett starkt mönster, en stark pinkod eller ett starkt lösenord</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Om ditt barn tittar på telefonen kan barnet oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik ditt barn, till exempel ett syskon, eller om någon håller upp den framför barnets ansikte.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Du kan behöva ha öppna ögon för att låsa upp telefonen eller verifiera din identitet med ansiktslåset. Du kan när som helst aktivera alternativet i inställningarna.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Glasögon eller solglasögon i en ljus ton är okej.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Att låsa upp telefonen med ansiktet kan vara mindre säkert än ett starkt mönster, en stark pinkod eller ett starkt lösenord</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Om du tittar på telefonen kan du oavsiktligt låsa upp den. Telefonen kanske kan låsas upp av någon som är mycket lik dig, till exempel ett syskon, eller om någon håller upp den framför ditt ansikte.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Kom ihåg</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Lås upp telefonen eller verifiera din identitet med ditt ansikte, till exempel när du loggar in i appar eller godkänner ett köp.</string>
     <string name="security_settings_face_enroll_introduction_title">Konfigurera ansiktslås</string>
     <string name="security_settings_face_enroll_next">Nästa</string>
     <string name="security_settings_face_enroll_partial_message">Du kan göra om konfigureringen av ansiktslås i inställningarna och få bättre prestanda</string>
     <string name="security_settings_face_enroll_partial_start_over">Börja om</string>
     <string name="security_settings_face_enroll_partial_title">Konfigureringen av ansiktslås har avslutats</string>
-    <string name="security_settings_face_enroll_timeout_message">"Testa snabb konfigurering i stället. Kom ihåg att du kan behöva ha huvudet mer rakt framför telefonen när du använder ansiktslås.
+    <string name="security_settings_face_enroll_timeout_message">"Testa snabbkonfigurering i stället. Kom ihåg att du kan behöva ha huvudet mer rakt framför telefonen när du använder ansiktslås.
 
 Du kan konfigurera ansiktslås igen i inställningarna och få bättre prestanda."</string>
     <string name="security_settings_face_enroll_timeout_title">Det gick inte att fortsätta med konfigureringen</string>
     <string name="security_settings_face_enroll_timeout_try_again">Försök igen</string>
-    <string name="security_settings_face_enroll_timeout_use_fast_setup">Använd snabb konfiguration</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Använd snabbkonfigurering</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">Avsluta konfigurationen</string>
     <string name="security_settings_face_enroll_too_hot_message">Det går inte att slutföra konfigureringen av ansiktslås eftersom telefonen är för varm. Försök igen senare när telefonen har svalnat.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Hoppa över ansiktslås</string>
@@ -324,15 +355,33 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="security_settings_fingerprint_preference_summary_none">Tryck för att konfigurera fingeravtryck</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Med Pixel Imprint skapas en unik bildmodell av ditt fingeravtryck så att din  identitet kan verifieras. Fingeravtrycksmodellen skapas genom att flera bilder tas av fingeravtrycket i olika positioner."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">När du använder Pixel Imprint uppdateras fingeravtrycksmodellen med hjälp av bilder. De bilder som används för att skapa fingeravtrycksmodellen lagras aldrig, men fingeravtrycksmodellen lagras säkert på telefonen och lämnar den aldrig. All behandling görs säkert på telefonen.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Du kan radera fingeravtrycksmodellen eller inaktivera Pixel Imprint när som helst i inställningarna. Fingeravtrycksmodeller lagras på telefonen tills du raderar dem.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Med Pixel Imprint skapas en unik modell av ditt barns fingeravtryck så att barnet kan verifiera din identitet. Fingeravtrycksmodellen skapas under konfigureringen genom att bilder tas av fingeravtrycket i olika positioner.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Du och ditt barn kan radera fingeravtrycksmodellen eller inaktivera Pixel Imprint när som helst i inställningarna. Fingeravtrycksmodeller lagras på telefonen tills du raderar dem.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Läs mer om fingeravtryckslås för Pixel på &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint för jobbet</string>
     <string name="setup_suggestion_summary">Bara några steg till</string>
     <string name="setup_suggestion_title">Slutför konfigureringen</string>
+    <string name="show_stylus_pointer_icon">Tillåt att appar visar pekare när du håller den över något</string>
+    <string name="simple_mode_category">Snabbåtkomst</string>
+    <string name="simple_mode_description">Öka storleken på text och ikoner, förenkla layouten och lägg till navigeringsknappar. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Läs mer</a> om enkel vy.</string>
+    <string name="simple_mode_summary">Förbättra läsbarheten för text och förenkla skärmlayouten och navigeringen</string>
+    <string name="simple_mode_suw_description">Pixel kan automatiskt ladda ned viktiga appar och widgetar, optimera skärmlayout, justera teckensnitt med mera för en stilrenare design och smidig konfigurering</string>
+    <string name="simple_mode_suw_done_button">Klar</string>
+    <string name="simple_mode_switch_title">Använd enkel vy</string>
+    <string name="simple_mode_title">Enkel vy</string>
+    <string name="simple_view_dialog_negative_button">Avbryt</string>
+    <string name="simple_view_dialog_positive_button">Fortsätt</string>
+    <string name="simple_view_feature_disabled_dialog_message">När du stänger av enkel vy återgår telefonen till de ursprungliga inställningarna för teckensnitt, visning och layout. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Läs om</a> hur du ändrar dessa individuella teckensnittsinställningar.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Enheten återgår till de tidigare inställningarna</string>
+    <string name="simple_view_feature_enabled_dialog_message">Det nuvarande teckensnittet är större än inställningen för enkel vy. Om du använder enkel vy blir teckensnittet mindre.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Teckensnittet blir mindre</string>
     <string name="smart_battery_a11y_collapse_label">Komprimera, Smart batteri</string>
     <string name="smart_battery_a11y_expand_label">Utöka, Smart batteri</string>
     <string name="smart_battery_footer">Med funktionen Smart batteri kan prestandan och bakgrundsaktiviteten begränsas i syfte att förlänga batteritiden. Vissa aviseringar kan fördröjas.</string>
     <string name="smart_battery_manager_title">Smarta batterifunktioner</string>
+    <string name="smart_battery_summary" product="default">Det smarta batteriet optimerar kontinuerligt apparnas batterianvändning baserat på din användning av telefonen. Prestandan kan begränsas och aviseringar försenas i syfte att förlänga batteritiden.</string>
     <string name="smart_battery_title">Smart batteri</string>
     <string name="software_update_can_be_updated_header">Gör din Pixel ännu bättre</string>
     <string name="software_update_detail_indication_1_update_available">Det finns en uppdatering</string>
@@ -346,7 +395,8 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="software_update_up_to_date_summary">Uppdaterad</string>
     <string name="software_update_up_to_specific_date_summary">Uppdaterades %1$s</string>
     <string name="software_update_update_available_summary">Det finns en uppdatering</string>
-    <string name="sound_dashboard_summary">Volym, haptik, Stör ej</string>
+    <string name="sound_dashboard_summary">Volym och haptik</string>
+    <string name="sound_dashboard_summary_with_dnd">Volym, haptik, Stör ej</string>
     <string name="spatial_audio_head_tracking_available">Huvudspårning är tillgängligt</string>
     <string name="spatial_audio_head_tracking_unavailable">Huvudspårning är inte tillgängligt</string>
     <string name="speed_boost_summary_off">Av</string>
@@ -395,4 +445,8 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tryck för att ansluta</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Det gick inte att ansluta Tryck och försök igen.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Ansluter …</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> Läs mer</annotation></string>
+    <string name="wireless_charging_learn_more_description">Läs mer om trådlös laddning</string>
+    <string name="wireless_charging_state">Laddas trådlöst •</string>
+    <string name="wireless_charging_state_and_duration">Laddas trådlöst • %1$s •</string>
 </resources>

@@ -105,11 +105,6 @@
         settings:controller="com.android.settings.spa.app.specialaccess.UseFullScreenIntentPreferenceController" />
 
     <Preference
-        android:key="voice_activation_apps"
-        android:title="@string/voice_activation_apps_title"
-        settings:controller="com.android.settings.spa.app.specialaccess.VoiceActivationAppsPreferenceController" />
-
-    <Preference
         android:fragment="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureSettings"
         android:key="picture_in_picture"
         android:order="-1100"
@@ -147,13 +142,6 @@
             android:value="com.android.settings.Settings$LongBackgroundTasksActivity" />
 
     </Preference>
-
-    <Preference
-        android:key="run_backup_tasks"
-        android:order="-750"
-        android:title="@string/run_backup_tasks_title"
-        settings:controller="com.android.settings.spa.app.specialaccess.BackupTasksAppsPreferenceController"
-        settings:keywords="@string/keywords_run_backup_tasks" />
 
     <Preference
         android:fragment="com.android.settings.applications.manageapplications.ManageApplications"

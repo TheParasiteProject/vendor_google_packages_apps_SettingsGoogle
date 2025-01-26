@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">כדי לשפר את משך חיי הסוללה, הטלפון מנתח את שגרת הטעינה שלך ונמנע מטעינה מתמשכת. המכשיר מתזמן את הטעינה כך שיהיה טעון לגמרי בדיוק בזמן לפעם הבאה שיהיה לך צורך בו.</string>
     <string name="adaptive_charging_link_a11y">מידע נוסף על טעינה דינמית</string>
     <string name="adaptive_charging_main_switch_title">שימוש בטעינה דינמית</string>
-    <string name="adaptive_charging_time_estimate"><b>טעינה דינמית</b> • טעינה מלאה בשעה %1$s</string>
+    <string name="adaptive_charging_time_estimate">‫<b>טעינה דינמית</b> • טעינה מלאה עד %1$s</string>
     <string name="adaptive_charging_title">טעינה דינמית</string>
     <string name="adaptive_touch_sensitivity_summary">הרגישות למגע תתאים אוטומטית לסביבה, לפעילויות ולמגן המסך שלך</string>
-    <string name="adaptive_touch_sensitivity_title">מגע דינמי</string>
+    <string name="adaptive_touch_sensitivity_title">רגישות דינמית למגע</string>
+    <string name="adaptive_vibration_footer">המיקרופון של הטלפון וחיישנים אחרים משמשים לקביעת רמות הקול וההקשר. הנתונים אף פעם לא מתועדים.</string>
+    <string name="adaptive_vibration_settings_summary">אפשר לכוונן אוטומטית את הרטט בטלפון בהתאם לסביבה, למשל כשהמכשיר בכיס או במקום רועש</string>
+    <string name="adaptive_vibration_summary_off">מצב מושבת</string>
+    <string name="adaptive_vibration_summary_on">מצב פעיל</string>
+    <string name="adaptive_vibration_title">רטט דינמי</string>
+    <string name="adaptive_vibration_toggle_title">שימוש ברטט דינמי</string>
     <string name="add_bypassed_application_hint">לא נוספו אפליקציות</string>
     <string name="advanced_vpn_preference_group_title">מובנה</string>
     <string name="all_apps_category_title">כל האפליקציות</string>
@@ -27,16 +33,6 @@
 
 ביטול הגישה יוביל לכך שהאפליקציה תצטרך לבקש ממך הרשאה לאסוף נתונים ולהעלות דוח איתור באגים לכל בעיה בנפרד."</string>
     <string name="app_and_notification_dashboard_summary">‏Assistant, אפליקציות אחרונות, אפליקציות ברירת מחדל</string>
-    <string name="audio_sharing_switch_title">שיתוף האודיו</string>
-    <string name="audio_sharing_title">שיתוף של אודיו</string>
-    <string name="audio_streams_category_title">‏חיבור לשידור אודיו LE</string>
-    <string name="audio_streams_connect">התחברות</string>
-    <string name="audio_streams_disconnect">ניתוק</string>
-    <string name="audio_streams_pref_title">שידורי אודיו בקרבת מקום</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">‏הפורמט של קוד ה‑QR לא תקין</string>
-    <string name="audio_streams_qr_code_scanner">‏כדי להתחיל בהאזנה, צריך להציב את קוד ה‑QR במרכז החלון שבהמשך</string>
-    <string name="audio_streams_qr_code_summary">‏חיבור לשידור אודיו באמצעות קוד QR</string>
-    <string name="audio_streams_title">שידורי אודיו</string>
     <string name="automatic_storage_manager_activation_warning">אם יש חיבור לאינטרנט, עדיין אפשר לגשת לתמונות ולסרטונים באיכות שבחרת לגיבוי</string>
     <string name="automatic_storage_manager_days_title">הסרת תמונות וסרטונים שגובו</string>
     <string name="automatic_storage_manager_deactivation_warning">"האם להשבית את התכונה 'ניהול אחסון חכם'? 
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">טעינה עד מצב מלא</string>
     <string name="battery_tip_limited_temporarily_extra_summary">כדי להגן על הסוללה, הטעינה מושהית במצב של %1$s כשהטאבלט נמצא באביזר העגינה</string>
     <string name="battery_tip_smart_battery_summary">הפעלת אופטימיזציה של ניצול הסוללה</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">מידע נוסף על טעינה אלחוטית</string>
-    <string name="battery_tip_wireless_charging_summary">טעינה אלחוטית של הטלפון עשויה לצרוך יותר אנרגיה משיטות טעינה אחרות</string>
-    <string name="battery_tip_wireless_charging_title">בטעינה אלחוטית</string>
-    <string name="calls_and_alarms_device_title">שיחות והתראות</string>
+    <string name="charging_optimization_charge_label">‫%1$s – טעינה מלאה עד %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">‫%1$s – הטעינה הסתיימה</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">הטעינה הסתיימה</string>
+    <string name="charging_optimization_remaining_time_label">טעינה מלאה עד %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">הטעינה האלחוטית הסתיימה •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">הטעינה האלחוטית תסתיים עד %1$s •</string>
     <string name="clear_calling_footer">"‏כדי להגן על הפרטיות שלך, התכונה 'שיחה ללא רעשי רקע' לא שולחת אודיו או שיחות ל-Google.
 
 התכונה 'שיחה ללא רעשי רקע' פועלת בשיחות Wi-Fi וברוב הרשתות. היא לא זמינה ברשתות 3G."</string>
@@ -130,7 +128,7 @@
     <string name="columbus_title">הקשה מהירה לביצוע פעולות</string>
     <string name="communal_lock_screen_summary">פרטיות, התראות וממשק השליטה במכשירים</string>
     <string name="communal_other">עוד הגדרות</string>
-    <string name="communal_settings_summary">אפשרויות באביזר העגינה ובמסך הנעילה</string>
+    <string name="communal_settings_summary">אפשרויות לעגינה ולמסך הנעילה</string>
     <string name="communal_settings_title">מצב רכזת</string>
     <string name="communal_smartspace_summary">‏קבלת תזכורות, התראות ועוד מ-Assistant</string>
     <string name="communal_smartspace_title">בקצרה</string>
@@ -146,15 +144,23 @@
     <string name="content_protection_preference_subpage_info">"‏זהו אמצעי אבטחה מוגן. אף אחד מפרטי המכשיר או הפרטים האישיים לא משותף עם Google. 
 
 פישינג הוא ניסיון לגנוב פרטי כניסה או פרטים אישיים אחרים."</string>
-    <string name="content_protection_preference_subpage_summary">‏הסריקה פועלת ישירות במכשיר באופן פרטי ובודקת את הפעילות באפליקציה לאיתור פישינג או התנהגות מטעה אחרת. במקרה שהתנהגות כזו אותרה, חלק מהמידע של האפליקציה נשלח אל Google Play Protect כדי לאשר שנמצא איום ולהזהיר את משתמשי האפליקציה.</string>
-    <string name="contextual_timeout_description">המסך נכבה מוקדם יותר באופן אוטומטי אם לא משתמשים במכשיר</string>
-    <string name="contextual_timeout_title">זמן קצוב דינמי לכיבוי המסך</string>
+    <string name="content_protection_preference_subpage_summary">‏הסריקה פועלת ישירות במכשיר באופן פרטי ובודקת את הפעילות באפליקציה כלשהי כדי לאתר פישינג או התנהגות מטעה אחרת. במקרה שהתנהגות כזו אותרה, חלק מהמידע של האפליקציה נשלח אל Google Play Protect כדי לאשר שנמצא איום ולהזהיר את משתמשי האפליקציה.</string>
+    <string name="contextual_timeout_description">המסך נכבה באופן אוטומטי אם לא משתמשים במכשיר</string>
+    <string name="contextual_timeout_title">כיבוי מסך דינמי</string>
+    <string name="credentials_install_summary" product="default">התקנת אישורים מאמצעי אחסון</string>
     <string name="debugging_data_title">נתונים של ניפוי באגים</string>
+    <string name="default_notification_summary">התראה קלאסית</string>
+    <string name="default_ringtone_summary">רינגטון קלאסי</string>
     <string name="discover_tips_button">טיפים מועילים</string>
+    <string name="display_dashboard_summary">עיצוב כהה, גודל גופן, מגע</string>
+    <string name="display_settings">תצוגה ומגע</string>
     <string name="dock_summary_charging_phone">טעינת הטלפון</string>
     <string name="double_twist_for_camera_mode_summary">‏כדי להיכנס למצב סלפי ולצאת ממנו במצלמת Google, צריך לאחוז במכשיר ולסובב אותו פעמיים מצד לצד כאשר משתמשים באפליקציה.</string>
     <string name="duration_less_than_one_minute">פחות מדקה</string>
-    <string name="enable_glanceable_hub_toggle">‏מצב Hub</string>
+    <string name="enable_glanceable_hub_toggle">"הצגה של ווידג'טים במסך הנעילה"</string>
+    <string name="enable_glanceable_hub_toggle_summary">בלי לבטל את נעילת הטאבלט</string>
+    <string name="erase_external_storage" product="default">‏מחיקת אחסון USB</string>
+    <string name="erase_external_storage_description" product="default">‏מחיקת כל הנתונים באחסון ה-USB הפנימי, כגון פריטי מוזיקה או תמונות</string>
     <string name="extreme_battery_saver_summary">כל השינויים שרשומים למעלה כלולים. בנוסף, אפליקציות לא חיוניות וההתראות שלהן יושהו.</string>
     <string name="extreme_battery_saver_title">חיסכון משמעותי בסוללה</string>
     <string name="face_confirmation_hide_illustration_description">עכשיו אפשר להרים את הטלפון או להקיש על המסך ולהשתמש בזיהוי פנים כדי לבטל את הנעילה</string>
@@ -198,8 +204,7 @@
 
 נתונים בגיבוי לא ייחשבו כחלק ממכסת האחסון ב-Drive. לא יתבצע גיבוי של קבצים גדולים או של קבצים שהמפתחים בחרו שלא לכלול בשירות."</string>
     <string name="fullbackup_erase_dialog_message">‏האם להפסיק לגבות את נתוני המכשיר (כמו סיסמאות לרשתות Wi-Fi והיסטוריית שיחות) ונתוני אפליקציות (כמו הגדרות וקבצים המאוחסנים על ידי אפליקציות) ולמחוק את כל העותקים השמורים ב-Google Drive?</string>
-    <string name="gesture_settings_activity_title">ניווט באמצעות תנועות</string>
-    <string name="hub_mode_content_setting">"‏הפעלת כל ווידג'ט שהוא במצב Hub"</string>
+    <string name="help_footer_content_description">מידע על %1$s. ‫%2$s</string>
     <string name="install_unknown_applications">‏אישור התקנת אפליקציות ממקורות אחרים שאינם חנות Play</string>
     <string name="keywords_accessibility_menu">‏מוטורי, לקות מוטורית, ניידות, תפריט מהיר, תפריט מסייע, מגע, נגיעה, מוטוריקה עדינה, דלקת מפרקים, מדד העוצמה היחסית (RSI), שבץ מוחי, רעד, טרשת נפוצה, שיתוק מוחין, לחצן, כפתור, חומרה, לחיצה, פציעה בעקבות עומס חוזר ונשנה, יד, כאב, נגיש, נגישות, עזרה</string>
     <string name="keywords_adaptive_alert_vibration">מגע, רטט, טלפון, שיחה, צלצול, התראה, הודעות, רועש, שקט, רעש, כיסוי, אפשרות להתאמה</string>
@@ -222,16 +227,25 @@
     <string name="keywords_touch_sensitivity">מגע, רגישות, רגיש, מגן מסך, סרט, מגיב, תגובה</string>
     <string name="keywords_touch_sensitivity_settings">מגע, דינמי, רגישות, רגיש, מגן מסך, סרט, רספונסיבי, רספונסיביות</string>
     <string name="keywords_voice_access">קול, שליטה באמצעות הקול, מוטורי, יד, מיקרופון, הכתבה, דיבור, שליטה</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">מידע נוסף</a></string>
     <string name="led_preference_title">‏הדפוסים של אינדיקטור ה-LED</string>
     <string name="legal_source_code_description">‏במרכז העזרה של Pixel ניתן למצוא פרטים לגבי קוד המקור של רכיבים שזמינים כקוד פתוח.</string>
     <string name="legal_source_code_title">קוד מקור</string>
     <string name="limited_warranty_introduction">‏יש להקיש על המדינה שבה נעשתה הרכישה כדי לעיין בתנאי האחריות של המכשיר הזה. תנאי האחריות זמינים גם בכתובת g.co/devicewarranty</string>
     <string name="limited_warranty_title">אחריות מוגבלת</string>
-    <string name="lockscreen_show_weather_summary">הצגת תנאי מזג האוויר הנוכחיים</string>
-    <string name="lockscreen_show_weather_title">הצגת נתונים של מזג האוויר</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"‏
+
+כדי למחוק פריטי מוזיקה, תמונות ונתוני משתמש אחרים, יש למחוק את "<b>אחסון ה-USB</b>.</string>
     <string name="my_device_info_account_preference_title">‏חשבון Google</string>
+    <string name="notification_dismissal_sync_summary">‏התראות שסגרת בטלפון או בטאבלט Pixel כבר לא יופיעו בשני המכשירים</string>
+    <string name="notification_dismissal_sync_title">‏סגירת ההתראות בכל מכשירי Pixel</string>
+    <string name="overrided_google_settings_summary">‏שירותי Google והעדפות</string>
+    <string name="overrided_google_settings_title">כניסה לחשבון</string>
     <string name="owner_info_settings_edit_text_hint">‏לדוגמה, ה-Pixel של יוסי.</string>
     <string name="permit_debugging_data">מתן גישה לדוח איתור באגים</string>
+    <string name="phone_notification_channel_sound_title">צליל ורטט</string>
+    <string name="phone_notification_title">התראה על הודעות</string>
+    <string name="phone_ringtone_title">התראה באמצעות רינגטון</string>
     <string name="play_application_detail_indication_summary">חיפוש עדכונים</string>
     <string name="play_application_update_entry_title">עדכונים לאפליקציות</string>
     <string name="private_space_retry_summary">‏צריך להיכנס לחשבון Google כדי להשתמש במרחב הפרטי</string>
@@ -242,14 +256,15 @@
     <string name="reverse_charging_auto_turn_on_subtitle">יופעל אוטומטית לפרק זמן קצר כשהטלפון יחובר למטען</string>
     <string name="reverse_charging_auto_turn_on_title">הפעלה אוטומטית</string>
     <string name="reverse_charging_charging_wirelessly_message">לא זמין מפני שהטלפון נטען באופן אלחוטי</string>
-    <string name="reverse_charging_detail_charging_overheat_message">‏שיתוף הסוללה אינו זמין מכיוון שה-Pixel חם מדי. יש להמתין עד שהטלפון יתקרר ולנסות שוב.</string>
-    <string name="reverse_charging_detail_charging_wirelessly_message">שיתוף הסוללה אינו זמין מפני שהטלפון נטען באופן אלחוטי</string>
+    <string name="reverse_charging_detail_charging_overheat_message">לא זמין בגלל הטמפרטורה. צריך לחכות עד שהטלפון יתקרר ולנסות שוב</string>
+    <string name="reverse_charging_detail_charging_wirelessly_message">שיתוף הסוללה לא זמין מפני שהטלפון נטען באופן אלחוטי</string>
     <string name="reverse_charging_detail_footer_title">סוללת הטלפון תתרוקן מהר יותר בזמן השימוש בשיתוף הסוללה. שיתוף הסוללה פועל עם אוזניות, שעונים, טלפונים ועוד מכשירים תואמים. כדי לשפר את יכולת הטעינה, יש להסיר את נרתיק הטלפון.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"שיתוף הסוללה פועל עם אוזניות כפתור, טלפונים ועוד מכשירים תואמים.
 
 הסוללה של הטלפון שלך תתרוקן מהר יותר בזמן השימוש בתכונה הזאת. שיתוף הסוללה נכבה באופן אוטומטי כעבור כמה דקות אם לא זוהה מכשיר נוסף. כדי לשפר את יכולת הטעינה, יש להסיר את נרתיק הטלפון ופריטים אחרים שעלולים להפריע, כמו חפצים ממתכת."</string>
-    <string name="reverse_charging_detail_power_save_mode_is_on_message">"שיתוף הסוללה אינו זמין מפני שהתכונה 'חיסכון בסוללה' פועלת"</string>
-    <string name="reverse_charging_detail_unplug_usb_cable_message">‏שיתוף הסוללה אינו זמין מפני שמחובר מכשיר USB-C</string>
+    <string name="reverse_charging_detail_power_save_mode_is_on_message">"שיתוף הסוללה לא זמין מפני שהתכונה 'חיסכון בסוללה' פועלת"</string>
+    <string name="reverse_charging_detail_unplug_usb_cable_message">‏שיתוף הסוללה לא זמין מפני שמחובר מכשיר USB-C</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">"אי אפשר להשתמש ב'שיתוף סוללה' בזמן הטעינה"</string>
     <string name="reverse_charging_instructions_title">"‏אפשר לטעון מכשירים אחרים באמצעות ה-Pixel.
 כדי לנסות, עליך להפוך את הטלפון."</string>
     <string name="reverse_charging_is_off_summary">מצב כבוי</string>
@@ -257,7 +272,6 @@
     <string name="reverse_charging_is_on_and_discharging_summary">הסוללה משותפת</string>
     <string name="reverse_charging_is_on_summary">מופעל/טעינה של מכשירים אחרים</string>
     <string name="reverse_charging_main_switch">שימוש בשיתוף סוללה</string>
-    <string name="reverse_charging_overheat_summary">‏התכונה לא זמינה מכיוון שה-Pixel חם מדי. יש להמתין עד שהטלפון יתקרר ולנסות שוב.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">"לא זמין מפני שמצב 'חיסכון בסוללה' מופעל"</string>
     <string name="reverse_charging_sharing_level_message">לא זמין מפני שטעינת הסוללה נמוכה מרמה שמאפשרת שיתוף</string>
     <string name="reverse_charging_switch_title">‏טעינה של מכשירים אחרים באמצעות הנחתם על גב ה-Pixel</string>
@@ -265,6 +279,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">‏לא זמין מפני שמחובר מכשיר USB-C</string>
     <string name="reverse_charging_warning_summary">לא זמין כי רמת טעינת הסוללה נמוכה מ-%1$s</string>
     <string name="reverse_charging_warning_title">שיתוף הסוללה אינו זמין כי רמת טעינת הסוללה נמוכה מ-%1$s</string>
+    <string name="ringtone_synchronized_summary">מסונכרן</string>
     <string name="rtt_settings_always_visible">מוצג תמיד</string>
     <string name="rtt_settings_no_visible">לא מוצג</string>
     <string name="rtt_settings_title">‏טקסט בזמן אמת (RTT)</string>
@@ -272,17 +287,17 @@
     <string name="screen_time_summary_usage_today">%1$s היום</string>
     <string name="search_bar_account_avatar_content_description">‏תמונת פרופיל, יש ללחוץ פעמיים כדי לפתוח את חשבון Google</string>
     <string name="search_gesture_category_title">חיפוש</string>
+    <string name="search_gesture_feature_summary">לוחצים לחיצה ארוכה על לחצן דף הבית או על נקודת האחיזה לניווט כדי להפעיל חיפוש של התוכן שמופיע על המסך.</string>
     <string name="search_gesture_feature_title">מקיפים ומחפשים</string>
-    <string name="search_long_press_home_button_summary">לוחצים לחיצה ארוכה על הלחצן הראשי בתחתית המסך ולאחר מכן מקיפים בעיגול או מדגישים משהו לחיפוש</string>
-    <string name="search_press_hold_gesture_summary">לוחצים לחיצה ארוכה על נקודת האחיזה בתחתית המסך ולאחר מכן מקיפים בעיגול או מדגישים משהו לחיפוש</string>
     <string name="security_dismiss_dialog_dismiss_button">סגירה</string>
     <string name="security_dismiss_dialog_title">לסגור את האזהרה הזו?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">אפשר להקיש כדי להגדיר</string>
     <string name="security_settings_face_enroll_education_message">במסך הבא, עליך לסובב את הראש כדי לצלם את הפנים מכל הזוויות</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">במסך הבא יש להחזיק את הטלפון בגובה העיניים</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">הסריקה לצורך זיהוי פנים לא פעלה.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">הגעת למגבלת הזמן של סריקה לצורך זיהוי פנים. יש לנסות שוב.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">פג הזמן הקצוב להגדרה של הפתיחה</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">עכשיו אפשר להשתמש בזיהוי פנים כדי לבטל את נעילת הטלפון או כדי לאמת את זהותך, למשל בכניסה לחשבון באפליקציות או באישור רכישה</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">עכשיו אפשר להשתמש בזיהוי פנים כדי לבטל את נעילת הטלפון או כדי לאמת את הזהות שלך, למשל בכניסה לחשבון באפליקציות או באישור רכישה</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"עכשיו אפשר להשתמש בזיהוי הפנים כדי לבטל את הנעילה של הטלפון או לאמת את הזהות, למשל בשביל להיכנס לחשבון באפליקציות או כדי לאשר רכישה.
 
 פתיחה ע\"י זיהוי הפנים פועלת בצורה הטובה ביותר כשיש מספיק אור, ללא מסכה וללא משקפיים כהים."</string>
@@ -294,21 +309,37 @@
 פתיחה ע\"י זיהוי הפנים פועלת בצורה הטובה ביותר כשיש מספיק אור, ללא מסכה וללא משקפיים כהים."</string>
     <string name="security_settings_face_enroll_finish_title">נראה טוב!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">מגבלה בראייה או בתנועת הראש</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">"כדי להשתמש בתכונה 'פתיחה ע\"י זיהוי הפנים', יכול להיות שיהיה צורך למקם את הראש ישירות מול הטלפון."</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">העיניים צריכות להיות פתוחות</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"‏לך ולילד או לילדה שלך יש אפשרות להיכנס בכל שלב להגדרות ולמחוק את התבנית לזיהוי הפנים, או להשבית את התכונה 'פתיחה ע\"י זיהוי הפנים'. התבניות לזיהוי הפנים נשמרות בטלפון עד שמוחקים אותן.&lt;br&gt;&lt;br&gt;מידע נוסף זמין בכתובת &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">השליטה נמצאת בידיים שלך ושל הילד או הילדה</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"‏בכל שלב אפשר להיכנס להגדרות ולמחוק את התבנית לזיהוי הפנים, או להשבית את התכונה 'פתיחה בזיהוי הפנים'. התבניות לזיהוי הפנים נשמרות בטלפון עד שמוחקים אותן.&lt;br&gt;&lt;br&gt;מידע נוסף זמין בכתובת &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">השליטה בידיים שלך</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"כשמפעילים את התכונה 'פתיחה ע\"י זיהוי הפנים' המערכת יוצרת תבנית ייחודית של הפנים של הילד או הילדה כדי לאמת את הזהות שלהם. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, הילד או הילדה יצטרכו לצלם את הפנים שלהם מזוויות שונות.
+
+כשהם ישתמשו בתכונה 'פתיחה ע\"י זיהוי הפנים', המערכת תיצור תמונות כדי לעדכן את התבנית לזיהוי הפנים שלהם. התמונות שמשמשות ליצירת התבנית לזיהוי הפנים שלהם לא נשמרות. התבנית לזיהוי הפנים נשמרת באופן מאובטח בטלפון ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"הפעלה של התכונה 'פתיחה בזיהוי פנים' יוצרת תבנית ייחודית של הפנים שהמערכת משתמשת בה כדי לאמת את הזהות שלך. כדי ליצור את התבנית הזו לזיהוי הפנים במהלך ההגדרה, עליך לצלם את הפנים שלך מזוויות שונות.
+
+כשמשתמשים בתכונה 'פתיחה בזיהוי הפנים', המערכת יוצרת תמונות כדי לעדכן את התבנית לזיהוי הפנים. התמונות שמשמשות ליצירת התבנית לזיהוי הפנים שלך לא נשמרות. התבנית לזיהוי הפנים נשמרת באופן מאובטח בטלפון שלך ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח."</string>
     <string name="security_settings_face_enroll_introduction_how_title">איך זה עובד</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">"אחת האפשרויות בהגדרות של התכונה 'פתיחה ע\"י זיהוי הפנים' היא לדרוש שהעיניים של הילד או הילדה יהיו פקוחות כדי שהנעילה של הטלפון תתבטל או כדי שהזהות שלהם תאומת. גם ההורה וגם הילד או הילדה יכולים להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">אם הילד או הילדה שלך מרכיבים בדרך כלל משקפיים, הם יכולים להרכיב אותם במהלך ההגדרה.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים של הילדים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">מבט לטלפון עשוי לבטל נעילה גם כשהם לא מתכוונים לבטל אותה. יכול להיות שהנעילה תתבטל גם אם מישהו שמאוד דומה להם (למשל אח או אחות תאומים) יסתכל לטלפון, או אם מישהו יחזיק את הטלפון מול הפנים שלהם.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">"אחת האפשרויות בהגדרות של התכונה 'פתיחה ע\"י זיהוי הפנים' היא להגדיר שהעיניים שלך צריכות להיות פקוחות כדי שהנעילה של הטלפון תתבטל או כדי שהזהות שלך תאומת. ניתן להפעיל את האפשרות הזו בכל שלב ב'הגדרות'."</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">אפשר להרכיב משקפיים או משקפי שמש בגוון בהיר.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">ביטול הנעילה של הטלפון באמצעות זיהוי הפנים עלול להיות פחות בטוח משימוש בקו ביטול נעילה, בסיסמה או בקוד אימות חזקים.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">מבט לטלפון עשוי לבטל את הנעילה בלי כוונה. יכול להיות שהנעילה תתבטל גם אם מישהו שמאוד דומה לך (למשל אח או אחות תאומים) יסתכל לטלפון, או אם מישהו יחזיק את הטלפון מול הפנים שלך.</string>
     <string name="security_settings_face_enroll_introduction_info_title">חשוב לזכור</string>
-    <string name="security_settings_face_enroll_introduction_title">"הגדרת 'פתיחה ע\"י זיהוי הפנים'"</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">אפשר להשתמש בזיהוי פנים כדי לבטל את הנעילה של הטלפון או כדי לאמת זהות, למשל בכניסה לאפליקציות או באישור רכישה.</string>
+    <string name="security_settings_face_enroll_introduction_title">"הגדרת 'פתיחה בזיהוי פנים'"</string>
     <string name="security_settings_face_enroll_next">הבא</string>
     <string name="security_settings_face_enroll_partial_message">"כדי לשפר את הביצועים, ניתן להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים' ב'הגדרות'"</string>
     <string name="security_settings_face_enroll_partial_start_over">התחלה מחדש</string>
     <string name="security_settings_face_enroll_partial_title">הסתיימה ההגדרה של פתיחה ע\"י זיהוי הפנים</string>
-    <string name="security_settings_face_enroll_timeout_message">"אפשר במקום זאת לנסות לבצע הגדרה מהירה. חשוב לזכור: ייתכן שיהיה עליך לייצב את ראשך ישירות מול הטלפון בזמן השימוש בפתיחה על ידי זיהוי הפנים.
+    <string name="security_settings_face_enroll_timeout_message">"במקום זאת, כדאי לנסות את ההגדרה המהירה. חשוב לזכור: יכול להיות שיהיה צורך לייצב את הראש ישירות מול הטלפון בזמן השימוש בפתיחה בזיהוי פנים.
 
-כדי לשפר את הביצועים, ניתן להגדיר שוב את התכונה 'פתיחה ע\"י זיהוי הפנים' ב'הגדרות'."</string>
+כדי לשפר את הביצועים, אפשר להיכנס להגדרות ולהגדיר שוב את התכונה 'פתיחה בזיהוי פנים'."</string>
     <string name="security_settings_face_enroll_timeout_title">לא ניתן להמשיך בהגדרה</string>
     <string name="security_settings_face_enroll_timeout_try_again">לניסיון חוזר</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">שימוש בהגדרה המהירה</string>
@@ -326,15 +357,34 @@
     <string name="security_settings_fingerprint_preference_summary_none">יש להקיש כדי להגדיר טביעת אצבע</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"‏הפיצ'ר Pixel Imprint יוצר תבנית ייחודית של טביעת האצבע שלך כדי לאמת את זהותך. תהליך היצירה של תבנית לטביעת האצבע כולל צילום תמונות של טביעת האצבע שלך מזוויות שונות."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">‏כשמשתמשים ב-Pixel Imprint, התבנית של טביעת האצבע מתעדכנת באמצעות תמונות. התמונות שמשמשות ליצירת התבנית של טביעת האצבע אף פעם לא נשמרות, אבל התבנית של טביעת האצבע נשמרת באופן מאובטח בטלפון שלך ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">‏בכל שלב אפשר להיכנס להגדרות ולמחוק את התבנית של טביעת האצבע, או להשבית את Pixel Imprint. התבניות של טביעת האצבע נשמרות בטלפון עד שמוחקים אותן.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"‏הפיצ'ר Pixel Imprint יוצר תבנית ייחודית של טביעת האצבע של הילד או הילדה כדי לאמת את זהותם. כדי ליצור את התבנית הזו לטביעת האצבע במהלך ההגדרה, יהיה עליהם לצלם תמונות של טביעת האצבע מזוויות שונות."</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏מידע נוסף על ביטול הנעילה של Pixel בטביעת אצבע זמין בכתובת &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">‏כשמשתמשים ב-Pixel Imprint, התבנית של טביעת האצבע מתעדכנת באמצעות תמונות. התמונות המשמשות ליצירת התבנית של טביעת האצבע של הילד או הילדה אף פעם לא נשמרות. התבנית של טביעת האצבע נשמרת באופן מאובטח בטלפון ואף פעם לא נשלחת או מועברת ממנו. כל פעולות העיבוד מתבצעות בטלפון באופן מאובטח.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">‏לך ולילד או לילדה שלך יש אפשרות להיכנס בכל שלב להגדרות ולמחוק את התבנית של טביעת האצבע, או להשבית את Pixel Imprint. התבניות של טביעת האצבע נשמרות בטלפון עד שהן נמחקות.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏מידע נוסף על פתיחה בטביעת אצבע של Pixel זמין בכתובת &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">‏Pixel Imprint לעבודה</string>
     <string name="setup_suggestion_summary">רק עוד כמה שלבים</string>
     <string name="setup_suggestion_title">סיום תהליך ההגדרה</string>
+    <string name="show_stylus_pointer_icon">ההעדפה מאפשרת לאפליקציות להציג את המצביע בזמן העברת הסטיילוס מעל</string>
+    <string name="simple_mode_category">גישה מהירה</string>
+    <string name="simple_mode_description">הטקסט והסמלים יוגדלו, הפריסה תהיה פשוטה יותר ויוצגו לחצני ניווט. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">מידע נוסף</a>" על 'תצוגה פשוטה'"</string>
+    <string name="simple_mode_summary">שיפור הקריאוּת של הטקסט, פריסה וניווט פשוטים יותר במסך</string>
+    <string name="simple_mode_suw_description">"‏לעיצוב נקי יותר וכדי לפשט את התחלת השימוש במכשיר, Pixel יכול להוריד אוטומטית אפליקציות ווידג'טים חיוניים, לסדר את פריסת המסך באופן מיטיבי, לשנות את גודל הגופן ועוד"</string>
+    <string name="simple_mode_suw_done_button">סיום</string>
+    <string name="simple_mode_switch_title">שימוש בתצוגה פשוטה</string>
+    <string name="simple_mode_title">תצוגה פשוטה</string>
+    <string name="simple_view_dialog_negative_button">ביטול</string>
+    <string name="simple_view_dialog_positive_button">המשך</string>
+    <string name="simple_view_feature_disabled_dialog_message">לאחר ההשבתה של התצוגה הפשוטה, המכשיר חוזר להגדרות הגופן, התצוגה והפריסה המקוריות. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">מידע נוסף</a> על שינוי הגדרות הגופן האלה.</string>
+    <string name="simple_view_feature_disabled_dialog_title">המכשיר יחזור להגדרות הקודמות</string>
+    <string name="simple_view_feature_enabled_dialog_message">הגופן הנוכחי גדול יותר מההגדרות של התצוגה הפשוטה. מעבר לתצוגה הפשוטה יקטין את גודל הגופן.</string>
+    <string name="simple_view_feature_enabled_dialog_title">הגופן יהיה קטן יותר</string>
     <string name="smart_battery_a11y_collapse_label">כיווץ, אופטימיזציה של ניצול הסוללה</string>
     <string name="smart_battery_a11y_expand_label">הרחבה, אופטימיזציה של ניצול הסוללה</string>
     <string name="smart_battery_footer">"כדי להאריך את חיי הסוללה, התכונה 'אופטימיזציה של ניצול הסוללה' עשויה להפחית את רמת הביצועים ואת הפעילות ברקע. ייתכן שיהיה עיכוב בקבלת התראות מסוימות."</string>
     <string name="smart_battery_manager_title">העדפות סוללה</string>
+    <string name="smart_battery_summary" product="default">"התכונה 'אופטימיזציה של ניצול הסוללה' נעזרת בנתוני השימוש בטלפון כדי לבצע ברציפות אופטימיזציה של האופן שבו אפליקציות משתמשות בסוללה. כדי להאריך את חיי הסוללה, התכונה עשויה לצמצם את רמת הביצועים ואת הפעילות ברקע."</string>
     <string name="smart_battery_title">אופטימיזציה של ניצול הסוללה</string>
     <string name="software_update_can_be_updated_header">‏רוצה לשפר את Pixel אפילו יותר?</string>
     <string name="software_update_detail_indication_1_update_available">יש עדכון זמין</string>
@@ -348,7 +398,8 @@
     <string name="software_update_up_to_date_summary">מעודכנת</string>
     <string name="software_update_up_to_specific_date_summary">עודכן לתאריך %1$s</string>
     <string name="software_update_update_available_summary">יש עדכון זמין</string>
-    <string name="sound_dashboard_summary">עוצמת קול, משוב פיזי, נא לא להפריע</string>
+    <string name="sound_dashboard_summary">עוצמת הקול ומשוב פיזי</string>
+    <string name="sound_dashboard_summary_with_dnd">"עוצמת הקול, משוב פיזי, מצב 'נא לא להפריע'"</string>
     <string name="spatial_audio_head_tracking_available">"האפשרות 'מעקב אחר תנועת הראש' זמינה"</string>
     <string name="spatial_audio_head_tracking_unavailable">"האפשרות 'מעקב אחר תנועת הראש' לא זמינה"</string>
     <string name="speed_boost_summary_off">מושבתת</string>
@@ -356,15 +407,15 @@
     <string name="speed_boost_title">הגברת מהירות הספקטרום</string>
     <string name="suggested_fingerprint_lock_settings_title">‏שימוש ב-Pixel Imprint</string>
     <string name="suw_limited_warranty_title">אחריות מוגבלת</string>
-    <string name="suw_warranty_description">‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה.&lt;br /&gt;&lt;br /&gt;תנאי האחריות זמינים גם ב&lt;b&gt;הגדרות &gt; מידע על הטלפון &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
-    <string name="suw_warranty_description_content">"‏כדי לראות את האחריות המוגבלת, עליך לבחור את המדינה שבה קנית את המכשיר הזה. תנאי האחריות זמינים גם ב'הגדרות' &gt; 'מידע על הטלפון' &gt; 'אחריות מוגבלת', ובכתובת g.co/devicewarranty."</string>
+    <string name="suw_warranty_description">‏כדי לראות את האחריות המוגבלת, צריך לבחור את המדינה שבה קנית את המכשיר הזה.&lt;br /&gt;&lt;br /&gt;תנאי האחריות זמינים גם ב&lt;b&gt;הגדרות &gt; מידע על הטלפון &gt; אחריות מוגבלת&lt;/b&gt; ובכתובת g.co/devicewarranty.</string>
+    <string name="suw_warranty_description_content">"‏כדי לראות את האחריות המוגבלת, צריך לבחור את המדינה שבה קנית את המכשיר הזה. תנאי האחריות זמינים גם ב'הגדרות' &gt; 'מידע על הטלפון' &gt; 'אחריות מוגבלת', ובכתובת g.co/devicewarranty."</string>
     <string name="suw_warranty_next_button_text">הבא</string>
     <string name="suw_warranty_positive_button_text">סגירה</string>
     <string name="system_update_entry_title">עדכון מערכת</string>
     <string name="system_updates_group_title">‏עדכונים ל-Pixel</string>
     <string name="touch_category_title">מגע</string>
     <string name="touch_sensitivity_settings_summary">התאמת הרגישות של מסך המגע</string>
-    <string name="touch_sensitivity_settings_title">רגישות למגע</string>
+    <string name="touch_sensitivity_settings_title">רגישות המגע</string>
     <string name="touch_sensitivity_summary">הגברת הרגישות למגע ושיפור של זיהוי המגע כשמשתמשים במגן מסך</string>
     <string name="touch_sensitivity_title">מצב מגן מסך</string>
     <string name="traffic_light_face_enrolling_title_accessibility">צריך להחזיק את הטלפון מול הפנים</string>
@@ -397,4 +448,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">יש להקיש כדי להתחבר</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">לא ניתן להתחבר. יש להקיש כדי לנסות שוב.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">מתבצעת התחברות…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> מידע נוסף</annotation></string>
+    <string name="wireless_charging_learn_more_description">מידע נוסף על טעינה אלחוטית</string>
+    <string name="wireless_charging_state">בטעינה אלחוטית •</string>
+    <string name="wireless_charging_state_and_duration">בטעינה אלחוטית • %1$s •</string>
 </resources>

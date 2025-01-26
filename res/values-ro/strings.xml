@@ -16,6 +16,12 @@
     <string name="adaptive_charging_title">Încărcarea adaptabilă</string>
     <string name="adaptive_touch_sensitivity_summary">Sensibilitatea la atingere se va adapta automat la mediu, la activități și la protecția pentru ecran</string>
     <string name="adaptive_touch_sensitivity_title">Atingere adaptabilă</string>
+    <string name="adaptive_vibration_footer">Microfonul și alți senzori ai telefonului sunt folosiți pentru a stabili volumul și contextul. Nu se înregistrează date.</string>
+    <string name="adaptive_vibration_settings_summary">Ajustează automat vibrațiile telefonului în funcție de mediu, de exemplu, când este în buzunar sau într-un loc zgomotos</string>
+    <string name="adaptive_vibration_summary_off">Dezactivată</string>
+    <string name="adaptive_vibration_summary_on">Activată</string>
+    <string name="adaptive_vibration_title">Vibrație adaptabilă</string>
+    <string name="adaptive_vibration_toggle_title">Folosește vibrația adaptabilă</string>
     <string name="add_bypassed_application_hint">Nu s-au adăugat aplicații</string>
     <string name="advanced_vpn_preference_group_title">Încorporat</string>
     <string name="all_apps_category_title">Toate aplicațiile</string>
@@ -27,16 +33,6 @@ Dacă acorzi accesul, această aplicație va putea să "<b>colecteze și să în
 
 În urma revocării accesului, aplicația va trebui să îți ceară permisiunea de a colecta și încărca un raport de eroare pentru fiecare raport individual privind problemele."</string>
     <string name="app_and_notification_dashboard_summary">Asistent, aplicații recente, aplicații prestabilite</string>
-    <string name="audio_sharing_switch_title">Trimite audio</string>
-    <string name="audio_sharing_title">Trimiterea audio</string>
-    <string name="audio_streams_category_title">Conectează-te la un stream LE Audio</string>
-    <string name="audio_streams_connect">Conectează</string>
-    <string name="audio_streams_disconnect">Deconectează</string>
-    <string name="audio_streams_pref_title">Streamuri audio în apropiere</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">Formatul codului QR nu este valid</string>
-    <string name="audio_streams_qr_code_scanner">Pentru a începe să asculți, centrează codul QR de mai jos</string>
-    <string name="audio_streams_qr_code_summary">Conectează-te la un stream audio folosind un cod QR</string>
-    <string name="audio_streams_title">Streamuri audio</string>
     <string name="automatic_storage_manager_activation_warning">După ce te conectezi, poți accesa în continuare fotografiile și videoclipurile la calitatea pe care ai selectat-o pentru backup</string>
     <string name="automatic_storage_manager_days_title">Elimină fotografii și videoclipuri cu backup</string>
     <string name="automatic_storage_manager_deactivation_warning">"Dezactivează Gestionarea inteligentă a spațiului de stocare? 
@@ -73,10 +69,12 @@ Aceasta nu va elibera spațiu atunci când spațiul de stocare este aproape plin
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Se încarcă la capacitate maximă</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Pentru a proteja bateria, încărcarea este întreruptă la %1$s cât timp tableta este andocată</string>
     <string name="battery_tip_smart_battery_summary">Activează Adaptive Battery</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Află mai multe despre încărcarea wireless</string>
-    <string name="battery_tip_wireless_charging_summary">Încărcarea wireless a telefonului poate consuma mai multă energie decât alte metode de încărcare</string>
-    <string name="battery_tip_wireless_charging_title">Se încarcă wireless</string>
-    <string name="calls_and_alarms_device_title">Apeluri și alarme</string>
+    <string name="charging_optimization_charge_label">%1$s - Încărcarea se încheie la %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s – Încărcarea s-a încheiat</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Încărcarea s-a încheiat</string>
+    <string name="charging_optimization_remaining_time_label">Încărcarea se încheie la %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Încărcarea wireless s-a încheiat •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Încărcarea wireless se încheie la %1$s •</string>
     <string name="clear_calling_footer">"Pentru a-ți proteja confidențialitatea, Apelarea cu sunet clar nu trimite niciodată conținut audio sau conversații la Google.
 
 Apelarea cu sunet clar este disponibilă în Apelarea prin Wi‑Fi și în majoritatea rețelelor, însă nu și în rețelele 3G."</string>
@@ -147,15 +145,23 @@ Apelarea cu sunet clar este disponibilă în Apelarea prin Wi‑Fi și în major
 
 Phishingul este o încercare de a fura date de conectare sau alte informații cu caracter personal."</string>
     <string name="content_protection_preference_subpage_summary">Scanarea rulează în mod privat direct pe dispozitiv, verificând activitatea în aplicații pentru phishing sau alte comportamente înșelătoare. Dacă sunt detectate astfel de comportamente, unele informații din aplicații sunt trimise la Google Play Protect pentru a confirma amenințarea și a avertiza utilizatorii aplicațiilor.</string>
-    <string name="contextual_timeout_description">Dezactivează automat ecranul în scurt timp dacă nu folosești dispozitivul</string>
+    <string name="contextual_timeout_description">Dezactivează automat ecranul dacă nu folosești dispozitivul</string>
     <string name="contextual_timeout_title">Adaptive timeout</string>
+    <string name="credentials_install_summary" product="default">Instalează certificate de pe stocare</string>
     <string name="dark_ui_text">Tema întunecată folosește un fundal negru pentru a prelungi autonomia bateriei. Programele cu Tema întunecată se activează când se dezactivează ecranul.</string>
     <string name="debugging_data_title">Date despre remedierea erorilor</string>
+    <string name="default_notification_summary">Notificare clasică</string>
+    <string name="default_ringtone_summary">Ton de apel clasic</string>
     <string name="discover_tips_button">Primește sfaturi</string>
+    <string name="display_dashboard_summary">Tema întunecată, dimensiunea fontului, comenzile tactile</string>
+    <string name="display_settings">Afișare și atingere</string>
     <string name="dock_summary_charging_phone">Se încarcă telefonul</string>
     <string name="double_twist_for_camera_mode_summary">Pentru a activa/dezactiva modul selfie în Camera foto Google, răsucește de două ori când ești în aplicație.</string>
     <string name="duration_less_than_one_minute">Mai puțin de 1 minut</string>
-    <string name="enable_glanceable_hub_toggle">Modul hub</string>
+    <string name="enable_glanceable_hub_toggle">Afișează widgeturile pe ecranul de blocare</string>
+    <string name="enable_glanceable_hub_toggle_summary">Fără a debloca tableta</string>
+    <string name="erase_external_storage" product="default">Șterge stocarea USB</string>
+    <string name="erase_external_storage_description" product="default">Șterge toate datele din stocarea USB internă, cum ar fi muzica sau fotografiile</string>
     <string name="extreme_battery_saver_summary">Include toate modificările menționate mai sus. Întrerupe și aplicațiile neesențiale și notificările aferente.</string>
     <string name="extreme_battery_saver_title">Economisirea extremă a bateriei</string>
     <string name="face_confirmation_hide_illustration_description">Acum, când ridici telefonul sau atingi ecranul, îți poți folosi fața pentru a-l debloca.</string>
@@ -199,8 +205,7 @@ Dacă activezi backupul automat, datele de pe dispozitiv și din aplicații sunt
 
 Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. Fișierelor mari sau fișierelor pe care dezvoltatorii au ales să le excludă din serviciu nu li se va face backup."</string>
     <string name="fullbackup_erase_dialog_message">Dorești să nu li se mai facă backup datelor de pe dispozitiv (de exemplu, parolele Wi-Fi și istoricul apelurilor) și datelor din aplicații (de exemplu, setările și fișierele stocate de aplicații) și să ștergi toate copiile din Google Drive?</string>
-    <string name="gesture_settings_activity_title">Navigare prin gesturi</string>
-    <string name="hub_mode_content_setting">Permite orice widget în modul hub</string>
+    <string name="help_footer_content_description">Despre %1$s. %2$s</string>
     <string name="install_unknown_applications">Permite instalarea aplicațiilor din alte surse decât Magazinul Play</string>
     <string name="keywords_accessibility_menu">abilități motorii, meniu rapid, meniu asistență, atingere, dexteritate, artrită, leziuni de stres repetitiv, atac cerebral, tremur, scleroză multiplă, paralizie cerebrală, buton, hardware, apăsare, mână, durere, accesibil, ajutor</string>
     <string name="keywords_adaptive_alert_vibration">tactil, vibrații, telefon, apel, sonerie, alertă, notificări, tare, intensitate joasă, zgomot, carcasă, adaptiv</string>
@@ -223,16 +228,25 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="keywords_touch_sensitivity">atingere, sensibilitate, sensibil, protecție pentru ecran, peliculă, receptiv, receptivitate</string>
     <string name="keywords_touch_sensitivity_settings">atingere, sensibilitate, sensibilitate, protecție pentru ecran, peliculă, adaptabil, adaptabilitate</string>
     <string name="keywords_voice_access">voce, comenzi vocale, abilități motorii, mână, microfon, dictare, vorbire, control</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Află mai multe</a></string>
     <string name="led_preference_title">Tipare de indicatoare LED</string>
     <string name="legal_source_code_description">Detaliile despre codul sursă pentru componente disponibile ca open source sunt disponibile în centrul de ajutor Pixel.</string>
     <string name="legal_source_code_title">Cod sursă</string>
     <string name="limited_warranty_introduction">Atinge țara de achiziție ca să vezi garanția pentru acest dispozitiv. Garanția este disponibilă și la g.co/devicewarranty</string>
     <string name="limited_warranty_title">Garanție limitată</string>
-    <string name="lockscreen_show_weather_summary">Vezi condițiile meteo actuale</string>
-    <string name="lockscreen_show_weather_title">Vezi condițiile meteo</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Pentru a șterge muzică, imagini și alte date ale utilizatorului, "<b>stocarea USB</b> trebuie să fie ștearsă.</string>
     <string name="my_device_info_account_preference_title">Cont Google</string>
+    <string name="notification_dismissal_sync_summary">Notificările respinse pe telefonul sau tableta Pixel nu vor mai apărea pe niciunul dintre cele două dispozitive</string>
+    <string name="notification_dismissal_sync_title">Închide notificările pe toate dispozitivele Pixel</string>
+    <string name="overrided_google_settings_summary">Servicii și preferințe Google</string>
+    <string name="overrided_google_settings_title">Conectează-te</string>
     <string name="owner_info_settings_edit_text_hint">De ex., telefonul Pixel al lui Andrei.</string>
     <string name="permit_debugging_data">Permite accesul la rapoartele de eroare</string>
+    <string name="phone_notification_channel_sound_title">Sunete și vibrații</string>
+    <string name="phone_notification_title">Alertă de notificare</string>
+    <string name="phone_ringtone_title">Alertă pentru tonul de apel</string>
     <string name="play_application_detail_indication_summary">Caută actualizări</string>
     <string name="play_application_update_entry_title">Actualizările aplicațiilor</string>
     <string name="private_space_retry_summary">Conectează-te la un Cont Google pentru a-l folosi cu spațiul privat</string>
@@ -243,7 +257,7 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
     <string name="reverse_charging_auto_turn_on_subtitle">Se va activa automat pentru o scurtă perioadă când telefonul este conectat la încărcător</string>
     <string name="reverse_charging_auto_turn_on_title">Activează automat</string>
     <string name="reverse_charging_charging_wirelessly_message">Funcție indisponibilă, deoarece telefonul se încarcă wireless</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Folosirea bateriei în comun nu este disponibilă, deoarece Pixel este prea fierbinte. Așteaptă să se răcească telefonul și încearcă din nou.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Indisponibil din cauza temperaturii. Așteaptă să se răcească telefonul și încearcă din nou</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Folosirea bateriei în comun nu este disponibilă, deoarece telefonul se încarcă wireless</string>
     <string name="reverse_charging_detail_footer_title">Bateria telefonului se va descărca mai rapid dacă o folosești în comun. Folosirea bateriei în comun funcționează cu căști intraauriculare, ceasuri, telefoane și alte dispozitive compatibile. Pentru o încărcare eficientă, scoate carcasa telefonului.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Încărcarea în comun funcționează cu căști intraauriculare, telefoane și alte dispozitive compatibile.
@@ -251,6 +265,7 @@ Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. 
 Bateria telefonului se va descărca mai rapid dacă folosești această funcție. Încărcarea în comun se dezactivează automat după câteva minute dacă nu este detectat un alt dispozitiv. Pentru o încărcare eficientă, scoate carcasa telefonului și alte obiecte care pot interfera, precum obiectele din metal."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Folosirea bateriei în comun nu este disponibilă, deoarece economisirea bateriei este activată</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Folosirea bateriei în comun nu este disponibilă, deoarece dispozitivul USB-C este conectat</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Încărcarea în comun nu este disponibilă în timpul încărcării</string>
     <string name="reverse_charging_instructions_title">"Încarcă alte dispozitive folosind dispozitivul Pixel.
 Întoarce telefonul pentru a încerca."</string>
     <string name="reverse_charging_is_off_summary">Dezactivată</string>
@@ -258,7 +273,6 @@ Bateria telefonului se va descărca mai rapid dacă folosești această funcție
     <string name="reverse_charging_is_on_and_discharging_summary">Se permite accesul la baterie</string>
     <string name="reverse_charging_is_on_summary">Activată / Încarcă alte dispozitive</string>
     <string name="reverse_charging_main_switch">Folosește Încărcarea în comun</string>
-    <string name="reverse_charging_overheat_summary">Nu este disponibilă, deoarece Pixel este prea fierbinte. Așteaptă să se răcească telefonul și încearcă din nou.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Indisponibilă pentru că este activată Economisirea bateriei</string>
     <string name="reverse_charging_sharing_level_message">Funcție indisponibilă, deoarece nivelul de încărcare al bateriei este sub cel necesar pentru folosirea în comun</string>
     <string name="reverse_charging_switch_title">Încarcă alte dispozitive așezându-le pe partea din spate a dispozitivului Pixel</string>
@@ -266,22 +280,23 @@ Bateria telefonului se va descărca mai rapid dacă folosești această funcție
     <string name="reverse_charging_unplug_usb_cable_message">Funcție indisponibilă, deoarece este conectat un dispozitiv USB-C</string>
     <string name="reverse_charging_warning_summary">Funcție indisponibilă, deoarece nivelul de încărcare al bateriei este sub %1$s</string>
     <string name="reverse_charging_warning_title">Folosirea bateriei în comun nu este disponibilă, deoarece nivelul de încărcare al bateriei este sub %1$s</string>
-    <string name="rtt_settings_always_visible">Întotdeauna vizibil</string>
+    <string name="ringtone_synchronized_summary">Sincronizat</string>
+    <string name="rtt_settings_always_visible">Mereu vizibil</string>
     <string name="rtt_settings_no_visible">Invizibil</string>
     <string name="rtt_settings_title">Text în timp real (TTR)</string>
     <string name="rtt_settings_visible_during_call">Vizibil în timpul unui apel</string>
     <string name="screen_time_summary_usage_today">%1$s astăzi</string>
     <string name="search_bar_account_avatar_content_description">Fotografie de profil, atinge de două ori pentru a deschide Contul Google</string>
     <string name="search_gesture_category_title">Căutare</string>
+    <string name="search_gesture_feature_summary">Atinge lung butonul Ecran de pornire sau ghidajul de navigare ca să cauți folosind conținutul de pe ecran.</string>
     <string name="search_gesture_feature_title">Încercuiește și caută</string>
-    <string name="search_long_press_home_button_summary">Atinge lung butonul ecran de pornire din partea de jos a ecranului, apoi încercuiește sau evidențiază orice pentru a căuta</string>
-    <string name="search_press_hold_gesture_summary">Atinge lung ghidajul din partea de jos a ecranului, apoi încercuiește sau evidențiază orice element pentru a căuta</string>
     <string name="security_dismiss_dialog_dismiss_button">Respinge</string>
     <string name="security_dismiss_dialog_title">Ignori acest avertisment?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Atinge pentru a configura</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Permite Deblocarea facială</string>
     <string name="security_settings_face_enroll_done">Gata</string>
     <string name="security_settings_face_enroll_education_message">În ecranul următor, rotește-ți capul pentru a captura chipul din toate unghiurile</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">În ecranul următor, ține telefonul la nivelul ochilor</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Înregistrarea chipului nu a funcționat.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">A expirat timpul pentru înregistrarea chipului. Încearcă din nou.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Configurarea Deblocării faciale a expirat</string>
@@ -297,13 +312,29 @@ Deblocarea facială funcționează cel mai bine când există suficientă lumin�
 Deblocarea facială funcționează cel mai bine când există suficientă lumină și nu porți mască sau ochelari de culoare închisă."</string>
     <string name="security_settings_face_enroll_finish_title">Pare în regulă!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configurează pentru probleme de vedere sau dificultăți de mișcare a capului</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Când folosești funcția Deblocare facială, capul tău trebuie să fie chiar în fața telefonului.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Trebuie să ai ochii deschiși</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Tu și copilul tău puteți să ștergeți modelul său facial sau să dezactivați Deblocarea facială oricând din Setări. Modelele faciale sunt stocate pe telefon până când le ștergi.&lt;br&gt;&lt;br&gt;Află mai multe la &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Tu și copilul tău dețineți controlul</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Poți să ștergi modelul facial sau să dezactivezi Deblocarea facială oricând din Setări. Modelele faciale sunt stocate pe telefon până când le ștergi.&lt;br&gt;&lt;br&gt;Află mai multe la &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Tu deții controlul</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Deblocarea facială creează un model unic al feței copilului tău pentru a-i confirma identitatea. Pentru a crea acest model facial în timpul configurării, copilul își va fotografia fața din diferite unghiuri.
+
+Când folosește Deblocarea facială, imaginile sunt utilizate pentru a-i actualiza modelul facial. Imaginile folosite pentru a-i crea modelul facial nu sunt stocate, dar modelul facial este stocat în siguranță pe telefon și nu părăsește niciodată dispozitivul. Toată procesarea are loc în siguranță pe telefon."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Deblocarea facială creează un model unic al feței tale pentru a-ți confirma identitatea. Pentru a crea acest model facial în timpul configurării, fotografiază-ți fața din diferite unghiuri.
+
+Când folosești Deblocarea facială, imaginile sunt utilizate pentru a-ți actualiza modelul facial. Imaginile folosite pentru a-ți crea modelul facial nu sunt stocate, dar modelul facial este stocat în siguranță pe telefon și nu îl părăsește niciodată. Toată procesarea are loc în siguranță pe telefonul tău."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Cum funcționează</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Deblocarea facială poate solicita ca ochii copilului tău să fie deschiși pentru a-i debloca telefonul sau pentru a-i confirma identitatea. Tu și copilul tău puteți activa oricând această opțiune în Setări.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Dacă în mod normal copilul tău poartă ochelari, îi poate purta și în timpul configurării.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Deblocarea telefonului folosind fața copilului poate fi mai puțin sigură decât un model, un cod PIN sau o parolă puternică</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Dacă privește spre telefon, îl poate debloca și când nu dorește. În plus, telefonul poate fi deblocat de cineva care seamănă mult cu copilul tău, cum ar fi un frate sau o soră geamănă, sau dacă cineva îl ține în fața sa.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Deblocarea facială poate solicita să ții ochii deschiși pentru a debloca telefonul sau pentru a-ți confirma identitatea. Poți activa oricând această opțiune în Setări.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Poți folosi ochelari de vedere sau de soare cu lentile ușor nuanțate.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Este posibil ca deblocarea telefonului folosind chipul să fie mai puțin sigură decât un model, un cod PIN sau o parolă puternică</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Dacă privești spre telefon, îl poți debloca și când nu dorești. În plus, telefonul poate fi deblocat de cineva care seamănă mult cu tine, cum ar fi un frate sau o soră geamănă, sau dacă cineva îl ține în fața ta.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Reține</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Folosește-ți fața ca să deblochezi telefonul sau să îți confirmi identitatea, de exemplu, când te conectezi la aplicații sau aprobi o achiziție.</string>
     <string name="security_settings_face_enroll_introduction_title">Configurează Deblocarea facială</string>
     <string name="security_settings_face_enroll_next">Înainte</string>
     <string name="security_settings_face_enroll_partial_message">Pentru a îmbunătăți performanța, poți să configurezi din nou Deblocarea facială în Setări</string>
@@ -311,7 +342,7 @@ Deblocarea facială funcționează cel mai bine când există suficientă lumin�
     <string name="security_settings_face_enroll_partial_title">Configurarea Deblocării faciale a fost finalizată</string>
     <string name="security_settings_face_enroll_timeout_message">"Încearcă configurarea rapidă. Reține că, atunci când folosești Deblocarea facială, capul tău trebuie să fie direct în fața telefonului.
 
-Pentru a îmbunătăți performanța, poți să configurezi din nou Deblocarea facială în Setări."</string>
+Pentru a îmbunătăți performanța, poți configura din nou Deblocarea facială în Setări."</string>
     <string name="security_settings_face_enroll_timeout_title">Nu se poate continua configurarea</string>
     <string name="security_settings_face_enroll_timeout_try_again">Încearcă din nou</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">Folosește configurarea rapidă</string>
@@ -329,15 +360,34 @@ Notă: nu îți poți folosi amprenta ca să deblochezi acest dispozitiv. Pentru
     <string name="security_settings_fingerprint_preference_summary_none">Atinge pentru a configura amprenta</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint creează un model unic al amprentei tale pentru a-ți confirma identitatea. Pentru a crea acest model de amprentă, în timpul configurării vei captura imagini ale amprentei tale din diferite poziții.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">Când folosești Pixel Imprint, imaginile sunt folosite pentru a-ți actualiza modelul de amprentă. Imaginile folosite pentru a-ți crea modelul de amprentă nu sunt stocate niciodată, dar modelul este stocat în siguranță pe telefon și nu-l părăsește niciodată. Toată procesarea are loc în siguranță pe telefonul tău.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Poți să ștergi modelul de amprentă sau să dezactivezi Pixel Imprint oricând din Setări. Modelele de amprentă sunt stocate pe telefon până când le ștergi.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint creează un model unic al amprentei copilului tău pentru a-i confirma identitatea. Pentru a crea acest model de amprentă în timpul configurării, va captura imagini ale amprentei sale din diferite poziții.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">Când folosește Pixel Imprint, imaginile sunt folosite pentru a-i actualiza modelul de amprentă. Imaginile folosite pentru a crea modelul de amprentă al copilului nu se stochează niciodată, dar modelul de amprentă este stocat în siguranță pe telefon și nu-l părăsește niciodată. Toată procesarea are loc în siguranță pe telefon.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Tu și copilul tău puteți să ștergeți modelul său de amprentă sau să dezactivați Pixel Imprint oricând din Setări. Modelele de amprentă sunt stocate pe telefon până când le ștergeți.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Află mai multe despre deblocarea dispozitivului Pixel cu amprenta la &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint pentru serviciu</string>
     <string name="setup_suggestion_summary">Mai ai doar câțiva pași</string>
     <string name="setup_suggestion_title">Finalizează configurarea</string>
+    <string name="show_stylus_pointer_icon">Aplicațiile pot afișa un pointer la plasarea cursorului</string>
+    <string name="simple_mode_category">Acces rapid</string>
+    <string name="simple_mode_description">Mărește dimensiunea textului și a pictogramelor, simplifică aspectul și adaugă butoane de navigare. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Află mai multe</a> despre Vizualizarea simplificată.</string>
+    <string name="simple_mode_summary">Îmbunătățește lizibilitatea textului și simplifică navigarea și aspectul ecranului</string>
+    <string name="simple_mode_suw_description">Pentru un design mai curat și o integrare mai simplă, Pixel poate descărca automat aplicațiile și widgeturile esențiale, poate optimiza aspectul ecranelor, poate ajusta fontul și altele</string>
+    <string name="simple_mode_suw_done_button">Gata</string>
+    <string name="simple_mode_switch_title">Folosește Vizualizarea simplificată</string>
+    <string name="simple_mode_title">Vizualizare simplificată</string>
+    <string name="simple_view_dialog_negative_button">Anulează</string>
+    <string name="simple_view_dialog_positive_button">Continuă</string>
+    <string name="simple_view_feature_disabled_dialog_message">Dacă dezactivezi Vizualizarea simplificată, dispozitivul va reveni la setările inițiale pentru font, afișare și aspect. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Află cum</a> să modifici aceste setări individuale pentru font.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Dispozitivul va reveni la setările anterioare</string>
+    <string name="simple_view_feature_enabled_dialog_message">Fontul actual este mai mare decât cel din setările Vizualizării simplificate. Dacă folosești Vizualizarea simplificată, dimensiunea fontului va fi redusă.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Dimensiunea fontului va fi redusă</string>
     <string name="smart_battery_a11y_collapse_label">Restrânge, Baterie adaptabilă</string>
     <string name="smart_battery_a11y_expand_label">Extinde, Baterie adaptabilă</string>
     <string name="smart_battery_footer">Pentru a prelungi autonomia bateriei, Bateria adaptabilă poate să scadă performanța și activitatea din fundal. Unele notificări pot avea întârzieri.</string>
     <string name="smart_battery_manager_title">Preferințe adaptabile</string>
+    <string name="smart_battery_summary" product="default">Bateria adaptabilă optimizează în permanență modul în care aplicațiile folosesc bateria, pe baza datelor despre utilizarea telefonului. Pentru a mări autonomia bateriei, poate să reducă performanța și să întârzie notificările.</string>
     <string name="smart_battery_title">Baterie adaptabilă</string>
     <string name="software_update_can_be_updated_header">Optimizează-ți dispozitivul Pixel</string>
     <string name="software_update_detail_indication_1_update_available">O actualizare disponibilă</string>
@@ -351,7 +401,8 @@ Notă: nu îți poți folosi amprenta ca să deblochezi acest dispozitiv. Pentru
     <string name="software_update_up_to_date_summary">Actualizat</string>
     <string name="software_update_up_to_specific_date_summary">Actualizat pe %1$s</string>
     <string name="software_update_update_available_summary">Actualizare disponibilă</string>
-    <string name="sound_dashboard_summary">Volum, feedback tactil, Nu deranja</string>
+    <string name="sound_dashboard_summary">Volum și feedback tactil</string>
+    <string name="sound_dashboard_summary_with_dnd">Volum, feedback tactil, Nu deranja</string>
     <string name="spatial_audio_head_tracking_available">Urmărirea mișcărilor capului este disponibilă</string>
     <string name="spatial_audio_head_tracking_unavailable">Urmărirea mișcărilor capului nu este disponibilă</string>
     <string name="speed_boost_summary_off">Dezactivată</string>
@@ -400,4 +451,8 @@ Notă: nu îți poți folosi amprenta ca să deblochezi acest dispozitiv. Pentru
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Atinge pentru a te conecta</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Nu se poate conecta. Atinge pentru a reîncerca.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Se conectează…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url">Află mai multe</annotation></string>
+    <string name="wireless_charging_learn_more_description">Află mai multe despre încărcarea wireless</string>
+    <string name="wireless_charging_state">Se încarcă wireless •</string>
+    <string name="wireless_charging_state_and_duration">Se încarcă wireless • %1$s •</string>
 </resources>

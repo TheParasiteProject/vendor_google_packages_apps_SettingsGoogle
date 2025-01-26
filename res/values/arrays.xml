@@ -54,6 +54,7 @@
     <string-array name="config_force_battery_optimize_mode_apps">
         <item>com.google.android.deskclock</item>
         <item>com.google.android.apps.turbo</item>
+        <item>com.google.android.pixelsystemservice</item>
     </string-array>
     <string-array name="config_force_battery_unrestrict_mode_apps">
         <item>com.google.android.retaildemo</item>
@@ -83,6 +84,7 @@
         <item>color_and_motion</item>
         <item>reduce_bright_colors_preference</item>
         <item>magnification_preference_screen</item>
+        <item>magnifier_preference</item>
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
     <string-array name="config_order_interaction_control_services">
@@ -93,6 +95,7 @@
         <item>tap_assistance_preference_screen</item>
         <item>system_controls_preference_screen</item>
         <item>vibration_preference_screen</item>
+        <item>pointer_and_touchpad</item>
     </string-array>
     <string-array name="config_order_speech_services">
         <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity</item>

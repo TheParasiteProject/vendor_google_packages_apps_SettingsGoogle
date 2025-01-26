@@ -11,7 +11,7 @@
         android:id="@id/card_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="?android:selectableItemBackground"
+        android:background="?android:attr/selectableItemBackground"
         android:gravity="center_vertical"
         android:minHeight="@dimen/suggestion_card_height"
         android:orientation="horizontal">

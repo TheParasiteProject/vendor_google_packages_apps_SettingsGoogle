@@ -4,9 +4,8 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="mobile_network_pref_screen">
 
-    <com.android.settings.widget.SettingsMainSwitchPreference
+    <com.android.settings.spa.preference.ComposePreference
         android:key="use_sim_switch"
-        android:title="@string/mobile_network_use_sim_on"
         settings:controller="com.android.settings.network.telephony.MobileNetworkSwitchController" />
 
     <PreferenceCategory
@@ -70,24 +69,22 @@
             android:title="@string/auto_data_switch_title"
             settings:controller="com.android.settings.network.telephony.AutoDataSwitchPreferenceController" />
 
-        <com.android.settingslib.RestrictedSwitchPreference
+        <com.android.settings.spa.preference.ComposePreference
             android:key="button_roaming_key"
-            android:persistent="false"
-            android:summaryOff="@string/roaming_disable"
-            android:summaryOn="@string/roaming_enable"
-            android:title="@string/roaming"
             settings:controller="com.android.settings.network.telephony.RoamingPreferenceController"
-            settings:userRestriction="no_data_roaming" />
+            settings:searchable="false" />
 
         <Preference
             android:key="data_usage_summary"
             android:title="@string/app_cellular_data_usage"
-            settings:controller="com.android.settings.network.telephony.DataUsagePreferenceController" />
+            settings:controller="com.android.settings.network.telephony.DataUsagePreferenceController"
+            settings:searchable="false" />
 
         <com.android.settings.datausage.BillingCyclePreference
             android:key="billing_preference"
             android:title="@string/billing_cycle"
-            settings:controller="com.android.settings.datausage.BillingCyclePreferenceController" />
+            settings:controller="com.android.settings.datausage.BillingCyclePreferenceController"
+            settings:searchable="false" />
 
         <SwitchPreferenceCompat
             android:key="carrier_wifi_toggle"
@@ -105,7 +102,8 @@
             android:key="mms_message"
             android:summary="@string/mms_message_summary"
             android:title="@string/mms_message_title"
-            settings:controller="com.android.settings.network.telephony.MmsMessagePreferenceController" />
+            settings:controller="com.android.settings.network.telephony.MmsMessagePreferenceController"
+            settings:searchable="false" />
 
         <SwitchPreferenceCompat
             android:key="enhanced_4g_lte"
@@ -122,14 +120,6 @@
             android:title="@string/enhanced_4g_lte_mode_title_4g_calling"
             settings:controller="com.android.settings.network.telephony.Enhanced4gCallingPreferenceController"
             settings:keywords="@string/keywords_enhance_4g_lte" />
-
-        <SwitchPreference
-            android:key="nr_advanced_calling"
-            android:persistent="false"
-            android:summary="@string/nr_advanced_calling_summary"
-            android:title="@string/nr_advanced_calling_title"
-            settings:controller="com.android.settings.network.telephony.NrAdvancedCallingPreferenceController"
-            settings:keywords="@string/keywords_nr_advanced_calling" />
 
         <SwitchPreferenceCompat
             android:key="advance_call"
@@ -153,7 +143,8 @@
             android:key="preferred_network_mode_key"
             android:summary="@string/preferred_network_mode_summary"
             android:title="@string/preferred_network_mode_title"
-            settings:controller="com.android.settings.network.telephony.PreferredNetworkModePreferenceController" />
+            settings:controller="com.android.settings.network.telephony.PreferredNetworkModePreferenceController"
+            settings:searchable="false" />
 
         <ListPreference
             android:dialogTitle="@string/preferred_network_mode_dialogtitle"
@@ -162,16 +153,15 @@
             android:key="enabled_networks_key"
             android:summary="@string/preferred_network_mode_summary"
             android:title="@string/preferred_network_mode_title"
-            settings:controller="com.android.settings.network.telephony.EnabledNetworkModePreferenceController" />
+            settings:controller="com.android.settings.network.telephony.EnabledNetworkModePreferenceController"
+            settings:searchable="false" />
 
         <Preference
-            android:enabled="false"
             android:key="carrier_settings_version_key"
-            android:selectable="false"
-            android:shouldDisableView="false"
             android:title="@string/carrier_settings_version"
             settings:controller="com.android.settings.network.telephony.CarrierSettingsVersionPreferenceController"
-            settings:enableCopying="true" />
+            settings:enableCopying="true"
+            settings:searchable="false" />
 
         <Preference
             android:key="speed_boost_settings"
@@ -204,7 +194,8 @@
                 android:key="wifi_calling"
                 android:summary="@string/wifi_calling_summary"
                 android:title="@string/wifi_calling_settings_title"
-                settings:controller="com.android.settings.network.telephony.WifiCallingPreferenceController">
+                settings:controller="com.android.settings.network.telephony.WifiCallingPreferenceController"
+                settings:searchable="false">
 
                 <intent
                     android:action="android.intent.action.MAIN"
@@ -221,9 +212,9 @@
 
             <SwitchPreferenceCompat
                 android:key="video_calling_key"
-                android:persistent="true"
                 android:title="@string/video_calling_settings_title"
-                settings:controller="com.android.settings.network.telephony.VideoCallingPreferenceController" />
+                settings:controller="com.android.settings.network.telephony.VideoCallingPreferenceController"
+                settings:searchable="false" />
 
         </PreferenceCategory>
 
@@ -295,6 +286,12 @@
             android:summary="@string/require_cellular_encryption_summary"
             android:title="@string/require_cellular_encryption_title"
             settings:controller="com.android.settings.network.telephony.NullAlgorithmsPreferenceController" />
+
+        <com.android.settings.spa.preference.ComposePreference
+            android:key="nr_advanced_calling"
+            settings:controller="com.android.settings.network.telephony.NrAdvancedCallingPreferenceController"
+            settings:searchable="false" />
+
     </PreferenceCategory>
 
     <Preference

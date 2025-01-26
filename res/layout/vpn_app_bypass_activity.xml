@@ -16,8 +16,8 @@
             android:layout_marginEnd="@dimen/app_bypass_default_margin_end"
             android:layout_marginStart="@dimen/app_bypass_default_margin_start"
             android:text="@string/vpn_bypass_description"
-            android:textAppearance="?android:textAppearanceListItemSecondary"
-            android:textColor="?android:textColorSecondary"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary"
             android:textSize="@dimen/app_bypass_description_text_font_size" />
 
         <RelativeLayout
@@ -41,7 +41,7 @@
                 android:minHeight="@dimen/app_bypass_button_minimal_height"
                 android:text="@string/vpn_bypass_carrier_description"
                 android:textAppearance="?android:textAppearanceListItem"
-                android:textColor="?android:textColorPrimary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="@dimen/app_bypass_preference_text_font_size" />
 
             <Switch
@@ -70,8 +70,8 @@
             android:paddingEnd="@dimen/app_bypass_suggestion_button_padding_horizontal"
             android:paddingStart="@dimen/app_bypass_suggestion_button_padding_horizontal"
             android:text="@string/vpn_bypass_carrier_app_suggestion_text"
-            android:textAppearance="?android:textAppearanceListItemSecondary"
-            android:textColor="?android:textColorPrimary"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorPrimary"
             android:textFontWeight="500"
             android:visibility="gone" />
 
@@ -85,7 +85,7 @@
             android:layout_marginTop="@dimen/app_bypass_enabled_app_title_margin_top"
             android:singleLine="true"
             android:text="@string/vpn_bypass_category_title"
-            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
             android:textColor="?android:colorAccent"
             android:textFontWeight="500" />
 
@@ -98,8 +98,8 @@
             android:layout_marginStart="@dimen/app_bypass_default_margin_start"
             android:singleLine="true"
             android:text="@string/add_bypassed_application_hint"
-            android:textAppearance="?android:textAppearanceListItemSecondary"
-            android:textColor="?android:textColorSecondary"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary"
             android:textSize="@dimen/app_bypass_second_text_font_size" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -126,7 +126,7 @@
             android:layout_marginTop="@dimen/app_bypass_candidate_app_title_margin_top"
             android:singleLine="true"
             android:text="@string/all_apps_category_title"
-            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
             android:textColor="?android:colorAccent"
             android:textFontWeight="500" />
 

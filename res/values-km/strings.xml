@@ -2,7 +2,7 @@
 <resources>
     <string name="accessibility_keyboard_haptics_title">ការប៉ះក្ដារចុច</string>
     <string name="accessibility_screen_magnifier_summary">ប្រើកាមេរ៉ារបស់អ្នកដើម្បីពង្រីកចំណុចលម្អិតនៅជុំវិញអ្នក</string>
-    <string name="accessibility_screen_magnifier_title">កម្មវិធីពង្រីក</string>
+    <string name="accessibility_screen_magnifier_title">កែវពង្រីក</string>
     <string name="adaptive_alert_vibration_summary">កាត់បន្ថយកម្លាំងរំញ័រ ពេលទូរសព្ទរបស់អ្នកនៅស្ងៀម ហើយអេក្រង់កំពុងផ្ងារឡើង</string>
     <string name="adaptive_alert_vibration_title">ការ​ញ័រជូន​ដំណឹងដែលមានភាពបត់បែន</string>
     <string name="adaptive_battery_switch_des">ដើម្បីបង្កើនកម្រិតថាមពលថ្ម មុខងារថ្ម​មាន​ភាព​បត់បែនអាចកាត់បន្ថយប្រតិបត្តិការ និងសកម្មភាពនៅផ្ទៃខាងក្រោយ។ ការជូនដំណឹងមួយចំនួនអាចត្រូវបានពន្យារពេល។</string>
@@ -16,6 +16,12 @@
     <string name="adaptive_charging_title">ការសាកថ្ម​ដែលមាន​ភាពបត់បែន</string>
     <string name="adaptive_touch_sensitivity_summary">កម្រិតរំញោចនឹងការចុចនឹងកែតម្រូវដោយស្វ័យប្រវត្តិទៅតាមមជ្ឈដ្ឋាន សកម្មភាព និងកញ្ចក់​ការពារ​អេក្រង់របស់អ្នក</string>
     <string name="adaptive_touch_sensitivity_title">ការចុចដែលមានភាពបត់បែន</string>
+    <string name="adaptive_vibration_footer">មីក្រូហ្វូន និងសេនស័រផ្សេងៗទៀតរបស់ទូរសព្ទអ្នកត្រូវបានប្រើប្រាស់ ដើម្បីកំណត់កម្រិតសំឡេង និងបរិបទ។ មិនមានទិន្នន័យណាធ្លាប់ត្រូវបានថតទេ។</string>
+    <string name="adaptive_vibration_settings_summary">កែតម្រូវការ​ញ័រទូរសព្ទរបស់អ្នកដោយស្វ័យប្រវត្តិ ដោយផ្អែកលើមជ្ឈដ្ឋានដូចជា នៅពេលវាស្ថិតនៅក្នុងហោប៉ៅ ឬកន្លែងដែលមានសំឡេងឮខ្លាំង</string>
+    <string name="adaptive_vibration_summary_off">បិទ</string>
+    <string name="adaptive_vibration_summary_on">បើក</string>
+    <string name="adaptive_vibration_title">ការ​ញ័របត់បែន</string>
+    <string name="adaptive_vibration_toggle_title">ប្រើការ​ញ័របត់បែន</string>
     <string name="add_bypassed_application_hint">មិនបានបញ្ចូលកម្មវិធីណាទេ</string>
     <string name="advanced_vpn_preference_group_title">ភ្ជាប់មក​ជាមួយ​ស្រាប់</string>
     <string name="all_apps_category_title">កម្មវិធី​ទាំងអស់</string>
@@ -27,16 +33,6 @@
 
 ការដកសិទ្ធិចូលប្រើប្រាស់នឹងតម្រូវឱ្យកម្មវិធីស្នើសុំការអនុញ្ញាតពីអ្នក ដើម្បីប្រមូល និងបង្ហោះរបាយការណ៍អំពីបញ្ហាសម្រាប់របាយការណ៍បញ្ហានីមួយៗ។"</string>
     <string name="app_and_notification_dashboard_summary">ជំនួយការ កម្មវិធី​ថ្មីៗ កម្មវិធី​លំនាំដើម</string>
-    <string name="audio_sharing_switch_title">ចែករំលែកសំឡេង</string>
-    <string name="audio_sharing_title">ការចែករំលែកសំឡេង</string>
-    <string name="audio_streams_category_title">ភ្ជាប់ទៅកាន់ការចាក់សំឡេងលើអ៊ីនធឺណិត LE</string>
-    <string name="audio_streams_connect">ភ្ជាប់</string>
-    <string name="audio_streams_disconnect">ផ្ដាច់</string>
-    <string name="audio_streams_pref_title">ការចាក់សំឡេងលើអ៊ីនធឺណិតដែលនៅជិត</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">កូដ QR មិនមែនជា​ទម្រង់​ដែលត្រឹមត្រូវ​ទេ</string>
-    <string name="audio_streams_qr_code_scanner">ដើម្បីចាប់ផ្ដើមស្ដាប់ សូមដាក់កូដ QR ខាងក្រោមឱ្យ​នៅចំកណ្ដាល</string>
-    <string name="audio_streams_qr_code_summary">ភ្ជាប់ទៅកាន់ការចាក់សំឡេងលើអ៊ីនធឺណិតដោយប្រើប្រាស់កូដ QR</string>
-    <string name="audio_streams_title">ការចាក់សំឡេងលើអ៊ីនធឺណិត</string>
     <string name="automatic_storage_manager_activation_warning">នៅពេលដែលអ្នកមានការតភ្ជាប់ អ្នកនៅតែអាចចូលមើលរូបថត និងវីដេអូតាមគុណភាពដែលអ្នកបានជ្រើសរើសសម្រាប់ការបម្រុងទុកបានដដែល</string>
     <string name="automatic_storage_manager_days_title">លុបរូបថត និងវីដេអូដែលបានបម្រុងទុក</string>
     <string name="automatic_storage_manager_deactivation_warning">"បិទទំហំផ្ទុកឆ្លាតវៃ? 
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">កំពុង​សាកថ្មឱ្យពេញ</string>
     <string name="battery_tip_limited_temporarily_extra_summary">ដើម្បីការពារថ្មរបស់អ្នក ការសាកថ្មត្រូវបានផ្អាកនៅកម្រិត %1$s ខណៈពេលដែលថេប្លេតរបស់អ្នកត្រូវបានភ្ជាប់</string>
     <string name="battery_tip_smart_battery_summary">បើក​កម្មវិធី​ថ្ម​មានភាពបត់បែន</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">ស្វែងយល់បន្ថែមអំពីការសាកថ្មឥតខ្សែ</string>
-    <string name="battery_tip_wireless_charging_summary">ការសាកថ្មទូរសព្ទរបស់អ្នកដោយឥតខ្សែអាចប្រើថាមពលច្រើនជាងវិធីសាកថ្មផ្សេងទៀត</string>
-    <string name="battery_tip_wireless_charging_title">កំពុង​សាកថ្មឥតខ្សែ</string>
-    <string name="calls_and_alarms_device_title">ការហៅទូរសព្ទ និងម៉ោងរោទ៍</string>
+    <string name="charging_optimization_charge_label">%1$s - សាកថ្មពេញក្នុងរយៈពេល %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - សាកថ្មពេញ</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">សាកថ្មពេញ</string>
+    <string name="charging_optimization_remaining_time_label">សាកថ្មពេញក្នុងរយៈពេល %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">ការសាកថ្មឥតខ្សែពេញ •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">ការសាកថ្មឥតខ្សែពេញត្រឹមម៉ោង %1$s •</string>
     <string name="clear_calling_footer">"ដើម្បីការពារភាពឯកជនរបស់អ្នក សំឡេងឮច្បាស់មិនផ្ញើសំឡេង ឬការសន្ទនាទៅ Google ទេ។
 
 សំឡេងឮច្បាស់ដំណើរការនៅលើការហៅតាម Wi-Fi និងបណ្តាញភាគច្រើន មិនមានសម្រាប់បណ្តាញ 3G ទេ។"</string>
@@ -147,15 +145,23 @@
 
 ការ​ដាក់នុយគឺជាការព្យាយាមលួចព័ត៌មានផ្ទៀងផ្ទាត់ការចូលគណនី ឬព័ត៌មានផ្ទាល់ខ្លួនផ្សេងទៀត។"</string>
     <string name="content_protection_preference_subpage_summary">ការស្កេនដំណើរការជាឯកជនដោយផ្ទាល់នៅលើឧបករណ៍របស់អ្នក ដោយពិនិត្យសកម្មភាព​កម្មវិធីរកមើលការដាក់នុយ ឬអាកប្បកិរិយាបោកប្រាស់ផ្សេងទៀត។ ប្រសិនបើរកឃើញ ព័ត៌មានកម្មវិធីមួយចំនួនត្រូវបានផ្ញើទៅ Google Play Protect ដើម្បីបញ្ជាក់ការគំរាមកំហែង និងព្រមានអ្នកប្រើប្រាស់កម្មវិធី។</string>
-    <string name="contextual_timeout_description">បិទអេក្រង់របស់អ្នកដោយស្វ័យប្រវត្តិមុនកាលកំណត់ ប្រសិនបើអ្នកមិនប្រើឧបករណ៍របស់អ្នក</string>
+    <string name="contextual_timeout_description">បិទអេក្រង់របស់អ្នកដោយស្វ័យប្រវត្តិ ប្រសិនបើអ្នកមិនកំពុងប្រើឧបករណ៍របស់អ្នកទេ</string>
     <string name="contextual_timeout_title">អស់ម៉ោងដែលមានភាពបត់បែន</string>
+    <string name="credentials_install_summary" product="default">ដំឡើង​វិញ្ញាបនបត្រ​ពី​ឧបករណ៍​ផ្ទុក</string>
     <string name="dark_ui_text">ទម្រង់រចនាងងឹតប្រើផ្ទៃខាងក្រោយ​ពណ៌ខ្មៅ ដើម្បីជួយរក្សា​ថាមពលថ្ម​របស់អ្នក​ឱ្យនៅ​បានកាន់តែយូរ។ កាលវិភាគទម្រង់រចនាងងឹតរង់ចាំបើក រហូតទាល់តែ​អេក្រង់​របស់អ្នក​ត្រូវបានបិទ។</string>
     <string name="debugging_data_title">ទិន្នន័យនៃការជួសជុល</string>
+    <string name="default_notification_summary">ការជូនដំណឹងម៉ូតចាស់</string>
+    <string name="default_ringtone_summary">សំឡេង​រោទ៍ម៉ូតចាស់</string>
     <string name="discover_tips_button">ស្វែងរកគន្លឹះ</string>
+    <string name="display_dashboard_summary">ទម្រង់រចនាងងឹត ទំហំ​ពុម្ពអក្សរ ការចុច</string>
+    <string name="display_settings">ការបង្ហាញ និងការចុច</string>
     <string name="dock_summary_charging_phone">កំពុងសាកថ្ម​ទូរសព្ទ</string>
     <string name="double_twist_for_camera_mode_summary">ដើម្បីចូលទៅ និងចេញពីមុខងារសែលហ្វីនៅក្នុង​កាមេរ៉ា Google សូមបង្វិលពីរដង នៅពេលអ្នកនៅក្នុងកម្មវិធីនោះ។</string>
     <string name="duration_less_than_one_minute">តិចជាង 1 នាទី</string>
-    <string name="enable_glanceable_hub_toggle">មុខងារមណ្ឌល</string>
+    <string name="enable_glanceable_hub_toggle">បង្ហាញ​ធាតុក្រាហ្វិក​នៅលើ​អេក្រង់​ចាក់សោ</string>
+    <string name="enable_glanceable_hub_toggle_summary">ដោយមិនចាំបាច់​ដោះសោ​ថេប្លេតរបស់អ្នក</string>
+    <string name="erase_external_storage" product="default">លុប​ឧបករណ៍​ផ្ទុក​យូអេសប៊ី</string>
+    <string name="erase_external_storage_description" product="default">លុប​ទិន្នន័យ​ទាំងអស់​លើ​ឧបករណ៍​ផ្ទុក​យូអេសប៊ី​ខាង​ក្នុង ដូច​ជា​តន្ត្រី ឬ​​រូបថត</string>
     <string name="extreme_battery_saver_summary">រួមបញ្ចូលការផ្លាស់ប្ដូរទាំងអស់ដែលបង្ហាញខាងលើ។ ផ្អាក​កម្មវិធីមិនចាំបាច់ និងការជូនដំណឹង​របស់កម្មវិធីទាំងនោះ​ផងដែរ។</string>
     <string name="extreme_battery_saver_title">មុខងារសន្សំថ្មខ្លាំង</string>
     <string name="face_confirmation_hide_illustration_description">ឥឡូវនេះ ពេលដែលអ្នកលើកទូរសព្ទរបស់អ្នកឡើង ឬចុចអេក្រង់ អ្នកអាចប្រើមុខរបស់អ្នកដើម្បីដោះសោ។</string>
@@ -199,8 +205,7 @@
 
 ទិន្នន័យបម្រុងទុកនឹងមិនរាប់បញ្ចូលទៅក្នុងកម្រិតកំណត់នៃទំហំផ្ទុកក្នុងថាសរបស់អ្នកទេ។ ឯកសារទំហំធំ ឬឯកសារដែលអ្នកអភិវឌ្ឍន៍បានជ្រើសមិនរាប់បញ្ចូលពីសេវាកម្មនេះនឹងមិនត្រូវបានបម្រុងទុកទេ។"</string>
     <string name="fullbackup_erase_dialog_message">បញ្ឈប់ការបម្រុងទុកទិន្នន័យឧបករណ៍ (ដូចជាពាក្យសម្ងាត់ Wi-Fi និងប្រវត្តិហៅទូរស័ព្ទ) និងទិន្នន័យកម្មវិធី (ដូចជាការកំណត់ និងឯកសារដែលបានផ្ទុកដោយកម្មវិធី) ព្រមទាំងលុបច្បាប់ចម្លងទាំងអស់នៅលើ Google ថាសដែរឬទេ?</string>
-    <string name="gesture_settings_activity_title">ការរុករក​ដោយប្រើចលនា</string>
-    <string name="hub_mode_content_setting">អនុញ្ញាតធាតុក្រាហ្វិកណាមួយនៅក្នុងមុខងារមណ្ឌល</string>
+    <string name="help_footer_content_description">អំពី %1$s។ %2$s</string>
     <string name="install_unknown_applications">អនុញ្ញាតឲ្យដំឡើងកម្មវិធីពីប្រភពផ្សេងក្រៅពីហាង Play</string>
     <string name="keywords_accessibility_menu">ចលនា, ម៉ឺនុយរហ័ស, ម៉ឺនុយ​ជំនួយ, ចុច, ភាពស្ទាត់ជំនាញ, ជំងឺ​សន្លាក់ឆ្អឹង, rsi, ជំងឺដាច់សរសៃឈាម​ខួរក្បាល, ញ័រ, ជំងឺក្រិន​សរសៃឈាមច្រើន ពិការ​ខួរក្បាល, ប៊ូតុង, ហាតវែរ, សង្កត់, ការចុករោយ, ដៃ, ការឈឺចាប់, អាចចូល​ប្រើបាន, ជំនួយ</string>
     <string name="keywords_adaptive_alert_vibration">ការប៉ះ, ញ័រ, ទូរសព្ទ, ហៅទូរសព្ទ, រោទ៍, ជូន​ដំណឹង, ការ​ជូនដំណឹង, ឮ, ស្ងាត់, សំឡេង, ស្រោមទូរសព្ទ, អាចបត់បែនបាន</string>
@@ -223,16 +228,25 @@
     <string name="keywords_touch_sensitivity">ការចុច កម្រិត​ឆ្លើយតប កញ្ចក់​ការពារ​អេក្រង់ ភាពយន្ត ការ​ឆ្លើយតប</string>
     <string name="keywords_touch_sensitivity_settings">ចុច, បត់បែន, កម្រិតរំញោច, រំញោច, កញ្ចក់​ការពារ​អេក្រង់, ហ្វីលការពារ, ឆ្លើយតប, ការឆ្លើយតប</string>
     <string name="keywords_voice_access">សំឡេង ការគ្រប់គ្រងដោយប្រើសំឡេង ម៉ូទ័រ ដៃ មីក្រូហ្វូន ការសរសេរតាមអាន និយាយ គ្រប់គ្រង</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">ស្វែងយល់បន្ថែម</a></string>
     <string name="led_preference_title">លំនាំ​សូចនាករ LED</string>
     <string name="legal_source_code_description">អាចរកឃើញព័ត៌មានលម្អិតអំពីកូដប្រភពសម្រាប់សមាសភាគដែលត្រូវបានផ្ដល់ជូនជាកូដចំហនៅមជ្ឈមណ្ឌលជំនួយ Pixel។</string>
     <string name="legal_source_code_title">កូដប្រភព</string>
     <string name="limited_warranty_introduction">ចុចប្រទេសដែលទិញ ដើម្បីមើលការធានាសម្រាប់ឧបករណ៍នេះ។ ការធានាក៏មាននៅលើ g.co/devicewarranty ផងដែរ។</string>
     <string name="limited_warranty_title">ការធានាមានកំណត់</string>
-    <string name="lockscreen_show_weather_summary">មើលលក្ខខណ្ឌ​អាកាសធាតុបច្ចុប្បន្ន</string>
-    <string name="lockscreen_show_weather_title">បង្ហាញ​អាកាសធាតុ</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+ដើម្បី​សម្អាតតន្ត្រី រូបភាព និង​ទិន្នន័យ​អ្នកប្រើប្រាស់​ផ្សេងទៀត ចាំបាច់ត្រូវលុប"<b>ឧបករណ៍ផ្ទុក USB</b>។</string>
     <string name="my_device_info_account_preference_title">គណនី Google</string>
+    <string name="notification_dismissal_sync_summary">ការជូនដំណឹងដែលត្រូវបានច្រានចោលនៅលើទូរសព្ទ ឬថេប្លេត Pixel របស់អ្នកនឹងលែងបង្ហាញនៅលើឧបករណ៍ទាំងពីរទៀតហើយ</string>
+    <string name="notification_dismissal_sync_title">ច្រានចោលការជូនដំណឹងនៅលើបណ្ដាឧបករណ៍ Pixel</string>
+    <string name="overrided_google_settings_summary">ចំណូលចិត្ត និងសេវាកម្ម Google</string>
+    <string name="overrided_google_settings_title">ចូល​គណនី</string>
     <string name="owner_info_settings_edit_text_hint">ឧ. ទូរសព្ទ Pixel របស់សុភាព។</string>
     <string name="permit_debugging_data">អនុញ្ញាតសិទ្ធិចូលប្រើរបាយការណ៍អំពីបញ្ហា</string>
+    <string name="phone_notification_channel_sound_title">សំឡេង និងការ​ញ័រ</string>
+    <string name="phone_notification_title">ការជូនដំណឹង</string>
+    <string name="phone_ringtone_title">ការជូនដំណឹងអំពីសំឡេង​រោទ៍</string>
     <string name="play_application_detail_indication_summary">រកមើលកំណែថ្មី</string>
     <string name="play_application_update_entry_title">កំណែថ្មីរបស់កម្មវិធី</string>
     <string name="private_space_retry_summary">ចូលគណនី Google ដើម្បីប្រើជាមួយលំហឯកជនរបស់អ្នក</string>
@@ -244,7 +258,7 @@
     <string name="reverse_charging_auto_turn_on_subtitle">នឹងបើក​ក្នុងរយៈពេលខ្លី​ដោយស្វ័យប្រវត្តិ នៅពេល​ទូរសព្ទរបស់អ្នក​ត្រូវបានដោតជាមួយ​ឆ្នាំងសាក</string>
     <string name="reverse_charging_auto_turn_on_title">បើកដោយស្វ័យប្រវត្តិ</string>
     <string name="reverse_charging_charging_wirelessly_message">មិនអាចប្រើ​បានទេ ដោយសារទូរសព្ទ​កំពុងសាកថ្ម​ឥតខ្សែ</string>
-    <string name="reverse_charging_detail_charging_overheat_message">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារ Pixel ក្ដៅពេក។ សូមរង់ចាំឱ្យទូរសព្ទចុះត្រជាក់ រួចព្យាយាមម្ដងទៀត។</string>
+    <string name="reverse_charging_detail_charging_overheat_message">មិនអាចប្រើបានទេ ដោយសារតែសីតុណ្ហភាព។ សូមរង់ចាំឱ្យទូរសព្ទចុះត្រជាក់ រួចព្យាយាមម្ដងទៀត</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារទូរសព្ទ​កំពុងសាកថ្មឥតខ្សែ</string>
     <string name="reverse_charging_detail_footer_title">ថ្មទូរសព្ទ​របស់អ្នក​នឹងកាន់តែ​ឆាប់អស់ នៅពេលប្រើ​ការចែករំលែក​ថ្ម។ ការចែករំលែក​ថ្ម​ដំណើរការ​ជាមួយ​កាស នាឡិកា ទូរសព្ទ​ដែលត្រូវគ្នា និងអ្វីៗ​ជាច្រើនទៀត។ ដើម្បីសាកថ្មឱ្យ​បានប្រសើរជាងមុន សូមដោះ​ស្រោមទូរសព្ទ​របស់អ្នកចេញ។</string>
     <string name="reverse_charging_detail_footer_title_advanced">"ការចែករំលែកថ្ម​ដំណើរការជាមួយកាស ទូរសព្ទដែលត្រូវគ្នា និង​អ្វីៗជាច្រើនទៀត។
@@ -252,6 +266,7 @@
 ថ្មទូរសព្ទ​របស់អ្នក​នឹងកាន់តែ​ឆាប់អស់ នៅពេលប្រើ​មុខងារនេះ។ ប្រសិនបើ​រកមិនឃើញ​ឧបករណ៍ផ្សេងទៀតទេ ការចែករំលែកថ្ម​នឹងបិទដោយស្វ័យប្រវត្តិ បន្ទាប់ពីរយៈពេល​ពីរបីនាទី។ ដើម្បីសាកថ្មឱ្យ​បានប្រសើរជាងមុន សូមដកស្រោមទូរសព្ទ​របស់អ្នកចេញ និងវត្ថុផ្សេងទៀត​ដែលអាចបង្ក​ការរំខានដូចជា វត្ថុធ្វើពីលោហៈជាដើម។"</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារបើក​មុខងារសន្សំថ្ម</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារដោត​ឧបករណ៍ USB-C</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">មិនអាចធ្វើការចែករំលែកថ្មបានទេ ពេលកំពុងសាក</string>
     <string name="reverse_charging_instructions_title">"សាកថ្មឧបករណ៍​ផ្សេងទៀតជាមួយ Pixel របស់អ្នក។
 ត្រឡប់​ទូរសព្ទរបស់អ្នក ដើម្បីសាកល្បង។"</string>
     <string name="reverse_charging_is_off_summary">បិទ</string>
@@ -259,7 +274,6 @@
     <string name="reverse_charging_is_on_and_discharging_summary">កំពុង​ចែករំលែក​ថ្ម</string>
     <string name="reverse_charging_is_on_summary">បើក / សាកឧបករណ៍ផ្សេងទៀត</string>
     <string name="reverse_charging_main_switch">ប្រើ​ការចែករំលែកថ្ម</string>
-    <string name="reverse_charging_overheat_summary">មិនអាចប្រើបានទេ ដោយសារ Pixel ក្ដៅពេក។ សូមរង់ចាំឱ្យទូរសព្ទចុះត្រជាក់ រួចព្យាយាមម្ដងទៀត។</string>
     <string name="reverse_charging_power_save_mode_is_on_message">មិនអាចប្រើបានទេ ដោយសារបើកមុខងារ​សន្សំ​ថ្ម</string>
     <string name="reverse_charging_sharing_level_message">មិនអាច​ប្រើបានទេ ដោយសារថ្មតិចជាង​កម្រិតសម្រាប់​ចែករំលែក</string>
     <string name="reverse_charging_switch_title">សាកថ្ម​ឧបករណ៍​ផ្សេងទៀត ដោយ​ដាក់​ឧបករណ៍​ទាំងនោះ​នៅផ្នែក​ខាងក្រោយ​នៃ Pixel របស់អ្នក</string>
@@ -267,6 +281,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">មិនអាចប្រើ​បានទេ ដោយសារដោត​ឧបករណ៍ USB-C</string>
     <string name="reverse_charging_warning_summary">មិន​អាច​ប្រើបានទេ ដោយសារថ្ម​នៅសល់តិចជាង %1$s</string>
     <string name="reverse_charging_warning_title">មិនអាចប្រើ​ការចែករំលែកថ្ម​បានទេ ដោយសារថ្ម​នៅសល់តិចជាង %1$s</string>
+    <string name="ringtone_synchronized_summary">បាន​ធ្វើ​សមកាលកម្ម</string>
     <string name="rtt_settings_always_visible">មើលឃើញ​ជានិច្ច</string>
     <string name="rtt_settings_no_visible">មើល​មិន​ឃើញ</string>
     <string name="rtt_settings_title">សារ​ជាអក្សរក្នុង​ពេល​ជាក់ស្តែង (RTT)</string>
@@ -274,13 +289,13 @@
     <string name="screen_time_summary_usage_today">%1$s ថ្ងៃនេះ</string>
     <string name="search_bar_account_avatar_content_description">រូបថតកម្រងព័ត៌មាន ចុចពីរដងដើម្បីបើកគណនី Google</string>
     <string name="search_gesture_category_title">ស្វែងរក</string>
+    <string name="search_gesture_feature_summary">ចុចប៊ូតុងទំព័រ​ដើម ឬដងរុករកឱ្យជាប់ ដើម្បីស្វែងរកដោយប្រើខ្លឹមសារនៅលើអេក្រង់របស់អ្នក។</string>
     <string name="search_gesture_feature_title">គូររង្វង់ដើម្បីស្វែងរក</string>
-    <string name="search_long_press_home_button_summary">ចុចប៊ូតុងដើមឱ្យជាប់នៅផ្នែកខាងក្រោមនៃអេក្រង់ បន្ទាប់មកគូររង្វង់ ឬរំលេចអ្វីមួយដើម្បីស្វែងរក</string>
-    <string name="search_press_hold_gesture_summary">ចុចដងឱ្យជាប់នៅផ្នែកខាងក្រោមនៃអេក្រង់ បន្ទាប់មកគូររង្វង់ ឬរំលេចអ្វីមួយដើម្បីស្វែងរក</string>
     <string name="security_dismiss_dialog_dismiss_button">ច្រានចោល</string>
     <string name="security_dismiss_dialog_title">ច្រានចោលការព្រមាននេះឬ?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">ចុច​ដើម្បី​រៀបចំ</string>
     <string name="security_settings_face_enroll_education_message">នៅលើ​អេក្រង់​បន្ទាប់ សូម​បង្វិល​ក្បាល​របស់អ្នក ដើម្បី​ថត​មុខ​របស់អ្នក​ឱ្យបាន​គ្រប់​ជ្រុង</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">នៅលើ​អេក្រង់​បន្ទាប់ សូមកាន់ទូរសព្ទ​របស់អ្នក​ដាក់ត្រឹមភ្នែក</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">ការ​ថត​បញ្ចូល​មុខ​មិន​ដំណើរការ​ទេ។</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ការរៀបចំ​ការដោះ​សោ​ដោយស្កេន​មុខ​បានអស់ម៉ោង</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">ឥឡូវនេះ អ្នកអាចប្រើ​មុខរបស់អ្នក ដើម្បីដោះសោ​ទូរសព្ទរបស់អ្នក ឬផ្ទៀងផ្ទាត់​ថាជាអ្នក ដូចជា នៅពេលអ្នក​ចូលកម្មវិធី ឬយល់ព្រមលើ​ការទិញជាដើម</string>
@@ -295,21 +310,37 @@
 ការដោះ​សោ​ដោយស្កេន​មុខដំណើរការ​បានល្អបំផុត នៅពេលដែលមានពន្លឺគ្រប់គ្រាន់ ហើយអ្នកមិនពាក់ម៉ាស់ ឬវ៉ែនតាខ្មៅ។"</string>
     <string name="security_settings_face_enroll_finish_title">គ្មានបញ្ហា​អ្វីទេ!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">ការរៀបចំសម្រាប់អ្នកមើលមិនសូវច្បាស់ ឬធ្វើចលនាក្បាលបានតិចតួច</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">នៅពេលប្រើការដោះ​សោ​ដោយស្កេន​មុខ ក្បាល​របស់អ្នក​ប្រហែលជា​ត្រូវស្ថិត​នៅចំ​ពីមុខ​ទូរសព្ទ​របស់អ្នកជាងមុន។</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">តម្រូវឱ្យ​បើក​ភ្នែក</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"អ្នក និងកូនរបស់អ្នកអាច​លុបគំរូមុខ​របស់គាត់ ឬបិទ​ការដោះសោ​តាមទម្រង់មុខ​បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូមុខត្រូវបានរក្សាទុក​នៅលើទូរសព្ទ រហូតទាល់តែគំរូមុខទាំងនោះ​ត្រូវបានលុប។&lt;br&gt;&lt;br&gt;ស្វែងយល់​បន្ថែម​តាម​រយៈ &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;។"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">ការគ្រប់គ្រង​ស្ថិតក្នុងដៃអ្នក និងកូនរបស់អ្នក</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"អ្នកអាច​លុបគំរូមុខ​របស់អ្នក ឬបិទ​ការដោះ​សោ​ដោយស្កេន​មុខបានគ្រប់ពេល​នៅក្នុង​ការកំណត់​។ គំរូមុខត្រូវបានរក្សាទុក​នៅលើទូរសព្ទ រហូតទាល់តែអ្នកលុបវា។&lt;br&gt;&lt;br&gt;ស្វែងយល់បន្ថែមតាមរយៈ &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;។"</string>
     <string name="security_settings_face_enroll_introduction_control_title">ការគ្រប់គ្រង​ស្ថិតក្នុង​ដៃអ្នក</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"ការដោះសោ​តាមទម្រង់មុខ​បង្កើតគំរូមុខរបស់កូនអ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់​ថាជាគាត់។ ដើម្បីបង្កើត​គំរូមុខនេះ​ក្នុងអំឡុងពេល​រៀបចំ កូនរបស់អ្នកនឹងត្រូវ​ថតរូបមុខ​របស់គាត់​ពីជ្រុងខុសៗគ្នា។
+
+នៅពេល​គាត់ប្រើការដោះសោ​តាមទម្រង់មុខ រូបភាពត្រូវបានប្រើ ដើម្បីធ្វើបច្ចុប្បន្នភាព​គំរូមុខរបស់គាត់។ រូបភាព​ដែលប្រើ​សម្រាប់​បង្កើត​គំរូមុខ​របស់គាត់​មិនត្រូវបាន​រក្សាទុក​ទេ ប៉ុន្តែ​គំរូមុខនោះ​ត្រូវបានរក្សាទុក​ដោយសុវត្ថិភាព​នៅលើ​ទូរសព្ទ និង​មិនចាកចេញ​ពីទូរសព្ទឡើយ។ ការដំណើរការ​ទាំងអស់​ប្រព្រឹត្តទៅ​ដោយសុវត្ថិភាព​នៅលើ​ទូរសព្ទ។"</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"ការដោះ​សោ​ដោយស្កេន​មុខ​បង្កើតគំរូមុខ​របស់អ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់​ថាជាអ្នក។ ដើម្បីបង្កើត​គំរូមុខនេះ​ក្នុងអំឡុងពេល​រៀបចំ អ្នកនឹងត្រូវ​ថតរូបមុខ​របស់អ្នក​ពីជ្រុងខុសៗគ្នា។
+
+នៅពេល​អ្នកប្រើការដោះ​សោ​ដោយស្កេន​មុខ រូបភាពត្រូវបានប្រើ ដើម្បីធ្វើបច្ចុប្បន្នភាព​គំរូមុខរបស់អ្នក។ រូបភាព​ដែលប្រើ​សម្រាប់​បង្កើត​គំរូមុខ​របស់អ្នក​មិនត្រូវបាន​រក្សាទុក​ទេ ប៉ុន្តែ​គំរូមុខនោះ​ត្រូវបានរក្សាទុក​ដោយសុវត្ថិភាព​នៅលើ​ទូរសព្ទ​របស់អ្នក និង​មិនចាកចេញ​ពីទូរសព្ទឡើយ។ ការដំណើរការ​ទាំងអស់​ប្រព្រឹត្តទៅ​ដោយសុវត្ថិភាព​នៅលើ​ទូរសព្ទ​របស់អ្នក។"</string>
     <string name="security_settings_face_enroll_introduction_how_title">របៀបដែលវាដំណើរការ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">ការដោះសោតាមទម្រង់មុខ​អាចតម្រូវឱ្យកូនរបស់អ្នកបើកភ្នែក ដើម្បីដោះសោ​ទូរសព្ទ ឬផ្ទៀងផ្ទាត់ថា​ជាគាត់។ អ្នក និងកូនរបស់អ្នក​អាចបើកជម្រើសនេះ​បានគ្រប់ពេលនៅក្នុង​ការកំណត់។</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">ជាធម្មតា ប្រសិនបើកូន​របស់អ្នកពាក់វ៉ែនតា គាត់អាចពាក់វាបាន អំឡុងពេលរៀបចំ។</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">ការប្រើប្រាស់មុខកូនរបស់អ្នកដើម្បីដោះសោទូរសព្ទរបស់គាត់ប្រហែលជាមិនសូវមានសុវត្ថិភាពដូចលំនាំ, កូដ PIN ឬពាក្យ​សម្ងាត់ដែលខ្លាំងនោះទេ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">ការមើលទូរសព្ទ​អាចដោះសោទូរសព្ទ​បាន ទោះបីជាគាត់​មិនមានបំណងដោះសោ​ក៏ដោយ។ អ្នកដែល​មាន​មុខមាត់​ស្រដៀង​គាត់ខ្លាំងដូចជា បងប្អូនបង្កើតដែលមាន​មុខមាត់​ដូចគាត់ ឬប្រសិនបើ​នរណាម្នាក់លើក​ទូរសព្ទឡើងចំពី​មុខគាត់ ក៏អាច​ដោះសោ​ទូរសព្ទ​របស់គាត់​បានដែរ។</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">ការដោះសោតាមទម្រង់មុខ​អាចតម្រូវឱ្យអ្នកបើកភ្នែក​ ដើម្បីដោះសោ​ទូរសព្ទ ឬផ្ទៀងផ្ទាត់ថា​ជាអ្នក។ អ្នក​អាចបើកជម្រើសនេះ​បានគ្រប់ពេលនៅក្នុង​ការកំណត់។</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">អាចពាក់​វ៉ែនតា ឬ​វ៉ែនតាការពារពន្លឺថ្ងៃ​ពណ៌ព្រឿងៗ​ស្រាល​បាន។</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">ការប្រើ​មុខ​របស់អ្នក ដើម្បីដោះសោ​ទូរសព្ទ​របស់អ្នក​អាចនឹងមិនសូវមាន​សុវត្ថិភាព​ដូចការប្រើ​លំនាំ, កូដ PIN ឬពាក្យសម្ងាត់ដែលខ្លាំង​នោះទេ</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">ការមើលទូរសព្ទ​អាចដោះសោទូរសព្ទ​បាន ទោះបីជាអ្នកមិនមានបំណងដោះសោ​ក៏ដោយ។ អ្នកដែល​មាន​មុខមាត់​ស្រដៀង​អ្នកខ្លាំង ដូចជា​បងប្អូនបង្កើតដែលមាន​មុខមាត់​ដូចអ្នក ឬប្រសិនបើ​នរណាម្នាក់លើក​ទូរសព្ទឡើងចំពី​មុខអ្នក ក៏អាច​ដោះសោ​ទូរសព្ទ​របស់អ្នក​បានដែរ។</string>
     <string name="security_settings_face_enroll_introduction_info_title">សូមចងចាំ</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">ប្រើមុខ​របស់អ្នក ដើម្បីដោះសោ​ទូរសព្ទរបស់អ្នក ឬផ្ទៀងផ្ទាត់​ថាជាអ្នកដូចជា នៅពេលអ្នក​ចូលកម្មវិធី ឬយល់ព្រមលើ​ការទិញជាដើម។</string>
     <string name="security_settings_face_enroll_introduction_title">រៀបចំ​ការដោះ​សោ​ដោយស្កេន​មុខ</string>
     <string name="security_settings_face_enroll_next">បន្ទាប់</string>
     <string name="security_settings_face_enroll_partial_message">ដើម្បីកែលម្អ​ប្រតិបត្តិការ អ្នកអាចរៀបចំ​ការដោះសោតាមទម្រង់មុខ​ម្ដងទៀត​នៅក្នុងការកំណត់</string>
     <string name="security_settings_face_enroll_partial_start_over">ចាប់ផ្ដើម​ឡើងវិញ</string>
     <string name="security_settings_face_enroll_partial_title">បានបញ្ចប់ការរៀបចំ​ការដោះសោតាមទម្រង់មុខហើយ</string>
-    <string name="security_settings_face_enroll_timeout_message">"សាកល្បងការរៀបចំ​រហ័សជំនួសវិញ។ សូមចងចាំថា ក្បាល​របស់អ្នក​ប្រហែលជា​ត្រូវស្ថិត​នៅចំ​ពីមុខ​ទូរសព្ទ​របស់អ្នកជាងមុន នៅពេលប្រើ​ការដោះសោតាម​ទម្រង់មុខ។
+    <string name="security_settings_face_enroll_timeout_message">"សាកល្បងប្រើការរៀបចំ​រហ័សជំនួសវិញ។ សូមចងចាំថា ក្បាល​របស់អ្នក​ប្រហែលជា​ត្រូវស្ថិត​នៅចំ​ពីមុខ​ទូរសព្ទ​របស់អ្នកជាងមុន នៅពេលប្រើ​ការដោះ​សោ​ដោយស្កេន​មុខ។
 
-ដើម្បីកែលម្អប្រតិបត្តិការ អ្នកអាចរៀបចំ​ការដោះសោតាម​ទម្រង់មុខម្ដងទៀត​នៅក្នុងការកំណត់។"</string>
+ដើម្បីកែលម្អប្រតិបត្តិការ អ្នកអាចរៀបចំ​ការដោះ​សោ​ដោយស្កេន​មុខម្ដងទៀត​នៅក្នុងការកំណត់។"</string>
     <string name="security_settings_face_enroll_timeout_title">មិនអាចបន្ត​ការរៀបចំបានទេ</string>
     <string name="security_settings_face_enroll_timeout_try_again">ព្យាយាមម្ដងទៀត</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">ប្រើ​ការរៀបចំ​រហ័ស</string>
@@ -327,15 +358,32 @@
     <string name="security_settings_fingerprint_preference_summary_none">ចុចដើម្បីរៀបចំស្នាមម្រាមដៃ</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint បង្កើតគំរូស្នាមម្រាមដៃ​របស់អ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់ថាជាអ្នក។ ដើម្បីបង្កើត​គំរូស្នាមម្រាមដៃនេះ​ក្នុងអំឡុងពេល​រៀបចំ អ្នកនឹងត្រូវ​ថតរូបស្នាមម្រាមដៃ​របស់អ្នក​ពីផ្នែកខុសៗគ្នា។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">អ្នកអាចលុប​គំរូស្នាមម្រាមដៃ​របស់អ្នក ឬបិទ Pixel Imprint បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូស្នាមម្រាមដៃ​ត្រូវបានរក្សាទុក​នៅលើទូរសព្ទ រហូតទាល់តែ​អ្នកលុបវា។</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint បង្កើតគំរូស្នាមម្រាមដៃ​របស់កូនអ្នក​ខុសប្លែកពីគេ ដើម្បីផ្ទៀងផ្ទាត់​ថាជាគាត់។ ដើម្បីបង្កើត​គំរូស្នាមម្រាមដៃនេះ​ក្នុងអំឡុងពេល​រៀបចំ គាត់នឹងត្រូវ​ថតរូបស្នាមម្រាមដៃ​របស់គាត់​ពីផ្នែក​ខុសៗគ្នា។</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">អ្នក និងកូនរបស់អ្នក​អាចលុប​គំរូស្នាមម្រាមដៃ​របស់គាត់ ឬបិទ Pixel Imprint បានគ្រប់ពេល​នៅក្នុង​ការកំណត់។ គំរូស្នាមម្រាមដៃ​ត្រូវបានរក្សាទុក​នៅលើទូរសព្ទ រហូតទាល់តែ​គំរូស្នាមម្រាមដៃ​ទាំងនោះត្រូវបានលុប។</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"ស្វែងយល់បន្ថែមអំពីការដោះសោ​ដោយប្រើ​ស្នាមម្រាមដៃនៅលើ Pixel តាមរយៈ &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;។"</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint សម្រាប់ការងារ</string>
     <string name="setup_suggestion_summary">នៅសល់​តែពីរបី​ជំហាន​ទៀតប៉ុណ្ណោះ</string>
     <string name="setup_suggestion_title">បញ្ចប់​ការរៀបចំ</string>
+    <string name="show_stylus_pointer_icon">អនុញ្ញាតឱ្យកម្មវិធីបង្ហាញទស្សន៍ទ្រនិច ពេលកំពុងដាក់ព្រួញ</string>
+    <string name="simple_mode_category">ចូល​ប្រើប្រាស់​រហ័ស</string>
+    <string name="simple_mode_description">បង្កើនទំហំរូបតំណាងនិងអក្សរ សម្រួលប្លង់ និងបញ្ចូលប៊ូតុងរុករក។ <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ស្វែងយល់បន្ថែម</a>អំពីទិដ្ឋភាពសាមញ្ញ។</string>
+    <string name="simple_mode_summary">កែលម្អភាពច្បាស់នៃអក្សរ និងសម្រួលការរុករកនិងប្លង់អេក្រង់</string>
+    <string name="simple_mode_suw_description">សម្រាប់ការរចនាកាន់តែស្អាត និងការណែនាំសាមញ្ញ Pixel អាចទាញយកកម្មវិធី និងធាតុក្រាហ្វិកចាំបាច់ដោយស្វ័យប្រវត្តិ បង្កើនប្រសិទ្ធភាពប្លង់អេក្រង់ កែតម្រូវពុម្ពអក្សរ និងធ្វើអ្វីៗជាច្រើនទៀត</string>
+    <string name="simple_mode_suw_done_button">រួចរាល់</string>
+    <string name="simple_mode_switch_title">ប្រើទិដ្ឋភាពសាមញ្ញ</string>
+    <string name="simple_mode_title">ទិដ្ឋភាពសាមញ្ញ</string>
+    <string name="simple_view_dialog_negative_button">បោះបង់</string>
+    <string name="simple_view_dialog_positive_button">បន្ត</string>
+    <string name="simple_view_feature_disabled_dialog_message">តាមរយៈការបិទទិដ្ឋភាពសាមញ្ញ ឧបករណ៍របស់អ្នកនឹងត្រឡប់ទៅការកំណត់ពុម្ពអក្សរ ការបង្ហាញ និងប្លង់ដើមរបស់វាវិញ។ <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ស្វែងយល់អំពីរបៀប</a>ផ្លាស់ប្ដូរការកំណត់ពុម្ព​អក្សរ​នីមួយៗទាំងនេះ។</string>
+    <string name="simple_view_feature_disabled_dialog_title">ឧបករណ៍របស់អ្នកនឹងត្រឡប់ទៅការកំណត់ពីមុនវិញ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ពុម្ពអក្សរបច្ចុប្បន្នរបស់អ្នកធំជាងការកំណត់ទិដ្ឋភាពសាមញ្ញ។ ការប្រើទិដ្ឋភាពសាមញ្ញនឹងកាត់បន្ថយទំហំពុម្ពអក្សររបស់អ្នក។</string>
+    <string name="simple_view_feature_enabled_dialog_title">ទំហំពុម្ពអក្សរនឹងកាត់បន្ថយ</string>
     <string name="smart_battery_a11y_collapse_label">បង្រួម, មុខងារថ្ម​មាន​ភាព​បត់បែន</string>
     <string name="smart_battery_a11y_expand_label">ពង្រីក, មុខងារថ្ម​មាន​ភាព​បត់បែន</string>
     <string name="smart_battery_footer">ដើម្បីបង្កើនកម្រិតថាមពលថ្ម កម្មវិធីថ្ម​មាន​ភាព​បត់បែនអាចកាត់បន្ថយប្រតិបត្តិការ និងសកម្មភាពនៅផ្ទៃខាងក្រោយ។ ការជូនដំណឹងមួយចំនួនអាចត្រូវបានពន្យារពេល។</string>
     <string name="smart_battery_manager_title">ចំណូលចិត្តដែលមានភាពបត់បែន</string>
+    <string name="smart_battery_summary" product="default">មុខងារថ្ម​មាន​ភាពបត់បែនរៀនសូត្រពីការប្រើទូរសព្ទរបស់អ្នក ដើម្បីកែលម្អរបៀបដែលកម្មវិធីនានាប្រើប្រាស់ថ្មជាបន្តបន្ទាប់។ ដើម្បីបង្កើនកម្រិតថាមពលថ្ម ប្រតិបត្តិការអាចថយចុះ ហើយការជូនដំណឹងអាចមានការពន្យារពេល។</string>
     <string name="smart_battery_title">មុខងារ​ថ្ម​មាន​ភាព​បត់បែន</string>
     <string name="software_update_can_be_updated_header">ធ្វើឱ្យ Pixel របស់អ្នកកាន់តែប្រសើរ</string>
     <string name="software_update_detail_indication_1_update_available">មាន​កំណែថ្មី 1</string>
@@ -349,7 +397,8 @@
     <string name="software_update_up_to_date_summary">មានកំណែថ្មីបំផុតហើយ</string>
     <string name="software_update_up_to_specific_date_summary">បានដំឡើងកំណែនៅថ្ងៃទី %1$s</string>
     <string name="software_update_update_available_summary">មាន​កំណែថ្មី</string>
-    <string name="sound_dashboard_summary">កម្រិតសំឡេង អារម្មណ៍ប៉ះ កុំ​រំខាន</string>
+    <string name="sound_dashboard_summary">កម្រិត​សំឡេង និង​ប្រតិកម្មប៉ះ</string>
+    <string name="sound_dashboard_summary_with_dnd">កម្រិតសំឡេង ប្រតិកម្មប៉ះ កុំ​រំខាន</string>
     <string name="spatial_audio_head_tracking_available">អាចធ្វើការតាមដានក្បាលបាន</string>
     <string name="spatial_audio_head_tracking_unavailable">មិនអាចធ្វើការតាមដានក្បាលបានទេ</string>
     <string name="speed_boost_summary_off">បិទ</string>
@@ -398,4 +447,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">ចុច ដើម្បី​ភ្ជាប់</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">មិនអាច​ភ្ជាប់បានទេ។ សូមចុច ដើម្បី​ព្យាយាម​ម្ដងទៀត។</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">កំពុងភ្ជាប់…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> ស្វែងយល់បន្ថែម</annotation></string>
+    <string name="wireless_charging_learn_more_description">ស្វែងយល់បន្ថែមអំពីការសាកថ្មឥតខ្សែ</string>
+    <string name="wireless_charging_state">កំពុង​សាកថ្មឥតខ្សែ •</string>
+    <string name="wireless_charging_state_and_duration">កំពុង​សាកថ្មឥតខ្សែ • %1$s •</string>
 </resources>

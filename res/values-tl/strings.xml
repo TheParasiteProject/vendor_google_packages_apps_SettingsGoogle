@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">Para makatulong na pahabain ang tagal ng baterya, inaalam ng telepono mo ang iyong routine sa pag-charge at naghihintay ito hanggang sa kailanganin mo itong i-charge nang puno.</string>
     <string name="adaptive_charging_link_a11y">Matuto pa tungkol sa Adaptive na Pag-charge</string>
     <string name="adaptive_charging_main_switch_title">Gamitin ang Adaptive na Pag-charge</string>
-    <string name="adaptive_charging_time_estimate"><b>Adaptive na Pag-charge</b> • Mapupuno bago ang %1$s</string>
+    <string name="adaptive_charging_time_estimate"><b>Adaptive na Pag-charge</b> • Mapupuno bago mag-%1$s</string>
     <string name="adaptive_charging_title">Adaptive na Pag-charge</string>
     <string name="adaptive_touch_sensitivity_summary">Awtomatikong mag-a-adjust ang pagkasensitibo ng pagpindot depende sa iyong paligid, mga aktibidad, at screen protector</string>
     <string name="adaptive_touch_sensitivity_title">Adaptive na pagpindot</string>
+    <string name="adaptive_vibration_footer">Ginagamit ang mikropono at iba pang sensor ng iyong telepono para matukoy ang mga level ng tunog at konteksto. Hindi kailanman nagre-record ng data.</string>
+    <string name="adaptive_vibration_settings_summary">Awtomatikong ia-adjust ang mga pag-vibrate ng iyong telepono batay sa kapaligiran mo gaya ng kapag nasa bulsa o sa maingay na lugar ito</string>
+    <string name="adaptive_vibration_summary_off">Naka-off</string>
+    <string name="adaptive_vibration_summary_on">Naka-on</string>
+    <string name="adaptive_vibration_title">Adaptive na pag-vibrate</string>
+    <string name="adaptive_vibration_toggle_title">Gumamit ng adaptive na pag-vibrate</string>
     <string name="add">Idagdag</string>
     <string name="add_bypassed_application_hint">Walang idinagdag na app</string>
     <string name="advanced_vpn_preference_group_title">Built-in</string>
@@ -28,16 +34,6 @@ Kapag nagbigay ng access, mabibigyan ng pahintulot ang app na ito na "<b>awtomat
 
 Kapag binawi ang access, kakailanganin ng app na hingin ang pahintulot mo para mangolekta at mag-upload ng ulat ng bug para sa bawat indibidwal na ulat ng isyu."</string>
     <string name="app_and_notification_dashboard_summary">Assistant, mga kamakailang app, mga default na app</string>
-    <string name="audio_sharing_switch_title">Ibahagi ang Audio</string>
-    <string name="audio_sharing_title">Pagbabahagi ng audio</string>
-    <string name="audio_streams_category_title">Kumonekta sa isang LE audio stream</string>
-    <string name="audio_streams_connect">Ikonekta</string>
-    <string name="audio_streams_disconnect">Idiskonekta</string>
-    <string name="audio_streams_pref_title">Mga audio stream sa malapit</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">Hindi valid na format ang QR code</string>
-    <string name="audio_streams_qr_code_scanner">Para simulang makinig, igitna ang QR code sa ibaba</string>
-    <string name="audio_streams_qr_code_summary">Kumonekta sa isang audio stream gamit ang QR code</string>
-    <string name="audio_streams_title">Mga audio stream</string>
     <string name="automatic_storage_manager_activation_warning">Kapag nakakonekta ka, maa-access mo pa rin ang mga larawan at video sa kalidad na pinili mo para sa pag-backup</string>
     <string name="automatic_storage_manager_days_title">Alisin ang mga naka-back up na larawan at video</string>
     <string name="automatic_storage_manager_deactivation_warning">"I-off ang Smart Storage? 
@@ -73,10 +69,12 @@ Hindi magbabakante ang Smart Storage ng espasyo kapag malapit nang mapuno ang iy
     <string name="battery_tip_dock_defender_temporarily_bypass_title">China-charge hanggang mapuno</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Para protektahan ang iyong baterya, mapo-pause ang pag-charge sa %1$s habang naka-dock ang tablet mo</string>
     <string name="battery_tip_smart_battery_summary">I-on ang Adaptive Battery</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Matuto pa tungkol sa wireless na pag-charge</string>
-    <string name="battery_tip_wireless_charging_summary">Puwedeng gumamit ng mas maraming energy ang wireless na pag-charge ng iyong telepono kaysa sa ibang paraan ng pag-charge</string>
-    <string name="battery_tip_wireless_charging_title">Wireless na pag-charge</string>
-    <string name="calls_and_alarms_device_title">Mga tawag at alarm</string>
+    <string name="charging_optimization_charge_label">%1$s - Matatapos mag-charge nang %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Tapos nang mag-charge</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Tapos nang mag-charge</string>
+    <string name="charging_optimization_remaining_time_label">Matatapos mag-charge nang %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Tapos na ang wireless na pag-charge •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Matatapos ang wireless na pag-charge nang %1$s •</string>
     <string name="clear_calling_footer">"Para maprotektahan ang iyong privacy, hindi nagpapadala ng audio o mga pag-uusap sa Google ang Malinaw na Tawag.
 
 Gumagana ang Malinaw na Tawag sa Pagtawag gamit ang Wi-Fi at karamihan ng mga network. Hindi ito available para sa mga 3G network."</string>
@@ -147,15 +145,23 @@ Gumagana ang Malinaw na Tawag sa Pagtawag gamit ang Wi-Fi at karamihan ng mga ne
 
 Ang phishing ay isang pagtatangkang magnakaw ng mga kredensyal sa pag-sign in o iba pang personal na impormasyon."</string>
     <string name="content_protection_preference_subpage_summary">Pribadong tumatakbo ang pag-scan sa iyong device, na sumusuri sa aktibidad sa app para mag-detect ng phishing o iba pang mapanlinlang na gawi. Kung ma-detect ito, ipapadala ang ilang impormasyon ng app sa Google Play Protect para kumpirmahin ang banta at bigyan ng babala ang mga user ng app.</string>
-    <string name="contextual_timeout_description">Awtomatikong ino-off nang maaga ang iyong screen kung hindi mo ginagamit ang device mo</string>
+    <string name="contextual_timeout_description">Awtomatikong ino-off ang iyong screen kung hindi mo ginagamit ang device mo</string>
     <string name="contextual_timeout_title">Adaptive na timeout</string>
+    <string name="credentials_install_summary" product="default">Mag-install ng mga certificate mula sa storage</string>
     <string name="dark_ui_text">Gumagamit ng itim na background ang Madilim na tema para mas magtagal ang iyong baterya. Naghihintay ang mga iskedyul ng madilim na tema na ma-off ang iyong screen bago ma-on ang mga ito.</string>
     <string name="debugging_data_title">Pag-debug ng data</string>
+    <string name="default_notification_summary">Classic na notification</string>
+    <string name="default_ringtone_summary">Classic na ring tone</string>
     <string name="discover_tips_button">Tumuklas ng mga tip</string>
+    <string name="display_dashboard_summary">Madilim na tema, laki ng font, touch</string>
+    <string name="display_settings">Display at touch</string>
     <string name="dock_summary_charging_phone">Nagcha-charge ng telepono</string>
     <string name="double_twist_for_camera_mode_summary">Para pumunta at lumabas sa selfie mode sa Google Camera, mag-double twist kapag nasa app ka.</string>
     <string name="duration_less_than_one_minute">Wala pang 1 minuto</string>
-    <string name="enable_glanceable_hub_toggle">Hub mode</string>
+    <string name="enable_glanceable_hub_toggle">Magpakita ng mga widget sa lock screen</string>
+    <string name="enable_glanceable_hub_toggle_summary">Nang hindi ina-unlock ang iyong tablet</string>
+    <string name="erase_external_storage" product="default">Burahin ang storage na USB</string>
+    <string name="erase_external_storage_description" product="default">Burahin ang lahat ng data sa panloob na USB storage, gaya ng musika o mga larawan</string>
     <string name="extreme_battery_saver_summary">Kasama ang lahat ng pagbabagong nakalista sa itaas. Pino-pause din ang hindi mahahalagang app at mga notification ng mga ito.</string>
     <string name="extreme_battery_saver_title">Max na Pantipid ng Baterya</string>
     <string name="face_confirmation_hide_illustration_description">Ngayon, kapag kinuha mo ang iyong telepono o nag-tap ka sa screen, puwede mong gamitin ang iyong mukha para mag-unlock.</string>
@@ -199,8 +205,7 @@ Kapag na-on mo ang awtomatikong pag-backup, pana-panahong ise-save ang data ng d
 
 Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hindi iba-back up ang malalaking file o mga file na pinili ng mga developer na hindi isama sa serbisyo."</string>
     <string name="fullbackup_erase_dialog_message">Gusto mo bang ihinto ang pagba-back up ng data ng device (gaya ng mga password ng Wi-Fi at history ng tawag) at data ng app (gaya ng mga setting at file na naimbak ng mga app), at burahin ang lahat ng kopya sa Google Drive?</string>
-    <string name="gesture_settings_activity_title">Navigation Gamit ang Galaw</string>
-    <string name="hub_mode_content_setting">Payagan ang anumang widget sa hub mode</string>
+    <string name="help_footer_content_description">Tungkol sa %1$s %2$s</string>
     <string name="install_unknown_applications">Payagan ang pag-install ng mga app mula sa mga pinagmulan maliban sa Play Store</string>
     <string name="keywords_accessibility_menu">paggalaw, mabilisang menu, pantulong na menu, pagpindot, kagalingan sa paggalaw, arthritis, rsi, stroke, tremor, multiple sclerosis, cerebral palsy, button, hardware, pindutin, paulit-ulit na pinsala sa kalamnan, kamay, pananakit, naa-access, tulong</string>
     <string name="keywords_adaptive_alert_vibration">haptics, pag-vibrate, telepono, tawag, pag-ring, alerto, mga notification, malakas, mahina, ingay, case, adaptive</string>
@@ -223,16 +228,25 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="keywords_touch_sensitivity">pindutin, sensitivity, sensitibo, screen protector, film, tumutugon, pagtugon</string>
     <string name="keywords_touch_sensitivity_settings">pagpindot, adaptive, sensitivity, sensitibo, screen protector, film, responsive, responsiveness</string>
     <string name="keywords_voice_access">boses, pagkontrol gamit ang boses, motor, kamay, mic, mikropono, dictation, pagsasalita, kontrol</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Matuto Pa</a></string>
     <string name="led_preference_title">Mga pattern LED indicator</string>
     <string name="legal_source_code_description">Makikita sa help center ng Pixel ang mga detalye tungkol sa source code para sa mga bahaging ginawang available bilang open source.</string>
     <string name="legal_source_code_title">Source code</string>
     <string name="limited_warranty_introduction">I-tap ang bansang pinagbilhan para tingnan ang warranty para sa device na ito. Available din ang warranty sa g.co/devicewarranty</string>
     <string name="limited_warranty_title">Limitadong Warranty</string>
-    <string name="lockscreen_show_weather_summary">Tingnan ang mga kasalukuyang lagay ng panahon</string>
-    <string name="lockscreen_show_weather_title">Ipakita ang lagay ng panahon</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Para i-clear ang musika, mga larawan at iba pang data ng user, kailangang mabura ang "<b>USB storage</b>.</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
+    <string name="notification_dismissal_sync_summary">Hindi na lalabas sa alinman ang mga notification na na-dismiss sa iyong Pixel phone o tablet</string>
+    <string name="notification_dismissal_sync_title">I-dismiss ang mga notification sa lahat ng Pixel device</string>
+    <string name="overrided_google_settings_summary">Mga serbisyo ng Google at preference</string>
+    <string name="overrided_google_settings_title">Mag-sign in</string>
     <string name="owner_info_settings_edit_text_hint">Hal., Pixel ni Joe.</string>
     <string name="permit_debugging_data">Payagan ang access sa ulat ng bug</string>
+    <string name="phone_notification_channel_sound_title">Tunog at Pag-vibrate</string>
+    <string name="phone_notification_title">Alerto sa notification</string>
+    <string name="phone_ringtone_title">Ringtone na alerto</string>
     <string name="play_application_detail_indication_summary">Tingnan kung may mga update</string>
     <string name="play_application_update_entry_title">Mga update sa app</string>
     <string name="private_space_retry_summary">Mag-sign in sa isang Google Account para gamitin sa iyong pribadong space</string>
@@ -243,7 +257,7 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
     <string name="reverse_charging_auto_turn_on_subtitle">Awtomatikong mag-o-on nang saglit kapag nakasaksak sa charger ang iyong telepono</string>
     <string name="reverse_charging_auto_turn_on_title">Awtomatikong i-on</string>
     <string name="reverse_charging_charging_wirelessly_message">Hindi available dahil wireless na nagcha-charge ang telepono</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Hindi available ang Battery Share dahil masyadong mainit ang Pixel. Hintaying lumamig ang telepono at subukan ulit.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Hindi available dahil sa temperatura. Hintaying lumamig ang telepono at subukan ulit</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Hindi available ang Battery Share dahil wireless na nagcha-charge ang telepono</string>
     <string name="reverse_charging_detail_footer_title">Mas mabilis na mauubos ang baterya ng iyong telepono kapag ginagamit ang Battery Share. Gumagana ang Battery Share sa mga compatible na ear bud, relo, telepono, at higit pa. Para sa mas mahusay na pag-charge, alisin ang case ng iyong telepono.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Gumagana ang Battery Share sa mga compatible na ear buds, telepono, at higit pa.
@@ -251,6 +265,7 @@ Ang data sa pag-backup ay hindi ibibilang sa iyong quota sa storage ng Drive. Hi
 Mas mabilis na mauubos ang baterya ng iyong telepono kapag ginagamit ang feature na ito. Awtomatikong nag-o-off ang Battery Share pagkalipas ng ilang minuto kung wala itong ma-detect na ibang device. Para sa mas mahusay na pag-charge, alisin ang case ng iyong telepono at iba pang item na puwedeng makasagabal, gaya ng mga metal na bagay."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Hindi available ang Battery Share dahil naka-on ang Pantipid ng Baterya</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Hindi available ang Battery Share dahil may nakasaksak na USB-C device</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Hindi available ang Battery Share habang naka-charge</string>
     <string name="reverse_charging_instructions_title">"Mag-charge ng iba pang device sa iyong Pixel.
 Itaob ang iyong telepono para subukan."</string>
     <string name="reverse_charging_is_off_summary">Naka-off</string>
@@ -258,7 +273,6 @@ Itaob ang iyong telepono para subukan."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Nagbabahagi ng baterya</string>
     <string name="reverse_charging_is_on_summary">Naka-on / Mag-charge ng ibang device</string>
     <string name="reverse_charging_main_switch">Gamitin ang Battery Share</string>
-    <string name="reverse_charging_overheat_summary">Hindi available dahil masyadong mainit ang Pixel. Hintaying lumamig ang telepono at subukan ulit.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Hindi available dahil naka-on ang Pantipid ng Baterya</string>
     <string name="reverse_charging_sharing_level_message">Hindi available dahil mas mababa sa antas ng pagbabahagi ang baterya</string>
     <string name="reverse_charging_switch_title">Mag-charge ng ibang device sa pamamagitan ng paglalagay ng mga ito sa likod ng iyong Pixel</string>
@@ -266,6 +280,7 @@ Itaob ang iyong telepono para subukan."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Hindi available dahil may nakasaksak na USB-C device</string>
     <string name="reverse_charging_warning_summary">Hindi available dahil mas mababa sa %1$s ang baterya</string>
     <string name="reverse_charging_warning_title">Hindi available ang Battery Share dahil mas mababa sa %1$s ang baterya</string>
+    <string name="ringtone_synchronized_summary">Naka-synchronize</string>
     <string name="rtt_settings_always_visible">Palaging nakikita</string>
     <string name="rtt_settings_no_visible">Hindi nakikita</string>
     <string name="rtt_settings_title">Real-time na text (RTT)</string>
@@ -273,14 +288,14 @@ Itaob ang iyong telepono para subukan."</string>
     <string name="screen_time_summary_usage_today">%1$s ngayong araw</string>
     <string name="search_bar_account_avatar_content_description">Larawan sa profile, mag-double tap para buksan ang Google Account</string>
     <string name="search_gesture_category_title">Paghahanap</string>
-    <string name="search_gesture_feature_title">Bilugan para Maghanap</string>
-    <string name="search_long_press_home_button_summary">Pindutin nang matagal ang button ng home sa ibaba ng screen, pagkatapos ay bilugan o i-highlight ang anumang bagay na hahanapin</string>
-    <string name="search_press_hold_gesture_summary">Pindutin nang matagal ang hawakan sa ibaba ng screen, pagkatapos ay bilugan o i-highlight ang anumang bagay na hahanapin</string>
+    <string name="search_gesture_feature_summary">Pindutin nang matagal ang button ng Home o handle ng navigation para maghanap gamit ang content sa iyong screen.</string>
+    <string name="search_gesture_feature_title">Circle to Search</string>
     <string name="security_dismiss_dialog_dismiss_button">I-dismiss</string>
     <string name="security_dismiss_dialog_title">I-dismiss ang babalang ito?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">I-tap para i-set up</string>
     <string name="security_settings_face_enroll_consent_introduction_title">Payagan ang Pag-unlock Gamit ang Mukha</string>
     <string name="security_settings_face_enroll_education_message">Sa susunod na screen, i-rotate ang iyong ulo para ma-capture ang lahat ng angle ng mukha mo</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Sa susunod na screen, hawakan ang iyong telepono nang kapantay ng mata</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Naabot na ang limitasyon sa tagal ng pag-enroll ng mukha. Subukang muli.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Nag-time out ang pag-set up ng Pag-unlock Gamit ang Mukha</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Ngayon, magagamit mo na ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili</string>
@@ -295,24 +310,40 @@ Pinakamahusay na gumagana ang Pag-unlock Gamit ang Mukha kapag sapat ang liwanag
 Pinakamahusay na gumagana ang Pag-unlock Gamit ang Mukha kapag sapat ang liwanag at wala kang suot na mask o madilim na salamin sa mata."</string>
     <string name="security_settings_face_enroll_finish_title">OK na!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Kung may problema sa mata/galaw ng ulo</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Kapag gumagamit ng Pag-unlock Gamit ang Mukha, baka kailanganin mong mas direktang humarap sa iyong telepono.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Kailangang nakadilat ang mga mata</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Magagawa mo at ng iyong anak na i-delete ang kanyang face model o i-off ang Pag-unlock Gamit ang Mukha anumang oras sa Mga Setting. Naka-store sa telepono ang mga face model hanggang sa i-delete ang mga ito.&lt;br&gt;&lt;br&gt;Matuto pa sa &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Ikaw at ang iyong anak ang may kontrol</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Puwede mong i-delete ang iyong face model o i-off ang Pag-unlock Gamit ang Mukha anumang oras sa Mga Setting. Sino-store sa telepono ang mga face model hanggang sa i-delete mo ang mga ito.&lt;br&gt;&lt;br&gt;Matuto pa sa &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Ikaw ang may kontrol</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Gumagawa ang Pag-unlock Gamit ang Mukha ng natatanging modelo ng mukha ng iyong anak para i-verify na siya iyon. Para magawa ang face model na ito habang nagse-set up, kukuha ang iyong anak ng mga larawan ng kanyang mukha mula sa iba't ibang anggulo.
+
+Kapag ginamit niya ang Pag-unlock Gamit ang Mukha, gagamitin ang mga larawan para i-update ang kanyang face model. Hindi sino-store ang mga larawang ginamit para gawin ang kanyang face model, pero secure na naka-store ang face model sa telepono at hindi ito kailanman lalabas sa telepono. Sa telepono secure na nangyayari ang lahat ng pagpoproseso."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Gumagawa ang Pag-unlock Gamit ang Mukha ng natatanging modelo ng iyong mukha para i-verify na ikaw ito. Para magawa ang face model na ito habang nagse-set up, kukuha ka ng mga larawan ng iyong mukha mula sa iba't ibang anggulo.
+
+Kapag ginamit mo ang Pag-unlock Gamit ang Mukha, gagamitin ang mga larawan para i-update ang iyong face model. Hindi sino-store ang mga larawang ginamit para gawin ang iyong face model, pero secure na naka-store ang face model sa telepono mo at hindi ito kailanman lalabas sa telepono. Sa iyong telepono secure na nangyayari ang lahat ng pagpoproseso."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Paano ito gumagana</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Posibleng kailanganin ng Pag-unlock Gamit ang Mukha na bukas ang mga mata ng iyong anak para i-unlock ang telepono o i-verify na siya ito. Magagawa mo at ng iyong anak na i-on ang opsyong ito anumang oras sa Mga Setting.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Kung karaniwang nagsusuot ng salamin sa mata ang iyong anak, puwede niya itong isuot habang nagse-set up.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Posibleng hindi kasing-secure ng mahirap hulaang pattern, PIN, o password ang paggamit ng mukha ng iyong anak para i-unlock ang kanyang telepono.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Kapag tumingin siya sa telepono, puwede itong ma-unlock nang hindi sinasadya. Ang kanyang telepono ay puwede ring ma-unlock ng taong kamukha niya, tulad ng kanyang kapatid na kamukhang kamukha niya, o kung may magtatapat nito sa kanyang mukha.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Posibleng kailanganin ng Pag-unlock Gamit ang Mukha na bukas ang iyong mga mata para i-unlock ang telepono o i-verify na ikaw ito. Magagawa mong i-on ang opsyong ito anumang oras sa Mga Setting.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Ayos lang ang salamin o hindi madilim na sunglasses.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Posibleng hindi gaanong secure ang paggamit ng iyong mukha para i-unlock ang telepono mo kumpara sa malakas na pattern, PIN, o password</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Kapag tumingin ka sa telepono, puwede itong ma-unlock nang hindi sinasadya. Ang iyong telepono ay puwede ring ma-unlock ng taong kamukha mo, tulad ng iyong kapatid na kamukhang kamukha mo, o kung may magtatapat nito sa iyong mukha.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Tandaan</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Gamitin ang iyong mukha para i-unlock ang telepono mo o i-verify na ikaw ito, tulad ng kapag nagsa-sign in ka sa mga app o nag-aapruba ng pagbili.</string>
     <string name="security_settings_face_enroll_introduction_title">I-set up ang Pag-unlock Gamit ang Mukha</string>
     <string name="security_settings_face_enroll_next">Susunod</string>
     <string name="security_settings_face_enroll_partial_message">Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit ang Mukha sa Mga Setting</string>
     <string name="security_settings_face_enroll_partial_start_over">Magsimula ulit</string>
     <string name="security_settings_face_enroll_partial_title">Na-set up na ang Pag-unlock Gamit ang Mukha</string>
-    <string name="security_settings_face_enroll_timeout_message">"Subukan na lang ang mabilis na pag-set up. Tandaan, baka kailangang mas direktang itapat ang iyong mukha sa telepono mo kapag gumagamit ka ng Pag-unlock Gamit ang Mukha.
+    <string name="security_settings_face_enroll_timeout_message">"Subukan na lang ang Mabilis na Pag-set up. Tandaan, baka kailangang mas direktang itapat ang iyong mukha sa telepono mo kapag gumagamit ka ng Pag-unlock Gamit ang Mukha.
 
 Para mapahusay ang performance, puwede mong i-set up ulit ang Pag-unlock Gamit ang Mukha sa Mga Setting."</string>
     <string name="security_settings_face_enroll_timeout_title">Hindi maipagpatuloy ang pag-set up</string>
     <string name="security_settings_face_enroll_timeout_try_again">Subukan ulit</string>
-    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gamitin ang mabilis na setup</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gamitin ang Mabilis na Setup</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">Lumabas sa pag-set up</string>
     <string name="security_settings_face_enroll_too_hot_message">Hindi matapos ang pag-set up ng Pag-unlock Gamit ang Mukha dahil masyadong mainit ang telepono. Subukan ulit sa ibang pagkakataon kapag lumamig na ang telepono.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Laktawan ang Pag-unlock Gamit ang Mukha</string>
@@ -327,15 +358,32 @@ Tandaan: Hindi mo magagamit ang iyong fingerprint upang ma-unlock ang device na 
     <string name="security_settings_fingerprint_preference_summary_none">I-tap upang mag-set up ng fingerprint</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">"Gumagawa ang Pixel Imprint ng natatanging modelo ng iyong fingerprint para i-verify na ikaw ito. Para magawa ang modelo ng fingerprint na ito habang nagse-set up, kukuha ka ng mga larawan ng iyong fingerprint mula sa iba't ibang posisyon."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Puwede mong i-delete ang modelo ng iyong fingerprint, o i-off ang Pixel Imprint anumang oras sa Mga Setting. Naka-store sa telepono ang mga modelo ng fingerprint hanggang sa i-delete mo ang mga ito.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Gumagawa ang Pixel Imprint ng natatanging modelo ng fingerprint ng iyong anak para i-verify na siya ito. Para magawa ang modelo ng fingerprint na ito habang nagse-set up, kukuha siya ng mga larawan ng kanyang fingerprint mula sa iba't ibang posisyon."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Magawa mo at ng iyong anak na i-delete ang modelo ng kanyang fingerprint, o i-off ang Pixel Imprint anumang oras sa Mga Setting. Naka-store sa telepono ang mga modelo ng fingerprint hanggang sa i-delete ang mga ito.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Matuto pa tungkol sa pag-unlock gamit ang fingerprint sa Pixel sa &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint para sa trabaho</string>
     <string name="setup_suggestion_summary">Ilang hakbang na lang</string>
     <string name="setup_suggestion_title">Tapusin ang pag-set up</string>
+    <string name="show_stylus_pointer_icon">Payagan ang mga app na magpakita ng pointer habang naka-hover</string>
+    <string name="simple_mode_category">Mabilis na pag-access</string>
+    <string name="simple_mode_description">Lakihan ang text at icon, pasimplehin ang layout, at magdagdag ng mga button sa pag-navigate <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Matuto pa</a> tungkol sa Simple View.</string>
+    <string name="simple_mode_summary">Padaliing mabasa ang text, at pasimplehin ang layout ng screen at navigation</string>
+    <string name="simple_mode_suw_description">Para sa mas maayos na disenyo at simpleng onboarding, awtomatikong magagawa ng Pixel na i-download ang mga mahalagang app at widget, i-optimize ang layout ng screen, i-adjust ang font, at higit pa</string>
+    <string name="simple_mode_suw_done_button">Tapos na</string>
+    <string name="simple_mode_switch_title">Gamitin ang Simple View</string>
+    <string name="simple_mode_title">Simple View</string>
+    <string name="simple_view_dialog_negative_button">Kanselahin</string>
+    <string name="simple_view_dialog_positive_button">Magpatuloy</string>
+    <string name="simple_view_feature_disabled_dialog_message">Kapag na-off ang Simple View, babalik ang iyong device sa orihinal nitong mga setting ng font, display, at layout. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Alamin kung paano</a> baguhin ang mga indibidwal na setting ng font na ito.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Babalik ang iyong device sa mga dating setting</string>
+    <string name="simple_view_feature_enabled_dialog_message">Mas malaki ang kasalukuyan mong font kaysa sa mga setting ng Simple View. Kapag ginamit ang Simple View, liliit ang font mo.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Liliit ang font</string>
     <string name="smart_battery_a11y_collapse_label">I-collapse, Adaptive Battery</string>
     <string name="smart_battery_a11y_expand_label">Palawakin, Adaptive Battery</string>
     <string name="smart_battery_footer">Para patagalin ang baterya, posibleng bawasan ng Adaptive Battery ang performance at aktibidad sa background. Baka maantala ang ilang notification.</string>
     <string name="smart_battery_manager_title">Mga kagustuhan sa Adaptive</string>
+    <string name="smart_battery_summary" product="default">Natututo ang Adaptive Battery sa paggamit mo ng telepono para patuloy na i-optimize kung paano ginagamit ng mga app ang baterya. Para mapatagal ang baterya, posibleng bawasan nito ang performance at i-delay nito ang mga notification.</string>
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="software_update_can_be_updated_header">Gawing mas mahusay pa ang iyong Pixel</string>
     <string name="software_update_detail_indication_1_update_available">May 1 update</string>
@@ -349,7 +397,8 @@ Tandaan: Hindi mo magagamit ang iyong fingerprint upang ma-unlock ang device na 
     <string name="software_update_up_to_date_summary">Up to date</string>
     <string name="software_update_up_to_specific_date_summary">Na-update sa %1$s</string>
     <string name="software_update_update_available_summary">May update</string>
-    <string name="sound_dashboard_summary">Volume, haptics, Huwag Istorbohin</string>
+    <string name="sound_dashboard_summary">Volume at haptics</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, haptics, Huwag Istorbohin</string>
     <string name="spatial_audio_head_tracking_available">Available ang pag-track ng ulo</string>
     <string name="spatial_audio_head_tracking_unavailable">Hindi available ang pag-track ng ulo</string>
     <string name="spatial_audio_title">Spatial audio</string>
@@ -399,4 +448,8 @@ Tandaan: Hindi mo magagamit ang iyong fingerprint upang ma-unlock ang device na 
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">I-tap para kumonekta</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Hindi makakonekta. I-tap para subukan ulit.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Kumokonekta…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> Matuto pa</annotation></string>
+    <string name="wireless_charging_learn_more_description">Matuto pa tungkol sa wireless na pag-charge</string>
+    <string name="wireless_charging_state">Nagcha-charge nang wireless •</string>
+    <string name="wireless_charging_state_and_duration">Nagcha-charge nang wireless • %1$s •</string>
 </resources>

@@ -18,7 +18,7 @@
             android:paddingStart="?android:listPreferredItemPaddingStart"
             android:textAlignment="viewStart"
             android:textAppearance="@*android:style/PreferenceFragment.Material"
-            android:textColor="?android:textColorSecondary" />
+            android:textColor="?android:attr/textColorSecondary" />
 
     </androidx.core.widget.NestedScrollView>
 

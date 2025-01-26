@@ -16,6 +16,12 @@
     <string name="adaptive_charging_title">(N)‏‮Adaptive‬‏ ‏‮Charging‬‏</string>
     <string name="adaptive_touch_sensitivity_summary">(N)‏‮Touch‬‏ ‏‮sensitivity‬‏ ‏‮will‬‏ ‏‮automatically‬‏ ‏‮adjust‬‏ ‏‮to‬‏ ‏‮your‬‏ ‏‮environment,‬‏ ‏‮activities‬‏ ‏‮and‬‏ ‏‮screen‬‏ ‏‮protector‬‏</string>
     <string name="adaptive_touch_sensitivity_title">(N)‏‮Adaptive‬‏ ‏‮touch‬‏</string>
+    <string name="adaptive_vibration_footer">"(N)‏‮Your‬‏ ‏‮phone's‬‏ ‏‮microphone‬‏ ‏‮and‬‏ ‏‮other‬‏ ‏‮sensors‬‏ ‏‮are‬‏ ‏‮used‬‏ ‏‮to‬‏ ‏‮determine‬‏ ‏‮sound‬‏ ‏‮levels‬‏ ‏‮and‬‏ ‏‮context.‬‏ ‏‮No‬‏ ‏‮data‬‏ ‏‮is‬‏ ‏‮ever‬‏ ‏‮recorded.‬‏"</string>
+    <string name="adaptive_vibration_settings_summary">(N)‏‮Automatically‬‏ ‏‮adjust‬‏ ‏‮your‬‏ ‏‮phone’s‬‏ ‏‮vibrations‬‏ ‏‮based‬‏ ‏‮on‬‏ ‏‮environment‬‏ ‏‮like‬‏ ‏‮when‬‏ ‏‮it’s‬‏ ‏‮in‬‏ ‏‮a‬‏ ‏‮pocket‬‏ ‏‮or‬‏ ‏‮a‬‏ ‏‮loud‬‏ ‏‮place‬‏</string>
+    <string name="adaptive_vibration_summary_off">(N)‏‮Off‬‏</string>
+    <string name="adaptive_vibration_summary_on">(N)‏‮On‬‏</string>
+    <string name="adaptive_vibration_title">(N)‏‮Adaptive‬‏ ‏‮vibration‬‏</string>
+    <string name="adaptive_vibration_toggle_title">(N)‏‮Use‬‏ ‏‮adaptive‬‏ ‏‮vibration‬‏</string>
     <string name="add_bypassed_application_hint">(N)‏‮No‬‏ ‏‮apps‬‏ ‏‮added‬‏</string>
     <string name="advanced_vpn_preference_group_title">(N)‏‮Built-in‬‏</string>
     <string name="all_apps_category_title">(N)‏‮All‬‏ ‏‮apps‬‏</string>
@@ -27,16 +33,6 @@
 
 ‏‮Revoking‬‏ ‏‮access‬‏ ‏‮will‬‏ ‏‮require‬‏ ‏‮the‬‏ ‏‮app‬‏ ‏‮to‬‏ ‏‮request‬‏ ‏‮your‬‏ ‏‮permission‬‏ ‏‮to‬‏ ‏‮collect‬‏ ‏‮and‬‏ ‏‮upload‬‏ ‏‮a‬‏ ‏‮bug‬‏ ‏‮report‬‏ ‏‮for‬‏ ‏‮each‬‏ ‏‮individual‬‏ ‏‮issue‬‏ ‏‮report.‬‏"</string>
     <string name="app_and_notification_dashboard_summary">(N)‏‮Assistant,‬‏ ‏‮recent‬‏ ‏‮apps,‬‏ ‏‮default‬‏ ‏‮apps‬‏</string>
-    <string name="audio_sharing_switch_title">(N)‏‮Share‬‏ ‏‮audio‬‏</string>
-    <string name="audio_sharing_title">(N)‏‮Audio‬‏ ‏‮sharing‬‏</string>
-    <string name="audio_streams_category_title">(N)‏‮Connect‬‏ ‏‮to‬‏ ‏‮a‬‏ ‏‮LE‬‏ ‏‮audio‬‏ ‏‮stream‬‏</string>
-    <string name="audio_streams_connect">(N)‏‮Connect‬‏</string>
-    <string name="audio_streams_disconnect">(N)‏‮Disconnect‬‏</string>
-    <string name="audio_streams_pref_title">(N)‏‮Nearby‬‏ ‏‮audio‬‏ ‏‮streams‬‏</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">"(N)‏‮QR‬‏ ‏‮code‬‏ ‏‮isn't‬‏ ‏‮a‬‏ ‏‮valid‬‏ ‏‮format‬‏"</string>
-    <string name="audio_streams_qr_code_scanner">(N)‏‮To‬‏ ‏‮start‬‏ ‏‮listening,‬‏ ‏‮center‬‏ ‏‮the‬‏ ‏‮QR‬‏ ‏‮code‬‏ ‏‮below‬‏</string>
-    <string name="audio_streams_qr_code_summary">(N)‏‮Connect‬‏ ‏‮to‬‏ ‏‮an‬‏ ‏‮audio‬‏ ‏‮stream‬‏ ‏‮using‬‏ ‏‮QR‬‏ ‏‮code‬‏</string>
-    <string name="audio_streams_title">(N)‏‮Audio‬‏ ‏‮streams‬‏</string>
     <string name="automatic_storage_manager_activation_warning">"(N)‏‮When‬‏ ‏‮you're‬‏ ‏‮connected,‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮still‬‏ ‏‮access‬‏ ‏‮photos‬‏ ‏‮and‬‏ ‏‮videos‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮quality‬‏ ‏‮you‬‏ ‏‮selected‬‏ ‏‮for‬‏ ‏‮backup‬‏"</string>
     <string name="automatic_storage_manager_days_title">(N)‏‮Remove‬‏ ‏‮backed‬‏ ‏‮up‬‏ ‏‮photos‬‏ ‏‮&amp;‬‏ ‏‮videos‬‏</string>
     <string name="automatic_storage_manager_deactivation_warning">"(N)‏‮Turn‬‏ ‏‮off‬‏ ‏‮Smart‬‏ ‏‮Storage?‬‏ 
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">(N)‏‮Charging‬‏ ‏‮to‬‏ ‏‮full‬‏</string>
     <string name="battery_tip_limited_temporarily_extra_summary">(N)‏‮To‬‏ ‏‮protect‬‏ ‏‮your‬‏ ‏‮battery,‬‏ ‏‮charging‬‏ ‏‮is‬‏ ‏‮paused‬‏ ‏‮at‬‏ %1$s ‏‮while‬‏ ‏‮your‬‏ ‏‮tablet‬‏ ‏‮is‬‏ ‏‮docked‬‏</string>
     <string name="battery_tip_smart_battery_summary">(N)‏‮Turn‬‏ ‏‮on‬‏ ‏‮Adaptive‬‏ ‏‮Battery‬‏</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">(N)‏‮Learn‬‏ ‏‮more‬‏ ‏‮about‬‏ ‏‮wireless‬‏ ‏‮charging‬‏</string>
-    <string name="battery_tip_wireless_charging_summary">(N)‏‮Charging‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮wirelessly‬‏ ‏‮may‬‏ ‏‮use‬‏ ‏‮more‬‏ ‏‮energy‬‏ ‏‮than‬‏ ‏‮other‬‏ ‏‮charging‬‏ ‏‮methods‬‏</string>
-    <string name="battery_tip_wireless_charging_title">(N)‏‮Wirelessly‬‏ ‏‮charging‬‏</string>
-    <string name="calls_and_alarms_device_title">(N)‏‮Calls‬‏ ‏‮and‬‏ ‏‮alarms‬‏</string>
+    <string name="charging_optimization_charge_label">(N)%1$s ‏‮-‬‏ ‏‮Done‬‏ ‏‮charging‬‏ ‏‮by‬‏ %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">(N)%1$s ‏‮-‬‏ ‏‮Done‬‏ ‏‮charging‬‏</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">(N)‏‮Done‬‏ ‏‮charging‬‏</string>
+    <string name="charging_optimization_remaining_time_label">(N)‏‮Done‬‏ ‏‮charging‬‏ ‏‮by‬‏ %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">(N)‏‮Done‬‏ ‏‮wirelessly‬‏ ‏‮charging‬‏ ‏‮•‬‏</string>
+    <string name="charging_optimization_wireless_remaining_time_label">(N)‏‮Done‬‏ ‏‮wirelessly‬‏ ‏‮charging‬‏ ‏‮by‬‏ %1$s ‏‮•‬‏</string>
     <string name="clear_calling_footer">"(N)‏‮To‬‏ ‏‮protect‬‏ ‏‮your‬‏ ‏‮privacy,‬‏ ‏‮Clear‬‏ ‏‮Calling‬‏ ‏‮does‬‏ ‏‮not‬‏ ‏‮send‬‏ ‏‮audio‬‏ ‏‮or‬‏ ‏‮conversations‬‏ ‏‮to‬‏ ‏‮Google.‬‏
 
 ‏‮Clear‬‏ ‏‮Calling‬‏ ‏‮works‬‏ ‏‮on‬‏ ‏‮Wi‑Fi‬‏ ‏‮calling‬‏ ‏‮and‬‏ ‏‮most‬‏ ‏‮networks,‬‏ ‏‮not‬‏ ‏‮available‬‏ ‏‮for‬‏ ‏‮3G‬‏ ‏‮networks.‬‏"</string>
@@ -147,11 +145,16 @@
 
 ‏‮Phishing‬‏ ‏‮is‬‏ ‏‮an‬‏ ‏‮attempt‬‏ ‏‮to‬‏ ‏‮steal‬‏ ‏‮sign-in‬‏ ‏‮credentials‬‏ ‏‮or‬‏ ‏‮other‬‏ ‏‮personal‬‏ ‏‮info.‬‏"</string>
     <string name="content_protection_preference_subpage_summary">(N)‏‮Scanning‬‏ ‏‮runs‬‏ ‏‮privately‬‏ ‏‮right‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮device,‬‏ ‏‮checking‬‏ ‏‮app‬‏ ‏‮activity‬‏ ‏‮for‬‏ ‏‮phishing‬‏ ‏‮or‬‏ ‏‮other‬‏ ‏‮deceptive‬‏ ‏‮behavior.‬‏ ‏‮If‬‏ ‏‮it’s‬‏ ‏‮detected,‬‏ ‏‮some‬‏ ‏‮app‬‏ ‏‮info‬‏ ‏‮is‬‏ ‏‮sent‬‏ ‏‮to‬‏ ‏‮Google‬‏ ‏‮Play‬‏ ‏‮Protect‬‏ ‏‮to‬‏ ‏‮confirm‬‏ ‏‮the‬‏ ‏‮threat‬‏ ‏‮and‬‏ ‏‮warn‬‏ ‏‮app‬‏ ‏‮users.‬‏</string>
-    <string name="contextual_timeout_description">(N)‏‮Automatically‬‏ ‏‮turns‬‏ ‏‮off‬‏ ‏‮your‬‏ ‏‮screen‬‏ ‏‮early‬‏ ‏‮if‬‏ ‏‮you’re‬‏ ‏‮not‬‏ ‏‮using‬‏ ‏‮your‬‏ ‏‮device‬‏</string>
+    <string name="contextual_timeout_description">(N)‏‮Automatically‬‏ ‏‮turns‬‏ ‏‮off‬‏ ‏‮your‬‏ ‏‮screen‬‏ ‏‮if‬‏ ‏‮you’re‬‏ ‏‮not‬‏ ‏‮using‬‏ ‏‮your‬‏ ‏‮device‬‏</string>
     <string name="contextual_timeout_title">(N)‏‮Adaptive‬‏ ‏‮timeout‬‏</string>
+    <string name="credentials_install_summary" product="default">(N)‏‮Install‬‏ ‏‮certificates‬‏ ‏‮from‬‏ ‏‮storage‬‏</string>
     <string name="dark_ui_text">(N)‏‮Dark‬‏ ‏‮theme‬‏ ‏‮uses‬‏ ‏‮a‬‏ ‏‮black‬‏ ‏‮background‬‏ ‏‮to‬‏ ‏‮help‬‏ ‏‮keep‬‏ ‏‮your‬‏ ‏‮battery‬‏ ‏‮alive‬‏ ‏‮longer.‬‏ ‏‮Dark‬‏ ‏‮theme‬‏ ‏‮schedules‬‏ ‏‮wait‬‏ ‏‮to‬‏ ‏‮turn‬‏ ‏‮on‬‏ ‏‮until‬‏ ‏‮your‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮off.‬‏</string>
     <string name="debugging_data_title">(N)‏‮Debugging‬‏ ‏‮data‬‏</string>
+    <string name="default_notification_summary">(N)‏‮Classic‬‏ ‏‮notification‬‏</string>
+    <string name="default_ringtone_summary">(N)‏‮Classic‬‏ ‏‮ringtone‬‏</string>
     <string name="discover_tips_button">(N)‏‮Discover‬‏ ‏‮tips‬‏</string>
+    <string name="display_dashboard_summary">(N)‏‮Dark‬‏ ‏‮theme,‬‏ ‏‮font‬‏ ‏‮size,‬‏ ‏‮touch‬‏</string>
+    <string name="display_settings">(N)‏‮Display‬‏ ‏‮&amp;‬‏ ‏‮touch‬‏</string>
     <string name="dock_setup_notification_text">(N)</string>
     <string name="dock_summary_charging_phone">(N)‏‮Charging‬‏ ‏‮phone‬‏</string>
     <string name="double_twist_for_camera_mode_summary">(N)‏‮To‬‏ ‏‮switch‬‏ ‏‮in‬‏ ‏‮and‬‏ ‏‮out‬‏ ‏‮of‬‏ ‏‮selfie‬‏ ‏‮mode‬‏ ‏‮in‬‏ ‏‮Google‬‏ ‏‮Camera,‬‏ ‏‮double-twist‬‏ ‏‮when‬‏ ‏‮you’re‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮app.‬‏</string>
@@ -160,7 +163,10 @@
     <string name="dream_no_screen_saver_preview_caption">(N)</string>
     <string name="dream_secondary_button_title">(N)</string>
     <string name="duration_less_than_one_minute">(N)‏‮Less‬‏ ‏‮than‬‏ ‏‮1‬‏ ‏‮minute‬‏</string>
-    <string name="enable_glanceable_hub_toggle">(N)‏‮Hub‬‏ ‏‮mode‬‏</string>
+    <string name="enable_glanceable_hub_toggle">(N)‏‮Show‬‏ ‏‮widgets‬‏ ‏‮on‬‏ ‏‮lock‬‏ ‏‮screen‬‏</string>
+    <string name="enable_glanceable_hub_toggle_summary">(N)‏‮Without‬‏ ‏‮unlocking‬‏ ‏‮your‬‏ ‏‮tablet‬‏</string>
+    <string name="erase_external_storage" product="default">(N)‏‮Erase‬‏ ‏‮USB‬‏ ‏‮storage‬‏</string>
+    <string name="erase_external_storage_description" product="default">(N)‏‮Erase‬‏ ‏‮all‬‏ ‏‮the‬‏ ‏‮data‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮internal‬‏ ‏‮USB‬‏ ‏‮storage,‬‏ ‏‮such‬‏ ‏‮as‬‏ ‏‮music‬‏ ‏‮or‬‏ ‏‮photos‬‏</string>
     <string name="extreme_battery_saver_summary">(N)‏‮Includes‬‏ ‏‮all‬‏ ‏‮changes‬‏ ‏‮listed‬‏ ‏‮above.‬‏ ‏‮Also‬‏ ‏‮pauses‬‏ ‏‮non-essential‬‏ ‏‮apps‬‏ ‏‮and‬‏ ‏‮their‬‏ ‏‮notifications.‬‏</string>
     <string name="extreme_battery_saver_title">(N)‏‮Extreme‬‏ ‏‮Battery‬‏ ‏‮Saver‬‏</string>
     <string name="face_confirmation_hide_illustration_description">(N)‏‮Now‬‏ ‏‮when‬‏ ‏‮you‬‏ ‏‮pick‬‏ ‏‮up‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮tap‬‏ ‏‮the‬‏ ‏‮screen,‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮use‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮unlock.‬‏</string>
@@ -204,8 +210,7 @@
 
 ‏‮Backup‬‏ ‏‮data‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮count‬‏ ‏‮towards‬‏ ‏‮your‬‏ ‏‮Drive‬‏ ‏‮storage‬‏ ‏‮quota.‬‏ ‏‮Large‬‏ ‏‮files,‬‏ ‏‮or‬‏ ‏‮files‬‏ ‏‮developers‬‏ ‏‮have‬‏ ‏‮chosen‬‏ ‏‮to‬‏ ‏‮exclude‬‏ ‏‮from‬‏ ‏‮the‬‏ ‏‮service‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮backed‬‏ ‏‮up.‬‏"</string>
     <string name="fullbackup_erase_dialog_message">(N)‏‮Stop‬‏ ‏‮backing‬‏ ‏‮up‬‏ ‏‮device‬‏ ‏‮data‬‏ ‏‮(such‬‏ ‏‮as‬‏ ‏‮Wi-Fi‬‏ ‏‮passwords‬‏ ‏‮and‬‏ ‏‮call‬‏ ‏‮history)‬‏ ‏‮and‬‏ ‏‮app‬‏ ‏‮data‬‏ ‏‮(such‬‏ ‏‮as‬‏ ‏‮settings‬‏ ‏‮and‬‏ ‏‮files‬‏ ‏‮stored‬‏ ‏‮by‬‏ ‏‮apps),‬‏ ‏‮plus‬‏ ‏‮erase‬‏ ‏‮all‬‏ ‏‮copies‬‏ ‏‮on‬‏ ‏‮Google‬‏ ‏‮Drive?‬‏</string>
-    <string name="gesture_settings_activity_title">(N)‏‮Gesture‬‏ ‏‮Navigation‬‏</string>
-    <string name="hub_mode_content_setting">(N)‏‮Allow‬‏ ‏‮any‬‏ ‏‮widget‬‏ ‏‮in‬‏ ‏‮hub‬‏ ‏‮mode‬‏</string>
+    <string name="help_footer_content_description">(N)‏‮About‬‏ %1$s‏‮.‬‏ %2$s</string>
     <string name="install_unknown_applications">(N)‏‮Allow‬‏ ‏‮installation‬‏ ‏‮of‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮sources‬‏ ‏‮other‬‏ ‏‮than‬‏ ‏‮the‬‏ ‏‮Play‬‏ ‏‮Store‬‏</string>
     <string name="keywords_accessibility_menu">(N)‏‮motor,‬‏ ‏‮quick‬‏ ‏‮menu,‬‏ ‏‮assistive‬‏ ‏‮menu,‬‏ ‏‮touch,‬‏ ‏‮dexterity,‬‏ ‏‮arthritis,‬‏ ‏‮rsi,‬‏ ‏‮stroke,‬‏ ‏‮tremor,‬‏ ‏‮multiple‬‏ ‏‮sclerosis,‬‏ ‏‮cerebral‬‏ ‏‮palsy,‬‏ ‏‮button,‬‏ ‏‮hardware,‬‏ ‏‮press,‬‏ ‏‮repetitive‬‏ ‏‮strain‬‏ ‏‮injury,‬‏ ‏‮hand,‬‏ ‏‮pain,‬‏ ‏‮accessible,‬‏ ‏‮help‬‏</string>
     <string name="keywords_adaptive_alert_vibration">(N)‏‮haptics,‬‏ ‏‮vibrate,‬‏ ‏‮phone,‬‏ ‏‮call,‬‏ ‏‮ring,‬‏ ‏‮alert,‬‏ ‏‮notifications,‬‏ ‏‮loud,‬‏ ‏‮quiet,‬‏ ‏‮noise,‬‏ ‏‮case,‬‏ ‏‮adaptive‬‏</string>
@@ -227,16 +232,25 @@
     <string name="keywords_touch_sensitivity">(N)‏‮touch,‬‏ ‏‮sensitivity,‬‏ ‏‮sensitive,‬‏ ‏‮screen‬‏ ‏‮protector,‬‏ ‏‮film,‬‏ ‏‮responsive,‬‏ ‏‮responsiveness‬‏</string>
     <string name="keywords_touch_sensitivity_settings">(N)‏‮touch,‬‏ ‏‮adaptive,‬‏ ‏‮sensitivity,‬‏ ‏‮sensitive,‬‏ ‏‮screen‬‏ ‏‮protector,‬‏ ‏‮film,‬‏ ‏‮responsive,‬‏ ‏‮responsiveness‬‏</string>
     <string name="keywords_voice_access">(N)‏‮voice,‬‏ ‏‮voice‬‏ ‏‮control,‬‏ ‏‮motor,‬‏ ‏‮hand,‬‏ ‏‮mic,‬‏ ‏‮microphone,‬‏ ‏‮dictation,‬‏ ‏‮talk,‬‏ ‏‮control‬‏</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">(N)‏‮Learn‬‏ ‏‮Mor</a>e‬‏</string>
     <string name="led_preference_title">(N)‏‮LED‬‏ ‏‮indicator‬‏ ‏‮patterns‬‏</string>
     <string name="legal_source_code_description">(N)‏‮Details‬‏ ‏‮about‬‏ ‏‮the‬‏ ‏‮source‬‏ ‏‮code‬‏ ‏‮for‬‏ ‏‮components‬‏ ‏‮made‬‏ ‏‮available‬‏ ‏‮as‬‏ ‏‮open‬‏ ‏‮source‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮found‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮Pixel‬‏ ‏‮help‬‏ ‏‮center.‬‏</string>
     <string name="legal_source_code_title">(N)‏‮Source‬‏ ‏‮code‬‏</string>
     <string name="limited_warranty_introduction">(N)‏‮Tap‬‏ ‏‮the‬‏ ‏‮country‬‏ ‏‮of‬‏ ‏‮purchase‬‏ ‏‮to‬‏ ‏‮view‬‏ ‏‮the‬‏ ‏‮warranty‬‏ ‏‮for‬‏ ‏‮this‬‏ ‏‮device.‬‏ ‏‮The‬‏ ‏‮warranty‬‏ ‏‮is‬‏ ‏‮also‬‏ ‏‮available‬‏ ‏‮at‬‏ ‏‮g.co/devicewarranty‬‏</string>
     <string name="limited_warranty_title">(N)‏‮Limited‬‏ ‏‮Warranty‬‏</string>
-    <string name="lockscreen_show_weather_summary">(N)‏‮See‬‏ ‏‮current‬‏ ‏‮weather‬‏ ‏‮conditions‬‏</string>
-    <string name="lockscreen_show_weather_title">(N)‏‮Show‬‏ ‏‮weather‬‏</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"(N)
+
+‏‮To‬‏ ‏‮clear‬‏ ‏‮music,‬‏ ‏‮pictures,‬‏ ‏‮and‬‏ ‏‮other‬‏ ‏‮user‬‏ ‏‮data,‬‏ ‏‮the"<b>‬‏ ‏‮USB‬‏ ‏‮storag</b>e‬‏ ‏‮needs‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮erased.‬‏</string>
     <string name="my_device_info_account_preference_title">(N)‏‮Google‬‏ ‏‮Account‬‏</string>
+    <string name="notification_dismissal_sync_summary">(N)‏‮Notifications‬‏ ‏‮dismissed‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮Pixel‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮tablet‬‏ ‏‮will‬‏ ‏‮no‬‏ ‏‮longer‬‏ ‏‮appear‬‏ ‏‮on‬‏ ‏‮both‬‏</string>
+    <string name="notification_dismissal_sync_title">(N)‏‮Dismiss‬‏ ‏‮notifications‬‏ ‏‮across‬‏ ‏‮Pixel‬‏ ‏‮devices‬‏</string>
+    <string name="overrided_google_settings_summary">(N)‏‮Google‬‏ ‏‮services‬‏ ‏‮&amp;‬‏ ‏‮preferences‬‏</string>
+    <string name="overrided_google_settings_title">(N)‏‮Sign‬‏ ‏‮in‬‏</string>
     <string name="owner_info_settings_edit_text_hint">(N)‏‮E.g.,‬‏ ‏‮Joe’s‬‏ ‏‮Pixel.‬‏</string>
     <string name="permit_debugging_data">(N)‏‮Allow‬‏ ‏‮bug‬‏ ‏‮report‬‏ ‏‮access‬‏</string>
+    <string name="phone_notification_channel_sound_title">(N)‏‮Sound‬‏ ‏‮&amp;‬‏ ‏‮Vibration‬‏</string>
+    <string name="phone_notification_title">(N)‏‮Notification‬‏ ‏‮alert‬‏</string>
+    <string name="phone_ringtone_title">(N)‏‮Ringtone‬‏ ‏‮alert‬‏</string>
     <string name="play_application_detail_indication_summary">(N)‏‮Check‬‏ ‏‮for‬‏ ‏‮updates‬‏</string>
     <string name="play_application_update_entry_title">(N)‏‮App‬‏ ‏‮updates‬‏</string>
     <string name="private_space_retry_summary">(N)‏‮Sign‬‏ ‏‮in‬‏ ‏‮to‬‏ ‏‮a‬‏ ‏‮Google‬‏ ‏‮Account‬‏ ‏‮to‬‏ ‏‮use‬‏ ‏‮with‬‏ ‏‮your‬‏ ‏‮private‬‏ ‏‮space‬‏</string>
@@ -247,7 +261,7 @@
     <string name="reverse_charging_auto_turn_on_subtitle">(N)‏‮Will‬‏ ‏‮turn‬‏ ‏‮on‬‏ ‏‮automatically‬‏ ‏‮for‬‏ ‏‮a‬‏ ‏‮short‬‏ ‏‮period‬‏ ‏‮when‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮is‬‏ ‏‮plugged‬‏ ‏‮into‬‏ ‏‮a‬‏ ‏‮charger‬‏</string>
     <string name="reverse_charging_auto_turn_on_title">(N)‏‮Turn‬‏ ‏‮on‬‏ ‏‮automatically‬‏</string>
     <string name="reverse_charging_charging_wirelessly_message">(N)‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮phone‬‏ ‏‮charging‬‏ ‏‮wirelessly‬‏</string>
-    <string name="reverse_charging_detail_charging_overheat_message">(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮is‬‏ ‏‮unavailable‬‏ ‏‮because‬‏ ‏‮Pixel‬‏ ‏‮is‬‏ ‏‮too‬‏ ‏‮hot.‬‏ ‏‮Wait‬‏ ‏‮for‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮cool‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮try‬‏ ‏‮again.‬‏</string>
+    <string name="reverse_charging_detail_charging_overheat_message">(N)‏‮Unavailable‬‏ ‏‮due‬‏ ‏‮to‬‏ ‏‮temperature.‬‏ ‏‮Wait‬‏ ‏‮for‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮cool‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮try‬‏ ‏‮again‬‏</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮is‬‏ ‏‮unavailable‬‏ ‏‮because‬‏ ‏‮phone‬‏ ‏‮is‬‏ ‏‮charging‬‏ ‏‮wirelessly‬‏</string>
     <string name="reverse_charging_detail_footer_title">(N)‏‮Your‬‏ ‏‮phone’s‬‏ ‏‮battery‬‏ ‏‮will‬‏ ‏‮run‬‏ ‏‮out‬‏ ‏‮faster‬‏ ‏‮when‬‏ ‏‮using‬‏ ‏‮Battery‬‏ ‏‮Share.‬‏ ‏‮Battery‬‏ ‏‮Share‬‏ ‏‮works‬‏ ‏‮with‬‏ ‏‮compatible‬‏ ‏‮ear‬‏ ‏‮buds,‬‏ ‏‮watches,‬‏ ‏‮phones,‬‏ ‏‮and‬‏ ‏‮more.‬‏ ‏‮For‬‏ ‏‮better‬‏ ‏‮charging,‬‏ ‏‮remove‬‏ ‏‮your‬‏ ‏‮phone’s‬‏ ‏‮case.‬‏</string>
     <string name="reverse_charging_detail_footer_title_advanced">"(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮works‬‏ ‏‮with‬‏ ‏‮compatible‬‏ ‏‮ear‬‏ ‏‮buds,‬‏ ‏‮phones,‬‏ ‏‮and‬‏ ‏‮more.‬‏
@@ -255,6 +269,7 @@
 ‏‮Your‬‏ ‏‮phone’s‬‏ ‏‮battery‬‏ ‏‮will‬‏ ‏‮run‬‏ ‏‮out‬‏ ‏‮faster‬‏ ‏‮when‬‏ ‏‮using‬‏ ‏‮this‬‏ ‏‮feature.‬‏ ‏‮Battery‬‏ ‏‮Share‬‏ ‏‮automatically‬‏ ‏‮turns‬‏ ‏‮off‬‏ ‏‮after‬‏ ‏‮a‬‏ ‏‮few‬‏ ‏‮minutes‬‏ ‏‮if‬‏ ‏‮another‬‏ ‏‮device‬‏ ‏‮isn’t‬‏ ‏‮detected.‬‏ ‏‮For‬‏ ‏‮better‬‏ ‏‮charging,‬‏ ‏‮remove‬‏ ‏‮your‬‏ ‏‮phone’s‬‏ ‏‮case‬‏ ‏‮and‬‏ ‏‮other‬‏ ‏‮items‬‏ ‏‮that‬‏ ‏‮may‬‏ ‏‮interfere,‬‏ ‏‮like‬‏ ‏‮metal‬‏ ‏‮objects.‬‏"</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮is‬‏ ‏‮unavailable‬‏ ‏‮because‬‏ ‏‮Battery‬‏ ‏‮Saver‬‏ ‏‮is‬‏ ‏‮on‬‏</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮is‬‏ ‏‮unavailable‬‏ ‏‮because‬‏ ‏‮USB-C‬‏ ‏‮device‬‏ ‏‮is‬‏ ‏‮plugged‬‏ ‏‮in‬‏</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮is‬‏ ‏‮unavailable‬‏ ‏‮during‬‏ ‏‮charging‬‏</string>
     <string name="reverse_charging_instructions_title">"(N)‏‮Charge‬‏ ‏‮other‬‏ ‏‮devices‬‏ ‏‮with‬‏ ‏‮your‬‏ ‏‮Pixel.‬‏
 ‏‮Flip‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮over‬‏ ‏‮to‬‏ ‏‮try.‬‏"</string>
     <string name="reverse_charging_is_off_summary">(N)‏‮Off‬‏</string>
@@ -262,7 +277,6 @@
     <string name="reverse_charging_is_on_and_discharging_summary">(N)‏‮Sharing‬‏ ‏‮battery‬‏</string>
     <string name="reverse_charging_is_on_summary">(N)‏‮On‬‏ ‏‮/‬‏ ‏‮Charge‬‏ ‏‮other‬‏ ‏‮devices‬‏</string>
     <string name="reverse_charging_main_switch">(N)‏‮Use‬‏ ‏‮Battery‬‏ ‏‮Share‬‏</string>
-    <string name="reverse_charging_overheat_summary">(N)‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮Pixel‬‏ ‏‮is‬‏ ‏‮too‬‏ ‏‮hot.‬‏ ‏‮Wait‬‏ ‏‮for‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮cool‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮try‬‏ ‏‮again.‬‏</string>
     <string name="reverse_charging_power_save_mode_is_on_message">(N)‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮Battery‬‏ ‏‮Saver‬‏ ‏‮is‬‏ ‏‮on‬‏</string>
     <string name="reverse_charging_sharing_level_message">(N)‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮battery‬‏ ‏‮is‬‏ ‏‮below‬‏ ‏‮sharing‬‏ ‏‮level‬‏</string>
     <string name="reverse_charging_switch_title">(N)‏‮Charge‬‏ ‏‮other‬‏ ‏‮devices‬‏ ‏‮by‬‏ ‏‮placing‬‏ ‏‮them‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮back‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮Pixel‬‏</string>
@@ -270,6 +284,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">(N)‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮USB-C‬‏ ‏‮device‬‏ ‏‮plugged‬‏ ‏‮in‬‏</string>
     <string name="reverse_charging_warning_summary">(N)‏‮Unavailable‬‏ ‏‮because‬‏ ‏‮battery‬‏ ‏‮is‬‏ ‏‮under‬‏ %1$s</string>
     <string name="reverse_charging_warning_title">(N)‏‮Battery‬‏ ‏‮Share‬‏ ‏‮is‬‏ ‏‮unavailable‬‏ ‏‮because‬‏ ‏‮battery‬‏ ‏‮is‬‏ ‏‮under‬‏ %1$s</string>
+    <string name="ringtone_synchronized_summary">(N)‏‮Synchronized‬‏</string>
     <string name="rtt_settings_always_visible">(N)‏‮Always‬‏ ‏‮visible‬‏</string>
     <string name="rtt_settings_no_visible">(N)‏‮Not‬‏ ‏‮visible‬‏</string>
     <string name="rtt_settings_title">(N)‏‮Real-time‬‏ ‏‮text‬‏ ‏‮(RTT)‬‏</string>
@@ -277,14 +292,14 @@
     <string name="screen_time_summary_usage_today">(N)%1$s ‏‮today‬‏</string>
     <string name="search_bar_account_avatar_content_description">(N)‏‮Profile‬‏ ‏‮picture,‬‏ ‏‮double‬‏ ‏‮tap‬‏ ‏‮to‬‏ ‏‮open‬‏ ‏‮Google‬‏ ‏‮Account‬‏</string>
     <string name="search_gesture_category_title">(N)‏‮Search‬‏</string>
+    <string name="search_gesture_feature_summary">(N)‏‮Touch‬‏ ‏‮and‬‏ ‏‮hold‬‏ ‏‮the‬‏ ‏‮Home‬‏ ‏‮button‬‏ ‏‮or‬‏ ‏‮the‬‏ ‏‮navigation‬‏ ‏‮handle‬‏ ‏‮to‬‏ ‏‮search‬‏ ‏‮using‬‏ ‏‮the‬‏ ‏‮content‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮screen.‬‏</string>
     <string name="search_gesture_feature_title">(N)‏‮Circle‬‏ ‏‮to‬‏ ‏‮Search‬‏</string>
-    <string name="search_long_press_home_button_summary">(N)‏‮Touch‬‏ ‏‮&amp;‬‏ ‏‮hold‬‏ ‏‮the‬‏ ‏‮home‬‏ ‏‮button‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮bottom‬‏ ‏‮of‬‏ ‏‮the‬‏ ‏‮screen,‬‏ ‏‮then‬‏ ‏‮circle‬‏ ‏‮or‬‏ ‏‮highlight‬‏ ‏‮anything‬‏ ‏‮to‬‏ ‏‮search‬‏</string>
-    <string name="search_press_hold_gesture_summary">(N)‏‮Touch‬‏ ‏‮&amp;‬‏ ‏‮hold‬‏ ‏‮the‬‏ ‏‮handle‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮bottom‬‏ ‏‮of‬‏ ‏‮the‬‏ ‏‮screen,‬‏ ‏‮then‬‏ ‏‮circle‬‏ ‏‮or‬‏ ‏‮highlight‬‏ ‏‮anything‬‏ ‏‮to‬‏ ‏‮search‬‏</string>
     <string name="security_dismiss_dialog_dismiss_button">(N)‏‮Dismiss‬‏</string>
     <string name="security_dismiss_dialog_title">(N)‏‮Dismiss‬‏ ‏‮this‬‏ ‏‮warning?‬‏</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">(N)‏‮Tap‬‏ ‏‮to‬‏ ‏‮set‬‏ ‏‮up‬‏</string>
     <string name="security_settings_face_enroll_consent_introduction_title">(N)‏‮Allow‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏</string>
     <string name="security_settings_face_enroll_education_message">(N)‏‮On‬‏ ‏‮the‬‏ ‏‮next‬‏ ‏‮screen,‬‏ ‏‮rotate‬‏ ‏‮your‬‏ ‏‮head‬‏ ‏‮to‬‏ ‏‮capture‬‏ ‏‮all‬‏ ‏‮angles‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮face‬‏</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">(N)‏‮On‬‏ ‏‮the‬‏ ‏‮next‬‏ ‏‮screen,‬‏ ‏‮hold‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮at‬‏ ‏‮eye‬‏ ‏‮level‬‏</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮setup‬‏ ‏‮timed‬‏ ‏‮out‬‏</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">(N)‏‮Now‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮use‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮you,‬‏ ‏‮like‬‏ ‏‮when‬‏ ‏‮you‬‏ ‏‮sign‬‏ ‏‮in‬‏ ‏‮to‬‏ ‏‮apps‬‏ ‏‮or‬‏ ‏‮approve‬‏ ‏‮a‬‏ ‏‮purchase‬‏</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"(N)‏‮Now‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮use‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮you,‬‏ ‏‮like‬‏ ‏‮when‬‏ ‏‮you‬‏ ‏‮sign‬‏ ‏‮in‬‏ ‏‮to‬‏ ‏‮apps‬‏ ‏‮or‬‏ ‏‮approve‬‏ ‏‮a‬‏ ‏‮purchase.‬‏
@@ -298,24 +313,40 @@
 ‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮works‬‏ ‏‮best‬‏ ‏‮when‬‏ ‏‮there’s‬‏ ‏‮enough‬‏ ‏‮light‬‏ ‏‮and‬‏ ‏‮you’re‬‏ ‏‮not‬‏ ‏‮wearing‬‏ ‏‮a‬‏ ‏‮mask‬‏ ‏‮or‬‏ ‏‮dark‬‏ ‏‮glasses.‬‏"</string>
     <string name="security_settings_face_enroll_finish_title">(N)‏‮Looks‬‏ ‏‮good!‬‏</string>
     <string name="security_settings_face_enroll_introduction_accessibility">(N)‏‮Setup‬‏ ‏‮for‬‏ ‏‮limited‬‏ ‏‮vision‬‏ ‏‮or‬‏ ‏‮head‬‏ ‏‮motion‬‏</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">(N)‏‮When‬‏ ‏‮using‬‏ ‏‮Face‬‏ ‏‮Unlock,‬‏ ‏‮your‬‏ ‏‮head‬‏ ‏‮may‬‏ ‏‮need‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮more‬‏ ‏‮directly‬‏ ‏‮in‬‏ ‏‮front‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮phone.‬‏</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">(N)‏‮Require‬‏ ‏‮eyes‬‏ ‏‮open‬‏</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"(N)‏‮You‬‏ ‏‮and‬‏ ‏‮your‬‏ ‏‮child‬‏ ‏‮can‬‏ ‏‮delete‬‏ ‏‮their‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮or‬‏ ‏‮turn‬‏ ‏‮off‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮in‬‏ ‏‮Settings.‬‏ ‏‮Face‬‏ ‏‮models‬‏ ‏‮are‬‏ ‏‮stored‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮until‬‏ ‏‮they’re‬‏ ‏‮deleted.&lt;br&gt;&lt;br&gt;Learn‬‏ ‏‮more‬‏ ‏‮at‬‏ ‏‮&lt;a‬‏ ‏‮href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;.‬‏"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">(N)‏‮You‬‏ ‏‮and‬‏ ‏‮your‬‏ ‏‮child‬‏ ‏‮are‬‏ ‏‮in‬‏ ‏‮control‬‏</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"(N)‏‮You‬‏ ‏‮can‬‏ ‏‮delete‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮or‬‏ ‏‮turn‬‏ ‏‮off‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮in‬‏ ‏‮Settings.‬‏ ‏‮Face‬‏ ‏‮models‬‏ ‏‮are‬‏ ‏‮stored‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮until‬‏ ‏‮you‬‏ ‏‮delete‬‏ ‏‮them.&lt;br&gt;&lt;br&gt;Learn‬‏ ‏‮more‬‏ ‏‮at‬‏ ‏‮&lt;a‬‏ ‏‮href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;.‬‏"</string>
     <string name="security_settings_face_enroll_introduction_control_title">(N)‏‮You’re‬‏ ‏‮in‬‏ ‏‮control‬‏</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮creates‬‏ ‏‮a‬‏ ‏‮unique‬‏ ‏‮model‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮child’s‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮them.‬‏ ‏‮To‬‏ ‏‮create‬‏ ‏‮this‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮during‬‏ ‏‮setup,‬‏ ‏‮your‬‏ ‏‮child‬‏ ‏‮will‬‏ ‏‮take‬‏ ‏‮images‬‏ ‏‮of‬‏ ‏‮their‬‏ ‏‮face‬‏ ‏‮from‬‏ ‏‮different‬‏ ‏‮angles.‬‏
+
+‏‮When‬‏ ‏‮they‬‏ ‏‮use‬‏ ‏‮Face‬‏ ‏‮Unlock,‬‏ ‏‮images‬‏ ‏‮are‬‏ ‏‮used‬‏ ‏‮to‬‏ ‏‮update‬‏ ‏‮their‬‏ ‏‮face‬‏ ‏‮model.‬‏ ‏‮Images‬‏ ‏‮used‬‏ ‏‮to‬‏ ‏‮create‬‏ ‏‮their‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮are‬‏ ‏‮not‬‏ ‏‮stored,‬‏ ‏‮but‬‏ ‏‮the‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮is‬‏ ‏‮stored‬‏ ‏‮securely‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮and‬‏ ‏‮never‬‏ ‏‮leaves‬‏ ‏‮the‬‏ ‏‮phone.‬‏ ‏‮All‬‏ ‏‮processing‬‏ ‏‮occurs‬‏ ‏‮securely‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮phone.‬‏"</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮creates‬‏ ‏‮a‬‏ ‏‮unique‬‏ ‏‮model‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮you.‬‏ ‏‮To‬‏ ‏‮create‬‏ ‏‮this‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮during‬‏ ‏‮setup,‬‏ ‏‮you‬‏ ‏‮will‬‏ ‏‮take‬‏ ‏‮images‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮from‬‏ ‏‮different‬‏ ‏‮angles.‬‏
+
+‏‮When‬‏ ‏‮you‬‏ ‏‮use‬‏ ‏‮Face‬‏ ‏‮Unlock,‬‏ ‏‮images‬‏ ‏‮are‬‏ ‏‮used‬‏ ‏‮to‬‏ ‏‮update‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮model.‬‏ ‏‮Images‬‏ ‏‮used‬‏ ‏‮to‬‏ ‏‮create‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮are‬‏ ‏‮not‬‏ ‏‮stored,‬‏ ‏‮but‬‏ ‏‮the‬‏ ‏‮face‬‏ ‏‮model‬‏ ‏‮is‬‏ ‏‮stored‬‏ ‏‮securely‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮and‬‏ ‏‮never‬‏ ‏‮leaves‬‏ ‏‮the‬‏ ‏‮phone.‬‏ ‏‮All‬‏ ‏‮processing‬‏ ‏‮occurs‬‏ ‏‮securely‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮phone.‬‏"</string>
     <string name="security_settings_face_enroll_introduction_how_title">(N)‏‮How‬‏ ‏‮it‬‏ ‏‮works‬‏</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮can‬‏ ‏‮require‬‏ ‏‮your‬‏ ‏‮child’s‬‏ ‏‮eyes‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮open‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮them.‬‏ ‏‮You‬‏ ‏‮and‬‏ ‏‮your‬‏ ‏‮child‬‏ ‏‮can‬‏ ‏‮turn‬‏ ‏‮this‬‏ ‏‮option‬‏ ‏‮on‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮in‬‏ ‏‮Settings.‬‏</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">(N)‏‮If‬‏ ‏‮your‬‏ ‏‮child‬‏ ‏‮normally‬‏ ‏‮wears‬‏ ‏‮eyeglasses,‬‏ ‏‮they‬‏ ‏‮can‬‏ ‏‮wear‬‏ ‏‮them‬‏ ‏‮during‬‏ ‏‮setup.‬‏</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">(N)‏‮Using‬‏ ‏‮your‬‏ ‏‮child’s‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮their‬‏ ‏‮phone‬‏ ‏‮may‬‏ ‏‮be‬‏ ‏‮less‬‏ ‏‮secure‬‏ ‏‮than‬‏ ‏‮a‬‏ ‏‮strong‬‏ ‏‮pattern,‬‏ ‏‮PIN,‬‏ ‏‮or‬‏ ‏‮password‬‏</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">(N)‏‮Looking‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮can‬‏ ‏‮unlock‬‏ ‏‮it‬‏ ‏‮even‬‏ ‏‮when‬‏ ‏‮they‬‏ ‏‮don’t‬‏ ‏‮intend‬‏ ‏‮to.‬‏ ‏‮Their‬‏ ‏‮phone‬‏ ‏‮can‬‏ ‏‮also‬‏ ‏‮be‬‏ ‏‮unlocked‬‏ ‏‮by‬‏ ‏‮someone‬‏ ‏‮who‬‏ ‏‮looks‬‏ ‏‮a‬‏ ‏‮lot‬‏ ‏‮like‬‏ ‏‮them,‬‏ ‏‮like‬‏ ‏‮an‬‏ ‏‮identical‬‏ ‏‮sibling,‬‏ ‏‮or‬‏ ‏‮if‬‏ ‏‮someone‬‏ ‏‮holds‬‏ ‏‮it‬‏ ‏‮up‬‏ ‏‮to‬‏ ‏‮their‬‏ ‏‮face.‬‏</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮can‬‏ ‏‮require‬‏ ‏‮your‬‏ ‏‮eyes‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮open‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮you.‬‏ ‏‮You‬‏ ‏‮can‬‏ ‏‮turn‬‏ ‏‮this‬‏ ‏‮option‬‏ ‏‮on‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮in‬‏ ‏‮Settings.‬‏</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">(N)‏‮Glasses‬‏ ‏‮or‬‏ ‏‮lightly‬‏ ‏‮tinted‬‏ ‏‮sunglasses‬‏ ‏‮are‬‏ ‏‮OK.‬‏</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">(N)‏‮Using‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮may‬‏ ‏‮be‬‏ ‏‮less‬‏ ‏‮secure‬‏ ‏‮than‬‏ ‏‮a‬‏ ‏‮strong‬‏ ‏‮pattern,‬‏ ‏‮PIN,‬‏ ‏‮or‬‏ ‏‮password‬‏</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">(N)‏‮Looking‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮can‬‏ ‏‮unlock‬‏ ‏‮it‬‏ ‏‮even‬‏ ‏‮when‬‏ ‏‮you‬‏ ‏‮don’t‬‏ ‏‮intend‬‏ ‏‮to.‬‏ ‏‮Your‬‏ ‏‮phone‬‏ ‏‮can‬‏ ‏‮also‬‏ ‏‮be‬‏ ‏‮unlocked‬‏ ‏‮by‬‏ ‏‮someone‬‏ ‏‮who‬‏ ‏‮looks‬‏ ‏‮a‬‏ ‏‮lot‬‏ ‏‮like‬‏ ‏‮you,‬‏ ‏‮like‬‏ ‏‮an‬‏ ‏‮identical‬‏ ‏‮sibling,‬‏ ‏‮or‬‏ ‏‮if‬‏ ‏‮someone‬‏ ‏‮holds‬‏ ‏‮it‬‏ ‏‮up‬‏ ‏‮to‬‏ ‏‮your‬‏ ‏‮face.‬‏</string>
     <string name="security_settings_face_enroll_introduction_info_title">(N)‏‮Keep‬‏ ‏‮in‬‏ ‏‮mind‬‏</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">(N)‏‮Use‬‏ ‏‮your‬‏ ‏‮face‬‏ ‏‮to‬‏ ‏‮unlock‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮or‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮you,‬‏ ‏‮like‬‏ ‏‮when‬‏ ‏‮you‬‏ ‏‮sign‬‏ ‏‮in‬‏ ‏‮to‬‏ ‏‮apps‬‏ ‏‮or‬‏ ‏‮approve‬‏ ‏‮a‬‏ ‏‮purchase.‬‏</string>
     <string name="security_settings_face_enroll_introduction_title">(N)‏‮Set‬‏ ‏‮up‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏</string>
     <string name="security_settings_face_enroll_next">(N)‏‮Next‬‏</string>
     <string name="security_settings_face_enroll_partial_message">(N)‏‮To‬‏ ‏‮improve‬‏ ‏‮performance,‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮set‬‏ ‏‮up‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮again‬‏ ‏‮in‬‏ ‏‮Settings‬‏</string>
     <string name="security_settings_face_enroll_partial_start_over">(N)‏‮Start‬‏ ‏‮over‬‏</string>
     <string name="security_settings_face_enroll_partial_title">(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮setup‬‏ ‏‮finished‬‏</string>
-    <string name="security_settings_face_enroll_timeout_message">"(N)‏‮Try‬‏ ‏‮fast‬‏ ‏‮setup‬‏ ‏‮instead.‬‏ ‏‮Keep‬‏ ‏‮in‬‏ ‏‮mind,‬‏ ‏‮your‬‏ ‏‮head‬‏ ‏‮may‬‏ ‏‮need‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮more‬‏ ‏‮directly‬‏ ‏‮in‬‏ ‏‮front‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮when‬‏ ‏‮using‬‏ ‏‮Face‬‏ ‏‮Unlock.‬‏
+    <string name="security_settings_face_enroll_timeout_message">"(N)‏‮Try‬‏ ‏‮Fast‬‏ ‏‮Setup‬‏ ‏‮instead.‬‏ ‏‮Keep‬‏ ‏‮in‬‏ ‏‮mind,‬‏ ‏‮your‬‏ ‏‮head‬‏ ‏‮may‬‏ ‏‮need‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮more‬‏ ‏‮directly‬‏ ‏‮in‬‏ ‏‮front‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮when‬‏ ‏‮using‬‏ ‏‮Face‬‏ ‏‮Unlock.‬‏
 
 ‏‮To‬‏ ‏‮improve‬‏ ‏‮performance,‬‏ ‏‮you‬‏ ‏‮can‬‏ ‏‮set‬‏ ‏‮up‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮again‬‏ ‏‮in‬‏ ‏‮Settings.‬‏"</string>
     <string name="security_settings_face_enroll_timeout_title">(N)‏‮Can’t‬‏ ‏‮continue‬‏ ‏‮setup‬‏</string>
     <string name="security_settings_face_enroll_timeout_try_again">(N)‏‮Try‬‏ ‏‮again‬‏</string>
-    <string name="security_settings_face_enroll_timeout_use_fast_setup">(N)‏‮Use‬‏ ‏‮fast‬‏ ‏‮setup‬‏</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">(N)‏‮Use‬‏ ‏‮Fast‬‏ ‏‮Setup‬‏</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">(N)‏‮Exit‬‏ ‏‮setup‬‏</string>
     <string name="security_settings_face_enroll_too_hot_message">(N)‏‮Face‬‏ ‏‮Unlock‬‏ ‏‮setup‬‏ ‏‮can’t‬‏ ‏‮be‬‏ ‏‮completed‬‏ ‏‮because‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮is‬‏ ‏‮too‬‏ ‏‮hot.‬‏ ‏‮Try‬‏ ‏‮again‬‏ ‏‮later‬‏ ‏‮when‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮cools‬‏ ‏‮down.‬‏</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">(N)‏‮Skip‬‏ ‏‮Face‬‏ ‏‮Unlock‬‏</string>
@@ -331,7 +362,9 @@
     <string name="security_settings_fingerprint_preference_summary_none">(N)‏‮Tap‬‏ ‏‮to‬‏ ‏‮set‬‏ ‏‮up‬‏ ‏‮fingerprint‬‏</string>
     <string name="security_settings_fingerprint_preference_title">(N)‏‮Nexus‬‏ ‏‮Imprint‬‏</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">(N)‏‮Pixel‬‏ ‏‮Imprint‬‏ ‏‮creates‬‏ ‏‮a‬‏ ‏‮unique‬‏ ‏‮model‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮fingerprint‬‏ ‏‮to‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮you.‬‏ ‏‮To‬‏ ‏‮create‬‏ ‏‮this‬‏ ‏‮fingerprint‬‏ ‏‮model‬‏ ‏‮during‬‏ ‏‮setup,‬‏ ‏‮you‬‏ ‏‮will‬‏ ‏‮take‬‏ ‏‮images‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮fingerprint‬‏ ‏‮from‬‏ ‏‮different‬‏ ‏‮positions.‬‏</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">(N)‏‮You‬‏ ‏‮can‬‏ ‏‮delete‬‏ ‏‮your‬‏ ‏‮fingerprint‬‏ ‏‮model,‬‏ ‏‮or‬‏ ‏‮turn‬‏ ‏‮off‬‏ ‏‮Pixel‬‏ ‏‮Imprint‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮in‬‏ ‏‮Settings.‬‏ ‏‮Fingerprint‬‏ ‏‮models‬‏ ‏‮are‬‏ ‏‮stored‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮until‬‏ ‏‮you‬‏ ‏‮delete‬‏ ‏‮them.‬‏</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">(N)‏‮Pixel‬‏ ‏‮Imprint‬‏ ‏‮creates‬‏ ‏‮a‬‏ ‏‮unique‬‏ ‏‮model‬‏ ‏‮of‬‏ ‏‮your‬‏ ‏‮child’s‬‏ ‏‮fingerprint‬‏ ‏‮to‬‏ ‏‮verify‬‏ ‏‮it’s‬‏ ‏‮them.‬‏ ‏‮To‬‏ ‏‮create‬‏ ‏‮this‬‏ ‏‮fingerprint‬‏ ‏‮model‬‏ ‏‮during‬‏ ‏‮setup,‬‏ ‏‮they‬‏ ‏‮will‬‏ ‏‮take‬‏ ‏‮images‬‏ ‏‮of‬‏ ‏‮their‬‏ ‏‮fingerprint‬‏ ‏‮from‬‏ ‏‮different‬‏ ‏‮positions.‬‏</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">(N)‏‮You‬‏ ‏‮and‬‏ ‏‮your‬‏ ‏‮child‬‏ ‏‮can‬‏ ‏‮delete‬‏ ‏‮their‬‏ ‏‮fingerprint‬‏ ‏‮model,‬‏ ‏‮or‬‏ ‏‮turn‬‏ ‏‮off‬‏ ‏‮Pixel‬‏ ‏‮Imprint‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮in‬‏ ‏‮Settings.‬‏ ‏‮Fingerprint‬‏ ‏‮models‬‏ ‏‮are‬‏ ‏‮stored‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮phone‬‏ ‏‮until‬‏ ‏‮they’re‬‏ ‏‮deleted.‬‏</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"(N)‏‮Learn‬‏ ‏‮more‬‏ ‏‮about‬‏ ‏‮Pixel‬‏ ‏‮fingerprint‬‏ ‏‮unlock‬‏ ‏‮at‬‏ ‏‮&lt;a‬‏ ‏‮href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;.‬‏"</string>
     <string name="security_settings_sfps_enroll_finger_center_title_immobile_overlay">(N)</string>
     <string name="security_settings_sfps_enroll_fingertip_title_immobile_overlay">(N)</string>
@@ -347,10 +380,25 @@
     <string name="setup_fingerprint_enroll_immobile_help_title">(N)</string>
     <string name="setup_suggestion_summary">(N)‏‮Just‬‏ ‏‮a‬‏ ‏‮few‬‏ ‏‮more‬‏ ‏‮steps‬‏</string>
     <string name="setup_suggestion_title">(N)‏‮Finish‬‏ ‏‮setting‬‏ ‏‮up‬‏</string>
+    <string name="show_stylus_pointer_icon">(N)‏‮Allow‬‏ ‏‮apps‬‏ ‏‮to‬‏ ‏‮show‬‏ ‏‮pointer‬‏ ‏‮while‬‏ ‏‮hovering‬‏</string>
+    <string name="simple_mode_category">(N)‏‮Quick‬‏ ‏‮access‬‏</string>
+    <string name="simple_mode_description">(N)‏‮Increase‬‏ ‏‮text‬‏ ‏‮and‬‏ ‏‮icon‬‏ ‏‮size,‬‏ ‏‮simplify‬‏ ‏‮layout,‬‏ ‏‮and‬‏ ‏‮add‬‏ ‏‮navigation‬‏ ‏‮buttons.<a href="https://support.google.com/pixelphone?p=pixel_simple_view">‬‏ ‏‮Learn‬‏ ‏‮mor</a>e‬‏ ‏‮about‬‏ ‏‮Simple‬‏ ‏‮View.‬‏</string>
+    <string name="simple_mode_summary">(N)‏‮Improve‬‏ ‏‮text‬‏ ‏‮legibility,‬‏ ‏‮and‬‏ ‏‮simplify‬‏ ‏‮screen‬‏ ‏‮layout‬‏ ‏‮and‬‏ ‏‮navigation‬‏</string>
+    <string name="simple_mode_suw_description">(N)‏‮For‬‏ ‏‮a‬‏ ‏‮cleaner‬‏ ‏‮design‬‏ ‏‮and‬‏ ‏‮simple‬‏ ‏‮onboarding,‬‏ ‏‮Pixel‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮download‬‏ ‏‮essential‬‏ ‏‮apps‬‏ ‏‮and‬‏ ‏‮widgets,‬‏ ‏‮optimize‬‏ ‏‮screen‬‏ ‏‮layout,‬‏ ‏‮adjust‬‏ ‏‮font,‬‏ ‏‮and‬‏ ‏‮more‬‏</string>
+    <string name="simple_mode_suw_done_button">(N)‏‮Done‬‏</string>
+    <string name="simple_mode_switch_title">(N)‏‮Use‬‏ ‏‮Simple‬‏ ‏‮View‬‏</string>
+    <string name="simple_mode_title">(N)‏‮Simple‬‏ ‏‮View‬‏</string>
+    <string name="simple_view_dialog_negative_button">(N)‏‮Cancel‬‏</string>
+    <string name="simple_view_dialog_positive_button">(N)‏‮Proceed‬‏</string>
+    <string name="simple_view_feature_disabled_dialog_message">(N)‏‮By‬‏ ‏‮turning‬‏ ‏‮off‬‏ ‏‮Simple‬‏ ‏‮View,‬‏ ‏‮your‬‏ ‏‮device‬‏ ‏‮will‬‏ ‏‮return‬‏ ‏‮to‬‏ ‏‮its‬‏ ‏‮original‬‏ ‏‮font,‬‏ ‏‮display,‬‏ ‏‮and‬‏ ‏‮layout‬‏ ‏‮settings.<a href="https://support.google.com/pixelphone?p=pixel_simple_view">‬‏ ‏‮Learn‬‏ ‏‮ho</a>w‬‏ ‏‮to‬‏ ‏‮change‬‏ ‏‮these‬‏ ‏‮individual‬‏ ‏‮font‬‏ ‏‮settings.‬‏</string>
+    <string name="simple_view_feature_disabled_dialog_title">(N)‏‮Your‬‏ ‏‮device‬‏ ‏‮will‬‏ ‏‮return‬‏ ‏‮to‬‏ ‏‮previous‬‏ ‏‮settings‬‏</string>
+    <string name="simple_view_feature_enabled_dialog_message">(N)‏‮Your‬‏ ‏‮current‬‏ ‏‮font‬‏ ‏‮is‬‏ ‏‮larger‬‏ ‏‮than‬‏ ‏‮the‬‏ ‏‮Simple‬‏ ‏‮View‬‏ ‏‮settings.‬‏ ‏‮Using‬‏ ‏‮Simple‬‏ ‏‮View‬‏ ‏‮will‬‏ ‏‮reduce‬‏ ‏‮your‬‏ ‏‮font‬‏ ‏‮size.‬‏</string>
+    <string name="simple_view_feature_enabled_dialog_title">(N)‏‮Font‬‏ ‏‮size‬‏ ‏‮will‬‏ ‏‮reduce‬‏</string>
     <string name="smart_battery_a11y_collapse_label">(N)‏‮Collapse,‬‏ ‏‮Adaptive‬‏ ‏‮Battery‬‏</string>
     <string name="smart_battery_a11y_expand_label">(N)‏‮Expand,‬‏ ‏‮Adaptive‬‏ ‏‮Battery‬‏</string>
     <string name="smart_battery_footer">(N)‏‮To‬‏ ‏‮extend‬‏ ‏‮battery‬‏ ‏‮life,‬‏ ‏‮Adaptive‬‏ ‏‮Battery‬‏ ‏‮may‬‏ ‏‮reduce‬‏ ‏‮performance‬‏ ‏‮and‬‏ ‏‮background‬‏ ‏‮activity.‬‏ ‏‮Some‬‏ ‏‮notifications‬‏ ‏‮may‬‏ ‏‮be‬‏ ‏‮delayed.‬‏</string>
     <string name="smart_battery_manager_title">(N)‏‮Adaptive‬‏ ‏‮preferences‬‏</string>
+    <string name="smart_battery_summary" product="default">(N)‏‮Adaptive‬‏ ‏‮Battery‬‏ ‏‮learns‬‏ ‏‮from‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮usage‬‏ ‏‮to‬‏ ‏‮continuously‬‏ ‏‮optimize‬‏ ‏‮how‬‏ ‏‮apps‬‏ ‏‮use‬‏ ‏‮battery.‬‏ ‏‮To‬‏ ‏‮extend‬‏ ‏‮battery‬‏ ‏‮life,‬‏ ‏‮it‬‏ ‏‮may‬‏ ‏‮reduce‬‏ ‏‮performance‬‏ ‏‮and‬‏ ‏‮delay‬‏ ‏‮notifications.‬‏</string>
     <string name="smart_battery_title">(N)‏‮Adaptive‬‏ ‏‮Battery‬‏</string>
     <string name="software_update_can_be_updated_header">(N)‏‮Make‬‏ ‏‮your‬‏ ‏‮Pixel‬‏ ‏‮even‬‏ ‏‮better‬‏</string>
     <string name="software_update_detail_indication_1_update_available">(N)‏‮1‬‏ ‏‮update‬‏ ‏‮available‬‏</string>
@@ -364,7 +412,8 @@
     <string name="software_update_up_to_date_summary">(N)‏‮Up‬‏ ‏‮to‬‏ ‏‮date‬‏</string>
     <string name="software_update_up_to_specific_date_summary">(N)‏‮Updated‬‏ ‏‮to‬‏ %1$s</string>
     <string name="software_update_update_available_summary">(N)‏‮Update‬‏ ‏‮available‬‏</string>
-    <string name="sound_dashboard_summary">(N)‏‮Volume,‬‏ ‏‮haptics,‬‏ ‏‮Do‬‏ ‏‮Not‬‏ ‏‮Disturb‬‏</string>
+    <string name="sound_dashboard_summary">(N)‏‮Volume‬‏ ‏‮and‬‏ ‏‮haptics‬‏</string>
+    <string name="sound_dashboard_summary_with_dnd">(N)‏‮Volume,‬‏ ‏‮haptics,‬‏ ‏‮Do‬‏ ‏‮Not‬‏ ‏‮Disturb‬‏</string>
     <string name="spatial_audio_head_tracking_available">(N)‏‮Head‬‏ ‏‮tracking‬‏ ‏‮is‬‏ ‏‮available‬‏</string>
     <string name="spatial_audio_head_tracking_unavailable">(N)‏‮Head‬‏ ‏‮tracking‬‏ ‏‮is‬‏ ‏‮not‬‏ ‏‮available‬‏</string>
     <string name="spatial_audio_title">(N)‏‮Spatial‬‏ ‏‮audio‬‏</string>
@@ -414,4 +463,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">(N)‏‮Tap‬‏ ‏‮to‬‏ ‏‮connect‬‏</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">(N)‏‮Can’t‬‏ ‏‮connect.‬‏ ‏‮Tap‬‏ ‏‮to‬‏ ‏‮try‬‏ ‏‮again.‬‏</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">(N)‏‮Connecting…‬‏</string>
+    <string name="wireless_charging_learn_more"><annotation id="url">(N)‏‮ Learn‬‏ ‏‮mor</annotation>e‬‏</string>
+    <string name="wireless_charging_learn_more_description">(N)‏‮Learn‬‏ ‏‮more‬‏ ‏‮about‬‏ ‏‮wireless‬‏ ‏‮charging‬‏</string>
+    <string name="wireless_charging_state">(N)‏‮Wirelessly‬‏ ‏‮charging‬‏ ‏‮•‬‏</string>
+    <string name="wireless_charging_state_and_duration">(N)‏‮Wirelessly‬‏ ‏‮charging‬‏ ‏‮•‬‏ %1$s ‏‮•‬‏</string>
 </resources>

@@ -17,9 +17,10 @@
         android:layout_marginBottom="4.0dip"
         android:layout_toStartOf="@id/toggle"
         android:letterSpacing="0.0"
+        android:maxLines="2"
         android:minHeight="28.0dip"
         android:text="@string/lockscreen_bypass_title"
-        android:textColor="?android:textColorPrimary"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="22.0sp" />
 
     <TextView

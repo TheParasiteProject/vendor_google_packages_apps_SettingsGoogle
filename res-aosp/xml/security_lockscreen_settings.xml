@@ -14,6 +14,12 @@
             android:title="@string/lock_screen_notifications_title"
             settings:keywords="@string/keywords_lock_screen_notif" />
 
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="enable_glanceable_hub_toggle"
+            android:summary="@string/enable_glanceable_hub_toggle_summary"
+            android:title="@string/enable_glanceable_hub_toggle"
+            settings:controller="com.google.android.settings.communal.GlanceableHubTogglePreferenceController" />
+
         <SwitchPreferenceCompat
             android:key="security_dispaly_lockscreen_bypass"
             android:summary="@string/lockscreen_bypass_summary"
@@ -51,6 +57,7 @@
 
         <Preference
             android:key="customizable_lock_screen_quick_affordances"
+            android:summary="@string/summary_placeholder"
             android:title="@string/lockscreen_quick_affordances_title"
             settings:controller="com.android.settings.display.CustomizableLockScreenQuickAffordancesPreferenceController" />
 
@@ -59,12 +66,6 @@
             android:summary="@string/lockscreen_double_line_clock_summary"
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
-
-        <SwitchPreferenceCompat
-            android:key="lockscreen_show_weather_switch"
-            android:summary="@string/lockscreen_show_weather_summary"
-            android:title="@string/lockscreen_show_weather_title"
-            settings:controller="com.google.android.settings.display.LockscreenWeatherPreferenceController" />
 
     </PreferenceCategory>
 
@@ -108,14 +109,6 @@
             android:summary="@string/doze_summary"
             android:title="@string/doze_title"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
-
-        <com.android.settings.custom.preference.RemotePreference
-            android:key="doze_device_settings"
-            android:title="@string/ambient_display_screen_title"
-            settings:requiresAction="org.lineageos.settings.device.DOZE_SETTINGS"
-            settings:replacesKey="ambient_display_always_on|ambient_display_notification">
-            <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
-        </com.android.settings.custom.preference.RemotePreference>
 
     </PreferenceCategory>
 

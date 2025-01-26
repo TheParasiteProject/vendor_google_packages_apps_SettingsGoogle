@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">Radi produženja vijeka trajanja baterije telefon uči vašu rutinu punjenja i čeka dok vam ne zatreba da se potpuno napuni.</string>
     <string name="adaptive_charging_link_a11y">Više informacija o prilagodljivom punjenju</string>
     <string name="adaptive_charging_main_switch_title">Koristi prilagodljivo punjenje</string>
-    <string name="adaptive_charging_time_estimate"><b>Prilagodljivo punjenje</b> • Napunit će se do %1$s</string>
+    <string name="adaptive_charging_time_estimate"><b>Prilagodljivo punjenje</b> • Potpuno će se napuniti do %1$s</string>
     <string name="adaptive_charging_title">Prilagodljivo punjenje</string>
     <string name="adaptive_touch_sensitivity_summary">Osjetljivost na dodir će se automatski podešavati okolini, aktivnostima i zaštiti ekrana</string>
     <string name="adaptive_touch_sensitivity_title">Prilagodljivi dodir</string>
+    <string name="adaptive_vibration_footer">Mikrofon telefona i drugi senzori se koriste za utvrđivanje jačine zvuka i konteksta. Nikakvi podaci se ne snimaju.</string>
+    <string name="adaptive_vibration_settings_summary">Automatski podešavajte vibracije telefona na osnovu okruženja, naprimjer kada je telefon u džepu ili na bučnom mjestu</string>
+    <string name="adaptive_vibration_summary_off">Isključeno</string>
+    <string name="adaptive_vibration_summary_on">Uključeno</string>
+    <string name="adaptive_vibration_title">Prilagodljiva vibracija</string>
+    <string name="adaptive_vibration_toggle_title">Koristi prilagodljivu vibraciju</string>
     <string name="add_bypassed_application_hint">Nije dodana nijedna aplikacija</string>
     <string name="advanced_vpn_preference_group_title">Ugrađeno</string>
     <string name="all_apps_category_title">Sve aplikacije</string>
@@ -27,16 +33,6 @@ Odobravanje pristupa će omogućiti ovoj aplikaciji da "<b>automatski prikuplja 
 
 Ako opozovete pristup, aplikacija će tražiti vaše odobrenje za prikupljanje i otpremanje izvještaja o greškama za svaki pojedinačni izvještaj o problemu."</string>
     <string name="app_and_notification_dashboard_summary">Asistent, nedavne aplikacije, zadane aplikacije</string>
-    <string name="audio_sharing_switch_title">Dijeli zvuk</string>
-    <string name="audio_sharing_title">Dijeljenje zvuka</string>
-    <string name="audio_streams_category_title">Povežite se s prijenosom zvuka LE Audio</string>
-    <string name="audio_streams_connect">Poveži</string>
-    <string name="audio_streams_disconnect">Prekini vezu</string>
-    <string name="audio_streams_pref_title">Prijenosi zvuka u blizini</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">Format QR koda nije važeći</string>
-    <string name="audio_streams_qr_code_scanner">Da počnete slušati, centrirajte QR kôd u nastavku</string>
-    <string name="audio_streams_qr_code_summary">Povežite se s prijenosom zvuka putem QR koda</string>
-    <string name="audio_streams_title">Prijenosi zvuka</string>
     <string name="automatic_storage_manager_activation_warning">Kada ste povezani, i dalje možete pristupiti fotografijama i videozapisima prema kvalitetu koji ste odabrali za sigurnosnu kopiju</string>
     <string name="automatic_storage_manager_days_title">Ukloni sigurnosne kopije fotografija i videozapisa</string>
     <string name="automatic_storage_manager_deactivation_warning">"Želite li isključiti Pametnu pohranu? 
@@ -73,10 +69,12 @@ Pametna pohrana neće osloboditi prostor kada vam prostor za pohranu bude skoro 
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Punjenje do maksimalnog kapaciteta</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Radi zaštite baterije punjenje je pauzirano na %1$s dok je tablet postavljen na priključnu stanicu</string>
     <string name="battery_tip_smart_battery_summary">Uključite prilagodljivu bateriju</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Više informacija o bežičnom punjenju</string>
-    <string name="battery_tip_wireless_charging_summary">Bežično punjenje telefona može koristiti više energije od drugih načina punjenja</string>
-    <string name="battery_tip_wireless_charging_title">Bežično punjenje</string>
-    <string name="calls_and_alarms_device_title">Pozivi i alarmi</string>
+    <string name="charging_optimization_charge_label">%1$s – Punjenje će biti gotovo do %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s – punjenje je gotovo</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Punjenje je gotovo</string>
+    <string name="charging_optimization_remaining_time_label">Punjenje će biti gotovo do %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Bežično punjenje je gotovo •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Bežično punjenje će biti gotovo do %1$s •</string>
     <string name="clear_calling_footer">"Radi zaštite vaše privatnosti razgovijetni pozivi ne šalju zvuk ili razgovore Googleu.
 
 Razgovijetni pozivi funkcioniraju u Pozivanju putem WiFi-ja i na većini mreža, a nisu dostupni za 3G mreže."</string>
@@ -134,7 +132,7 @@ Razgovijetni pozivi funkcioniraju u Pozivanju putem WiFi-ja i na većini mreža,
     <string name="communal_settings_title">Način rada središta</string>
     <string name="communal_smartspace_summary">Podsjetnici, upozorenja i drugo od Asistenta</string>
     <string name="communal_smartspace_title">Brzi pregled</string>
-    <string name="communal_what_to_show">Šta prikazati</string>
+    <string name="communal_what_to_show">Šta prikazivati</string>
     <string name="communal_what_to_use">Šta koristiti</string>
     <string name="connectivity_helper_call_quality_category">Kvalitet poziva</string>
     <string name="connectivity_helper_call_quality_summary">Primajte obavještenja o uzrocima problema s vezom tokom poziva</string>
@@ -147,14 +145,22 @@ Razgovijetni pozivi funkcioniraju u Pozivanju putem WiFi-ja i na većini mreža,
 
 Krađa identiteta je pokušaj krađe akreditiva za prijavu ili drugih ličnih informacija."</string>
     <string name="content_protection_preference_subpage_summary">Skeniranje se privatno provodi direktno na uređaju i njime se provjerava aktivnost aplikacije radi otkrivanja krađe identiteta ili drugog obmanjujućeg ponašanja. Ako se otkrije, određene informacije o aplikaciji se šalju Google Play zaštiti da se potvrdi prijetnja i upozore korisnici aplikacije.</string>
-    <string name="contextual_timeout_description">Automatski isključuje ekran ranije ako ne koristite uređaj</string>
+    <string name="contextual_timeout_description">Automatski isključuje ekran ako ne koristite uređaj</string>
     <string name="contextual_timeout_title">Prilagodljivi istek vremena</string>
+    <string name="credentials_install_summary" product="default">Instaliranje certifikata iz pohrane</string>
     <string name="debugging_data_title">Podaci o otklanjanju grešaka</string>
+    <string name="default_notification_summary">Klasično obavještenje</string>
+    <string name="default_ringtone_summary">Klasična melodija zvona</string>
     <string name="discover_tips_button">Otkrijte savjete</string>
+    <string name="display_dashboard_summary">Tamna tema, veličina fonta, dodir</string>
+    <string name="display_settings">Ekran i dodir</string>
     <string name="dock_summary_charging_phone">Punjenje telefona</string>
     <string name="double_twist_for_camera_mode_summary">Da uključite ili isključite način za snimanje selfija u Google Kameri, dvaput zakrenite uređaj dok ste u aplikaciji.</string>
     <string name="duration_less_than_one_minute">manje od 1 minute</string>
-    <string name="enable_glanceable_hub_toggle">Način rada središta</string>
+    <string name="enable_glanceable_hub_toggle">Prikazuj vidžete na zaključanom ekranu</string>
+    <string name="enable_glanceable_hub_toggle_summary">Bez otključavanja tableta</string>
+    <string name="erase_external_storage" product="default">Izbriši USB pohranu</string>
+    <string name="erase_external_storage_description" product="default">Izbrišite sve podatke na unutrašnjoj USB pohrani, poput muzike ili fotografija</string>
     <string name="extreme_battery_saver_summary">Obuhvata sve promjene navedene iznad. Također pauzira neprioritetne aplikacije i njihova obavještenja.</string>
     <string name="extreme_battery_saver_title">Ekstremna ušteda baterije</string>
     <string name="face_confirmation_hide_illustration_description">Sada kada uzmete telefon ili dodirnete ekran možete ga otključati licem.</string>
@@ -198,8 +204,7 @@ Kada uključite automatsku izradu sigurnosnih kopija, podaci iz uređaja i aplik
 
 Sigurnosne kopije podataka se neće uračunavati u kvotu za pohranu na vašem Disku. Za velike fajlove ili fajlove koji su isključeni iz ove usluge na osnovu odluke programera, neće biti pravljena sigurnosna kopija."</string>
     <string name="fullbackup_erase_dialog_message">Želite li prestati praviti sigurnosne kopije za podatke sa uređaja (poput lozinke za WiFi te istorije poziva) i za podatke aplikacija (poput postavki i fajlova koje pohranjuju aplikacije) te izbrisati sve kopije s Google Diska?</string>
-    <string name="gesture_settings_activity_title">Navigacija pokretima</string>
-    <string name="hub_mode_content_setting">Dozvoli bilo koji vidžet u načinu rada središta</string>
+    <string name="help_footer_content_description">O stranici %1$s. %2$s</string>
     <string name="install_unknown_applications">Dozvoli instalaciju aplikacija osim onih iz Play trgovine</string>
     <string name="keywords_accessibility_menu">motorika, brzi meni, pomoćni meni, dodir, pokretljivost ruku, artritis, RSI, moždani udar, tremor, multipla skleroza, cerebralna paraliza, dugme, hardver, pritisak, povreda uzrokovana učestalim ponavljanjem radnje, ruka, bol, pristupačno, pomoć</string>
     <string name="keywords_adaptive_alert_vibration">haptika, vibriranje, telefon, poziv, zvono, upozorenje, obavještenja, glasno, tiho, buka, slučaj, prilagodljivo</string>
@@ -222,16 +227,25 @@ Sigurnosne kopije podataka se neće uračunavati u kvotu za pohranu na vašem Di
     <string name="keywords_touch_sensitivity">dodir, osjetljivost, osjetljiv, zaštita ekrana, film, odgovor, odgovaranje</string>
     <string name="keywords_touch_sensitivity_settings">ekran na dodir, prilagodljivo, osjetljivost, osjetljivo, zaštita ekrana, folija, odzivno, odziv</string>
     <string name="keywords_voice_access">glas, glasovna kontrola, motorika, ruka, mikrofon, diktiranje, govor, kontrola</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Saznajte više</a></string>
     <string name="led_preference_title">Uzorci LED indikatora</string>
     <string name="legal_source_code_description">Detalji o izvornom kodu komponenti dostupnih kao otvoreni kôd mogu se pronaći u Pixelovom centru za pomoć.</string>
     <string name="legal_source_code_title">Izvorni kôd</string>
     <string name="limited_warranty_introduction">Dodirnite zemlju kupovine da pregledate garanciju za ovaj uređaj. Garancija je dostupna i na g.co/devicewarranty</string>
     <string name="limited_warranty_title">Ograničena garancija</string>
-    <string name="lockscreen_show_weather_summary">Pogledajte trenutne vremenske uslove</string>
-    <string name="lockscreen_show_weather_title">Prikaži vrijeme</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Da obrišete muziku, slike i druge korisničke podatke, potrebno je potpuno izbrisati podatke s "<b>USB pohrane</b>.</string>
     <string name="my_device_info_account_preference_title">Google račun</string>
+    <string name="notification_dismissal_sync_summary">Obavještenja odbačena na Pixel telefonu ili tabletu se više neće pojavljivati na oba uređaja</string>
+    <string name="notification_dismissal_sync_title">Odbaci obavještenja na drugim Pixel uređajima</string>
+    <string name="overrided_google_settings_summary">Googleove usluge i postavke</string>
+    <string name="overrided_google_settings_title">Prijava</string>
     <string name="owner_info_settings_edit_text_hint">Npr. Edinov Pixel.</string>
     <string name="permit_debugging_data">Dozvoli pristup izvještajima o greškama</string>
+    <string name="phone_notification_channel_sound_title">Zvuk i vibracija</string>
+    <string name="phone_notification_title">Obavještenje</string>
+    <string name="phone_ringtone_title">Obavještenje melodijom zvona</string>
     <string name="play_application_detail_indication_summary">Provjerite ima li ažuriranja</string>
     <string name="play_application_update_entry_title">Ažuriranja aplikacija</string>
     <string name="private_space_retry_summary">Prijavite se na Google račun da ga koristite s privatnim prostorom</string>
@@ -242,14 +256,15 @@ Sigurnosne kopije podataka se neće uračunavati u kvotu za pohranu na vašem Di
     <string name="reverse_charging_auto_turn_on_subtitle">Uključit će se automatski nakratko kada se telefon priključi na punjač</string>
     <string name="reverse_charging_auto_turn_on_title">Automatski uključi</string>
     <string name="reverse_charging_charging_wirelessly_message">Nije dostupno jer se telefon bežično puni</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Dijeljenje baterije je nedostupno jer se Pixel previše zagrijao. Sačekajte da se telefon ohladi i pokušajte ponovo.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Nije dostupno zbog temperature. Pričekajte da se telefon ohladi i pokušajte ponovo</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Dijeljenje baterije je nedostupno jer se telefon bežično puni</string>
-    <string name="reverse_charging_detail_footer_title">Baterija telefona će se brže isprazniti kada koristite Dijeljenje baterije. Dijeljenje baterije funkcionira s kompatibilnim slušalicama, satovima, telefonima i drugim uređajima. Za bolje punjenje, uklonite masku uređaja.</string>
+    <string name="reverse_charging_detail_footer_title">"Baterija telefona će se brže isprazniti kada koristite Dijeljenje baterije. Dijeljenje baterije funkcionira s kompatibilnim slušalicama, satovima, telefonima i drugim uređajima. Za bolje punjenje  uklonite masku uređaja."</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Dijeljenje baterije funkcionira s kompatibilnim slušalicama, telefonima i drugim uređajima.
 
-Baterija telefona će se brže isprazniti kada koristite ovu funkciju. Dijeljenje baterije se automatski isključuje nakon nekoliko minuta ako se ne otkrije drugi uređaj. Za bolje punjenje, uklonite masku telefona i druge stvari koje mogu ometati, poput metalnih predmeta."</string>
+Baterija telefona će se brže isprazniti kada koristite ovu funkciju. Dijeljenje baterije se automatski isključuje nakon nekoliko minuta ako se ne otkrije drugi uređaj. Za bolje punjenje  uklonite masku telefona i druge stvari koje mogu ometati, poput metalnih predmeta."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Dijeljenje baterije je nedostupno jer je uključena Ušteda baterije</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Dijeljenje baterije je nedostupno jer je priključen USB-C uređaj</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Dijeljenje baterije nije dostupno tokom punjenja</string>
     <string name="reverse_charging_instructions_title">"Punite druge uređaje pomoću svog Pixela.
 Okrenite telefon i isprobajte."</string>
     <string name="reverse_charging_is_off_summary">Isključeno</string>
@@ -257,7 +272,6 @@ Okrenite telefon i isprobajte."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Dijeljenje baterije</string>
     <string name="reverse_charging_is_on_summary">Uključeno / Punjenje drugih uređaja</string>
     <string name="reverse_charging_main_switch">Koristi Dijeljenje baterije</string>
-    <string name="reverse_charging_overheat_summary">Nije dostupno jer se Pixel pregrijao. Sačekajte da se telefon ohladi i pokušajte ponovo.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Nije dostupno jer je uključena Ušteda baterije</string>
     <string name="reverse_charging_sharing_level_message">Nije dostupno jer je napunjenost baterije ispod nivoa za dijeljenje</string>
     <string name="reverse_charging_switch_title">Druge uređaje možete puniti kada ih stavite na poleđinu Pixela</string>
@@ -265,6 +279,7 @@ Okrenite telefon i isprobajte."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Nije dostupno jer je USB-C uređaj priključen</string>
     <string name="reverse_charging_warning_summary">Nije dostupno jer je napunjenost baterije ispod %1$s</string>
     <string name="reverse_charging_warning_title">Dijeljenje baterije je nedostupno jer je napunjenost baterije ispod %1$s</string>
+    <string name="ringtone_synchronized_summary">Sinhronizirano</string>
     <string name="rtt_settings_always_visible">Uvijek vidljivo</string>
     <string name="rtt_settings_no_visible">Nije vidljivo</string>
     <string name="rtt_settings_title">SMS-ovi u stvarnom vremenu (RTT)</string>
@@ -272,13 +287,13 @@ Okrenite telefon i isprobajte."</string>
     <string name="screen_time_summary_usage_today">Danas: %1$s</string>
     <string name="search_bar_account_avatar_content_description">Slika profila, dodirnite dvaput da otvorite Google račun</string>
     <string name="search_gesture_category_title">Pretraživanje</string>
+    <string name="search_gesture_feature_summary">Dodirnite i zadržite dugme za početnu stranicu ili ručicu za navigaciju da pretražujete pomoću sadržaja na ekranu.</string>
     <string name="search_gesture_feature_title">Pretraživanje zaokruživanjem</string>
-    <string name="search_long_press_home_button_summary">Dodirnite i zadržite dugme za početni ekran u donjem dijelu ekrana, a zatim zaokružite ili istaknite ono što želite pretražiti</string>
-    <string name="search_press_hold_gesture_summary">Dodirnite i zadržite ručicu u donjem dijelu ekrana, a zatim zaokružite ili istaknite ono što želite pretražiti</string>
     <string name="security_dismiss_dialog_dismiss_button">Odbaci</string>
     <string name="security_dismiss_dialog_title">Odbaciti ovo upozorenje?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Dodirnite da postavite</string>
     <string name="security_settings_face_enroll_education_message">Na sljedećem ekranu okrećite glavu da snimite sve uglove lica.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Na sljedećem ekranu držite telefon u visini očiju</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Postavljanje otključavanja licem je isteklo</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Sada možete licem otključati telefon ili potvrditi svoj identitet, naprimjer prilikom prijave u aplikacije ili odobravanja kupovine</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"Sada možete licem otključati telefon ili potvrditi identitet, npr. prilikom prijave u aplikacije ili odobravanja kupovine.
@@ -292,19 +307,35 @@ Otključavanje licem najbolje funkcionira kada ima dovoljno svjetla i kada ne no
 Otključavanje licem najbolje funkcionira kada ima dovoljno svjetla i kada ne nosite masku ili tamne naočale."</string>
     <string name="security_settings_face_enroll_finish_title">Izgleda dobro!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Ograničen vid ili pokreti glavom</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Možda ćete prilikom korištenja otključavanja licem morati postaviti glavu neposredno ispred telefona.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Zahtijeva da oči budu otvorene</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Vi i vaše dijete možete u svakom trenutku u Postavkama izbrisati model lica djeteta ili isključiti otključavanje licem. Modeli lica će biti pohranjeni na telefonu dok se ne izbrišu.&lt;br&gt;&lt;br&gt;Saznajte više na &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Vi i vaše dijete imate kontrolu</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"U Postavkama možete u svakom trenutku izbrisati svoj model lica ili isključiti otključavanje licem. Modeli lica će biti pohranjeni na telefonu dok ih ne izbrišete.&lt;br&gt;&lt;br&gt;Saznajte više na &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Vi upravljate svime</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Otključavanje licem kreira jedinstven model lica vašeg djeteta radi potvrde identiteta. Da se kreira ovaj model lica tokom postavljanja, vaše dijete će snimiti slike lica iz različitih uglova.
+
+Kada dijete koristi otključavanje licem, slike se koriste da se ažurira model lica. Slike koje se koriste da se kreira model lica djeteta se ne pohranjuju, ali model lica se sigurno pohranjuje na telefonu i nikada ga ne napušta. Sva obrada se sigurno vrši na telefonu."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Otključavanje licem kreira jedinstveni model vašeg lica radi potvrde identiteta. Da kreirate ovaj model lica tokom postavljanja, snimit ćete slike lica iz različitih uglova.
+
+Kada koristite otključavanje licem, slike se koriste da se ažurira model lica. Slike koje se koriste da se kreira vaš model lica se ne pohranjuju, ali model lica se sigurno pohranjuje na vašem telefonu i nikada ga ne napušta. Sva obrada se vrši sigurno na vašem telefonu."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Kako funkcionira</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Otključavanje licem može zahtijevati da oči vašeg djeteta budu otvorene radi otključavanja telefona ili potvrde identiteta djeteta. Vi i vaše dijete možete bilo kada uključiti tu opciju u Postavkama.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ako vaše dijete obično nosi naočale, može ih nositi tokom postavljanja.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Korištenje lica djeteta za otključavanje telefona može biti manje sigurno od jakog uzorka, PIN-a ili lozinke.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Dijete može otključati telefon ako pogleda u njega, čak i kada to ne namjerava. Telefon djeteta također može otključati osoba koja liči na dijete, kao što je identični blizanac, ili se može otključati ako ga neko prinese licu djeteta.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Otključavanje licem može zahtijevati da vaše oči budu otvorene radi otključavanja telefona ili potvrde identiteta. Tu opciju možete uvijek uključiti u Postavkama.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Možete nositi naočale ili blago zatamnjene sunčane naočale.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Korištenje lica za otključavanje telefona može biti manje sigurno od jakog uzorka, PIN-a ili lozinke</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Telefon možete otključati ako pogledate u njega čak i kada vam to nije namjera. Telefon također može otključati osoba koja liči na vas, kao što je identični blizanac, ili se može otključati ako ga neko prinese vašem licu.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Napomena</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Koristite lice da otključate telefon ili potvrdite svoj identitet, npr. prilikom prijavljivanja u aplikacije ili odobravanja kupovine.</string>
     <string name="security_settings_face_enroll_introduction_title">Postavite otključavanje licem</string>
     <string name="security_settings_face_enroll_next">Naprijed</string>
     <string name="security_settings_face_enroll_partial_message">Otključavanje licem možete ponovo postaviti u Postavkama radi poboljšanja performansi</string>
     <string name="security_settings_face_enroll_partial_start_over">Počni ispočetka</string>
     <string name="security_settings_face_enroll_partial_title">Postavljanje otključavanja licem je završeno</string>
-    <string name="security_settings_face_enroll_timeout_message">"Umjesto toga, pokušajte s brzim postavljanjem. Imajte na umu da ćete pri korištenju otključavanja licem morati postaviti glavu direktno ispred telefona.
+    <string name="security_settings_face_enroll_timeout_message">"Umjesto toga, isprobajte brzo postavljanje. Imajte na umu da ćete prilikom korištenja otključavanja licem morati postaviti glavu direktno ispred telefona.
 
 Otključavanje licem možete ponovo postaviti u Postavkama radi poboljšanja performansi."</string>
     <string name="security_settings_face_enroll_timeout_title">Nije moguće nastaviti postavljanje</string>
@@ -324,15 +355,34 @@ Napomena: Ne možete koristiti otisak prsta za otključavanje ovog uređaja. Za 
     <string name="security_settings_fingerprint_preference_summary_none">Dodirnite da postavite otisak prsta</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint kreira jedinstveni model vašeg otiska prsta radi potvrde vašeg identiteta. Da kreirate ovaj model otiska prsta tokom postavljanja, trebate snimiti slike otiska prsta u različitim položajima.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">Kada koristite Pixel Imprint, slike se koriste da se ažurira vaš model otiska prsta. Slike koje se koriste za kreiranje modela vašeg otiska prsta se nikada ne pohranjuju, ali model otiska prsta se sigurno pohranjuje na vašem telefonu i nikada ga ne napušta. Sva obrada se vrši sigurno na vašem telefonu.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">U Postavkama uvijek možete izbrisati model otiska prsta ili isključiti Pixel Imprint. Modeli otiska prsta će biti pohranjeni na telefonu dok ih ne izbrišete.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint kreira jedinstveni model otiska prsta vašeg djeteta radi potvrde vašeg identiteta. Da kreira ovaj model otiska prsta tokom postavljanja, dijete treba snimiti slike otiska prsta u različitim položajima.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">Kada dijete koristi Pixel Imprint, slike se koriste da se ažurira model otiska prsta djeteta. Slike koje se koriste da se kreira model otiska prsta djeteta se nikada ne pohranjuju, ali model otiska prsta se sigurno pohranjuje na telefonu i nikada ga ne napušta. Sva obrada se sigurno vrši na telefonu.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Vi i vaše dijete može izbrisati model otiska prsta djeteta ili isključiti Pixel Imprint bilo kada u Postavkama. Modeli otiska prsta će biti pohranjeni na telefonu dok ih ne izbrišete.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Saznajte više o otključavanju otiskom prsta na Pixelu na &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint za posao</string>
     <string name="setup_suggestion_summary">Još samo nekoliko koraka</string>
     <string name="setup_suggestion_title">Završite postavljanje</string>
+    <string name="show_stylus_pointer_icon">Dozvola aplikacijama da prikazuju pokazivač prilikom postavljanja pokazivača miša iznad stavke</string>
+    <string name="simple_mode_category">Brzi pristup</string>
+    <string name="simple_mode_description">Povećajte tekst i ikone, pojednostavite raspored i dodajte dugmad za kretanje. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Saznajte više</a> o jednostavnom prikazu.</string>
+    <string name="simple_mode_summary">Poboljšajte čitljivost teksta te pojednostavite raspored ekrana i navigaciju na njemu</string>
+    <string name="simple_mode_suw_description">Za pregledniji dizajn i jednostavno pristupanje Pixel može automatski preuzimati prioritetne aplikacije i vidžete, optimizirati raspored ekrana, podešavati font i drugo</string>
+    <string name="simple_mode_suw_done_button">Gotovo</string>
+    <string name="simple_mode_switch_title">Koristi jednostavni prikaz</string>
+    <string name="simple_mode_title">Jednostavni prikaz</string>
+    <string name="simple_view_dialog_negative_button">Otkaži</string>
+    <string name="simple_view_dialog_positive_button">Nastavi</string>
+    <string name="simple_view_feature_disabled_dialog_message">Isključivanjem jednostavnog prikaza uređaj će se vratiti na izvorne postavke fonta, prikaza i rasporeda. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Saznajte kako</a> promijeniti ove pojedinačne postavke fonta.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Uređaj će se vratiti na prethodne postavke</string>
+    <string name="simple_view_feature_enabled_dialog_message">Trenutni font je veći od postavki jednostavnog prikaza. Korištenjem jednostavnog prikaza smanjit će se veličina fonta.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Font će se smanjiti</string>
     <string name="smart_battery_a11y_collapse_label">Sužavanje, prilagodljiva baterija</string>
     <string name="smart_battery_a11y_expand_label">Proširivanje, prilagodljiva baterija</string>
     <string name="smart_battery_footer">Radi produženja vijeka trajanja baterije prilagodljiva baterija može smanjiti performanse i aktivnost u pozadini. Neka obavještenja mogu kasniti.</string>
     <string name="smart_battery_manager_title">Prilagodljive postavke</string>
+    <string name="smart_battery_summary" product="default">Prilagodljiva baterija uči iz korištenja telefona radi kontinuiranog optimiziranja načina na koji aplikacije koriste bateriju. Da produži vijek trajanja baterije, može smanjivati performanse i odgađati obavještenja.</string>
     <string name="smart_battery_title">Prilagodljiva baterija</string>
     <string name="software_update_can_be_updated_header">Još više poboljšajte Pixel</string>
     <string name="software_update_detail_indication_1_update_available">Dostupno je 1 ažuriranje</string>
@@ -342,11 +392,12 @@ Napomena: Ne možete koristiti otisak prsta za otključavanje ovog uređaja. Za 
     <string name="software_update_entry_up_to_date_summary">Održavajte Pixel ažurnim</string>
     <string name="software_update_pending_update_summary">Ažuriranje na čekanju</string>
     <string name="software_update_unknown_state_summary">Provjerite ponovo kasnije</string>
-    <string name="software_update_up_to_date_header">Pixel je ažuran</string>
+    <string name="software_update_up_to_date_header">Pixel je ažuriran</string>
     <string name="software_update_up_to_date_summary">Ažurno</string>
     <string name="software_update_up_to_specific_date_summary">Ažurirano je na dan %1$s</string>
     <string name="software_update_update_available_summary">Dostupno je ažuriranje</string>
-    <string name="sound_dashboard_summary">Jačina zvuka, haptika, Ne ometaj</string>
+    <string name="sound_dashboard_summary">Jačina zvuka i haptika</string>
+    <string name="sound_dashboard_summary_with_dnd">Jačina zvuka, haptika, Ne ometaj</string>
     <string name="spatial_audio_head_tracking_available">Praćenje položaja glave je dostupno</string>
     <string name="spatial_audio_head_tracking_unavailable">Praćenje položaja glave nije dostupno</string>
     <string name="speed_boost_summary_off">Isključeno</string>
@@ -354,7 +405,7 @@ Napomena: Ne možete koristiti otisak prsta za otključavanje ovog uređaja. Za 
     <string name="speed_boost_title">Pojačavanje brzine spektra</string>
     <string name="suggested_fingerprint_lock_settings_title">Koristite Pixel Imprint</string>
     <string name="suw_limited_warranty_title">Ograničena garancija</string>
-    <string name="suw_warranty_description">Da pregledate ograničenu garanciju, odaberite zemlju u kojoj ste kupili uređaj.&lt;br /&gt;&lt;br /&gt;Garancija je također dostupna u &lt;b&gt;Postavke &gt; O telefonu &gt; Ograničena garancija&lt;/b&gt; i na g.co/devicewarranty.</string>
+    <string name="suw_warranty_description">Da pregledate ograničenu garanciju, odaberite zemlju u kojoj ste kupili uređaj.&lt;br /&gt;&lt;br /&gt;Garancija je također dostupna u meniju &lt;b&gt;Postavke &gt; O telefonu &gt; Ograničena garancija&lt;/b&gt; i na g.co/devicewarranty.</string>
     <string name="suw_warranty_description_content">Da pregledate ograničenu garanciju, odaberite zemlju u kojoj ste kupili uređaj. Garancija je također dostupna u Postavkama, a zatim u odjeljcima O telefonu i Ograničena garancija i na g.co/devicewarranty.</string>
     <string name="suw_warranty_next_button_text">Naprijed</string>
     <string name="suw_warranty_positive_button_text">Zatvori</string>
@@ -395,4 +446,8 @@ Napomena: Ne možete koristiti otisak prsta za otključavanje ovog uređaja. Za 
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Dodirnite da se povežete</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Nije se moguće povezati. Dodirnite da pokušate ponovo.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Povezivanje…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> Saznajte više</annotation></string>
+    <string name="wireless_charging_learn_more_description">Više informacija o bežičnom punjenju</string>
+    <string name="wireless_charging_state">Bežično punjenje •</string>
+    <string name="wireless_charging_state_and_duration">Bežično punjenje • %1$s •</string>
 </resources>

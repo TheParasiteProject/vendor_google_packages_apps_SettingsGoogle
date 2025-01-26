@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingBottom="16.0dip"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingTop="8.0dip">
+
+    <TextView
+        android:id="@id/top_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_gravity="start"
+        android:longClickable="false"
+        android:maxLines="10"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textDirection="locale" />
+
+</LinearLayout>

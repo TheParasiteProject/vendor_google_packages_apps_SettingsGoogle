@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">Batareya ömrünü uzatmaq məqsədilə telefon şarj rejimini öyrənir və tam şarj üçün lazımi qədər gözləyir.</string>
     <string name="adaptive_charging_link_a11y">Adaptiv şarj haqqında ətraflı</string>
     <string name="adaptive_charging_main_switch_title">Adaptiv şarj istifadə edin</string>
-    <string name="adaptive_charging_time_estimate"><b>Uyğunlaşan Şarj</b> • Bu vaxtadək tam şarj olacaq: %1$s</string>
+    <string name="adaptive_charging_time_estimate"><b>Adaptiv Şarj</b> • %1$s radələrinə qədər tam dolacaq</string>
     <string name="adaptive_charging_title">Adaptiv şarj</string>
     <string name="adaptive_touch_sensitivity_summary">Toxunuş həssaslığı ətraf, fəaliyyət və ekran qoruyucunuza avtomatik uyğunlaşacaq</string>
     <string name="adaptive_touch_sensitivity_title">Adaptiv toxunuş</string>
+    <string name="adaptive_vibration_footer">Telefonunuzun mikrofonu və digər sensorlar səs səviyyələrini və konteksti müəyyən etmək üçün istifadə olunur. Heç bir data qeydə alınmır.</string>
+    <string name="adaptive_vibration_settings_summary">Telefonunuzun vibrasiyasını cibdə və ya səs-küylü yerdə olmasından asılı olaraq mühitə əsasən avtomatik tənzimləyin</string>
+    <string name="adaptive_vibration_summary_off">Deaktiv</string>
+    <string name="adaptive_vibration_summary_on">Aktiv</string>
+    <string name="adaptive_vibration_title">Adaptiv vibrasiya</string>
+    <string name="adaptive_vibration_toggle_title">Adaptiv vibrasiyadan istifadə edin</string>
     <string name="add_bypassed_application_hint">Tətbiq əlavə edilməyib</string>
     <string name="advanced_vpn_preference_group_title">Daxilə quraşdırılmış</string>
     <string name="all_apps_category_title">Bütün tətbiqlər</string>
@@ -27,16 +33,6 @@ Giriş imkanı verdikdə şəxsi və iş profillərinin tətbiq və sistem jurna
 
 Giriş imkanını ləğv etdikdə tətbiq hər problem hesabatı üzrə baq hesabatı toplamaq və yükləmək üçün icazə almalıdır."</string>
     <string name="app_and_notification_dashboard_summary">Assistent, ən son istifadə edilən tətbiqlər, defolt tətbiqlər</string>
-    <string name="audio_sharing_switch_title">Audio paylaşın</string>
-    <string name="audio_sharing_title">Audio paylaşımı</string>
-    <string name="audio_streams_category_title">LE audio yayımına qoşulun</string>
-    <string name="audio_streams_connect">Qoşun</string>
-    <string name="audio_streams_disconnect">Ayırın</string>
-    <string name="audio_streams_pref_title">Yaxınlıqdakı audio yayımları</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">QR kod doğru formatda deyil</string>
-    <string name="audio_streams_qr_code_scanner">Dinləməyə başlamaq üçün aşağıda QR kodu mərkəzə yerləşdirin</string>
-    <string name="audio_streams_qr_code_summary">QR kodu ilə audio yayımına qoşulun</string>
-    <string name="audio_streams_title">Audio yayımları</string>
     <string name="automatic_storage_manager_activation_warning">İnternetdəki foto və videolara yedəkləmək üçün seçdiyiniz keyfiyyətdə baxacaqsınız.</string>
     <string name="automatic_storage_manager_days_title">Yedəklənmiş foto və videoları silin</string>
     <string name="automatic_storage_manager_deactivation_warning">"Smart yaddaş deaktiv edilsin?
@@ -73,10 +69,12 @@ Yaddaşda yer qalmayanda köhnə materiallar silinməyəcək."</string>
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Tam dolana qədər şarj</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Batareyanı qorumaq üçün planşet doka yerləşdirilən zaman şarj %1$s səviyyəsində durdurulur</string>
     <string name="battery_tip_smart_battery_summary">Adaptiv Batareyanı aktiv edin</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Simsiz enerji haqqında ətraflı məlumat əldə edin</string>
-    <string name="battery_tip_wireless_charging_summary">Telefonu simsiz şarj etdikdə digər şarj metodları ilə müqayisədə çox enerji sərf edilə bilər</string>
-    <string name="battery_tip_wireless_charging_title">Simsiz enerji</string>
-    <string name="calls_and_alarms_device_title">Zəng və zəngli saatlar</string>
+    <string name="charging_optimization_charge_label">%1$s - %2$s radələrinə qədər şarjetmə bitəcək</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Şarjetmə tamamlandı</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Şarjetmə tamamlandı</string>
+    <string name="charging_optimization_remaining_time_label">%1$s radələrinə qədər şarjetmə bitəcək</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Simsiz şarjetmə tamamlandı •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Simsiz şarjetmə %1$s radələrinə qədər tamamlanacaq •</string>
     <string name="clear_calling_footer">"Məxfiliyi qorumaq üçün Təmiz səsli zəng audio və ya söhbətləri Google-a göndərmir.
 
 Təmiz səsli zəng Wi-Fi zəngi və əksər şəbəkələrdə işləyir. 3G şəbəkələri üçün əlçatan deyil."</string>
@@ -147,14 +145,22 @@ Təmiz səsli zəng Wi-Fi zəngi və əksər şəbəkələrdə işləyir. 3G ş�
 
 Fişinq giriş məlumatları və digər şəxsi məlumatları oğurlamaq cəhdidir."</string>
     <string name="content_protection_preference_subpage_summary">Skanlama cihazda gizli icra edilir. Tətbiq fəaliyyətində fişinq və ya digər aldadıcı davranışlar yoxlanır. Aşkarlansa, təhlükəni təsdiqləmək və tətbiq istifadəçilərini xəbərdar etmək üçün bəzi tətbiq məlumatları Google Play Protect-ə göndərilir.</string>
-    <string name="contextual_timeout_description">Cihazdan istifadə etmədikdə ekran avtomatik olaraq erkən sönür</string>
+    <string name="contextual_timeout_description">Cihazdan istifadə etmədikdə ekran avtomatik olaraq sönür</string>
     <string name="contextual_timeout_title">Adaptiv vaxt limiti</string>
+    <string name="credentials_install_summary" product="default">Sertifikatları yaddaşdan quraşdırın</string>
     <string name="debugging_data_title">Sazlama datası</string>
+    <string name="default_notification_summary">Klassik bildiriş</string>
+    <string name="default_ringtone_summary">Klassik zəng melodiyası</string>
     <string name="discover_tips_button">Məsləhətlərə baxın</string>
+    <string name="display_dashboard_summary">Tünd tema, şrift ölçüsü, toxunuş</string>
+    <string name="display_settings">Displey və toxunuş</string>
     <string name="dock_summary_charging_phone">Telefon batareya yığır</string>
     <string name="double_twist_for_camera_mode_summary">Arxa kameradan ön kameraya və ya əksinə keçmək üçün biləyinizi iki dəfə çevirin.</string>
     <string name="duration_less_than_one_minute">1 dəqiqədən az</string>
-    <string name="enable_glanceable_hub_toggle">Hab rejimi</string>
+    <string name="enable_glanceable_hub_toggle">Vidcetləri kilid ekranında göstərin</string>
+    <string name="enable_glanceable_hub_toggle_summary">Planşeti kiliddən çıxarmadan</string>
+    <string name="erase_external_storage" product="default">USB yaddaşı sil</string>
+    <string name="erase_external_storage_description" product="default">Daxili USB yaddaşında mahnı və ya şəkil kimi bütün datanı sil</string>
     <string name="extreme_battery_saver_summary">Yuxarıdakı bütün dəyişikliklər daxildir. Əsas olmayan tətbiqlərə və onların bildirişlərinə də pauza verir.</string>
     <string name="extreme_battery_saver_title">Yüksək Enerji Qənaəti</string>
     <string name="face_confirmation_hide_illustration_description">İndi telefonu götürəndə və ya ekrana toxunduqda kilidi açmaq üçün üzünüzdən istifadə edə bilərsiniz.</string>
@@ -162,7 +168,7 @@ Fişinq giriş məlumatları və digər şəxsi məlumatları oğurlamaq cəhdid
     <string name="face_confirmation_info_outside_screen">Üz ilə kiliddən çıxarma yalnız xarici ekrandan işləyir</string>
     <string name="face_enrolling_center_head">Üzünüzü iç çərçivəyə yerləşdirin</string>
     <string name="face_enrolling_close_to_continue">Ayarlama zamanı telefonu qatlayın</string>
-    <string name="face_enrolling_close_to_continue_description">Telefonu qatlayıb, Üz ilə kilidaçma ayarlamaq/işlətmək olar</string>
+    <string name="face_enrolling_close_to_continue_description">Üz ilə kilidaçma ayarlamaq və ya işlətmək üçün telefonu qatlayın.</string>
     <string name="face_enrolling_description">Mozaikləri kənarlaşdırmaqla üzünüzü bütün bucaqlardan çəkin.</string>
     <string name="face_enrolling_do_it_later">Sonraya saxlayın</string>
     <string name="face_enrolling_gaze_dialog_cancel">Ləğv edin</string>
@@ -198,8 +204,7 @@ Avtomatik yedəkləməni aktiv etdikdə, cihaz və tətbiq datası dövri olaraq
 
 Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən çıxarılmaq üçün seçilən böyük fayl və fayl developerləri yedəklənməyəcək."</string>
     <string name="fullbackup_erase_dialog_message">Cihaz datası (Wi-Fi parolları və zəng tarixçəsi) və tətbiq datasının (tətbiqlər tərəfindən saxlanılan ayar və fayllar) yedəklənməsi və Google Diskdə bütün nüsxələr silinsin?</string>
-    <string name="gesture_settings_activity_title">Jest naviqasiyası</string>
-    <string name="hub_mode_content_setting">Hab rejimində istənilən vidcetə icazə verin</string>
+    <string name="help_footer_content_description">%1$s haqqında. %2$s</string>
     <string name="install_unknown_applications">"Play Store'dan kənar mənbələrdən tətbiqləri quraşdırmağa imkan verir"</string>
     <string name="keywords_accessibility_menu">motorika, qısa menyu, yardımçı menyu, toxunuş, çeviklik, artrit, rsi, iflic, əsmə, dağınıq skleroz, serebral iflic, düymə, aparat, basma, təkrarlanan gərginlik zədəsi, əl, ağrı, əlçatan, kömək</string>
     <string name="keywords_adaptive_alert_vibration">haptik, vibrasiya, telefon, zəng, zəng çalmaq, bildirişlər, yüksək, səssiz, səs-küy, keys, adaptiv</string>
@@ -222,16 +227,25 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="keywords_touch_sensitivity">sensor, həssaslıq, həssas, ekran qoruyucusu, üzlük, reaktiv, reaksiya</string>
     <string name="keywords_touch_sensitivity_settings">sensor, adaptiv, həssaslıq, həssas, ekran qoruyucusu, üzlük, responsiv, reaksiya</string>
     <string name="keywords_voice_access">səs, səs ilə idarəetmə, sistem, əl, mik, mikrofon, diktə, danışma, idarəetmə</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Ətraflı məlumat</a></string>
     <string name="led_preference_title">LED göstərici modelləri</string>
     <string name="legal_source_code_description">Açıq mənbə kimi təqdim edilən komponentlər üçün mənbə kodu haqqında detalları Pixel yardım mərkəzində tapa bilərsiniz.</string>
     <string name="legal_source_code_title">Mənbə kodu</string>
     <string name="limited_warranty_introduction">Bu cihazın zəmanətinə baxmaq üçün alış ölkəsinə toxunun. Bu zəmanət həmçinin burada əlçatandır: g.co/devicewarranty</string>
     <string name="limited_warranty_title">Məhdud Zəmanət</string>
-    <string name="lockscreen_show_weather_summary">Cari hava şəraitinə baxın</string>
-    <string name="lockscreen_show_weather_title">Hava proqnozunu göstərin</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Həmçinin musiqi, şəkil və digər istifadəçi datası təmizləmək üçün "<b>USB yaddaşı</b> silinməlidir.</string>
     <string name="my_device_info_account_preference_title">Google Hesabı</string>
+    <string name="notification_dismissal_sync_summary">Pixel telefonunuzda və ya planşetinizdə qapadılan bildirişlər artıq hər iki cihazda görünməyəcək</string>
+    <string name="notification_dismissal_sync_title">Bildirişləri Pixel cihazlarında qapadın</string>
+    <string name="overrided_google_settings_summary">Google xidmətləri və tərcihlər</string>
+    <string name="overrided_google_settings_title">Daxil olun</string>
     <string name="owner_info_settings_edit_text_hint">"Məs, Joe'nin Pixel'i."</string>
     <string name="permit_debugging_data">Baq hesabatına girişə icazə verin</string>
+    <string name="phone_notification_channel_sound_title">Səs və Vibrasiya</string>
+    <string name="phone_notification_title">Bildiriş xəbərdarlığı</string>
+    <string name="phone_ringtone_title">Zəng melodiyası siqnalı</string>
     <string name="play_application_detail_indication_summary">Güncəllənmələri yoxlayın</string>
     <string name="play_application_update_entry_title">Tətbiq güncəllənmələri</string>
     <string name="private_space_retry_summary">Şəxsi sahə ilə istifadə etmək üçün Google Hesabına daxil olun</string>
@@ -242,7 +256,7 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
     <string name="reverse_charging_auto_turn_on_subtitle">Telefonunuz adapterə qoşulduqda qısa müddət ərzində avtomatik aktiv olacaq</string>
     <string name="reverse_charging_auto_turn_on_title">Avtomatik aktiv edin</string>
     <string name="reverse_charging_charging_wirelessly_message">Telefon simsiz şarj edildiyinə görə əlçatan deyil</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Pixel çox isindiyinə görə Batareya Paylaşımı əlçatan deyil. Telefonun soyumasını gözləyin və yenidən cəhd edin.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Temperatur ilə əlaqədar əlçatan deyil. Telefonun soyumasını gözləyin və yenidən cəhd edin</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Telefon simsiz şarj edildiyinə görə enerjini paylaşmaq olmur</string>
     <string name="reverse_charging_detail_footer_title">Enerjisi paylaşılan telefonun şarjı daha tez bitir. Enerjini uyğun qulaqlıqlar, saatlar, telefonlar və sair cihazlarla paylaşmaq olar. Keyfiyyətli paylaşım üçün telefon üzlüyünü çıxarın.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Enerjini uyğun qulaqlıqlar, telefonlar və digər cihazlarla paylaşmaq olar.
@@ -250,6 +264,7 @@ Yedəkləmə datası Disk yaddaşının kvotasını azaltmayacaq. Xidmətdən ç
 Enerjisi paylaşılan telefonun şarjı daha tez bitir. Cihaz aşkarlanmayanda enerji paylaşımı bir neçə dəqiqə sonra avtomatik deaktiv olur. Keyfiyyətli şarj üçün telefonun üzlüyünü və metal əşyalar kimi mane ola biləcək digər aksesuarları çıxarın."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Enerjiyə qənaət rejimində olduğuna görə enerjini paylaşmaq olmur</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">USB-C cihazı qoşulduğuna görə enerjini paylaşmaq olmur</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Batareya Paylaşımı şarjetmə zamanı əlçatan olmur</string>
     <string name="reverse_charging_instructions_title">"Pixel ilə digər cihazları şarj edin.
 Sınamaq üçün telefonu tərsinə çevirin."</string>
     <string name="reverse_charging_is_off_summary">Deaktiv</string>
@@ -257,7 +272,6 @@ Sınamaq üçün telefonu tərsinə çevirin."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Batareya paylaşılır</string>
     <string name="reverse_charging_is_on_summary">Aktiv / Digər cihazları şarj edin</string>
     <string name="reverse_charging_main_switch">Batareya Paylaşımından istifadə edin</string>
-    <string name="reverse_charging_overheat_summary">Pixel çox isindiyinə görə əlçatan deyil. Telefonun soyumasını gözləyin və yenidən cəhd edin.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Enerjiyə qənaət rejimi aktiv olduğu üçün əlçatan deyil</string>
     <string name="reverse_charging_sharing_level_message">Batareya paylaşma səviyyəsindən aşağı olduğuna görə əlçatan deyil</string>
     <string name="reverse_charging_switch_title">Digər cihazları Pixel telefonunun arxa səthinə qoyub şarj edin</string>
@@ -265,6 +279,7 @@ Sınamaq üçün telefonu tərsinə çevirin."</string>
     <string name="reverse_charging_unplug_usb_cable_message">USB-C cihazı qoşulduğuna görə əlçatan deyil</string>
     <string name="reverse_charging_warning_summary">Enerji %1$s həddindən aşağı olduğuna görə əlçatan deyil</string>
     <string name="reverse_charging_warning_title">Enerji %1$s faizdən aşağı olduğuna görə enerjini paylaşmaq olmur</string>
+    <string name="ringtone_synchronized_summary">Sinxronizasiya edilib</string>
     <string name="rtt_settings_always_visible">Həmişə görünəndir</string>
     <string name="rtt_settings_no_visible">Görünən deyil</string>
     <string name="rtt_settings_title">Real zaman mətni (RTT)</string>
@@ -272,13 +287,13 @@ Sınamaq üçün telefonu tərsinə çevirin."</string>
     <string name="screen_time_summary_usage_today">Bu gün %1$s</string>
     <string name="search_bar_account_avatar_content_description">Profil şəkli, Google Hesabı açmaq üçün iki dəfə klikləyin</string>
     <string name="search_gesture_category_title">Axtarış</string>
+    <string name="search_gesture_feature_summary">Ekrandakı kontentdən istifadə edərək axtarış etmək üçün Əsas ekran düyməsinə və ya naviqasiya tutacağına basıb saxlayın.</string>
     <string name="search_gesture_feature_title">Dairəyə alaraq axtarın</string>
-    <string name="search_long_press_home_button_summary">Ekranın aşağısındakı əsas düyməyə basıb saxlayın, sonra axtarmaq istədiyiniz elementi dairəyə alın və ya vurğulayın</string>
-    <string name="search_press_hold_gesture_summary">Ekranın aşağısındakı dəstəyə basıb saxlayın, sonra axtarmaq istədiyiniz elementi dairəyə alın və ya vurğulayın</string>
     <string name="security_dismiss_dialog_dismiss_button">Qapadın</string>
     <string name="security_dismiss_dialog_title">Bu xəbərdarlıq qapadılsın?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Ayarlamaq üçün toxunun</string>
     <string name="security_settings_face_enroll_education_message">Növbəti ekranda üzünüzün bütün tərəflərini çəkmək üçün başınızı fırladın</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Növbəti ekranda telefonunuzu göz səviyyəsində saxlayın</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">Üz qeydiyyatı alınmadı.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Üz ilə kiliddən çıxarmanın ayarlanması vaxtı bitdi</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">İndi tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzdən istifadə edə bilərsiniz</string>
@@ -293,24 +308,40 @@ Kifayət qədər işıq olduqda, maska və ya tündrəngli eynək taxmadıqda Ü
 Kifayət qədər işıq olduqda, maska və ya tündrəngli eynək taxmadıqda Üz ilə Kiliddən Açma mükəmməl işləyir."</string>
     <string name="security_settings_face_enroll_finish_title">Qaydasındadır!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Məhdud görmə/baş hərəkətini qur</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Üz ilə Kiliddən Açmadan istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Gözlərinizi açıq saxlayın</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Siz və övladınız ayarlarda istənilən vaxt üz modeli silə, yaxud Üz ilə kiliddən çıxarmanı deaktiv edə bilərsiniz. Üz modelləri silinənə qədər telefonda saxlanılır.&lt;br&gt;&lt;br&gt;Ətraflı məlumat: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Siz və övladınız nəzarət edirsiniz</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Ayarlarda istənilən vaxt üz modelinizi silə, yaxud Üz ilə Kiliddən Çıxarmanı deaktiv edə bilərsiniz. Üz modelləri silinənə qədər telefonda saxlanılır.&lt;br&gt;&lt;br&gt;Ətraflı məlumat: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Hər şey nəzarətinizdədir</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Üz ilə kiliddən çıxarma övladınızı doğrulamaq üçün onun üzünün unikal modelini yaradır. Ayarlama zamanı bu üz modelini yaratmaq üçün övladınız müxtəlif bucaqlardan üzünün şəkillərini çəkəcək.
+
+Üz ilə kiliddən çıxarmadan istifadə etdikdə, onun üz modelini güncəlləmək üçün şəkillərdən istifadə olunur. Onun üz modelini yaratmaq üçün istifadə edilən şəkillər saxlanılmır, lakin üz modeli telefonda təhlükəsiz qaydada saxlanılır və heç vaxt telefondan başqa yerə göndərilmir. Bütün emal prosesi telefonda təhlükəsiz qaydada baş verir."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Üz ilə kiliddən çıxarma funksiyası kimliyinizi doğrulamaq üçün üzünüzün unikal modelini yaradır. Ayarlama zamanı bu üz modelini yaratmaq üçün müxtəlif bucaqlardan üzünüzün şəkillərini çəkəcəksiniz.
+
+Üz ilə kiliddən çıxarmadan istifadə etdikdə, üz modelinizi güncəlləmək üçün şəkillərdən istifadə olunur. Üz modelinizi yaratmaq üçün istifadə edilən şəkillər saxlanılmır, lakin üz modeli telefonunuzda təhlükəsiz qaydada saxlanılır və heç vaxt telefondan başqa yerə göndərilmir. Bütün emal prosesi telefonunuzda təhlükəsiz qaydada baş verir."</string>
     <string name="security_settings_face_enroll_introduction_how_title">İşləmə qaydası</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Üz ilə kiliddən çıxarma telefonu kiliddən çıxarmaq, yaxud uşağınızın özü olduğunu doğrulamaq üçün onun gözlərinin açıq olmasını tələb edə bilər. Siz və uşağınız Ayarlarda bu seçimi istənilən vaxt yandıra bilərsiniz.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Övladınız normalda eynəkdən istifadə edirsə, ayarlama zamanı onu taxa bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Övladınızın telefonunu kiliddən çıxarmaq üçün onun üzündən istifadə etmək güclü model, PIN kod və ya paroldan daha az güvənli ola bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Övladınız telefona baxmaqla istəmədən telefonu kiliddən çıxara bilər. Övladınızın telefonu ona çox bənzəyən biri (məsələn, əkiz bacı/qardaş) tərəfindən, yaxud onün üzünə tutularaq də kiliddən çıxarıla bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Üz ilə kiliddən çıxarma telefonu kiliddən çıxarmaq, yaxud kimliyinizi doğrulamaq üçün gözlərinizin açıq olmasını tələb edə bilər. Bu seçimi Ayarlarda istənilən vaxt yandıra bilərsiniz.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Eynək və ya solğun rəngli gün eynəyi taxa bilərsiniz.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Telefonunuzu kiliddən çıxarmaq üçün üzünüzdən istifadə etmək güclü model, PIN və ya parol qədər təhlükəsiz olmaya bilər.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Hətta telefon ekranına təsadüfən baxmaqla telefonu kiliddən çıxara bilərsiniz. Telefonunuz sizə çox bənzəyən biri (məsələn, əkiz bacı/qardaş) tərəfindən, yaxud sizə doğru yönəldilərək də kiliddən çıxarıla bilər.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Unutmayın</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda telefonu kiliddən çıxarmaq və ya kimlik doğrulaması üçün üzünüzü istifadə edin.</string>
     <string name="security_settings_face_enroll_introduction_title">Üz ilə kiliddən çıxarmanı ayarlayın</string>
     <string name="security_settings_face_enroll_next">Növbəti</string>
     <string name="security_settings_face_enroll_partial_message">Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarmanı yenidən ayarlaya bilərsiniz</string>
     <string name="security_settings_face_enroll_partial_start_over">Yenidən başlayın</string>
     <string name="security_settings_face_enroll_partial_title">Üz ilə kiliddən çıxarmanın ayarlanması tamamlandı</string>
-    <string name="security_settings_face_enroll_timeout_message">"Əvəzində sürətli ayarlamanı sınayın. Nəzərə alın ki, Üz ilə kiliddən çıxarmadan istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.
+    <string name="security_settings_face_enroll_timeout_message">"Əvəzində sürətli quraşdırmanı sınayın. Üz ilə kilidaçma istifadə etdikdə başınızı telefonun qarşısında sabit saxlamalısınız.
 
-Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kiliddən çıxarmanı yenidən ayarlaya bilərsiniz."</string>
+Performansı yaxşılaşdırmaq üçün Ayarlarda Üz ilə kilidaçmanı yenidən ayarlaya bilərsiniz."</string>
     <string name="security_settings_face_enroll_timeout_title">Quraşdırmanı davam etdirmək mümkün deyil</string>
     <string name="security_settings_face_enroll_timeout_try_again">Yenidən cəhd edin</string>
-    <string name="security_settings_face_enroll_timeout_use_fast_setup">Sürətli quraşdırmaı işlədin</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Sürətli quraşdırma istifadəsi</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">Quraşdırmadan çıxın</string>
     <string name="security_settings_face_enroll_too_hot_message">Telefon çox qızdığına görə Üz ilə kiliddən çıxarmanı ayarlamaq tamamlanmadı. Telefon soyuduqdan sonra yenidən cəhd edin.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Üz ilə kiliddən çıxarmanı ötürün</string>
@@ -325,15 +356,32 @@ Qeyd: barmaq izinizi bu cihazın kildiini açmaq üçün istifadə edə bilməzs
     <string name="security_settings_fingerprint_preference_summary_none">Barmaq izi əlavə etmək üçün toxunun</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint kimliyinizi doğrulamaq üçün barmaq izinizin unikal modelini yaradır. Ayarlama zamanı bu barmaq izi modelini yaratmaq üçün müxtəlif bucaqlardan barmaq izinizin şəkillərini çəkəcəksiniz.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">"Ayarlarda istənilən vaxt barmaq izi modelinizi silə, yaxud Pixel Imprint'i deaktiv edə bilərsiniz. Barmaq izi modelləri siz onları silənə qədər telefonunuzda saxlanılır."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint övladınızın kimliyini doğrulamaq üçün onun barmaq izinin unikal modelini yaradır. Ayarlama zamanı bu barmaq izi modelini yaratmaq üçün , müxtəlif bucaqlardan barmaq izinin şəkillərini çəkəcək.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">"Siz və övladınız ayarlarda istənilən vaxt barmaq izi modelinizi silə, yaxud Pixel Imprint'i deaktiv edə bilərsiniz. Barmaq izi modelləri silinənə qədər telefonda saxlanılır."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Pixel barmaq izi ilə kiliddən çıxarma haqqında ətraflı məlumat: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">İş üçün Pixel Imprint</string>
     <string name="setup_suggestion_summary">Bir neçə mərhələ qalıb</string>
     <string name="setup_suggestion_title">Ayarlamanı tamamlayın</string>
+    <string name="show_stylus_pointer_icon">Mausla tuşlama zamanı tətbiqlərin poynteri göstərməsinə icazə verin</string>
+    <string name="simple_mode_category">Sürətli Giriş</string>
+    <string name="simple_mode_description">Mətn və ikon ölçüsünü böyüdün, düzəni sadələşdirin və naviqasiya düymələri əlavə edin. Sadə Baxış haqqında <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ətraflı məlumat</a>.</string>
+    <string name="simple_mode_summary">Mətn oxunuşunu təkmilləşdirin, ekran düzəni və naviqasiyanı sadələşdirin</string>
+    <string name="simple_mode_suw_description">Təmiz dizayn və sadə quraşdırma üçün Pixel əsas tətbiq və vidcetləri avtomatik endirə, ekran düzənini optimallaşdıra, şrifti tənzimləyə və s. edə bilər</string>
+    <string name="simple_mode_suw_done_button">Hazırdır</string>
+    <string name="simple_mode_switch_title">Sadə Baxışdan istifadə edin</string>
+    <string name="simple_mode_title">Sadə Baxış</string>
+    <string name="simple_view_dialog_negative_button">Ləğv edin</string>
+    <string name="simple_view_dialog_positive_button">Davam edin</string>
+    <string name="simple_view_feature_disabled_dialog_message">Sadə Baxışı söndürdükdə cihaz ilkin şrift, displey və düzən ayarlarına qayıdacaq. Bu fərdi şrift ayarlarını dəyişmək haqqında <a href="https://support.google.com/pixelphone?p=pixel_simple_view">məlumat əldə edin</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Cihaz əvvəlki ayarlara qayıdacaq</string>
+    <string name="simple_view_feature_enabled_dialog_message">Cari şrift Sadə Baxış ayarlarından böyükdür. Sadə Baxışdan istifadə etdikdə şrift ölçüsü kiçildiləcək.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Şrift ölçüsü kiçildiləcək</string>
     <string name="smart_battery_a11y_collapse_label">Yığcamlaşdırın, adaptiv batareya</string>
     <string name="smart_battery_a11y_expand_label">Genişləndirin, adaptiv batareya</string>
     <string name="smart_battery_footer">Enerjiyə qənaət etmək üçün enerjinin adaptiv istifadəsi performansı azalda və fondakı tətbiqlərin fəaliyyətini zəiflədə bilər. Bəzi bildirişlər gecikə bilər.</string>
     <string name="smart_battery_manager_title">Adaptiv tərcihlər</string>
+    <string name="smart_battery_summary" product="default">Adaptiv Batareya tətbiqlərin batareya istifadəsini davamlı optimallaşdırmaq üçün telefon istifadəsinə əsaslanır. Batareya ömrünü uzatmaq üçün performansı azalda və bildirişləri ləngidə bilər.</string>
     <string name="smart_battery_title">Enerjinin adaptiv istifadəsi</string>
     <string name="software_update_can_be_updated_header">Pixel-nizi daha da yaxşı edin</string>
     <string name="software_update_detail_indication_1_update_available">1 güncəllənmə əlçatandır</string>
@@ -347,7 +395,8 @@ Qeyd: barmaq izinizi bu cihazın kildiini açmaq üçün istifadə edə bilməzs
     <string name="software_update_up_to_date_summary">Güncəl</string>
     <string name="software_update_up_to_specific_date_summary">Güncəlləndi: %1$s</string>
     <string name="software_update_update_available_summary">Güncəllənmə əlçatandır</string>
-    <string name="sound_dashboard_summary">Səs, taktil əks-əlaqə, Narahat Etməyin</string>
+    <string name="sound_dashboard_summary">Səs və taktil funksiyalar</string>
+    <string name="sound_dashboard_summary_with_dnd">Səs, taktil funksiyalar, Narahat etməyin</string>
     <string name="spatial_audio_head_tracking_available">Başın izlənilməsi əlçatandır</string>
     <string name="spatial_audio_head_tracking_unavailable">Başın izlənilməsi əlçatan deyil</string>
     <string name="spatial_audio_title">Sinema səs effekti</string>
@@ -397,4 +446,8 @@ Qeyd: barmaq izinizi bu cihazın kildiini açmaq üçün istifadə edə bilməzs
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Qoşulmaq üçün toxunun</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Qoşulmaq mümkün deyil. Yenidən cəhd etmək üçün toxunun.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Qoşulur…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> Ətraflı məlumat</annotation></string>
+    <string name="wireless_charging_learn_more_description">Simsiz enerji haqqında ətraflı məlumat əldə edin</string>
+    <string name="wireless_charging_state">Simsiz enerji •</string>
+    <string name="wireless_charging_state_and_duration">Simsiz enerji • %1$s •</string>
 </resources>

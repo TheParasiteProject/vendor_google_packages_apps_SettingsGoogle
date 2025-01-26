@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/sfps_enroll.xml"
+    app:startDestination="@id/intro">
+
+    <fragment
+        android:id="@id/intro"
+        android:label="Intro"
+        android:name="com.google.android.settings.biometrics.fingerprint.ui.view.FingerprintEnrollIntroFragment">
+
+        <action
+            android:id="@id/action_intro_to_find_sensor"
+            app:destination="@id/find_sensor" />
+
+    </fragment>
+
+    <fragment
+        android:id="@id/find_sensor"
+        android:label="FindSensor"
+        android:name="com.google.android.settings.biometrics.fingerprint.modules.sfps.fragment.FindSfpsFragment" />
+
+</navigation>

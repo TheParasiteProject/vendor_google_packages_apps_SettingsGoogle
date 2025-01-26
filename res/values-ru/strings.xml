@@ -15,7 +15,13 @@
     <string name="adaptive_charging_time_estimate"><b>Адаптивная зарядка</b> • Завершится к %1$s</string>
     <string name="adaptive_charging_title">Адаптивная зарядка</string>
     <string name="adaptive_touch_sensitivity_summary">Чувствительность экрана будет настраиваться автоматически в зависимости от окружающих условий, ваших действий и наличия защитного стекла или пленки</string>
-    <string name="adaptive_touch_sensitivity_title">Адаптация касания</string>
+    <string name="adaptive_touch_sensitivity_title">Адаптивная чувствительность</string>
+    <string name="adaptive_vibration_footer">Микрофон и другие датчики телефона используются для определения контекста и уровня громкости. Данные никогда не записываются.</string>
+    <string name="adaptive_vibration_settings_summary">Настройте автоматическую корректировку режима вибрации телефона в зависимости от окружения, например когда устройство в кармане или вокруг громко</string>
+    <string name="adaptive_vibration_summary_off">Отключено</string>
+    <string name="adaptive_vibration_summary_on">Включено</string>
+    <string name="adaptive_vibration_title">Адаптивная вибрация</string>
+    <string name="adaptive_vibration_toggle_title">Адаптивная вибрация</string>
     <string name="add_bypassed_application_hint">Нет добавленных приложений</string>
     <string name="advanced_vpn_preference_group_title">Предустановленные</string>
     <string name="all_apps_category_title">Все приложения</string>
@@ -27,16 +33,6 @@
 
 Если вы запретите доступ, приложение будет каждый раз запрашивать ваше разрешение на сбор и загрузку данных."</string>
     <string name="app_and_notification_dashboard_summary">Ассистент, недавние приложения, приложения по умолчанию</string>
-    <string name="audio_sharing_switch_title">Передавать аудио</string>
-    <string name="audio_sharing_title">Передача аудио</string>
-    <string name="audio_streams_category_title">Подключение к потоку LE Audio</string>
-    <string name="audio_streams_connect">Подключить</string>
-    <string name="audio_streams_disconnect">Отключить</string>
-    <string name="audio_streams_pref_title">Аудиопотоки рядом</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">Недопустимый формат QR-кода.</string>
-    <string name="audio_streams_qr_code_scanner">Чтобы прослушать аудио, поместите QR-код в центр.</string>
-    <string name="audio_streams_qr_code_summary">Подключиться к аудиопотоку, используя QR-код</string>
-    <string name="audio_streams_title">Аудиопотоки</string>
     <string name="automatic_storage_manager_activation_warning">При подключении к интернету вы сможете просматривать фото и видео в том качестве, которое вы выбрали для загрузки.</string>
     <string name="automatic_storage_manager_days_title">Удалять фото и видео, сохраненные в Google</string>
     <string name="automatic_storage_manager_deactivation_warning">"Отключить Умное хранилище?
@@ -72,16 +68,18 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Полная зарядка</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Если ваш планшет подключен к док-станции, его зарядка будет приостановлена, когда уровень заряда достигнет %1$s. Это нужно, чтобы увеличить срок службы аккумулятора.</string>
     <string name="battery_tip_smart_battery_summary">Включите адаптивное энергопотребление</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Узнать больше о беспроводной зарядке</string>
-    <string name="battery_tip_wireless_charging_summary">При беспроводной зарядке телефона энергопотребление может быть выше, чем при использовании других способов.</string>
-    <string name="battery_tip_wireless_charging_title">Беспроводная зарядка</string>
-    <string name="calls_and_alarms_device_title">Звонки и будильники</string>
+    <string name="charging_optimization_charge_label">%1$s - Зарядка завершится к %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s, зарядка завершена</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Зарядка завершена</string>
+    <string name="charging_optimization_remaining_time_label">Зарядка завершится к %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Беспроводная зарядка завершена •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Беспроводная зарядка завершится к %1$s •</string>
     <string name="clear_calling_footer">"Чтобы обеспечить конфиденциальность, функция \"Чистый звук\" не передает аудиозаписи и расшифровки разговоров в Google.
 
 Эта функция недоступна для сетей 3G, но ее можно использовать при звонках по Wi‑Fi и большинству мобильных сетей."</string>
     <string name="clear_calling_title">Чистый звук</string>
     <string name="clear_calling_toggle">Использовать Чистый звук</string>
-    <string name="clear_calling_topintro">Уменьшает фоновые шумы во время звонков</string>
+    <string name="clear_calling_topintro">Подавление фонового шума при разговоре</string>
     <string name="columbus_gesture_detected">Короткое касание распознано.</string>
     <string name="columbus_gesture_enrollment_complete">ОК</string>
     <string name="columbus_gesture_enrollment_do_it_later">Не сейчас</string>
@@ -146,14 +144,22 @@
 
 Фишинг – это попытка украсть данные для входа в аккаунт или другую личную информацию."</string>
     <string name="content_protection_preference_subpage_summary">Сканирование конфиденциально и выполняется прямо на вашем устройстве. История действий в приложении проверяется на фишинг или другую мошенническую активность. При обнаружении некоторая информация о приложении отправляется в Google Play Защиту, чтобы подтвердить угрозу и предупредить пользователей приложения.</string>
-    <string name="contextual_timeout_description">Когда вы не используете устройство, экран будет отключаться раньше</string>
+    <string name="contextual_timeout_description">Когда вы не используете устройство, экран будет автоматически отключаться</string>
     <string name="contextual_timeout_title">Адаптивное отключение экрана</string>
+    <string name="credentials_install_summary" product="default">Установить сертификаты</string>
     <string name="debugging_data_title">Данные об отладке</string>
+    <string name="default_notification_summary">Классическое уведомление</string>
+    <string name="default_ringtone_summary">Классический</string>
     <string name="discover_tips_button">Советы</string>
+    <string name="display_dashboard_summary">Тёмная тема, размер шрифта, сенсорное управление</string>
+    <string name="display_settings">Экран и сенсорное управление</string>
     <string name="dock_summary_charging_phone">Зарядка телефона</string>
     <string name="double_twist_for_camera_mode_summary">Переключаться между основной и фронтальной камерами двойным поворотом запястья</string>
     <string name="duration_less_than_one_minute">меньше 1 минуты</string>
-    <string name="enable_glanceable_hub_toggle">Режим домашнего центра</string>
+    <string name="enable_glanceable_hub_toggle">Показывать виджеты на заблокированном экране</string>
+    <string name="enable_glanceable_hub_toggle_summary">Без разблокировки планшета</string>
+    <string name="erase_external_storage" product="default">Очистить USB-накопитель</string>
+    <string name="erase_external_storage_description" product="default">Удалить с USB-накопителя музыку, фотографии и все остальные данные.</string>
     <string name="extreme_battery_saver_summary">Вносит перечисленные выше изменения, а также приостанавливает работу второстепенных приложений и отключает их уведомления</string>
     <string name="extreme_battery_saver_title">Режим экстренного энергосбережения</string>
     <string name="face_confirmation_hide_illustration_description">Теперь вы можете снимать блокировку телефона с помощью фейсконтроля.</string>
@@ -197,8 +203,7 @@
 
 Резервная копия данных не займет места на Google Диске. Большие файлы и те, которые разработчики запретили копировать, сохраняться не будут."</string>
     <string name="fullbackup_erase_dialog_message">Резервное копирование данных устройства (например, паролей сетей Wi-Fi и журнала звонков), а также данных приложения (например, настроек и файлов) будет прекращено. Данные, скопированные на Google Диск, будут удалены. Продолжить?</string>
-    <string name="gesture_settings_activity_title">Навигация с помощью жестов</string>
-    <string name="hub_mode_content_setting">Разрешить добавлять виджеты в режиме домашнего центра</string>
+    <string name="help_footer_content_description">Сведения о странице \"%1$s\". %2$s.</string>
     <string name="install_unknown_applications">Разрешить установку приложений не из Google Play</string>
     <string name="keywords_accessibility_menu">моторика, быстрое меню, меню вспомогательных функций, касание, двигательные возможности, артрит, инсульт, тремор, рассеянный склероз, ДЦП, кнопка, аппаратное обеспечение, нажатие, травма от повторяющихся нагрузок, рука, боль, специальные возможности, помощь</string>
     <string name="keywords_adaptive_alert_vibration">виброотклик, вибрация, телефон, звонок, вызов, оповещение, уведомление, громкость, тишина, шум, чехол, адаптивность</string>
@@ -221,19 +226,28 @@
     <string name="keywords_touch_sensitivity">касание, чувствительность, защита экрана, защитное стекло, защитная пленка, отклик</string>
     <string name="keywords_touch_sensitivity_settings">касание, адаптивный, чувствительный, чувствительность, защита экрана, защитное стекло, защитная пленка, отклик</string>
     <string name="keywords_voice_access">голос, голосовое управление, двигательные нарушения, рука, микрофон, голосовой ввод, диктовка, говорить, управление</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Подробнее…</a></string>
     <string name="led_preference_title">Сигналы LED индикатора</string>
     <string name="legal_source_code_description">Подробную информацию об исходном коде компонентов, который находится в открытом доступе, можно найти в Справочном центре Pixel.</string>
     <string name="legal_source_code_title">Исходный код</string>
-    <string name="limited_warranty_introduction">Чтобы посмотреть гарантию на это устройство, выберите страну приобретения или перейдите по адресу: g.co/devicewarranty.</string>
+    <string name="limited_warranty_introduction">Чтобы посмотреть гарантию на это устройство, выберите страну, в которой оно было куплено, или перейдите по адресу g.co/devicewarranty</string>
     <string name="limited_warranty_title">Ограниченная гарантия</string>
-    <string name="lockscreen_show_weather_summary">Просмотр текущих погодных условий</string>
-    <string name="lockscreen_show_weather_title">Показывать информацию о погоде</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Чтобы удалить музыку, изображения и другие пользовательские данные, необходимо очистить "<b>USB-накопитель</b>.</string>
     <string name="my_device_info_account_preference_title">Аккаунт Google</string>
+    <string name="notification_dismissal_sync_summary">Уведомления, которые вы закрываете на телефоне или планшете Pixel, не будут показываться на обоих устройствах.</string>
+    <string name="notification_dismissal_sync_title">Закрывать уведомления на всех устройствах Pixel</string>
+    <string name="overrided_google_settings_summary">Сервисы и настройки Google</string>
+    <string name="overrided_google_settings_title">Войти</string>
     <string name="owner_info_settings_edit_text_hint">Например, Pixel Саши</string>
     <string name="permit_debugging_data">Разрешить доступ к отчетам об ошибках</string>
+    <string name="phone_notification_channel_sound_title">Звук и вибрация</string>
+    <string name="phone_notification_title">Оповещение</string>
+    <string name="phone_ringtone_title">Рингтон</string>
     <string name="play_application_detail_indication_summary">Проверить наличие обновлений</string>
     <string name="play_application_update_entry_title">Обновления приложений</string>
-    <string name="private_space_retry_summary">Войдите в аккаунт Google, в котором хотите использовать личное пространство.</string>
+    <string name="private_space_retry_summary">Войдите в аккаунт Google, в котором хотите использовать частное пространство.</string>
     <string name="remove">Удалить</string>
     <string name="repair_mode_active_summary">В режиме обслуживания</string>
     <string name="repair_mode_summary">Среда для безопасного ремонта устройства</string>
@@ -241,8 +255,8 @@
     <string name="request_google_account_summary">Добавить аккаунт Google</string>
     <string name="reverse_charging_auto_turn_on_subtitle">Включается автоматически на короткий период времени, когда телефон подключен к зарядному устройству</string>
     <string name="reverse_charging_auto_turn_on_title">Включать автоматически</string>
-    <string name="reverse_charging_charging_wirelessly_message">Функция недоступна, так как выполняется беспроводная зарядка телефона</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Невозможно поделиться зарядом батареи, так как телефон Pixel перегрелся. Подождите, пока он остынет, и повторите попытку.</string>
+    <string name="reverse_charging_charging_wirelessly_message">Недоступна во время беспроводной зарядки</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Функция недоступна из-за перегрева телефона. Подождите, пока он остынет, и повторите попытку.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Невозможно поделиться зарядом батареи, так как выполняется беспроводная зарядка телефона.</string>
     <string name="reverse_charging_detail_footer_title">С функцией \"Передача заряда батареи\" телефон будет разряжаться быстрее. Вы можете делиться зарядом батареи с совместимыми наушниками, часами, телефонами и не только. Чтобы устройство заряжалось быстрее, снимите с него чехол.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Передача заряда батареи работает с совместимыми наушниками, телефонами и другими устройствами.
@@ -250,21 +264,22 @@
 Когда она включена, телефон разряжается быстрее. Если в течение нескольких минут не находится поддерживаемое устройство, передача заряда батареи выключается. Чтобы зарядка шла быстрее, снимите с телефона чехол и уберите от него все посторонние предметы, особенно металлические."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Невозможно поделиться зарядом батареи, так как включен режим энергосбережения.</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Невозможно поделиться зарядом батареи, так как подключено устройство USB-C.</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Передача заряда батареи недоступна во время зарядки.</string>
     <string name="reverse_charging_instructions_title">"Заряжайте другие устройства с помощью телефона Pixel.
 Чтобы начать, переверните телефон."</string>
     <string name="reverse_charging_is_off_summary">Отключено</string>
-    <string name="reverse_charging_is_on_and_charging_summary">Батарея заряжается от другого устройства</string>
+    <string name="reverse_charging_is_on_and_charging_summary">Передача заряда и зарядка батареи</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Передача заряда батареи</string>
     <string name="reverse_charging_is_on_summary">Включено (можно заряжать другие устройства)</string>
     <string name="reverse_charging_main_switch">Передавать заряд батареи</string>
-    <string name="reverse_charging_overheat_summary">Функция недоступна, так как телефон Pixel перегрелся. Подождите, пока он остынет, и повторите попытку.</string>
-    <string name="reverse_charging_power_save_mode_is_on_message">Функция недоступна, так как включен режим энергосбережения</string>
+    <string name="reverse_charging_power_save_mode_is_on_message">Недоступна, так как включен режим энергосбережения</string>
     <string name="reverse_charging_sharing_level_message">Функция недоступна, так как уровень заряда батареи слишком низкий.</string>
     <string name="reverse_charging_switch_title">Заряжайте другие устройства на задней поверхности телефона Pixel.</string>
     <string name="reverse_charging_title">Передача заряда батареи</string>
     <string name="reverse_charging_unplug_usb_cable_message">Функция недоступна, так как подключено устройство USB-C.</string>
     <string name="reverse_charging_warning_summary">Функция недоступна, так как заряд батареи ниже %1$s</string>
     <string name="reverse_charging_warning_title">Невозможно поделиться зарядом батареи, так как уровень заряда ниже %1$s</string>
+    <string name="ringtone_synchronized_summary">Синхронизированный</string>
     <string name="rtt_settings_always_visible">Показывать всегда</string>
     <string name="rtt_settings_no_visible">Скрывать</string>
     <string name="rtt_settings_title">Текст в режиме реального времени (RTT)</string>
@@ -272,19 +287,19 @@
     <string name="screen_time_summary_usage_today">Сегодня: %1$s</string>
     <string name="search_bar_account_avatar_content_description">Фото профиля. Нажмите дважды, чтобы открыть аккаунт Google.</string>
     <string name="search_gesture_category_title">Поиск</string>
+    <string name="search_gesture_feature_summary">Чтобы запустить поиск по экрану, нажмите и удерживайте кнопку главного экрана или маркер навигации</string>
     <string name="search_gesture_feature_title">Обвести и найти</string>
-    <string name="search_long_press_home_button_summary">Нажмите и удерживайте кнопку главного экрана внизу, а затем обведите или выделите то, что хотите найти</string>
-    <string name="search_press_hold_gesture_summary">Нажмите на маркер в нижней части экрана и удерживайте, а затем обведите или выделите то, что хотите найти</string>
     <string name="security_dismiss_dialog_dismiss_button">Закрыть</string>
     <string name="security_dismiss_dialog_title">Скрыть это предупреждение?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Нажмите, чтобы настроить</string>
     <string name="security_settings_face_enroll_done">Готово</string>
     <string name="security_settings_face_enroll_education_message">Когда откроется следующий экран, поверните голову из стороны в сторону, чтобы сделать снимки лица со всех ракурсов.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Когда откроется следующий экран, держите телефон на уровне глаз</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Время настройки фейсконтроля вышло</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">Теперь вы можете использовать фейсконтроль, чтобы снимать блокировку с телефона и подтверждать свою личность, например для входа в приложения и одобрения покупок.</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp_full">"Теперь вы можете использовать фейсконтроль, чтобы снимать блокировку телефона и подтверждать свою личность, например для входа в приложения и одобрения покупок.
+    <string name="security_settings_face_enroll_finish_description_with_bp">Теперь вы можете использовать фейсконтроль, чтобы разблокировать телефон и подтверждать личность, например для входа в приложения и одобрения покупок.</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp_full">"Теперь вы можете использовать фейсконтроль, чтобы разблокировать телефон и подтверждать личность, например для входа в приложения и одобрения покупок.
 
-Лучше всего эта функция работает, когда освещение хорошее и на вас нет маски или солнцезащитных очков."</string>
+Фейсконтроль работает лучше, когда освещение хорошее, а на вас нет маски или темных очков."</string>
     <string name="security_settings_face_enroll_finish_description_without_bp">"Теперь вы можете разблокировать телефон с помощью фейсконтроля.
 
 Лучше всего эта функция работает, когда освещение хорошее и ваше лицо ничем не закрыто."</string>
@@ -293,13 +308,29 @@
 Лучше всего она работает, когда освещение хорошее и ваше лицо ничем не закрыто."</string>
     <string name="security_settings_face_enroll_finish_title">Отлично!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Учесть ограниченные возможности</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Для разблокировки с помощью фейсконтроля ваше лицо должно находиться прямо напротив экрана телефона.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Глаза должны быть открыты</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Вы и ваш ребенок можете в любой момент удалить его модель лица или отключить фейсконтроль в настройках. Модели хранятся на телефоне ребенка, пока не будут удалены.&lt;br&gt;&lt;br&gt;Подробнее: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Теперь доступ есть у вас и вашего ребенка</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Вы можете в любой момент удалить свою модель лица или отключить фейсконтроль в настройках. Модели хранятся на телефоне, пока вы их не удалите.&lt;br&gt;&lt;br&gt;Подробнее: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Ваши данные – ваш выбор</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Фейсконтроль использует уникальную модель лица ребенка, чтобы подтверждать, что перед ним именно он. Чтобы создать модель, ребенку нужно сделать снимки лица с разных ракурсов.
+
+Когда ребенок проходит фейсконтроль, модель обновляется с учетом новых снимков. Эти снимки не сохраняются, а сама модель надежно хранится на телефоне и никогда никуда не передается. Обработка всех данных выполняется на телефоне ребенка."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Фейсконтроль использует уникальную модель вашего лица, чтобы подтверждать, что перед ним именно вы. Чтобы создать модель, нужно сделать снимки лица с разных ракурсов.
+
+Когда вы проходите фейсконтроль, модель обновляется с учетом новых снимков. Эти снимки не сохраняются, а сама модель надежно хранится на телефоне и никогда никуда не передается. Обработка всех данных выполняется на телефоне."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Как это работает</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">В любой момент в настройках фейсконтроля вы или ваш ребенок можете запретить разблокировку телефона или подтверждение личности ребенка, если его глаза закрыты.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Если ваш ребенок носит очки, их можно не снимать во время настройки.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Фейсконтроль может быть менее надежным способом защиты телефона ребенка, чем графический ключ, PIN-код или пароль.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Ребенок может случайно разблокировать телефон, посмотрев на него. Телефон также можно будет разблокировать, если им воспользуется кто-то очень похожий, например близнец, или телефон поднесут к лицу ребенка.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">В любой момент в настройках фейсконтроля вы можете запретить разблокировку телефона или подтверждение вашей личности, если ваши глаза закрыты.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Очки можно не снимать (в том числе солнцезащитные, если они затемнены не слишком сильно).</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Фейсконтроль может быть менее надежным способом защиты телефона, чем графический ключ, PIN-код или пароль.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Вы можете случайно разблокировать телефон, посмотрев на экран. Телефон можно будет разблокировать, если им воспользуется кто-то очень похожий на вас, например ваш близнец, или телефон поднесут к вашему лицу.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Важно!</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Используйте фейсконтроль, чтобы снимать блокировку с телефона и подтверждать свою личность, например для входа в приложения и одобрения покупок.</string>
     <string name="security_settings_face_enroll_introduction_title">Настройка­ фейсконтроля</string>
     <string name="security_settings_face_enroll_next">Далее</string>
     <string name="security_settings_face_enroll_partial_message">Вы можете снова запустить настройку фейсконтроля в Настройках.</string>
@@ -307,7 +338,7 @@
     <string name="security_settings_face_enroll_partial_title">Настройка фейсконтроля завершена</string>
     <string name="security_settings_face_enroll_timeout_message">"Попробуйте быструю настройку. Помните, что для разблокировки с помощью фейсконтроля ваше лицо должно находиться прямо напротив экрана телефона.
 
-Вы можете снова запустить настройку фейсконтроля в настройках."</string>
+Чтобы повысить скорость работы функции, вы можете снова задать параметры фейсконтроля в настройках."</string>
     <string name="security_settings_face_enroll_timeout_title">Невозможно продолжить настройку</string>
     <string name="security_settings_face_enroll_timeout_try_again">Повторить попытку</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">Использовать быструю настройку</string>
@@ -325,15 +356,34 @@
     <string name="security_settings_fingerprint_preference_summary_none">Нажмите, чтобы добавить отпечаток пальца</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Функция Pixel Imprint использует уникальную модель вашего отпечатка, чтобы узнавать вас во время аутентификации. Для создания модели необходимо отсканировать ваш палец в разных положениях.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">Изображения, создаваемые во время работы функции Pixel Imprint, будут использоваться для обновления модели. Они не сохраняются, а модель отпечатка хранится на телефоне и никуда не отправляется. Обработка данных происходит только на вашем телефоне.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Вы можете в любой момент удалить модель отпечатка или отключить функцию Pixel Imprint в настройках. Модели хранятся на телефоне, пока вы их не удалите.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Функция Pixel Imprint использует уникальную модель вашего отпечатка, чтобы узнавать вас во время аутентификации. Для создания модели необходимо отсканировать палец в разных положениях.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">Изображения, создаваемые во время работы функции Pixel Imprint, будут использоваться для обновления модели. Они не сохраняются, а модель отпечатка хранится на телефоне и никуда не отправляется. Обработка данных происходит только на телефоне ребенка.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Вы и ваш ребенок можете в любой момент удалить его модель отпечатка пальца или отключить функцию Pixel Imprint в настройках. Модели хранятся на телефоне ребенка, пока не будут удалены.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Подробнее о разблокировке Pixel по отпечатку пальца: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint для работы</string>
     <string name="setup_suggestion_summary">Осталось совсем немного</string>
     <string name="setup_suggestion_title">Завершение настройки</string>
+    <string name="show_stylus_pointer_icon">Разрешить приложениям показывать указатель при наведении</string>
+    <string name="simple_mode_category">Быстрый доступ</string>
+    <string name="simple_mode_description">Размер текста и значков будет увеличен, а дизайн интерфейса – упрощен. Также будут добавлены кнопки навигации. Подробнее <a href="https://support.google.com/pixelphone?p=pixel_simple_view">о простом режиме</a>…</string>
+    <string name="simple_mode_summary">Сделать текст более различимым, упростить дизайн и навигацию</string>
+    <string name="simple_mode_suw_description">Чтобы ваше знакомство с Pixel было проще, а интерфейс удобнее, устройство может автоматически скачать важные приложения и виджеты, а также настроить шрифт, расположение элементов на экране и другие параметры.</string>
+    <string name="simple_mode_suw_done_button">Готово</string>
+    <string name="simple_mode_switch_title">Использовать простой режим</string>
+    <string name="simple_mode_title">Простой режим</string>
+    <string name="simple_view_dialog_negative_button">Отмена</string>
+    <string name="simple_view_dialog_positive_button">Продолжить</string>
+    <string name="simple_view_feature_disabled_dialog_message">Если отключить простой режим, на устройстве восстановятся исходные настройки шрифта, экрана и дизайна интерфейса. Узнайте, <a href="https://support.google.com/pixelphone?p=pixel_simple_view">как изменить параметры шрифта</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Устройство будет использовать прежние настройки</string>
+    <string name="simple_view_feature_enabled_dialog_message">Текущий шрифт крупнее того, что задан в настройках простого режима. Если включить этот режим, размер шрифта уменьшится.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Размер шрифта уменьшится</string>
     <string name="smart_battery_a11y_collapse_label">Отключить адаптивное энергопотребление</string>
     <string name="smart_battery_a11y_expand_label">Включить адаптивное энергопотребление</string>
     <string name="smart_battery_footer">Чтобы продлять время работы от батареи, функция \"Адаптивное энергопотребление\" может снижать производительность и ограничивать фоновые процессы. Некоторые уведомления могут приходить с задержкой.</string>
     <string name="smart_battery_manager_title">Адаптивные настройки</string>
+    <string name="smart_battery_summary" product="default">Адаптивное энергопотребление изучает особенности использования телефона и оптимизирует то, как приложения расходуют заряд батареи. Эта функция позволяет продлить время работы от батареи, но при этом производительность телефона может снижаться, а уведомления могут приходить с задержкой.</string>
     <string name="smart_battery_title">Адаптивное энергопотребление</string>
     <string name="software_update_can_be_updated_header">Сделайте Pixel ещё лучше</string>
     <string name="software_update_detail_indication_1_update_available">Доступно 1 обновление</string>
@@ -347,7 +397,8 @@
     <string name="software_update_up_to_date_summary">Актуальная версия</string>
     <string name="software_update_up_to_specific_date_summary">Последнее обновление: %1$s</string>
     <string name="software_update_update_available_summary">Доступно обновление</string>
-    <string name="sound_dashboard_summary">Громкость, виброотклик, режим \"Не беспокоить\"</string>
+    <string name="sound_dashboard_summary">Громкость и тактильная обратная связь</string>
+    <string name="sound_dashboard_summary_with_dnd">Громкость, тактильная обратная связь, режим \"Не беспокоить\"</string>
     <string name="spatial_audio_head_tracking_available">Доступно отслеживание движений головы.</string>
     <string name="spatial_audio_head_tracking_unavailable">Отслеживание движений головы недоступно.</string>
     <string name="speed_boost_summary_off">Выключено</string>
@@ -396,4 +447,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Нажмите, чтобы подключить</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Не удалось подключиться к сети. Нажмите, чтобы повторить попытку.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Подключение…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url">Подробнее…</annotation></string>
+    <string name="wireless_charging_learn_more_description">Узнать больше о беспроводной зарядке</string>
+    <string name="wireless_charging_state">Беспроводная зарядка •</string>
+    <string name="wireless_charging_state_and_duration">Беспроводная зарядка • %1$s •</string>
 </resources>

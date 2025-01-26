@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/system_navigation_title"
+    settings:keywords="@string/keywords_system_navigation">
+
+    <SwitchPreferenceCompat
+        android:key="search_gesture_press_hold"
+        android:order="100"
+        android:summary="@string/search_gesture_feature_summary"
+        android:title="@string/search_gesture_feature_title"
+        settings:allowDividerAbove="true"
+        settings:controller="com.google.android.settings.gestures.NavigationSettingsGoogleOmniController"
+        settings:highlightableMenuKey="@string/menu_key_system" />
+
+</PreferenceScreen>

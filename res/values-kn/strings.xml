@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="accessibility_keyboard_haptics_title">ಕೀಬೋರ್ಡ್ ಹ್ಯಾಪ್ಟಿಕ್ಸ್</string>
-    <string name="accessibility_screen_magnifier_summary">ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಪ್ರದೇಶಗಳನ್ನು ಝೂಮ್‌ ಮಾಡಲು ನಿಮ್ಮ ಕ್ಯಾಮರಾವನ್ನು ಬಳಸಿ</string>
+    <string name="accessibility_screen_magnifier_summary">ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನದನ್ನು ಝೂಮ್‌ ಮಾಡಲು ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಬಳಸಿ</string>
     <string name="accessibility_screen_magnifier_title">ಮ್ಯಾಗ್ನಿಫೈಯರ್</string>
     <string name="adaptive_alert_vibration_summary">ನಿಮ್ಮ ಫೋನ್ ಸ್ಥಿರವಾಗಿರುವಾಗ ಹಾಗೂ ಸ್ಕ್ರೀನ್ ಮೇಲಕ್ಕೆ ಮುಖ ಮಾಡಿರುವಾಗ ವೈಬ್ರೇಷನ್‌ನ ತೀವ್ರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ</string>
     <string name="adaptive_alert_vibration_title">ಅಡಾಪ್ಟಿವ್ ಅಲರ್ಟ್ ವೈಬ್ರೇಷನ್</string>
@@ -16,6 +16,12 @@
     <string name="adaptive_charging_title">ಅಡಾಪ್ಟಿವ್ ಚಾರ್ಜಿಂಗ್</string>
     <string name="adaptive_touch_sensitivity_summary">ಸ್ಪರ್ಶ ಸಂವೇದನೆಯು ನಿಮ್ಮ ಪರಿಸರ, ಚಟುವಟಿಕೆಗಳು ಮತ್ತು ಸ್ಕ್ರೀನ್ ಗಾರ್ಡ್‌ಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸರಿಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ</string>
     <string name="adaptive_touch_sensitivity_title">ಅಡಾಪ್ಟಿವ್ ಟಚ್</string>
+    <string name="adaptive_vibration_footer">ನಿಮ್ಮ ಫೋನ್‌ನ ಮೈಕ್ರೊಫೋನ್ ಮತ್ತು ಇತರ ಸೆನ್ಸರ್‌ಗಳನ್ನು ಧ್ವನಿ ಮಟ್ಟಗಳು ಮತ್ತು ಸಂದರ್ಭವನ್ನು ನಿರ್ಧರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ. ಯಾವುದೇ ಡೇಟಾವನ್ನು ಎಂದಿಗೂ ದಾಖಲಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="adaptive_vibration_settings_summary">ಫೋನ್ ಪಾಕೆಟ್‌ನಲ್ಲಿರುವಾಗ ಅಥವಾ ಗದ್ದಲದ ವಾತಾವರಣದಲ್ಲಿರುವಂತಹ ಸಂದರ್ಭಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ನಿಮ್ಮ ಫೋನ್‌ನ ವೈಬ್ರೇಷನ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಡ್ಜಸ್ಟ್ ಮಾಡಿ</string>
+    <string name="adaptive_vibration_summary_off">ಆಫ್ ಆಗಿದೆ</string>
+    <string name="adaptive_vibration_summary_on">ಆನ್ ಆಗಿದೆ</string>
+    <string name="adaptive_vibration_title">ಅಡಾಪ್ಟಿವ್ ವೈಬ್ರೇಷನ್</string>
+    <string name="adaptive_vibration_toggle_title">ಅಡಾಪ್ಟಿವ್ ವೈಬ್ರೇಶನ್ ಅನ್ನು ಬಳಸಿ</string>
     <string name="add_bypassed_application_hint">ಯಾವುದೇ ಆ್ಯಪ್‌ಗಳನ್ನು ಸೇರಿಸಿಲ್ಲ</string>
     <string name="advanced_vpn_preference_group_title">ಬಿಲ್ಟ್-ಇನ್</string>
     <string name="all_apps_category_title">ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳು</string>
@@ -27,16 +33,6 @@
 
 ಆ್ಯಕ್ಸೆಸ್ ಅನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದರಿಂದ ಪ್ರತಿಯೊಂದು ಸಮಸ್ಯೆಯ ವರದಿಗಾಗಿ ಬಗ್ ವರದಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು ಮತ್ತು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ನಿಮ್ಮ ಅನುಮತಿಯನ್ನು ಆ್ಯಪ್‍ ಅಗತ್ಯವಾಗಿ ವಿನಂತಿಸಬೇಕಾಗುತ್ತದೆ."</string>
     <string name="app_and_notification_dashboard_summary">Assistant, ಇತ್ತೀಚಿನ ಆ್ಯಪ್‌ಗಳು, ಡೀಫಾಲ್ಟ್ ಆ್ಯಪ್‌ಗಳು</string>
-    <string name="audio_sharing_switch_title">ಆಡಿಯೋ ಹಂಚಿಕೊಳ್ಳಿ</string>
-    <string name="audio_sharing_title">ಆಡಿಯೋ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ</string>
-    <string name="audio_streams_category_title">LE ಆಡಿಯೋ ಸ್ಟ್ರೀಮ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿ</string>
-    <string name="audio_streams_connect">ಕನೆಕ್ಟ್ ಮಾಡಿ</string>
-    <string name="audio_streams_disconnect">ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಿ</string>
-    <string name="audio_streams_pref_title">ಸಮೀಪದ ಆಡಿಯೋ ಸ್ಟ್ರೀಮ್‌ಗಳು</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">QR ಕೋಡ್ ಮಾನ್ಯ ಫಾರ್ಮ್ಯಾಟ್‌ನಲ್ಲಿಲ್ಲ</string>
-    <string name="audio_streams_qr_code_scanner">ಆಲಿಸುವುದಕ್ಕೆ ಪ್ರಾರಂಭಿಸಲು, ಕ್ಯಾಮರಾವನ್ನು ಕೆಳಗಿನ QR ಕೋಡ್ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸಿ</string>
-    <string name="audio_streams_qr_code_summary">QR ಕೋಡ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಆಡಿಯೋ ಸ್ಟ್ರೀಮ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿ</string>
-    <string name="audio_streams_title">ಆಡಿಯೋ ಸ್ಟ್ರೀಮ್‌ಗಳು</string>
     <string name="automatic_storage_manager_activation_warning">ನೀವು ಸಂಪರ್ಕಗೊಳಿಸಿದಾಗ, ನೀವು ಬ್ಯಾಕಪ್‍‍ಗಾಗಿ ಆಯ್ಕೆಮಾಡಿದ ಗುಣಮಟ್ಟದಲ್ಲಿ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ಈಗಲೂ ಪ್ರವೇಶಿಸಬಹುದು</string>
     <string name="automatic_storage_manager_days_title">ಬ್ಯಾಕಪ್ ಮಾಡಿದ ಫೋಟೋ, ವೀಡಿಯೊ ತೆಗೆದುಹಾಕಿ</string>
     <string name="automatic_storage_manager_deactivation_warning">"ಸ್ಮಾರ್ಟ್ ಸಂಗ್ರಹಣೆ ಆಫ್ ಮಾಡಬೇಕೆ? 
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">ಪೂರ್ಣವಾಗಿ ಚಾರ್ಜ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
     <string name="battery_tip_limited_temporarily_extra_summary">ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಲು, ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಡಾಕ್ ಮಾಡಿರುವಾಗ %1$s ನಲ್ಲಿ ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಲಾಗುತ್ತದೆ</string>
     <string name="battery_tip_smart_battery_summary">ಅಡಾಪ್ಟಿವ್‌ ಬ್ಯಾಟರಿಯನ್ನು ಆನ್ ಮಾಡಿ</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
-    <string name="battery_tip_wireless_charging_summary">ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ವೈರ್‌ಲೆಸ್‌ ಮೂಲಕ ಚಾರ್ಜ್ ಮಾಡುವುದು ಇತರ ಚಾರ್ಜಿಂಗ್ ವಿಧಾನಗಳಿಗಿಂತ ಹೆಚ್ಚಿನ ಎನರ್ಜಿಯನ್ನು ಬಳಸುತ್ತದೆ</string>
-    <string name="battery_tip_wireless_charging_title">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್</string>
-    <string name="calls_and_alarms_device_title">ಕರೆಗಳು ಮತ್ತು ಅಲಾರಾಂಗಳು</string>
+    <string name="charging_optimization_charge_label">%1$s - ಚಾರ್ಜಿಂಗ್ %2$s ಸಮಯಕ್ಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="charging_optimization_remaining_time_label">%1$s ಸಮಯಕ್ಕೆ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">%1$s ವೇಳೆಗೆ ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಳ್ಳುತ್ತದೆ •</string>
     <string name="clear_calling_footer">"ನಿಮ್ಮ ಗೌಪ್ಯತೆಯನ್ನು ರಕ್ಷಿಸಲು, ಕ್ಲಿಯರ್ ಕಾಲಿಂಗ್ ಆಡಿಯೊ ಅಥವಾ ಸಂಭಾಷಣೆಗಳನ್ನು Google ಗೆ ಕಳುಹಿಸುವುದಿಲ್ಲ.
 
 ಕ್ಲಿಯರ್ ಕಾಲಿಂಗ್ ವೈಫೈ ಕರೆ ಮಾಡುವಿಕೆ ಮತ್ತು ಬಹುತೇಕ ನೆಟ್‌ವರ್ಕ್‌ಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, 3G ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಲಭ್ಯವಿರುವುದಿಲ್ಲ."</string>
@@ -147,15 +145,23 @@
 
 ಫಿಶಿಂಗ್ ಎನ್ನುವುದು ಸೈನ್-ಇನ್ ರುಜುವಾತುಗಳು ಅಥವಾ ಇತರ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಕದಿಯುವ ಪ್ರಯತ್ನವಾಗಿದೆ."</string>
     <string name="content_protection_preference_subpage_summary">ಸ್ಕ್ಯಾನಿಂಗ್ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಖಾಸಗಿಯಾಗಿ ನಡೆಯುತ್ತದೆ, ಫಿಶಿಂಗ್ ಮತ್ತು ಇತರ ಮೋಸದ ನಡವಳಿಕೆಗಾಗಿ ಆ್ಯಪ್‌ನ ಚಟುವಟಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ. ಫಿಶಿಂಗ್ ಪತ್ತೆಯಾದರೆ, ಅಪಾಯವನ್ನು ಖಚಿತಪಡಿಸಲು ಮತ್ತು ಆ್ಯಪ್ ಬಳಕೆದಾರರನ್ನು ಎಚ್ಚರಿಸಲು ಕೆಲವು ಆ್ಯಪ್ ಮಾಹಿತಿಯನ್ನು Google Play Protect ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
-    <string name="contextual_timeout_description">ನಿಮ್ಮ ಸಾಧನವು ಬಳಕೆಯಲ್ಲಿಲ್ಲದಿದ್ದರೆ, ನಿಮ್ಮ ಸಾಧನದ ಸ್ಕ್ರೀನ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬೇಗನೆ ಆಫ್ ಆಗುತ್ತದೆ</string>
+    <string name="contextual_timeout_description">ನಿಮ್ಮ ಸಾಧನವು ಬಳಕೆಯಲ್ಲಿಲ್ಲದಿದ್ದರೆ, ನಿಮ್ಮ ಸಾಧನದ ಸ್ಕ್ರೀನ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಆಗುತ್ತದೆ</string>
     <string name="contextual_timeout_title">ಅಡಾಪ್ಟಿವ್ ಟೈಮ್‌ಔಟ್</string>
+    <string name="credentials_install_summary" product="default">ಸಂಗ್ರಹಣೆಯಿಂದ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ</string>
     <string name="dark_ui_text">ನಿಮ್ಮ ಬ್ಯಾಟರಿ ದೀರ್ಘ ಕಾಲ ಬಾಳಿಕೆ ಬರುವುದಕ್ಕಾಗಿ ಸಹಾಯವಾಗಲು ಡಾರ್ಕ್ ಥೀಮ್ ಕಪ್ಪು ಹಿನ್ನೆಲೆಯನ್ನು ಬಳಸುತ್ತದೆ. ಡಾರ್ಕ್‌ ಥೀಮ್ ವೇಳಾಪಟ್ಟಿಗಳು ಆನ್ ಆಗಲು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಆಫ್ ಆಗುವವರೆಗೆ ಕಾಯುತ್ತವೆ.</string>
     <string name="debugging_data_title">ಡೀಬಗ್ ಮಾಡುವಿಕೆ ಡೇಟಾ</string>
+    <string name="default_notification_summary">ಕ್ಲಾಸಿಕ್‌ ನೋಟಿಫಿಕೇಶನ್‌</string>
+    <string name="default_ringtone_summary">ಕ್ಲಾಸಿಕ್‌ ರಿಂಗ್‌ಟೋನ್‌</string>
     <string name="discover_tips_button">ಸಲಹೆಗಳನ್ನು ಕಂಡುಕೊಳ್ಳಿ</string>
+    <string name="display_dashboard_summary">ಡಾರ್ಕ್‌ ಥೀಮ್, ಫಾಂಟ್ ಗಾತ್ರ, ಟಚ್</string>
+    <string name="display_settings">ಡಿಸ್‌ಪ್ಲೇ ಮತ್ತು ಟಚ್</string>
     <string name="dock_summary_charging_phone">ಫೋನ್‌ ಚಾರ್ಜಿಂಗ್‌ ಆಗುತ್ತಿದೆ</string>
     <string name="double_twist_for_camera_mode_summary">Google Camera ದಲ್ಲಿ ಸೆಲ್ಫೀ ಮೋಡ್‌ಗೆ ಪ್ರವೇಶಿಸಲು ಮತ್ತು ಅದರಿಂದ ನಿರ್ಗಮಿಸಲು, ನೀವು ಆ್ಯಪ್‌ನಲ್ಲಿರುವಾಗ ಡಬಲ್-ಟ್ವಿಸ್ಟ್ ಮಾಡಿ.</string>
     <string name="duration_less_than_one_minute">1 ನಿಮಿಷಕ್ಕಿಂತ ಕಡಿಮೆ</string>
-    <string name="enable_glanceable_hub_toggle">ಹಬ್ ಮೋಡ್</string>
+    <string name="enable_glanceable_hub_toggle">ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ವಿಜೆಟ್‌ಗಳನ್ನು ತೋರಿಸಿ</string>
+    <string name="enable_glanceable_hub_toggle_summary">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡದೆಯೇ</string>
+    <string name="erase_external_storage" product="default">USB ಸಂಗ್ರಹಣೆಯನ್ನು ಅಳಿಸಿ</string>
+    <string name="erase_external_storage_description" product="default">ಆಂತರಿಕ USB ಸಂಗ್ರಹಣೆಯಲ್ಲಿರುವ ಸಂಗೀತ ಅಥವಾ ಫೋಟೋಗಳಂಥ ಎಲ್ಲ ಡೇಟಾವನ್ನು ಅಳಿಸಿ</string>
     <string name="extreme_battery_saver_summary">ಮೇಲೆ ಪಟ್ಟಿ ಮಾಡಲಾದ ಎಲ್ಲಾ ಬದಲಾವಣೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ. ಅನಗತ್ಯ ಆ್ಯಪ್‌ಗಳು ಹಾಗೂ ಅವುಗಳ ಅಧಿಸೂಚನೆಗಳನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ.</string>
     <string name="extreme_battery_saver_title">ಎಕ್ಸ್‌ಟ್ರೀಮ್ ಬ್ಯಾಟರಿ ಸೇವರ್</string>
     <string name="face_confirmation_hide_illustration_description">ಈಗ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ನೀವು ಎತ್ತಿಕೊಂಡಾಗ ಅಥವಾ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿದಾಗ, ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಮುಖವನ್ನು ಬಳಸಬಹುದು.</string>
@@ -199,8 +205,7 @@
 
 ಬ್ಯಾಕಪ್ ಡೇಟಾವನ್ನು ನಿಮ್ಮ ಡ್ರೈವ್ ಸಂಗ್ರಹಣೆಯ ಪ್ರಮಾಣದಲ್ಲಿ ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ. ಸೇವೆಯಿಂದ ಹೊರಗುಳಿಯಲು ಆಯ್ಕೆ ಮಾಡಲಾದ ದೊಡ್ಡ ಫೈಲ್‌ಗಳು ಅಥವಾ ಫೈಲ್‌ಗಳ ಡೆವಲಪರ್‌ಗಳನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ."</string>
     <string name="fullbackup_erase_dialog_message">ಸಾಧನ ಡೇಟಾ (ವೈ-ಫೈ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು ಕರೆ ಇತಿಹಾಸದಂತಹ) ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್ ಡೇಟಾವನ್ನು (ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಮೂಲಕ ಸಂಗ್ರಹಿಸಲಾದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಫೈಲ್‌ಗಳಂತಹ) ಬ್ಯಾಕಪ್ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸುವುದೇ ಹಾಗೂ Google ಡ್ರೈವ್‌ನಲ್ಲಿನ ಎಲ್ಲಾ ನಕಲುಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
-    <string name="gesture_settings_activity_title">ಗೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್</string>
-    <string name="hub_mode_content_setting">ಹಬ್ ಮೋಡ್‌ನಲ್ಲಿ ಯಾವುದೇ ವಿಜೆಟ್ ಅನ್ನು ಅನುಮತಿಸಿ</string>
+    <string name="help_footer_content_description">%1$s ಕುರಿತು. %2$s</string>
     <string name="install_unknown_applications">Play Store ಹೊರಗಿನ ಬೇರೆ ಮೂಲಗಳ ಅಪ್ಲಿಕೇಶನ್‌‌ ಸ್ಥಾಪನೆಯನ್ನು ಅನುಮತಿಸಿ</string>
     <string name="keywords_accessibility_menu">ಮೋಟಾರ್, ತ್ವರಿತ ಮೆನು, ಅಸಿಸ್ಟೀವ್ ಮೆನು, ಸ್ಪರ್ಶ, ದಕ್ಷತೆ, ಸಂಧಿವಾತ, rsi, ಸ್ಟ್ರೋಕ್‌‌, ನಡುಕ, ಮಲ್ಟಿಪಲ್ ಸ್ಕ್ಲೆರೋಸಿಸ್, ಸೆರೆಬ್ರಲ್ ಪಾಲ್ಸಿ, ಬಟನ್, ಹಾರ್ಡ್‌ವೇರ್, ಪ್ರೆಸ್, ಪುನರಾವರ್ತಿತ ಒತ್ತಡದ ಗಾಯ, ಹ್ಯಾಂಡ್, ನೋವು, ಆ್ಯಕ್ಸೆಸ್ ಮಾಡಬಹುದಾದ, ಸಹಾಯ</string>
     <string name="keywords_adaptive_alert_vibration">ಹ್ಯಾಪ್ಟಿಕ್ಸ್, ವೈಬ್ರೇಟ್, ಫೋನ್, ಕರೆ, ರಿಂಗ್, ಅಲರ್ಟ್, ಅಧಿಸೂಚನೆಗಳು, ಜೋರಾಗಿ, ನಿಶ್ಶಬ್ದ, ಗದ್ದಲ, ಕೇಸ್, ಅಡಾಪ್ಟಿವ್</string>
@@ -222,16 +227,25 @@
     <string name="keywords_touch_sensitivity">ಸ್ಪರ್ಶ, ಸೂಕ್ಷ್ಮತೆ, ಸೂಕ್ಷ್ಮ, ಸ್ಕ್ರೀನ್ ರಕ್ಷಕ, ಚಲನಚಿತ್ರ, ಪ್ರತಿಕ್ರಿಯೆ, ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕತೆ</string>
     <string name="keywords_touch_sensitivity_settings">ಸ್ಪರ್ಶ, ಅಡಾಪ್ಟಿವ್, ಸೂಕ್ಷ್ಮತೆ, ಸೂಕ್ಷ್ಮ, ಸ್ಕ್ರೀನ್ ಗಾರ್ಡ್, ಚಲನಚಿತ್ರ, ಪ್ರತಿಕ್ರಿಯೆ, ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕತೆ</string>
     <string name="keywords_voice_access">ಧ್ವನಿ, ಧ್ವನಿ ನಿಯಂತ್ರಣ, ಮೋಟಾರ್, ಹ್ಯಾಂಡ್, ಮೈಕ್, ಮೈಕ್ರೊಫೋನ್, ಡಿಕ್ಟೇಷನ್, ಮಾತು, ನಿಯಂತ್ರಣ</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</a></string>
     <string name="led_preference_title">LED ಇಂಡಿಕೇಟರ್ ಪ್ಯಾಟರ್ನ್‌ಗಳು</string>
     <string name="legal_source_code_description">ಓಪನ್ ಸೋರ್ಸ್ ಆಗಿ ಲಭ್ಯವಿರುವ ಕಾಂಪೊನೆಂಟ್‌ಗಳ ಸೋರ್ಸ್ ಕೋಡ್ ಕುರಿತಾದ ವಿವರಗಳನ್ನು Pixel ಸಹಾಯ ಕೇಂದ್ರದಲ್ಲಿ ಕಂಡುಕೊಳ್ಳಬಹುದು.</string>
     <string name="legal_source_code_title">ಸೋರ್ಸ್ ಕೋಡ್</string>
     <string name="limited_warranty_introduction">ಈ ಸಾಧನದ ವಾರೆಂಟಿಯನ್ನು ವೀಕ್ಷಿಸಲು ನೀವು ಯಾವ ದೇಶದಲ್ಲಿ ಖರೀದಿಸಿದ್ದೀರೋ ಆ ದೇಶದ ಮೇಲೆ ಟ್ಯಾಪ್ ಮಾಡಿ. g.co/devicewarranty ಯಲ್ಲೂ ಸಹ ವಾರೆಂಟಿ ಕುರಿತ ಮಾಹಿತಿ ಲಭ್ಯವಿದೆ</string>
     <string name="limited_warranty_title">ಸೀಮಿತ ವಾರೆಂಟಿ</string>
-    <string name="lockscreen_show_weather_summary">ಪ್ರಸ್ತುತ ಹವಾಮಾನ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
-    <string name="lockscreen_show_weather_title">ಹವಾಮಾನವನ್ನು ತೋರಿಸಿ</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+ಸಂಗೀತ, ಚಿತ್ರಗಳು, ಮತ್ತು ಬಳಕೆದಾರರ ಇತರ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಲು, "<b>USB ಸಂಗ್ರಹಣೆಯನ್ನು</b> ಅಳಿಸಬೇಕಾಗುತ್ತದೆ.</string>
     <string name="my_device_info_account_preference_title">Google ಖಾತೆ</string>
+    <string name="notification_dismissal_sync_summary">ನಿಮ್ಮ Pixel ಫೋನ್ ಅಥವಾ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ವಜಾಗೊಳಿಸಲಾದ ನೋಟಿಫಿಕೇಶನ್‌ಗಳು ಇನ್ನು ಮುಂದೆ ಎರಡರಲ್ಲೂ ಕಾಣಿಸುವುದಿಲ್ಲ</string>
+    <string name="notification_dismissal_sync_title">Pixel ಸಾಧನಗಳಾದ್ಯಂತ ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ವಜಾಗೊಳಿಸಿ</string>
+    <string name="overrided_google_settings_summary">Google ಸೇವೆಗಳು &amp; ಆದ್ಯತೆಗಳು</string>
+    <string name="overrided_google_settings_title">ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
     <string name="owner_info_settings_edit_text_hint">ಉದಾ. ಜೋ ಅವರ Pixel.</string>
     <string name="permit_debugging_data">ಬಗ್ ವರದಿ ಆ್ಯಕ್ಸೆಸ್ ಅನ್ನು ಅನುಮತಿಸಿ</string>
+    <string name="phone_notification_channel_sound_title">ಧ್ವನಿ &amp; ವೈಬ್ರೇಷನ್</string>
+    <string name="phone_notification_title">ನೋಟಿಫಿಕೇಶನ್‌ ಅಲರ್ಟ್‌</string>
+    <string name="phone_ringtone_title">ರಿಂಗ್‌ಟೋನ್‌ ಅಲರ್ಟ್‌</string>
     <string name="play_application_detail_indication_summary">ಅಪ್‌ಡೇಟ್‌ಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ</string>
     <string name="play_application_update_entry_title">ಆ್ಯಪ್ ಅಪ್‌ಡೇಟ್‌ಗಳು</string>
     <string name="private_space_retry_summary">ನಿಮ್ಮ ಪ್ರೈವೆಟ್ ಸ್ಪೇಸ್‌ನಲ್ಲಿ ಬಳಸಲು Google ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
@@ -242,7 +256,7 @@
     <string name="reverse_charging_auto_turn_on_subtitle">ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಚಾರ್ಜರ್‌ಗೆ ಪ್ಲಗ್ ಇನ್ ಮಾಡಿದಾಗ ಅಲ್ಪಾವಧಿಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆನ್ ಆಗುತ್ತದೆ</string>
     <string name="reverse_charging_auto_turn_on_title">ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆನ್ ಮಾಡಿ</string>
     <string name="reverse_charging_charging_wirelessly_message">ಫೋನ್, ವೈರ್‌ಲೆಸ್ ಆಗಿ ಚಾರ್ಜ್ ಆಗುತ್ತಿರುವುದರಿಂದ ಲಭ್ಯವಿಲ್ಲ</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Pixel ತುಂಬಾ ಬಿಸಿಯಾಗಿರುವುದರಿಂದ ಬ್ಯಾಟರಿ ಹಂಚಿಕೆ ಲಭ್ಯವಿಲ್ಲ. ಫೋನ್ ತಣ್ಣಗಾಗುವವರೆಗೆ ಕಾಯಿರಿ ಹಾಗೂ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">ತಾಪಮಾನದ ಕಾರಣದಿಂದಾಗಿ ಲಭ್ಯವಿಲ್ಲ ಫೋನ್ ತಣ್ಣಗಾಗುವವರೆಗೆ ಕಾಯಿರಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">ಫೋನ್, ವೈರ್‌ಲೆಸ್ ಆಗಿ ಚಾರ್ಜ್ ಆಗುತ್ತಿರುವುದರಿಂದ ಬ್ಯಾಟರಿ ಹಂಚಿಕೆ ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="reverse_charging_detail_footer_title">ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಬಳಸುವಾಗ, ನಿಮ್ಮ ಫೋನ್‌ನ ಬ್ಯಾಟರಿ ವೇಗವಾಗಿ ಖಾಲಿಯಾಗುತ್ತದೆ. ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳುವಿಕೆಯು ಹೊಂದಾಣಿಕೆಯಾಗುವ ಇಯರ್‌ಬಡ್ಸ್‌, ಕೈಗಡಿಯಾರಗಳು ಫೋನ್‌ಗಳು ಮತ್ತು ಇತ್ಯಾದಿಗಳ ಜೊತೆಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಉತ್ತಮ ಚಾರ್ಜಿಂಗ್‌ಗಾಗಿ, ನಿಮ್ಮ ಫೋನ್‌ನ ಕೇಸ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"ಹೊಂದಾಣಿಕೆಯಾಗುವ ಇಯರ್-ಬಡ್ಸ್‌, ಫೋನ್‌ಗಳು ಮತ್ತು ಇತ್ಯಾದಿಗಳೊಂದಿಗೆ ಬ್ಯಾಟರಿ ಶೇರ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.
@@ -250,14 +264,14 @@
 ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸುವಾಗ ನಿಮ್ಮ ಫೋನ್‌ನ ಬ್ಯಾಟರಿ ಬೇಗನೆ ಖಾಲಿಯಾಗುತ್ತದೆ. ಮತ್ತೊಂದು ಸಾಧನ ಪತ್ತೆಯಾಗದಿದ್ದರೆ ಬ್ಯಾಟರಿ ಶೇರ್ ಕೆಲವು ನಿಮಿಷಗಳ ನಂತರ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಆಗುತ್ತದೆ. ಉತ್ತಮ ಚಾರ್ಜಿಂಗ್‌ಗಾಗಿ ನಿಮ್ಮ ಫೋನ್‌ನ ಕೇಸ್ ಮತ್ತು ಅಡ್ದಿಯಾಗಬಹುದಾದ ಇತರ ಐಟಂಗಳನ್ನು, ಉದಾಹರಣೆಗೆ ಲೋಹದ ವಸ್ತುಗಳನ್ನು ತೆಗೆಯಿರಿ."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">ಬ್ಯಾಟರಿ ಸೇವರ್‌ ಆನ್ ಆಗಿರುವುದರಿಂದ ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">USB-C ಸಾಧನವನ್ನು ಪ್ಲಗ್ ಇನ್ ಮಾಡಿರುವುದರಿಂದ ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಬ್ಯಾಟರಿ ಶೇರ್ ಲಭ್ಯವಿರುವುದಿಲ್ಲ</string>
     <string name="reverse_charging_instructions_title">"ನಿಮ್ಮ Pixel ಬಳಸಿ ಇತರ ಸಾಧನಗಳನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ.
 ಪ್ರಯತ್ನಿಸಲು ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ತಿರುಗಿಸಿ."</string>
-    <string name="reverse_charging_is_off_summary">ಆಫ್ ಆಗಿದೆ</string>
+    <string name="reverse_charging_is_off_summary">ಆಫ್</string>
     <string name="reverse_charging_is_on_and_charging_summary">ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ ಮತ್ತು ಚಾರ್ಜ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
     <string name="reverse_charging_is_on_and_discharging_summary">ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</string>
     <string name="reverse_charging_is_on_summary">ಆನ್ ಆಗಿದೆ / ಇತರ ಸಾಧನಗಳನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ</string>
     <string name="reverse_charging_main_switch">ಬ್ಯಾಟರಿ ಶೇರ್ ಬಳಸಿ</string>
-    <string name="reverse_charging_overheat_summary">Pixel ತುಂಬಾ ಬಿಸಿಯಾಗಿರುವುದರಿಂದ ಲಭ್ಯವಿಲ್ಲ. ಫೋನ್ ತಣ್ಣಗಾಗುವವರೆಗೆ ಕಾಯಿರಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">ಬ್ಯಾಟರಿ ಸೇವರ್‌ ಆನ್ ಆಗಿರುವುದರಿಂದ ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="reverse_charging_sharing_level_message">ಬ್ಯಾಟರಿಯು ಹಂಚಿಕೊಳ್ಳುವಿಕೆಯ ಮಟ್ಟಕ್ಕಿಂತ ಕಡಿಮೆಯಿರುವುದರಿಂದ ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="reverse_charging_switch_title">ಇತರ ಸಾಧನಗಳನ್ನು ನಿಮ್ಮ Pixel ನ ಹಿಂಭಾಗದಲ್ಲಿ ಇರಿಸುವ ಮೂಲಕ ಅವುಗಳನ್ನು ಚಾರ್ಜ್ ಮಾಡಿ</string>
@@ -265,6 +279,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">USB-C ಸಾಧನ ಪ್ಲಗ್-ಇನ್ ಆಗಿರುವುದರಿಂದ ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="reverse_charging_warning_summary">ಬ್ಯಾಟರಿ ಪ್ರಮಾಣ %1$s ಕ್ಕಿಂತ ಕಡಿಮೆ ಇರುವುದರಿಂದ, ಬ್ಯಾಟರಿ ಹಂಚಿಕೆಯನ್ನು ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
     <string name="reverse_charging_warning_title">ಬ್ಯಾಟರಿ ಪ್ರಮಾಣ %1$s ಗಿಂತ ಕಡಿಮೆ ಇರುವುದರಿಂದ ಬ್ಯಾಟರಿ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="ringtone_synchronized_summary">ಸಿಂಕ್ರೊನೈಸ್‌ ಮಾಡಲಾಗಿದೆ</string>
     <string name="rtt_settings_always_visible">ಯಾವಾಗಲೂ ಗೋಚರಿಸುತ್ತದೆ</string>
     <string name="rtt_settings_no_visible">ಗೋಚರಿಸುತ್ತಿಲ್ಲ</string>
     <string name="rtt_settings_title">ನೈಜ ಸಮಯ ಪಠ್ಯ (RTT)</string>
@@ -272,13 +287,13 @@
     <string name="screen_time_summary_usage_today">ಇಂದಿನ ಬಳಕೆ %1$s</string>
     <string name="search_bar_account_avatar_content_description">ಪ್ರೊಫೈಲ್ ಚಿತ್ರ, Google ಖಾತೆಯನ್ನು ತೆರೆಯಲು ಡಬಲ್ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="search_gesture_category_title">ಹುಡುಕಾಟ</string>
+    <string name="search_gesture_feature_summary">ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಮೇಲಿನ ಕಂಟೆಂಟ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಹುಡುಕಲು ಹೋಮ್ ಬಟನ್ ಅಥವಾ ನ್ಯಾವಿಗೇಶನ್ ಹ್ಯಾಂಡಲ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.</string>
     <string name="search_gesture_feature_title">ಹುಡುಕಲು ಒಂದು ಸರ್ಕಲ್ ರಚಿಸಿ</string>
-    <string name="search_long_press_home_button_summary">ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಹೋಮ್ ಬಟನ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಒತ್ತಿ ಹಿಡಿಯಿರಿ, ನಂತರ ಹುಡುಕುವುದಕ್ಕೆ ಯಾವುದನ್ನಾದರೂ ಸರ್ಕಲ್ ಮಾಡಿ ಅಥವಾ ಹೈಲೈಟ್ ಮಾಡಿ</string>
-    <string name="search_press_hold_gesture_summary">ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಹ್ಯಾಂಡಲ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಒತ್ತಿ ಹಿಡಿಯಿರಿ, ನಂತರ ಹುಡುಕುವುದಕ್ಕೆ ಯಾವುದನ್ನಾದರೂ ಸರ್ಕಲ್ ಮಾಡಿ ಅಥವಾ ಹೈಲೈಟ್ ಮಾಡಿ</string>
     <string name="security_dismiss_dialog_dismiss_button">ವಜಾಗೊಳಿಸಿ</string>
     <string name="security_dismiss_dialog_title">ಈ ಎಚ್ಚರಿಕೆಯನ್ನು ವಜಾಗೊಳಿಸಬೇಕೇ?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">ಸೆಟಪ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="security_settings_face_enroll_education_message">ಮುಂದಿನ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ, ನಿಮ್ಮ ಮುಖವನ್ನು ಎಲ್ಲಾ ಕೋನಗಳಲ್ಲಿ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ನಿಮ್ಮ ತಲೆಯನ್ನು ತಿರುಗಿಸಿ.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">ಮುಂದಿನ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ, ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಕಣ್ಣಿನ ನೇರಕ್ಕೆ ಹಿಡಿದುಕೊಳ್ಳಿ</string>
     <string name="security_settings_face_enroll_error_generic_dialog_message">ಮುಖ ನೋಂದಣಿ ಮಾಡುವಿಕೆಯು ಕಾರ್ಯ ನಿರ್ವಹಿಸಲಿಲ್ಲ.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">ಮುಖ ನೋಂದಣಿ ಸಮಯದ ಮಿತಿಯನ್ನು ಮೀರಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಸೆಟಪ್ ಅವಧಿ ಮೀರಿದೆ</string>
@@ -293,25 +308,41 @@
 
 ಸಾಕಷ್ಟು ಬೆಳಕು ಇರುವಾಗ ಮತ್ತು ಮಾಸ್ಕ್ ಅಥವಾ ಗಾಢ ಬಣ್ಣದ ಕನ್ನಡಕ ಧರಿಸದಿರುವಾಗ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಫೀಚರ್ ಉತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ."</string>
     <string name="security_settings_face_enroll_finish_title">ಸರಿಯಾಗಿದೆ!</string>
-    <string name="security_settings_face_enroll_introduction_accessibility">ದೃಷ್ಟಿ ದುರ್ಬಲವಾಗಿದ್ದರೆ ಅಥವಾ ತಲೆ ಅಲುಗಾಡುವ ಸಮಸ್ಯೆ ಇರುವಾಗ ಸೆಟ್ ಮಾಡಿ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility">ದುರ್ಬಲ ದೃಷ್ಟಿ ಅಥವಾ ತಲೆ ಅಲುಗಾಡುವ ಸಮಸ್ಯೆ ಇದ್ದರೆ ಇಲ್ಲಿ ಸೆಟ್ ಮಾಡಿ</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಬಳಸುವಾಗ, ನಿಮ್ಮ ತಲೆಯು ನಿಮ್ಮ ಫೋನ್‌ ಎದುರು ನೇರವಾಗಿ ಇರಬೇಕಾಗಬಹುದು.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">ಕಣ್ಣುಗಳನ್ನು ತೆರೆದಿರಬೇಕು</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"ನೀವು ಮತ್ತು ನಿಮ್ಮ ಮಗು ತಮ್ಮ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ ಅಳಿಸಬಹುದು ಅಥವಾ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಆಫ್ ಮಾಡಬಹುದು. ಫೇಸ್ ಮಾಡೆಲ್‌ಗಳನ್ನು ಅಳಿಸುವವರೆಗೂ ಅವುಗಳನ್ನು ಫೋನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.&lt;br&gt;&lt;br&gt;&lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt; ನಲ್ಲಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">ನೀವು ಮತ್ತು ನಿಮ್ಮ ಮಗು ನಿಯಂತ್ರಣದಲ್ಲಿದ್ದೀರಿ</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ ನಿಮ್ಮ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ಅಳಿಸಬಹುದು ಅಥವಾ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಆಫ್ ಮಾಡಬಹುದು. ಫೇಸ್ ಮಾಡೆಲ್‌ಗಳನ್ನು ನೀವು ಅಳಿಸುವವರೆಗೂ ಫೋನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.&lt;br&gt;&lt;br&gt;ಇಲ್ಲಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">ನಿಯಂತ್ರಣ ನಿಮ್ಮ ಕೈಯಲ್ಲಿದೆ</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"ಫೇಸ್ ಅನ್‌ಲಾಕ್ ನಿಮ್ಮ ಮಗುವನ್ನು ಗುರುತಿಸಲು ಅವರ ಮುಖದ ವಿಶಿಷ್ಟ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ. ಸೆಟಪ್ ಮಾಡುವ ಸಮಯದಲ್ಲಿ ಈ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು, ನಿಮ್ಮ ಮಗು ವಿವಿಧ ಕೋನಗಳಿಂದ ತಮ್ಮ ಮುಖದ ಚಿತ್ರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ.
+
+ಅವರು ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಬಳಸುವಾಗ, ಅವರ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಚಿತ್ರಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಅವರ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು ಬಳಸುವ ಚಿತ್ರಗಳನ್ನು ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ, ಆದರೆ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಅದು ಫೋನ್‌ನಲ್ಲೇ ಉಳಿಯುತ್ತದೆ. ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಭವಿಸುತ್ತವೆ."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"ಫೇಸ್ ಅನ್‌ಲಾಕ್ ನಿಮ್ಮನ್ನು ಗುರುತಿಸಲು ನಿಮ್ಮ ಮುಖದ ವಿಶಿಷ್ಟ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ. ಸೆಟಪ್ ಮಾಡುವ ಸಮಯದಲ್ಲಿ ಈ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು, ನೀವು ವಿವಿಧ ಕೋನಗಳಿಂದ ನಿಮ್ಮ ಮುಖದ ಚಿತ್ರಗಳನ್ನು ತೆಗೆಯುತ್ತೀರಿ.
+
+ನೀವು ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಬಳಸುವಾಗ, ನಿಮ್ಮ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಚಿತ್ರಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು ಬಳಸುವ ಚಿತ್ರಗಳನ್ನು ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ, ಆದರೆ ಫೇಸ್ ಮಾಡೆಲ್ ಅನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಅದು ಫೋನ್‌ನಲ್ಲೇ ಉಳಿಯುತ್ತದೆ. ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಭವಿಸುತ್ತವೆ."</string>
     <string name="security_settings_face_enroll_introduction_how_title">ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಬಳಸುವಾಗ ಫೋನ್ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಅಥವಾ ಮಗುವಿನ ಗುರುತನ್ನು ದೃಢೀಕರಿಸಲು ನಿಮ್ಮ ಮಗುವಿನ ಕಣ್ಣುಗಳು ತೆರೆದಿರಬೇಕಾಗುತ್ತದೆ. ನೀವು ಮತ್ತು ನಿಮ್ಮ ಮಗು ಈ ಆಯ್ಕೆಯನ್ನು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಆನ್ ಮಾಡಬಹುದು.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">ನಿಮ್ಮ ಮಗು ಸಾಮಾನ್ಯವಾಗಿ ಕನ್ನಡಕವನ್ನು ಧರಿಸಿದರೆ, ಅವರು ಸೆಟಪ್ ಸಮಯದಲ್ಲಿ ಅವುಗಳನ್ನು ಧರಿಸಬಹುದು.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">ನಿಮ್ಮ ಮಗುವಿನ ಫೋನ್ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಅವರ ಮುಖವನ್ನು ಬಳಸುವುದು ಶಕ್ತಿಶಾಲಿ ಪ್ಯಾಟರ್ನ್, ಪಿನ್ ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್‌ಗಿಂತ ಕಡಿಮೆ ಸುರಕ್ಷಿತ ವಿಧಾನವಾಗಿರಬಹುದು</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">ಫೋನ್ ಕಡೆ ನೋಡಿದಾಗ, ಅವರಿಗೆ ಅಗತ್ಯವಿಲ್ಲದಿದ್ದರೂ ಫೋನ್ ಆನ್ ಆಗಬಹುದು. ಅವರನ್ನು ತುಂಬಾ ಹೋಲುವ ವ್ಯಕ್ತಿ, ಉದಾಹರಣೆಗೆ ತದ್ರೂಪಿ ಸಹೋದರ/ಸಹೋದರಿಯೂ ಅವರ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು ಅಥವಾ ಅದನ್ನು ಅವರ ಮುಖದ ಎದುರು ಹಿಡಿದೂ ಸಹ ಯಾರಾದರೂ ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಬಳಸುವಾಗ ಫೋನ್ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಅಥವಾ ನಿಮ್ಮ ಗುರುತನ್ನು ದೃಢೀಕರಿಸಲು ನಿಮ್ಮ ಕಣ್ಣುಗಳು ತೆರೆದಿರಬೇಕಾಗುತ್ತದೆ. ನೀವು ಈ ಆಯ್ಕೆಯನ್ನು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಆನ್ ಮಾಡಬಹುದು.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">ಕನ್ನಡಕಗಳು ಅಥವಾ ತಿಳಿಬಣ್ಣದ ಸನ್ ಗ್ಲಾಸ್‌ಗಳನ್ನು ಧರಿಸಬಹುದು.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">ನಿಮ್ಮ ಮುಖದ ಮೂಲಕ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡುವುದು ಬಲವಾದ ಪ್ಯಾಟರ್ನ್, ಪಿನ್ ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್‌ಗಿಂತ ಕಡಿಮೆ ಸುರಕ್ಷಿತ ವಿಧಾನವಾಗಿರಬಹುದು</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">ಫೋನ್ ಕಡೆ ನೋಡಿದಾಗ, ನಿಮಗೆ ಅಗತ್ಯವಿಲ್ಲದಿದ್ದರೂ ಫೋನ್ ಅನ್‌ಲಾಕ್‌ ಆಗಬಹುದು. ನಿಮ್ಮನ್ನು ತುಂಬಾ ಹೋಲುವ ವ್ಯಕ್ತಿ, ಉದಾಹರಣೆಗೆ ತದ್ರೂಪಿ ಸಹೋದರ/ಸಹೋದರಿಯೂ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು ಅಥವಾ ಅದನ್ನು ನಿಮ್ಮ ಮುಖದ ಎದುರು ಹಿಡಿದೂ ಸಹ ಯಾರಾದರೂ ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು.</string>
     <string name="security_settings_face_enroll_introduction_info_title">ನೆನಪಿನಲ್ಲಿಡಿ</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">ನಿಮ್ಮ ಫೋನ್‌ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಅಥವಾ ನಿಮ್ಮ ಆ್ಯಪ್‌ಗಳಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿದಾಗ ಅಥವಾ ಖರೀದಿಯನ್ನು ಅನುಮತಿಸಿದಾಗ ನಿಮ್ಮ ಗುರುತನ್ನು ಪರಿಶೀಲಿಸಲು ನಿಮ್ಮ ಮುಖವನ್ನು ಬಳಸಿ.</string>
     <string name="security_settings_face_enroll_introduction_title">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಸೆಟಪ್ ಮಾಡಿ</string>
     <string name="security_settings_face_enroll_next">ಮುಂದಿನದು</string>
     <string name="security_settings_face_enroll_partial_message">ಕೆಲಸ ನಿರ್ವಹಣೆಯನ್ನು ಸುಧಾರಿಸಲು, ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಮರುಹೊಂದಿಸಬಹುದು</string>
     <string name="security_settings_face_enroll_partial_start_over">ಮೊದಲಿನಿಂದ ಪ್ರಾರಂಭಿಸಿ</string>
     <string name="security_settings_face_enroll_partial_title">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಸೆಟಪ್ ಮುಗಿದಿದೆ</string>
-    <string name="security_settings_face_enroll_timeout_message">"ಬದಲಿಗೆ ವೇಗವಾದ ಸೆಟಪ್ ಪ್ರಯತ್ನಿಸಿ ನೋಡಿ. ನೆನಪಿನಲ್ಲಿಡಿ, ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಬಳಸುವಾಗ ನಿಮ್ಮ ತಲೆಯು ನಿಮ್ಮ ಫೋನ್‌ ಎದುರು ನೇರವಾಗಿ ಇರಬೇಕಾಗಬಹುದು.
+    <string name="security_settings_face_enroll_timeout_message">"ಬದಲಿಗೆ ಫಾಸ್ಟ್ ಸೆಟಪ್‌ ಅನ್ನು ಬಳಸಿ ನೊಡಿ. ನೆನಪಿನಲ್ಲಿಡಿ, ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಬಳಸುವಾಗ ನಿಮ್ಮ ತಲೆಯು ನಿಮ್ಮ ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗೆ ನೇರವಾಗಿರಬೇಕು.
 
- ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಸುಧಾರಿಸಲು, ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಮತ್ತೆ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಸೆಟಪ್‌ ಮಾಡಬಹುದು."</string>
+ ಪರ್ಫಾರ್ಮೆನ್ಸ್ ಅನ್ನು ಸುಧಾರಿಸಲು, ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಮತ್ತೆ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಸೆಟಪ್‌ ಮಾಡಬಹುದು."</string>
     <string name="security_settings_face_enroll_timeout_title">ಸೆಟಪ್ ಮಾಡುವಿಕೆಯನ್ನು ಮುಂದುವರೆಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <string name="security_settings_face_enroll_timeout_try_again">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
-    <string name="security_settings_face_enroll_timeout_use_fast_setup">ವೇಗದ ಸೆಟಪ್ ಮಾಡುವಿಕೆ ಬಳಸಿ</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">ಫಾಸ್ಟ್ ಸೆಟಪ್‌ ಅನ್ನು ಬಳಸಿ</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">ಸೆಟಪ್‌ನಿಂದ ನಿರ್ಗಮಿಸಿ</string>
     <string name="security_settings_face_enroll_too_hot_message">ಫೋನ್ ತುಂಬಾ ಬಿಸಿಯಾಗಿರುವ ಕಾರಣಾ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಸೆಟಪ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಫೋನ್‌ ತಣ್ಣಗಾದ ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಸ್ಕಿಪ್ ಮಾಡಿ</string>
@@ -326,15 +357,34 @@
     <string name="security_settings_fingerprint_preference_summary_none">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆಟಪ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">ದೃಢೀಕರಣದ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮನ್ನು ಗುರುತಿಸಲು Pixel Imprint ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ನ ವಿಶಿಷ್ಟ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ. ಸೆಟಪ್ ಮಾಡುವ ಸಮಯದಲ್ಲಿ ಈ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು, ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ನ ಚಿತ್ರಗಳನ್ನು ನೀವು ವಿವಿಧ ಕೋನಗಳಲ್ಲಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">ನೀವು Pixel Imprint ಬಳಸುವಾಗ, ನಿಮ್ಮ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಚಿತ್ರಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು ಬಳಸುವ ಚಿತ್ರಗಳನ್ನು ಎಂದಿಗೂ ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ, ಆದರೆ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಅದು ಫೋನ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತದೆ. ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಭವಿಸುತ್ತವೆ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">ನಿಮ್ಮ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ನೀವು ಅಳಿಸಬಹುದು ಅಥವಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ Pixel Imprint ಅನ್ನು ಆಫ್ ಮಾಡಬಹುದು. ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್‌ಗಳನ್ನು ನೀವು ಅಳಿಸುವವರೆಗೂ ಫೋನ್‌ನಲ್ಲಿಯೇ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint ನಿಮ್ಮ ಮಗುವಿನ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅವರ ವಿಶಿಷ್ಟ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ. ಸೆಟಪ್ ಸಮಯದಲ್ಲಿ ಈ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ರಚಿಸಲು, ಅವರು ತಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಚಿತ್ರಗಳನ್ನು ವಿವಿಧ ಆಯಾಮಗಳಲ್ಲಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">ಅವರು Pixel Imprint ಬಳಸುವಾಗ, ಅವರ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಚಿತ್ರಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಮಗುವಿನ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅನ್ನು ರಚಿಸಲು ಬಳಸುವ ಚಿತ್ರಗಳನ್ನು ಎಂದಿಗೂ ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ, ಆದರೆ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಅದು ಫೋನ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತದೆ. ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ಫೋನ್‌ನಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಭವಿಸುತ್ತವೆ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">ನೀವು ಮತ್ತು ನಿಮ್ಮ ಮಗು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ತಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್ ಅನ್ನು ಅಳಿಸಬಹುದು ಅಥವಾ Pixel Imprint ಅನ್ನು ಆಫ್ ಮಾಡಬಹುದು. ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಮಾಡೆಲ್‌ಗಳನ್ನು ಅಳಿಸುವವರೆಗೆ ಫೋನ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; ನಲ್ಲಿ Pixel ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ."</string>
     <string name="security_settings_work_fingerprint_preference_title">ಕೆಲಸಕ್ಕಾಗಿ Pixel Imprint</string>
     <string name="setup_suggestion_summary">ಇನ್ನು ಕೆಲವೇ ಹಂತಗಳು</string>
     <string name="setup_suggestion_title">ಸೆಟ್ ಮಾಡುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ</string>
+    <string name="show_stylus_pointer_icon">ಹೋವರ್ ಮಾಡುವಾಗ ಪಾಯಿಂಟರ್ ಅನ್ನು ತೋರಿಸಲು ಆ್ಯಪ್‌ಗಳನ್ನು ಅನುಮತಿಸಿ</string>
+    <string name="simple_mode_category">ತ್ವರಿತ ಆ್ಯಕ್ಸೆಸ್</string>
+    <string name="simple_mode_description">ಪಠ್ಯ ಮತ್ತು ಐಕಾನ್ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸಿ, ಲೇಔಟ್ ಅನ್ನು ಸರಳಗೊಳಿಸಿ ಮತ್ತು ನ್ಯಾವಿಗೇಶನ್ ಬಟನ್‌ಗಳನ್ನು ಸೇರಿಸಿ. ಸಿಂಪಲ್ ವ್ಯೂ ಕುರಿತು <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</a>.</string>
+    <string name="simple_mode_summary">ಪಠ್ಯದ ಸ್ಪಷ್ಟತೆಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ ಮತ್ತು ಸ್ಕ್ರೀನ್ ಲೇಔಟ್ ಹಾಗೂ ನ್ಯಾವಿಗೇಷನ್ ಅನ್ನು ಸರಳಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="simple_mode_suw_description">ಸುವ್ಯವಸ್ಥಿತ ಡಿಸೈನ್ ಮತ್ತು ಸರಳ ಆನ್‌ಬೋರ್ಡಿಂಗ್‌ಗಾಗಿ, Pixel ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಗತ್ಯ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ವಿಜೆಟ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು, ಸ್ಕ್ರೀನ್ ಲೇಔಟ್ ಅನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಬಹುದು, ಫಾಂಟ್ ಅನ್ನು ಹೊಂದಿಸಬಹುದು ಮತ್ತು ಇನ್ನೂ ಹೆಚ್ಚಿನದನ್ನು ಮಾಡಬಹುದು</string>
+    <string name="simple_mode_suw_done_button">ಮುಗಿದಿದೆ</string>
+    <string name="simple_mode_switch_title">ಸಿಂಪಲ್ ವ್ಯೂ ಬಳಸಿ</string>
+    <string name="simple_mode_title">ಸಿಂಪಲ್ ವ್ಯೂ</string>
+    <string name="simple_view_dialog_negative_button">ರದ್ದುಮಾಡಿ</string>
+    <string name="simple_view_dialog_positive_button">ಮುಂದುವರಿಸಿ</string>
+    <string name="simple_view_feature_disabled_dialog_message">ಸಿಂಪಲ್ ವ್ಯೂ ಅನ್ನು ಆಫ್ ಮಾಡಿದಾಗ ನಿಮ್ಮ ಸಾಧನವು ತನ್ನ ಮೂಲ ಫಾಂಟ್, ಡಿಸ್‌ಪ್ಲೇ ಮತ್ತು ಲೇಔಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮರಳುತ್ತದೆ. ಈ ಪ್ರತ್ಯೇಕ ಫಾಂಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸುವುದು <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ಹೇಗೆ ಎಂಬುದನ್ನು ತಿಳಿಯಿರಿ</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">ನಿಮ್ಮ ಸಾಧನವು ಹಿಂದಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮರಳುತ್ತದೆ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಫಾಂಟ್, ಸಿಂಪಲ್ ವ್ಯೂ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗಿಂತ ದೊಡ್ಡದಾಗಿದೆ. ಸಿಂಪಲ್ ವ್ಯೂ ಅನ್ನು ಬಳಸಿದರೆ, ಫಾಂಟ್‌ನ ಗಾತ್ರ ಸಣ್ಣದಾಗುತ್ತದೆ.</string>
+    <string name="simple_view_feature_enabled_dialog_title">ಫಾಂಟ್‌ನ ಗಾತ್ರ ಸಣ್ಣದಾಗುತ್ತದೆ</string>
     <string name="smart_battery_a11y_collapse_label">ಕುಗ್ಗಿಸಿ, ಅಡಾಪ್ಟಿವ್‌ ಬ್ಯಾಟರಿ</string>
     <string name="smart_battery_a11y_expand_label">ವಿಸ್ತೃತಗೊಳಿಸಿ, ಅಡಾಪ್ಟಿವ್‌ ಬ್ಯಾಟರಿ</string>
     <string name="smart_battery_footer">ಬ್ಯಾಟರಿ ಅವಧಿಯನ್ನು ವಿಸ್ತರಿಸಲು, ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿಯು ಕಾರ್ಯಕ್ಷಮತೆ ಮತ್ತು ಹಿನ್ನೆಲೆ ಚಟುವಟಿಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ಕೆಲವು ಅಧಿಸೂಚನೆಗಳು ತಡವಾಗಬಹುದು.</string>
     <string name="smart_battery_manager_title">ಅಡಾಪ್ಟಿವ್ ಆದ್ಯತೆಗಳು</string>
+    <string name="smart_battery_summary" product="default">ಆ್ಯಪ್‌ಗಳು ಬ್ಯಾಟರಿಯನ್ನು ಹೇಗೆ ಬಳಸುತ್ತವೆ ಎಂಬುದನ್ನು ನಿರಂತರವಾಗಿ ಆಪ್ಟಿಮೈಜ್ ಮಾಡಲು ನಿಮ್ಮ ಫೋನ್‌ನ ಬಳಕೆಯಿಂದ ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿ ಕಲಿಯುತ್ತದೆ. ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸಲು, ಇದು ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ವಿಳಂಬಗೊಳಿಸುತ್ತದೆ.</string>
     <string name="smart_battery_title">ಅಡಾಪ್ಟಿವ್‌ ಬ್ಯಾಟರಿ</string>
     <string name="software_update_can_be_updated_header">ನಿಮ್ಮ Pixel ಅನ್ನು ಇನ್ನಷ್ಟು ಉತ್ತಮಗೊಳಿಸಿ</string>
     <string name="software_update_detail_indication_1_update_available">1 ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ</string>
@@ -348,7 +398,8 @@
     <string name="software_update_up_to_date_summary">ಅಪ್ ಟು ಡೇಟ್ ಆಗಿದೆ</string>
     <string name="software_update_up_to_specific_date_summary">%1$s ಕ್ಕೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದೆ</string>
     <string name="software_update_update_available_summary">ಅಪ್‌ಡೇಟ್ ಲಭ್ಯವಿದೆ</string>
-    <string name="sound_dashboard_summary">ವಾಲ್ಯೂಮ್, ಹ್ಯಾಪ್ಟಿಕ್ಸ್, ಅಡಚಣೆ ಮಾಡಬೇಡಿ</string>
+    <string name="sound_dashboard_summary">ವಾಲ್ಯೂಮ್ ಮತ್ತು ಹ್ಯಾಪ್ಟಿಕ್ಸ್</string>
+    <string name="sound_dashboard_summary_with_dnd">ವಾಲ್ಯೂಮ್, ಹ್ಯಾಪ್ಟಿಕ್ಸ್, ಅಡಚಣೆ ಮಾಡಬೇಡಿ</string>
     <string name="sound_settings">ಧ್ವನಿ ಮತ್ತು ವೈಬ್ರೇಷನ್‌</string>
     <string name="spatial_audio_head_tracking_available">ಹೆಡ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಲಭ್ಯವಿದೆ</string>
     <string name="spatial_audio_head_tracking_unavailable">ಹೆಡ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಲಭ್ಯವಿಲ್ಲ</string>
@@ -398,4 +449,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">ಕನೆಕ್ಟ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">ಕನೆಕ್ಟ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪುನಃ ಪ್ರಯತ್ನಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">ಕನೆಕ್ಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</annotation></string>
+    <string name="wireless_charging_learn_more_description">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
+    <string name="wireless_charging_state">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ •</string>
+    <string name="wireless_charging_state_and_duration">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ • %1$s •</string>
 </resources>

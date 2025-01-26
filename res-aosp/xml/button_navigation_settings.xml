@@ -20,18 +20,4 @@
         android:title="@string/assistant_long_press_home_gesture_title"
         settings:controller="com.google.android.settings.gestures.ButtonNavigationSettingsGoogleAssistController" />
 
-    <PreferenceCategory
-        android:key="search_gesture_category"
-        android:persistent="false"
-        android:title="@string/search_gesture_category_title"
-        settings:controller="com.google.android.settings.gestures.ButtonNavigationSettingsGoogleSearchController">
-
-        <SwitchPreferenceCompat
-            android:key="search_long_press_home_gesture"
-            android:summary="@string/search_long_press_home_button_summary"
-            android:title="@string/search_gesture_feature_title"
-            settings:controller="com.google.android.settings.gestures.ButtonNavigationSettingsGoogleSearchController" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>

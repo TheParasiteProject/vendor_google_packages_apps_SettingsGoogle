@@ -14,8 +14,14 @@
     <string name="adaptive_charging_main_switch_title">Aangepast opladen gebruiken</string>
     <string name="adaptive_charging_time_estimate"><b>Aangepast opladen</b> • Vol om %1$s</string>
     <string name="adaptive_charging_title">Aangepast opladen</string>
-    <string name="adaptive_touch_sensitivity_summary">De tikgevoeligheid wordt automatisch aangepast aan je omgeving, activiteiten en screenprotector</string>
+    <string name="adaptive_touch_sensitivity_summary">De aanraakgevoeligheid wordt automatisch aangepast aan je omgeving, activiteiten en screenprotector</string>
     <string name="adaptive_touch_sensitivity_title">Adaptieve aanraking</string>
+    <string name="adaptive_vibration_footer">De microfoon van je telefoon en andere sensoren worden gebruikt om geluidsniveaus en context te bepalen. Er worden nooit gegevens geregistreerd.</string>
+    <string name="adaptive_vibration_settings_summary">Pas de trillingen van je telefoon automatisch aan op basis van de omgeving, bijvoorbeeld als de telefoon in je zak zit of als je je op een plek met veel lawaai bevindt</string>
+    <string name="adaptive_vibration_summary_off">Uit</string>
+    <string name="adaptive_vibration_summary_on">Aan</string>
+    <string name="adaptive_vibration_title">Aanpasbare trilling</string>
+    <string name="adaptive_vibration_toggle_title">Aanpasbare trilling gebruiken</string>
     <string name="add_bypassed_application_hint">Geen apps toegevoegd</string>
     <string name="advanced_vpn_preference_group_title">Ingebouwd</string>
     <string name="all_apps_category_title">Alle apps</string>
@@ -27,16 +33,6 @@ Als je de app toegang geeft, kan die "<b>automatisch bugrapporten verzamelen en 
 
 Als je de toegang van de app intrekt, wordt je bij elk gerapporteerd probleem om toestemming gevraagd om een bugrapport te verzamelen en te uploaden."</string>
     <string name="app_and_notification_dashboard_summary">Assistent, recente apps, standaard-apps</string>
-    <string name="audio_sharing_switch_title">Audio delen</string>
-    <string name="audio_sharing_title">Audio delen</string>
-    <string name="audio_streams_category_title">Verbinden met een LE-audiostream</string>
-    <string name="audio_streams_connect">Verbinding maken</string>
-    <string name="audio_streams_disconnect">Verbinding verbreken</string>
-    <string name="audio_streams_pref_title">Audiostreams in de buurt</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">QR-code heeft geen geldige indeling</string>
-    <string name="audio_streams_qr_code_scanner">Centreer de QR-code hieronder om te beginnen met luisteren</string>
-    <string name="audio_streams_qr_code_summary">Maak verbinding met een audiostream via een QR-code</string>
-    <string name="audio_streams_title">Audiostreams</string>
     <string name="automatic_storage_manager_activation_warning">"Wanneer je online bent, heb je nog steeds toegang tot foto's en video's met de kwaliteit die je hebt geselecteerd voor de back-up"</string>
     <string name="automatic_storage_manager_days_title">"Foto's en video's met back-up verwijderen"</string>
     <string name="automatic_storage_manager_deactivation_warning">"Slimme opslag uitzetten? 
@@ -73,10 +69,12 @@ Slimme opslag maakt dan geen ruimte vrij als je opslag bijna vol is."</string>
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Volledig opladen</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Ter bescherming van de batterij wordt het opladen bij %1$s onderbroken als je tablet is gedockt</string>
     <string name="battery_tip_smart_battery_summary">Aangepast batterijgebruik aanzetten</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Meer informatie over draadloos opladen</string>
-    <string name="battery_tip_wireless_charging_summary">Je telefoon draadloos opladen gebruikt misschien meer energie dan andere oplaadmethoden</string>
-    <string name="battery_tip_wireless_charging_title">Draadloos opladen</string>
-    <string name="calls_and_alarms_device_title">Gesprekken en alarmen</string>
+    <string name="charging_optimization_charge_label">%1$s - Helemaal opgeladen om %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Helemaal opgeladen</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Helemaal opgeladen</string>
+    <string name="charging_optimization_remaining_time_label">Helemaal opgeladen om %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Helemaal draadloos opgeladen •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Helemaal draadloos opgeladen om %1$s •</string>
     <string name="clear_calling_footer">"Ter bescherming van je privacy stuurt Helder gespreksgeluid geen audio of gesprekken naar Google.
 
 Helder gespreksgeluid werkt met bellen via wifi en de meeste netwerken, maar is niet beschikbaar voor 3G-netwerken."</string>
@@ -147,15 +145,23 @@ Helder gespreksgeluid werkt met bellen via wifi en de meeste netwerken, maar is 
 
 Phishing is een poging om inloggegevens of andere persoonlijke informatie te stelen."</string>
     <string name="content_protection_preference_subpage_summary">Scans worden privé uitgevoerd op je apparaat, waarbij de app-activiteit wordt gecheckt op phishing of ander misleidend gedrag. Als er iets wordt gevonden, worden bepaalde app-gegevens naar Google Play Protect gestuurd om de dreiging te bevestigen en app-gebruikers te waarschuwen.</string>
-    <string name="contextual_timeout_description">Zet je scherm automatisch vroegtijdig uit als je het apparaat niet gebruikt</string>
+    <string name="contextual_timeout_description">Zet je scherm automatisch uit als je het apparaat niet gebruikt</string>
     <string name="contextual_timeout_title">Aanpasbare time-out</string>
+    <string name="credentials_install_summary" product="default">Installeer certificaten vanuit opslag</string>
     <string name="dark_ui_text">"Het donkere thema gebruikt een zwarte achtergrond zodat je batterij langer meegaat. Schema's voor het donkere thema worden pas aangezet als je scherm uitstaat."</string>
     <string name="debugging_data_title">Fouten in gegevens opsporen</string>
+    <string name="default_notification_summary">Klassieke melding</string>
+    <string name="default_ringtone_summary">Klassieke beltoon</string>
     <string name="discover_tips_button">Tips ontdekken</string>
+    <string name="display_dashboard_summary">Donker thema, lettergrootte, aanraken</string>
+    <string name="display_settings">Display en aanraken</string>
     <string name="dock_summary_charging_phone">Telefoon opladen</string>
     <string name="double_twist_for_camera_mode_summary">Als je de selfiemodus wilt aan- of uitzetten in Google Camera, draai je 2 keer vanuit je pols terwijl de app is geopend</string>
     <string name="duration_less_than_one_minute">Minder dan een minuut</string>
-    <string name="enable_glanceable_hub_toggle">Hub-modus</string>
+    <string name="enable_glanceable_hub_toggle">Widgets tonen op het vergrendelscherm</string>
+    <string name="enable_glanceable_hub_toggle_summary">Zonder je tablet te ontgrendelen</string>
+    <string name="erase_external_storage" product="default">USB-opslag wissen</string>
+    <string name="erase_external_storage_description" product="default">"Alle gegevens in de interne USB-opslag wissen, zoals muziek en foto's"</string>
     <string name="extreme_battery_saver_summary">Bevat alle hierboven vermelde wijzigingen. Onderbreekt ook niet-essentiële apps en de meldingen daarvan.</string>
     <string name="extreme_battery_saver_title">Extreme batterijbesparing</string>
     <string name="face_confirmation_hide_illustration_description">Als je nu je telefoon oppakt of op het scherm tikt, kun je de telefoon ontgrendelen met je gezicht.</string>
@@ -163,7 +169,7 @@ Phishing is een poging om inloggegevens of andere persoonlijke informatie te ste
     <string name="face_confirmation_info_outside_screen">Ontgrendelen via gezichtsherkenning werkt alleen met het buitenste scherm</string>
     <string name="face_enrolling_center_head">Zorg dat je gezicht in het binnenste kader past</string>
     <string name="face_enrolling_close_to_continue">Vouw de telefoon tijdens het instellen</string>
-    <string name="face_enrolling_close_to_continue_description">Vouw de telefoon voor instellen of gebruik van Ontgrendelen via gezichtsherkenning</string>
+    <string name="face_enrolling_close_to_continue_description">Vouw om in te stellen of gebruik Ontgrendelen via gezichtsherkenning</string>
     <string name="face_enrolling_description">Leg je gezicht onder alle hoeken vast door alle tegels te verwijderen.</string>
     <string name="face_enrolling_do_it_later">Later doen</string>
     <string name="face_enrolling_gaze_dialog_cancel">Annuleren</string>
@@ -199,8 +205,7 @@ Als je de functie voor automatische back-ups aanzet, worden apparaat- en app-geg
 
 Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-up gemaakt van grote bestanden of bestanden die ontwikkelaars hebben uitgesloten van de service."</string>
     <string name="fullbackup_erase_dialog_message">Wil je stoppen met het maken van back-ups van apparaatgegevens (zoals wifi-wachtwoorden en gespreksgeschiedenis) en app-gegevens (zoals instellingen en bestanden die zijn opgeslagen door apps), en alle kopieën in Google Drive wissen?</string>
-    <string name="gesture_settings_activity_title">Navigatie met gebaren</string>
-    <string name="hub_mode_content_setting">Elke widget toestaan in de Hub-modus</string>
+    <string name="help_footer_content_description">Over %1$s. %2$s</string>
     <string name="install_unknown_applications">Toestaan dat apps uit andere bronnen dan de Play Store worden geïnstalleerd</string>
     <string name="keywords_accessibility_menu">motoriek, snelmenu, ondersteunend menu, aanraken, mobiliteit, artritis, rsi, beroerte, tremor, multiple sclerosis, hersenverlamming, knop, hardware, drukken, repetitive strain injury, hand, pijn, toegankelijk, hulp</string>
     <string name="keywords_adaptive_alert_vibration">haptische feedback, trillen, telefoon, bellen, gesprek, overgaan, waarschuwing, meldingen, hard, zacht, geluid, case, aanpasbaar</string>
@@ -222,16 +227,25 @@ Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-u
     <string name="keywords_touch_sensitivity">tikken, gevoeligheid, gevoelig, schermbeschermer, folie, responsief, responsiviteit</string>
     <string name="keywords_touch_sensitivity_settings">tikken, aanpasbaar, gevoeligheid, gevoelig, screenprotector, folie, responsief, responsiviteit</string>
     <string name="keywords_voice_access">spraak, spraakbediening, motorisch, hand, microfoon, dicteren, praten, bediening</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Meer informatie</a></string>
     <string name="led_preference_title">Patronen van ledlampje</string>
     <string name="legal_source_code_description">In het Helpcentrum voor de Pixel vind je informatie over de broncode voor componenten die beschikbaar is als open source.</string>
     <string name="legal_source_code_title">Broncode</string>
     <string name="limited_warranty_introduction">Tik op het land van aankoop om de garantie voor dit apparaat te bekijken. De garantie is ook beschikbaar op g.co/devicewarranty.</string>
     <string name="limited_warranty_title">Beperkte Garantie</string>
-    <string name="lockscreen_show_weather_summary">Bekijk het actuele weerbericht</string>
-    <string name="lockscreen_show_weather_title">Weerbericht tonen</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Als je muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>USB-opslag</b> worden gewist.</string>
     <string name="my_device_info_account_preference_title">Google-account</string>
+    <string name="notification_dismissal_sync_summary">Meldingen die je op je Pixel-telefoon of -tablet sluit, worden op beide apparaten niet meer getoond</string>
+    <string name="notification_dismissal_sync_title">Meldingen sluiten op meerdere Pixel-apparaten</string>
+    <string name="overrided_google_settings_summary">Google-services en -voorkeuren</string>
+    <string name="overrided_google_settings_title">Inloggen</string>
     <string name="owner_info_settings_edit_text_hint">Bijvoorbeeld Pixel van Jan.</string>
     <string name="permit_debugging_data">Toegang tot bugrapport toestaan</string>
+    <string name="phone_notification_channel_sound_title">Geluid en trillen</string>
+    <string name="phone_notification_title">Meldingswaarschuwing</string>
+    <string name="phone_ringtone_title">Ringtonewaarschuwing</string>
     <string name="play_application_detail_indication_summary">Zoeken naar updates</string>
     <string name="play_application_update_entry_title">App-updates</string>
     <string name="private_space_retry_summary">Log in op een Google-account dat je wilt gebruiken met je privégedeelte</string>
@@ -242,14 +256,15 @@ Back-upgegevens tellen niet mee voor je Drive-opslagquotum. Er wordt geen back-u
     <string name="reverse_charging_auto_turn_on_subtitle">Gaat korte tijd automatisch aan als je telefoon wordt aangesloten op een oplader</string>
     <string name="reverse_charging_auto_turn_on_title">Automatisch aanzetten</string>
     <string name="reverse_charging_charging_wirelessly_message">Niet beschikbaar omdat de telefoon draadloos wordt opgeladen</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Batterij delen is niet beschikbaar omdat de Pixel te heet is. Wacht tot het apparaat is afgekoeld en probeer het opnieuw.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Niet beschikbaar vanwege temperatuur. Wacht tot de telefoon is afgekoeld en probeer het opnieuw.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Batterij delen is niet beschikbaar omdat de telefoon draadloos wordt opgeladen</string>
     <string name="reverse_charging_detail_footer_title">"De batterij van je telefoon raakt sneller leeg als je de functie 'Batterij delen' gebruikt. 'Batterij delen' werkt met geschikte oordopjes, smartwatches, telefoons en meer. Verwijder de case van je telefoon voor beter opladen."</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Batterij delen werkt met compatibele oordopjes, telefoons en meer.
 
-De batterij van je telefoon raakt sneller leeg als je deze functie gebruikt. Batterij delen wordt na enkele minuten automatisch uitgezet als er geen ander apparaat wordt gedetecteerd. Voor beter opladen verwijder je de case van je telefoon en andere items die storing kunnen veroorzaken."</string>
-    <string name="reverse_charging_detail_power_save_mode_is_on_message">Batterij delen is niet beschikbaar omdat batterijbesparing aanstaat</string>
+De batterij van je telefoon raakt sneller leeg als je deze functie gebruikt. Batterij delen wordt na enkele minuten automatisch uitgezet als er geen ander apparaat wordt gedetecteerd. Verwijder het hoesje van je telefoon en andere items die storing kunnen veroorzaken om het apparaat beter op te laden."</string>
+    <string name="reverse_charging_detail_power_save_mode_is_on_message">Batterij delen is niet beschikbaar omdat Batterijbesparing aanstaat</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Batterij delen is niet beschikbaar omdat er een USB-C-apparaat is aangesloten</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Batterij delen is niet beschikbaar tijdens het opladen</string>
     <string name="reverse_charging_instructions_title">"Laad andere apparaten op met je Pixel.
 Draai je telefoon om en probeer het uit."</string>
     <string name="reverse_charging_is_off_summary">Uit</string>
@@ -257,7 +272,6 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Batterij delen</string>
     <string name="reverse_charging_is_on_summary">Aan: andere apparaten opladen</string>
     <string name="reverse_charging_main_switch">Batterij delen gebruiken</string>
-    <string name="reverse_charging_overheat_summary">Niet beschikbaar omdat de Pixel te heet is. Wacht tot het apparaat is afgekoeld en probeer het opnieuw.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Niet beschikbaar omdat batterijbesparing aanstaat</string>
     <string name="reverse_charging_sharing_level_message">Niet beschikbaar omdat de batterijlading lager is dan het niveau voor delen</string>
     <string name="reverse_charging_switch_title">Laad andere apparaten op door ze op de achterkant van je Pixel te leggen</string>
@@ -265,6 +279,7 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Niet beschikbaar omdat er een USB-C-apparaat is aangesloten</string>
     <string name="reverse_charging_warning_summary">Niet beschikbaar omdat de batterij minder dan %1$s lading heeft</string>
     <string name="reverse_charging_warning_title">Batterij delen is niet beschikbaar omdat de batterij minder dan %1$s lading heeft</string>
+    <string name="ringtone_synchronized_summary">Gesynchroniseerd</string>
     <string name="rtt_settings_always_visible">Altijd zichtbaar</string>
     <string name="rtt_settings_no_visible">Niet zichtbaar</string>
     <string name="rtt_settings_title">Realtime tekst (RTT)</string>
@@ -272,16 +287,16 @@ Draai je telefoon om en probeer het uit."</string>
     <string name="screen_time_summary_usage_today">%1$s vandaag</string>
     <string name="search_bar_account_avatar_content_description">Profielfoto, dubbeltik om je Google-account te openen</string>
     <string name="search_gesture_category_title">Zoeken</string>
+    <string name="search_gesture_feature_summary">Houd je vinger op de startknop of de navigatiehandgreep om te zoeken op basis van de content op je scherm.</string>
     <string name="search_gesture_feature_title">Circle to Search</string>
-    <string name="search_long_press_home_button_summary">Houd de startknop onderaan het scherm ingedrukt en omcirkel of markeer iets om dit te zoeken</string>
-    <string name="search_press_hold_gesture_summary">Houd de handgreep onderaan het scherm ingedrukt en omcirkel of markeer iets om dit te zoeken</string>
     <string name="security_dismiss_dialog_dismiss_button">Sluiten</string>
     <string name="security_dismiss_dialog_title">Deze waarschuwing sluiten?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Tik om in te stellen</string>
     <string name="security_settings_face_enroll_education_message">Draai je hoofd op het volgende scherm om je gezicht onder alle hoeken vast te leggen</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Op het volgende scherm houd je je telefoon op ooghoogte</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Tijdslimiet voor gezichtsregistratie bereikt. Probeer het opnieuw.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Time-out bij instellen Ontgrendelen via gezicht</string>
-    <string name="security_settings_face_enroll_finish_description_with_bp">Je kunt nu je gezicht gebruiken om je telefoon te ontgrendelen of om te laten verifiëren dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Je kunt nu je gezicht gebruiken om je telefoon te ontgrendelen of om te laten verifiëren dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt.</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"Je kunt nu je gezicht gebruiken om je telefoon te ontgrendelen of te laten verifiëren dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt.
 
 Ontgrendelen via gezichtsherkenning werkt het best als er genoeg licht is en je geen mondkapje of donkere bril draagt."</string>
@@ -293,19 +308,35 @@ Ontgrendelen via gezichtsherkenning werkt het best als er genoeg licht is en je 
 Ontgrendelen via gezichtsherkenning werkt het best als er genoeg licht is en je geen mondkapje of donkere bril draagt."</string>
     <string name="security_settings_face_enroll_finish_title">Ziet er goed uit!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Instellen voor visuele beperking of beperkte hoofdbeweging</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Als je Ontgrendelen via gezichtsherkenning gebruikt, moet je je hoofd misschien dichter bij je telefoon houden.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Vereisen dat ogen open zijn</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Jij en je kind kunnen op elk moment het gezichtsmodel van het kind verwijderen of Ontgrendelen via gezichtsherkenning uitzetten in Instellingen. Gezichtsmodellen worden opgeslagen op de telefoon totdat ze worden verwijderd.&lt;br&gt;&lt;br&gt;Bekijk meer informatie op &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Jij en je kind hebben de controle</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Je kunt op elk moment je gezichtsmodel verwijderen of Ontgrendelen via gezichtsherkenning uitzetten in Instellingen. Gezichtsmodellen worden opgeslagen op de telefoon totdat je ze verwijdert.&lt;br&gt;&lt;br&gt;Ga voor meer informatie naar &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Jij hebt het voor het zeggen</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Ontgrendelen via gezichtsherkenning maakt een uniek model van het gezicht van je kind voor verificatie. Dit gezichtsmodel wordt tijdens het instellen gemaakt door vanuit verschillende hoeken foto's van het gezicht van je kind te maken.
+
+Als je kind Ontgrendelen via gezichtsherkenning gebruikt, worden foto's gebruikt om het gezichtsmodel van je kind te updaten. De foto's die worden gebruikt om je gezichtsmodel te maken, worden niet opgeslagen, maar het gezichtsmodel zelf wordt beveiligd opgeslagen op de telefoon en verlaat deze nooit. Alle verwerking vindt beveiligd plaats op de telefoon."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Ontgrendelen via gezichtsherkenning maakt een uniek model van je gezicht om te verifiëren dat jij het bent. Dit gezichtsmodel wordt tijdens het instellen gemaakt door vanuit verschillende hoeken foto's van je gezicht te maken.
+
+Als je Ontgrendelen via gezichtsherkenning gebruikt, worden foto's gebruikt om je gezichtsmodel te updaten. De foto's die worden gebruikt om je gezichtsmodel te maken, worden niet opgeslagen, maar het gezichtsmodel zelf wordt beveiligd opgeslagen op je telefoon en verlaat deze nooit. Alle verwerking vindt beveiligd plaats op je telefoon."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Hoe het werkt</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Ontgrendelen via gezichtsherkenning kan vereisen dat de ogen van je kind open zijn om de telefoon te ontgrendelen of voor verificatie. Jij en je kind kunnen deze optie op elk moment aanzetten via Instellingen.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Draagt je kind normaal een bril, dan kan het deze dragen tijdens het instellen.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Het gezicht van je kind gebruiken om de telefoon te ontgrendelen zorgt misschien voor minder goede beveiliging dan een sterk patroon, een sterke pincode of een sterk wachtwoord</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Je kind kan de telefoon ontgrendelen door ernaar te kijken, ook als dat niet de bedoeling was. De telefoon van je kind kan ook worden ontgrendeld door iemand anders die veel op je kind lijkt, zoals een tweelingbroer of -zus, of als iemand de telefoon voor het gezicht van je kind houdt.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Ontgrendelen via gezichtsherkenning kan vereisen dat je ogen open zijn om de telefoon te ontgrendelen of voor verificatie. Je kunt deze optie op elk moment aanzetten via Instellingen.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brillen of lichte zonnebrillen zijn geen probleem.</string>
-    <string name="security_settings_face_enroll_introduction_info_title">Houd rekening met het volgende</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Je telefoon ontgrendelen met je gezicht is misschien minder veilig dan een sterk patroon of wachtwoord, of een sterke pincode.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">De telefoon kan worden ontgrendeld als je ernaar kijkt, ook als dat niet je bedoeling was. Je telefoon kan ook worden ontgrendeld door iemand anders die veel op je lijkt, zoals een tweelingbroer of -zus, of als iemand de telefoon voor je gezicht houdt.</string>
+    <string name="security_settings_face_enroll_introduction_info_title">Goed om te weten</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Gebruik je gezicht om je telefoon te ontgrendelen of om te bevestigen dat jij het bent, bijvoorbeeld als je inlogt bij apps of een aankoop goedkeurt</string>
     <string name="security_settings_face_enroll_introduction_title">Ontgrendelen via gezichtsherkenning instellen</string>
     <string name="security_settings_face_enroll_next">Volgende</string>
     <string name="security_settings_face_enroll_partial_message">Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning instellen via Instellingen</string>
     <string name="security_settings_face_enroll_partial_start_over">Opnieuw beginnen</string>
     <string name="security_settings_face_enroll_partial_title">Ontgrendelen via gezichtsherkenning ingesteld</string>
-    <string name="security_settings_face_enroll_timeout_message">"Je kunt ook snel instellen proberen. Hierbij moet je je hoofd misschien goed recht voor je telefoon houden als je Ontgrendelen via gezichtsherkenning gebruikt.
+    <string name="security_settings_face_enroll_timeout_message">"Je kunt ook Snel instellen proberen. Hierbij moet je je hoofd misschien goed recht voor je telefoon houden als je Ontgrendelen via gezichtsherkenning gebruikt.
 
 Als je de prestaties wilt verbeteren, kun je Ontgrendelen via gezichtsherkenning instellen via Instellingen."</string>
     <string name="security_settings_face_enroll_timeout_title">Kan niet doorgaan met instellen</string>
@@ -325,15 +356,34 @@ Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendele
     <string name="security_settings_fingerprint_preference_summary_none">Tik om vingerafdruk in te stellen</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint maakt een uniek model van je vingerafdruk om je te herkennen tijdens verificatie. Tijdens het instelproces maak je afbeeldingen van je vingerafdruk in verschillende posities om een vingerafdrukmodel te maken.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">"Pixel Imprint gebruikt foto's om je vingerafdrukmodel te updaten. De foto's die worden gebruikt voor je vingerafdrukmodel, worden nooit opgeslagen. Het vingerafdrukmodel zelf wordt beveiligd opgeslagen op je apparaat en verlaat dit nooit. Alle verwerking vindt beveiligd plaats op je telefoon."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Je kunt op elk moment je vingerafdrukmodel verwijderen of Pixel Imprint uitzetten via Instellingen. Vingerafdrukmodellen worden opgeslagen op de telefoon totdat je ze verwijdert.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Pixel Imprint maakt een uniek model van de vingerafdruk van je kind voor verificatie. Tijdens het instelproces maakt je kind foto's van de vingerafdruk in verschillende posities om een vingerafdrukmodel te maken."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">"Als je kind Pixel Imprint gebruikt, worden foto's gebruikt om het vingerafdrukmodel van je kind te updaten. De foto's die worden gebruikt om het vingerafdrukmodel van je kind te maken, worden nooit opgeslagen. Het vingerafdrukmodel zelf wordt beveiligd opgeslagen op de telefoon en verlaat deze nooit. Alle verwerking vindt beveiligd plaats op de telefoon."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Jij en je kind kunnen op elk moment het vingerafdrukmodel van je kind verwijderen of Pixel Imprint uitzetten in Instellingen. Vingerafdrukmodellen worden opgeslagen op de telefoon totdat ze worden verwijderd.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Ga voor meer informatie over Ontgrendelen met vingerafdruk op de Pixel naar &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint voor werk</string>
     <string name="setup_suggestion_summary">Nog een paar stappen</string>
     <string name="setup_suggestion_title">Instellen afronden</string>
+    <string name="show_stylus_pointer_icon">Toestaan dat apps een aanwijzer tonen als je de cursor plaatst</string>
+    <string name="simple_mode_category">Snelle toegang</string>
+    <string name="simple_mode_description">Maak tekst en iconen groter, vereenvoudig de indeling en voeg navigatieknoppen toe. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Meer informatie</a> over Eenvoudige weergave.</string>
+    <string name="simple_mode_summary">Verbeter de leesbaarheid van tekst en maak de schermindeling en navigatie eenvoudiger</string>
+    <string name="simple_mode_suw_description">Voor een overzichtelijke indeling waarin je je apps makkelijk kunt vinden, kan je Pixel automatisch essentiële apps en widgets downloaden, de schermindeling optimaliseren en het lettertype aanpassen</string>
+    <string name="simple_mode_suw_done_button">Klaar</string>
+    <string name="simple_mode_switch_title">Eenvoudige weergave gebruiken</string>
+    <string name="simple_mode_title">Eenvoudige weergave</string>
+    <string name="simple_view_dialog_negative_button">Annuleren</string>
+    <string name="simple_view_dialog_positive_button">Doorgaan</string>
+    <string name="simple_view_feature_disabled_dialog_message">Als je Eenvoudige weergave uitzet, keert je apparaat terug naar de oorspronkelijke instellingen voor lettertype, weergave en indeling. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Meer informatie</a> over hoe je deze individuele lettertype-instellingen wijzigt.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Je apparaat keert terug naar de vorige instellingen</string>
+    <string name="simple_view_feature_enabled_dialog_message">Je huidige lettertype is groter dan de instellingen voor Eenvoudige weergave. Als je Eenvoudige weergave gebruikt, wordt de lettergrootte kleiner.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Lettergrootte wordt verkleind</string>
     <string name="smart_battery_a11y_collapse_label">Samenvouwen, Aangepast batterijgebruik</string>
     <string name="smart_battery_a11y_expand_label">Uitvouwen, Aangepast batterijgebruik</string>
     <string name="smart_battery_footer">Aangepast batterijgebruik kan achtergrondactiviteit uitzetten of beperken om de batterijduur te verlengen. Sommige meldingen kunnen vertraagd zijn.</string>
     <string name="smart_battery_manager_title">Aangepaste voorkeuren</string>
+    <string name="smart_battery_summary" product="default">Aangepast batterijgebruik leert van je telefoongebruik om voortdurend te optimaliseren hoe apps de batterij gebruiken. De functie kan de prestaties beperken en meldingen vertragen om de levensduur van de batterij te verlengen.</string>
     <string name="smart_battery_title">Aangepast batterijgebruik</string>
     <string name="software_update_can_be_updated_header">Maak je Pixel nog beter</string>
     <string name="software_update_detail_indication_1_update_available">1 update beschikbaar</string>
@@ -347,9 +397,10 @@ Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendele
     <string name="software_update_up_to_date_summary">Up-to-date</string>
     <string name="software_update_up_to_specific_date_summary">Geüpdatet op %1$s</string>
     <string name="software_update_update_available_summary">Update beschikbaar</string>
-    <string name="sound_dashboard_summary">Volume, haptische feedback, Niet storen</string>
-    <string name="spatial_audio_head_tracking_available">Bewegingen van het hoofd volgen is beschikbaar</string>
-    <string name="spatial_audio_head_tracking_unavailable">Bewegingen van het hoofd volgen is niet beschikbaar</string>
+    <string name="sound_dashboard_summary">Volume en haptische feedback</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, haptische feedback, Niet storen</string>
+    <string name="spatial_audio_head_tracking_available">Hoofdtracking is beschikbaar</string>
+    <string name="spatial_audio_head_tracking_unavailable">Hoofdtracking is niet beschikbaar</string>
     <string name="speed_boost_summary_off">Uit</string>
     <string name="speed_boost_summary_on">Aan</string>
     <string name="speed_boost_title">Spectrum-snelheidsboost</string>
@@ -363,8 +414,8 @@ Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendele
     <string name="system_updates_group_title">Pixel-updates</string>
     <string name="touch_category_title">Tikken</string>
     <string name="touch_sensitivity_settings_summary">Pas de gevoeligheid van het scherm aan</string>
-    <string name="touch_sensitivity_settings_title">Tikgevoeligheid</string>
-    <string name="touch_sensitivity_summary">Verhoog de tikgevoeligheid en verbeter de tikreactie als je een screenprotector gebruikt</string>
+    <string name="touch_sensitivity_settings_title">Aanraakgevoeligheid</string>
+    <string name="touch_sensitivity_summary">Verhoog de aanraakgevoeligheid en verbeter de aanraakreactie als je een screenprotector gebruikt</string>
     <string name="touch_sensitivity_title">Modus voor screenprotector</string>
     <string name="traffic_light_face_enrolling_title_accessibility">Houd de telefoon voor je gezicht</string>
     <string name="unified_battery_saver_page_intro">Verbruik minder om de batterij langer te kunnen gebruiken tussen oplaadbeurten</string>
@@ -396,4 +447,8 @@ Opmerking: Je kunt je vingerafdruk niet gebruiken om dit apparaat te ontgrendele
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tikken om verbinding te maken</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Kan geen verbinding maken. Tik om het opnieuw te proberen.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Verbinden…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> Meer informatie</annotation></string>
+    <string name="wireless_charging_learn_more_description">Meer informatie over draadloos opladen</string>
+    <string name="wireless_charging_state">Draadloos opladen •</string>
+    <string name="wireless_charging_state_and_duration">Draadloos opladen • %1$s •</string>
 </resources>

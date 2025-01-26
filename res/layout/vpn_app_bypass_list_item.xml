@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="@dimen/app_bypass_list_item_height"
-    android:background="?android:selectableItemBackground"
+    android:background="?android:attr/selectableItemBackground"
     android:baselineAligned="false"
     android:gravity="center_vertical"
     android:layout_gravity="top"
@@ -21,10 +21,11 @@
         android:id="@id/app_name"
         android:layout_width="0.0dip"
         android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
         android:layout_weight="1.0"
         android:singleLine="true"
         android:textAppearance="?android:textAppearanceListItem"
-        android:textColor="?android:textColorPrimary" />
+        android:textColor="?android:attr/textColorPrimary" />
 
     <ImageView
         android:id="@id/end_icon"

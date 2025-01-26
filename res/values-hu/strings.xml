@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="accessibility_keyboard_haptics_title">Billentyűzet haptikus visszajelzése</string>
-    <string name="accessibility_screen_magnifier_summary">Használhatja a kamerát a környezetében lévő részletek felnagyításához</string>
+    <string name="accessibility_screen_magnifier_summary">A kamerával felnagyíthatja a környezetében lévő részleteket</string>
     <string name="accessibility_screen_magnifier_title">Nagyító</string>
     <string name="adaptive_alert_vibration_summary">Csökkenti a rezgés erejét, miközben a telefon tétlen, a képernyő pedig felfelé néz</string>
     <string name="adaptive_alert_vibration_title">Adaptív rezgés értesítéseknél</string>
@@ -16,6 +16,12 @@
     <string name="adaptive_charging_title">Adaptív töltés</string>
     <string name="adaptive_touch_sensitivity_summary">Az érintésérzékenység automatikusan igazodik a környezet, a végzett tevékenységek és a kijelzővédő-használat alapján</string>
     <string name="adaptive_touch_sensitivity_title">Adaptív érintés</string>
+    <string name="adaptive_vibration_footer">A telefon mikrofonját és egyéb érzékelőit a hangszint és a kontextus meghatározására használja a rendszer. Soha semmilyen adat nem kerül rögzítésre.</string>
+    <string name="adaptive_vibration_settings_summary">A telefon rezgésének automatikus módosítása a környezet alapján (például ha a telefon a zsebében van, vagy ha zajos helyen tartózkodik)</string>
+    <string name="adaptive_vibration_summary_off">Ki</string>
+    <string name="adaptive_vibration_summary_on">Be</string>
+    <string name="adaptive_vibration_title">Adaptív rezgés</string>
+    <string name="adaptive_vibration_toggle_title">Adaptív rezgés használata</string>
     <string name="add_bypassed_application_hint">Nincsenek hozzáadva alkalmazások</string>
     <string name="advanced_vpn_preference_group_title">Beépítve</string>
     <string name="all_apps_category_title">Összes alkalmazás</string>
@@ -27,16 +33,6 @@ A hozzáférés megadása lehetővé teszi az app számára, hogy "<b>automatiku
 
 A hozzáférés visszavonása esetén az alkalmazásnak engedélyt kell kérnie, hogy az egyes problémajelentésekhez összegyűjthesse és feltölthesse a hibajelentést."</string>
     <string name="app_and_notification_dashboard_summary">Segéd, legutóbbi alkalmazások, alapértelmezett alkalmazások</string>
-    <string name="audio_sharing_switch_title">Hang megosztása</string>
-    <string name="audio_sharing_title">Hang megosztása</string>
-    <string name="audio_streams_category_title">Csatlakozás alacsony energiaszintű hangátvitelt használó streamhez</string>
-    <string name="audio_streams_connect">Csatlakozás</string>
-    <string name="audio_streams_disconnect">Leválasztás</string>
-    <string name="audio_streams_pref_title">Közeli audiostreamek</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">A QR-kód formátuma nem érvényes</string>
-    <string name="audio_streams_qr_code_scanner">A hallgatás megkezdéséhez igazítsa a QR-kódot az alábbi panel közepére</string>
-    <string name="audio_streams_qr_code_summary">Csatlakozhat audiostreamhez QR-kóddal</string>
-    <string name="audio_streams_title">Audiostreamek</string>
     <string name="automatic_storage_manager_activation_warning">Amikor csatlakozik, továbbra is hozzáférhet a fotókhoz és videókhoz a biztonsági mentéshez beállított minőségben</string>
     <string name="automatic_storage_manager_days_title">Biztonsági másolatként már meglévő fotók és videók eltávolítása</string>
     <string name="automatic_storage_manager_deactivation_warning">"Kikapcsolja a Smart Storage funkciót? 
@@ -73,10 +69,12 @@ A Smart Storage így nem fog helyet felszabadítani, amikor már majdnem tele va
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Teljes feltöltés</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Az akkumulátor védelmének biztosítása érdekében a rendszer %1$s-nál szünetelteti a töltést, amíg a táblagép dokkolt állapotban van</string>
     <string name="battery_tip_smart_battery_summary">Az Alkalmazkodó akkumulátor bekapcsolása</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">További információ a vezeték nélküli töltésről</string>
-    <string name="battery_tip_wireless_charging_summary">A telefon vezeték nélküli töltésével több energiát fogyaszthat, mint más töltési módszerekkel</string>
-    <string name="battery_tip_wireless_charging_title">Vezeték nélküli töltés folyamatban</string>
-    <string name="calls_and_alarms_device_title">Hívások és riasztások</string>
+    <string name="charging_optimization_charge_label">%1$s – a töltés befejeződik eddig: %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Töltés kész</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Töltés kész</string>
+    <string name="charging_optimization_remaining_time_label">A töltés befejeződik eddig: %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Vezeték nélküli töltés kész •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">A vezeték nélküli töltés ekkor lesz kész: %1$s •</string>
     <string name="clear_calling_footer">"Az adatvédelem biztosítása érdekében a tiszta hívás nem küldi el az audioanyagokat és a beszélgetéseket a Google-nak.
 
 A tiszta hívás használható Wi-Fi-hívással és a legtöbb hálózaton, kivéve a 3G-t."</string>
@@ -146,16 +144,24 @@ A tiszta hívás használható Wi-Fi-hívással és a legtöbb hálózaton, kiv�
     <string name="content_protection_preference_subpage_info">"Ez egy védett biztonsági funkció. Az eszközök és személyes adatok nem lesznek megosztva a Google-lal. 
 
 Az adathalászat a bejelentkezési vagy személyes adatok ellopására tett kísérlet."</string>
-    <string name="content_protection_preference_subpage_summary">A közvetlenül az Ön eszközén, privát módon történő vizsgálat közben adathalász- vagy megtévesztő viselkedésre utló alkalmazástevékenységeket keres a rendszer. Ha ilyen tevékenységet észlel, elküldi az alkalmazásadatokat a Google Play Protectnek a fenyegetés ellenőrzése és az alkalmazás felhasználóinak figyelmeztetése érdekében.</string>
-    <string name="contextual_timeout_description">Automatikusan korábban kapcsolja ki a képernyőt, ha nem használja az eszközt</string>
+    <string name="content_protection_preference_subpage_summary">A közvetlenül az Ön eszközén, privát módon történő vizsgálat közben adathalász- vagy megtévesztő viselkedésre utaló alkalmazástevékenységeket keres a rendszer. Ha ilyen tevékenységet észlel, elküldi az alkalmazásadatokat a Google Play Protectnek a fenyegetés ellenőrzése és az alkalmazás felhasználóinak figyelmeztetése érdekében.</string>
+    <string name="contextual_timeout_description">Automatikusan kikapcsolja a képernyőt, ha nem használja az eszközt</string>
     <string name="contextual_timeout_title">Adaptív időkorlát</string>
+    <string name="credentials_install_summary" product="default">Tanúsítványok telepítése tárhelyről</string>
     <string name="dark_ui_text">A Sötét téma fekete hátteret használ, ezáltal kíméli az akkumulátort. A Sötét téma csak a képernyő kikapcsolása után kapcsol be.</string>
     <string name="debugging_data_title">Adatokkal kapcsolatos hibaelhárítás</string>
+    <string name="default_notification_summary">Klasszikus értesítés</string>
+    <string name="default_ringtone_summary">Klasszikus csengőhang</string>
     <string name="discover_tips_button">Tippek felfedezése</string>
+    <string name="display_dashboard_summary">Sötét téma, betűméret, érintés</string>
+    <string name="display_settings">Megjelenítés és érintés</string>
     <string name="dock_summary_charging_phone">Telefon töltése</string>
     <string name="double_twist_for_camera_mode_summary">A szelfimód ki- és bekapcsolásához fordítsa oda-vissza a telefont a Google Fényképezőgép alkalmazásban.</string>
     <string name="duration_less_than_one_minute">Kevesebb mint 1 perc</string>
-    <string name="enable_glanceable_hub_toggle">Hub mód</string>
+    <string name="enable_glanceable_hub_toggle">Modulok megjelenítése a lezárási képernyőn</string>
+    <string name="enable_glanceable_hub_toggle_summary">A táblagép zárolásának feloldása nélkül</string>
+    <string name="erase_external_storage" product="default">USB-tár törlése</string>
+    <string name="erase_external_storage_description" product="default">Minden adat, például zenék és képek törlése a belső USB-tárról</string>
     <string name="extreme_battery_saver_summary">Az összes fenti módosítást tartalmazza. Ezek mellett nem alapvető alkalmazásokat és azok értesítéseit is szünetelteti.</string>
     <string name="extreme_battery_saver_title">Extrém akkumulátorkímélő mód</string>
     <string name="face_confirmation_hide_illustration_description">Mostantól használhatja az Arcalapú feloldás funkciót, amikor kézbe veszi a telefont, vagy rákoppint a képernyőre.</string>
@@ -199,8 +205,7 @@ Ha engedélyezi az automatikus biztonsági mentést, a rendszer adott időközö
 
 A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótába. A rendszer nem készít biztonsági másolatot a nagy, illetve a fejlesztők által a szolgáltatásból kizárt fájlokról."</string>
     <string name="fullbackup_erase_dialog_message">Kikapcsolja az eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentését, és törli azok összes példányát a Google Drive-ról?</string>
-    <string name="gesture_settings_activity_title">Navigáció kézmozdulatokkal</string>
-    <string name="hub_mode_content_setting">Az összes modul engedélyezése Hub módban</string>
+    <string name="help_footer_content_description">A(z) %1$s névjegye. %2$s</string>
     <string name="install_unknown_applications">A Play Áruházon kívül más forrásokból is lehessen alkalmazásokat telepíteni</string>
     <string name="keywords_accessibility_menu">mozgás, gyorsmenü, kisegítő menü, érintés, kézügyesség, ízületi gyulladás, rsi, stroke, remegés, szklerózis multiplex, agyi paralízis, gomb, hardver, nyomás, ismétlődő terhelések okozta sérülés, kéz, fájdalom, kisegítő, súgó</string>
     <string name="keywords_adaptive_alert_vibration">rezgés, vibrálás, telefon, hívás, csörgés, figyelmeztetés, értesítések, hangos, csendes, zaj, tok, adaptív</string>
@@ -223,16 +228,25 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="keywords_touch_sensitivity">érintés, érzékenység, érzékeny, kijelzővédő, film, reszponzív, reszponzivitás</string>
     <string name="keywords_touch_sensitivity_settings">érintés, adaptív, érzékenység, érzékeny, kijelzővédő, film, reszponzív, reszponzivitás</string>
     <string name="keywords_voice_access">hang, hangvezérlés, motorikus, kéz, mikrofon, diktálás, beszéd, vezérlés</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">További információ</a></string>
     <string name="led_preference_title">A LED-jelzések beállítása</string>
     <string name="legal_source_code_description">Az összetevőkhöz tartozó, nyílt forráskódúként rendelkezésre bocsátott forráskóddal kapcsolatos adatok a Pixel súgójában találhatók</string>
     <string name="legal_source_code_title">Forráskód</string>
     <string name="limited_warranty_introduction">Az eszközre vonatkozó szavatosság megtekintéséhez koppintson a vásárlás országára. A szavatossági információk a következő címen is rendelkezésre állnak: g.co/devicewarranty.</string>
     <string name="limited_warranty_title">Korlátozott jótállás</string>
-    <string name="lockscreen_show_weather_summary">Aktuális időjárás megtekintése</string>
-    <string name="lockscreen_show_weather_title">Időjárás megjelenítése</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+A zenék, képek és más felhasználói adatok törléséhez az "<b>USB-háttértárat</b> is törölnie kell.</string>
     <string name="my_device_info_account_preference_title">Google-fiók</string>
+    <string name="notification_dismissal_sync_summary">A Pixel telefonján vagy táblagépén elvetett értesítések többé nem fognak megjelenni mindkettőn</string>
+    <string name="notification_dismissal_sync_title">Értesítések elvetése minden Pixel eszközön</string>
+    <string name="overrided_google_settings_summary">Google-szolgáltatások és -preferenciák</string>
+    <string name="overrided_google_settings_title">Bejelentkezés</string>
     <string name="owner_info_settings_edit_text_hint">Pl. Péter Pixele.</string>
     <string name="permit_debugging_data">Hibajelentéshez való hozzáférés engedélyezése</string>
+    <string name="phone_notification_channel_sound_title">Hang és rezgés</string>
+    <string name="phone_notification_title">Értesítési figyelmeztetés</string>
+    <string name="phone_ringtone_title">Csengőhang-értesítés</string>
     <string name="play_application_detail_indication_summary">Frissítések keresése</string>
     <string name="play_application_update_entry_title">Alkalmazásfrissítések</string>
     <string name="private_space_retry_summary">Jelentkezzen be valamilyen Google-fiókba, hogy használni tudja a magánterületével</string>
@@ -243,14 +257,15 @@ A biztonsági mentés adatmennyisége nem számít bele a Drive-tárhelykvótáb
     <string name="reverse_charging_auto_turn_on_subtitle">Automatikusan bekapcsol egy rövid időre, ha a telefon töltőhöz csatlakozik</string>
     <string name="reverse_charging_auto_turn_on_title">Automatikus bekapcsolás</string>
     <string name="reverse_charging_charging_wirelessly_message">Nem használható, mert a telefon töltése vezeték nélkül történik</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Az Akkumumegosztás funkció nem használható, mert a Pixel telefon túlmelegedett. Várja meg, amíg a telefon lehűl, majd próbálja újra.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">A hőmérséklet miatt nem áll rendelkezésre. Várja meg, amíg a telefon lehűl, majd próbálja újra.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Az akkumumegosztás nem lehetséges, mert a telefon éppen vezeték nélkül töltődik</string>
     <string name="reverse_charging_detail_footer_title">A telefon hamarabb lemerül, ha megosztja az akkumulátort. Az akkumegosztás kompatibilis fülhallgatókkal, órákkal, telefonokkal és egyebekkel működik. A hatékonyabb töltés érdekében távolítsa el a telefontokot.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Az akkumegosztás funkció kompatibilis fülhallgatókkal, telefonokkal és egyéb eszközökkel működik.
 
 A funkció használatával telefonja akkumulátora gyorsabban lemerül. Ha nem található másik eszköz, az akkumegosztás funkció néhány percen belül automatikusan kikapcsol. A hatékonyabb töltés érdekében távolítsa el a telefontokot és az egyéb, a telefon működését zavaró (például fémből készült) tárgyakat."</string>
-    <string name="reverse_charging_detail_power_save_mode_is_on_message">Az akkummegosztás nem lehetséges, mert az Akkumulátorkímélő mód be van kapcsolva</string>
+    <string name="reverse_charging_detail_power_save_mode_is_on_message">Az akkumegosztás nem lehetséges, mert az Akkumulátorkímélő mód be van kapcsolva</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Az akkumegosztás nem lehetséges, mert csatlakoztatva van egy USB-C-eszköz</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Az akkumumegosztás nem lehetséges töltés közben.</string>
     <string name="reverse_charging_instructions_title">"Töltsön más eszközöket Pixel telefonjával.
 A kipróbálásához fordítsa meg a telefonját."</string>
     <string name="reverse_charging_is_off_summary">Ki</string>
@@ -258,7 +273,6 @@ A kipróbálásához fordítsa meg a telefonját."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Akkumulátor megosztása</string>
     <string name="reverse_charging_is_on_summary">Be / Más eszközök töltése</string>
     <string name="reverse_charging_main_switch">Akkumegosztás használata</string>
-    <string name="reverse_charging_overheat_summary">Nem használható, mert a Pixel telefon túlmelegedett. Várja meg, amíg a telefon lehűl, majd próbálja újra.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Nem használható, mert az Akkumulátorkímélő mód be van kapcsolva</string>
     <string name="reverse_charging_sharing_level_message">Nem használható, mert az akkumulátor töltöttségi szintje a megosztási szint alatt van</string>
     <string name="reverse_charging_switch_title">Eszközök töltése a Pixel hátlapjára helyezve</string>
@@ -266,6 +280,7 @@ A kipróbálásához fordítsa meg a telefonját."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Nem használható, mert USB-C-eszköz van csatlakoztatva</string>
     <string name="reverse_charging_warning_summary">Nem használható, mert az akkumulátor töltöttsége %1$s alatt van</string>
     <string name="reverse_charging_warning_title">Az akkumumegosztás nem lehetséges, mert az akkumulátor töltöttsége %1$s alatt van</string>
+    <string name="ringtone_synchronized_summary">Szinkronizált</string>
     <string name="rtt_settings_always_visible">Mindig látható</string>
     <string name="rtt_settings_no_visible">Nem látható</string>
     <string name="rtt_settings_title">Valós idejű szöveg (RTT)</string>
@@ -273,13 +288,13 @@ A kipróbálásához fordítsa meg a telefonját."</string>
     <string name="screen_time_summary_usage_today">Ma: %1$s</string>
     <string name="search_bar_account_avatar_content_description">Profilkép. Koppintson duplán a Google-fiók megnyitásához.</string>
     <string name="search_gesture_category_title">Keresés</string>
+    <string name="search_gesture_feature_summary">Tartsa lenyomva a Kezdőképernyő gombot vagy a navigációs fogópontot a képernyőn lévő tartalommal való kereséshez.</string>
     <string name="search_gesture_feature_title">Bekarikázással keresés</string>
-    <string name="search_long_press_home_button_summary">Tartsa lenyomva a képernyő alján lévő kezdőképernyő gombot, majd karikázással vagy kiemeléssel jelölje ki azt, amire rá szeretne keresni.</string>
-    <string name="search_press_hold_gesture_summary">Tartsa lenyomva a képernyő alján lévő fogópontot, majd karikázással vagy kiemeléssel jelölje ki azt, amire rá szeretne keresni.</string>
     <string name="security_dismiss_dialog_dismiss_button">Elvetés</string>
     <string name="security_dismiss_dialog_title">Elveti a figyelmeztetést?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Koppintson ide a beállításhoz</string>
     <string name="security_settings_face_enroll_education_message">A következő képernyőnél forgassa körbe a fejét, hogy arcát minden szögből rögzítse az eszköz</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">A következő képernyőnél tartsa szemmagasságban a telefonját</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Időtúllépés az Arcalapú feloldás beállításakor</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Mostantól használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például amikor valamilyen alkalmazásba jelentkezik be, vagy vásárlást hagy jóvá).</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"Mostantól arcát is használhatja telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például amikor alkalmazásokba jelentkezik be, vagy vásárlást hagy jóvá).
@@ -293,24 +308,40 @@ A funkció akkor működik a leghatékonyabban, ha megfelelően megvilágított 
 Az Arcalapú feloldás funkció akkor a leghatékonyabb, ha jól megvilágított térben tartózkodik, és nem visel maszkot vagy sötét szemüveget."</string>
     <string name="security_settings_face_enroll_finish_title">Sikerült!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Beállítás kisegítő használatra</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Az Arcalapú feloldás használatához szükséges lehet, hogy a telefon közvetlenül az arca előtt legyen.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Használatához nyitva kell lennie a szemeinek</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"A Beállításokban Ön és gyermeke bármikor törölheti gyermeke arcmodelljét, illetve kikapcsolhatja az Arcalapú feloldást. A telefon az arcmodelleket törlésükig tárolja.&lt;br&gt;&lt;br&gt;További információ: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Az irányítás az Ön és gyermeke kezében van</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"A Beállításokban bármikor törölheti az arcmodelljét, illetve kikapcsolhatja az Arcalapú feloldást. A telefon addig tárolja az arcmodelleket, amíg Ön nem törli őket.&lt;br&gt;&lt;br&gt;További információ: &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Az irányítás az Ön kezében van</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Az Arcalapú feloldás egyéni modellt hoz létre az Ön gyermekének arcáról a személyazonossága ellenőrzéséhez. Az arcmodellnek a beállítás során való létrehozásához gyermekének képeket kell készítenie az arcáról különböző szögekből.
+
+Amikor gyermeke az Arcalapú feloldást használja, a rendszer felhasználja a képeket az arcmodellje frissítésére. Az arcmodell elkészítéséhez használt képeket nem, de magát az arcmodellt biztonságosan tárolja a telefon, és az arcmodell sosem kerül ki róla. A feldolgozás teljes mértékben és biztonságos módon a telefonon történik."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Az Arcalapú feloldás egyéni modellt hoz létre az Ön arcáról a személyazonossága ellenőrzéséhez. Az arcmodellnek a beállítás során való létrehozásához képeket kell készítenie az arcáról különböző szögekből.
+
+Az Arcalapú feloldás használatakor a rendszer felhasználja a képeket az arcmodell frissítésére. Az arcmodell elkészítéséhez használt képeket nem, de magát az arcmodellt biztonságosan tárolja a telefon, és az arcmodell sosem kerül ki róla. A feldolgozás teljes mértékben és biztonságos módon a telefonon történik."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Hogyan működik?</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Az Arcalapú feloldás funkció megkövetelheti, hogy gyermeke szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Ön és gyermeke bármikor kikapcsolhatják ezt a Beállítások menüben.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ha gyermeke általában szemüveget hord, a beállítás során is viselheti.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Ha gyermeke az arcát használja a telefonja feloldásához, az kevésbé biztonságos lehet, mint egy erős minta, PIN-kód vagy jelszó.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">A telefonjára nézve gyermeke akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít gyermekére, például az egypetéjű ikertestvére; vagy aki az Ön gyermekének arca elé tartja a telefont.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Az Arcalapú feloldás funkció megkövetelheti, hogy az Ön szeme nyitva legyen a telefon zárolásának feloldásához vagy a személyazonosság igazolásához. Bármikor kikapcsolhatja ezt a Beállítások menüben.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">A szemüvegek és az enyhén színezett napszemüvegek nem jelentenek problémát.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Előfordulhat, hogy a telefon arcalapú feloldása kevésbé biztonságos, mint egy bonyolult minta, PIN-kód vagy jelszó.</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">A telefonjára nézve akkor is feloldhatja az eszközt, ha nem szeretné. A telefont olyasvalaki is feloldhatja, aki nagyon hasonlít Önre, például az egypetéjű ikertestvére; vagy aki az Ön arca elé tartja a telefont.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Fontos tudnivalók</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Használhatja az Arcalapú feloldás funkciót telefonja zárolásának feloldásához vagy személyazonossága igazolásához (például alkalmazásokba való bejelentkezés vagy vásárlás jóváhagyása során).</string>
     <string name="security_settings_face_enroll_introduction_title">Az arcalapú feloldás beállítása</string>
     <string name="security_settings_face_enroll_next">Tovább</string>
     <string name="security_settings_face_enroll_partial_message">A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a Beállításokban.</string>
     <string name="security_settings_face_enroll_partial_start_over">Újrakezdés</string>
     <string name="security_settings_face_enroll_partial_title">Arcalapú feloldás beállítva</string>
-    <string name="security_settings_face_enroll_timeout_message">"Próbálja inkább a gyorsbeállítást. Ne feledje, hogy az Arcalapú feloldás használatakor közelebb kell helyeznie a telefont az arcához.
+    <string name="security_settings_face_enroll_timeout_message">"Próbálja inkább a gyors beállítást. Ne feledje: az Arcalapú feloldás használatakor előfordulhat, hogy közelebb kell helyeznie a telefont az arcához.
 
-A teljesítmény javításához újból beállíthatja az Arcalapú feloldást a Beállításokban."</string>
+A teljesítmény javításának érdekében újból beállíthatja az Arcalapú feloldást a Beállításokban."</string>
     <string name="security_settings_face_enroll_timeout_title">Nem lehet folytatni a beállítást</string>
     <string name="security_settings_face_enroll_timeout_try_again">Újrapróbálkozás</string>
-    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gyorsbeállítás használata</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Gyors beállítás használata</string>
     <string name="security_settings_face_enroll_too_hot_exit_setup">Kilépés a beállításokból</string>
     <string name="security_settings_face_enroll_too_hot_message">Az Arcalapú feloldás beállítását nem lehet elvégezni, mert a telefon túlmelegedett. Próbálkozzon újra később, amikor a telefon már lehűlt.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Arcalapú feloldás kihagyása</string>
@@ -325,15 +356,33 @@ Megjegyzés: Az ujjlenyomat az eszköz feloldására nem használható. Ha tová
     <string name="security_settings_fingerprint_preference_summary_none">Koppintson az ujjlenyomat-olvasás beállításához</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">A Pixel Imprint egyéni modellt hoz létre az Ön ujjlenyomatáról a személyazonossága ellenőrzéséhez. Az ujjlenyomatmodellnek a beállítás során való létrehozásához képeket kell készítenie az ujjlenyomatáról különböző szögekből.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">A Pixel Imprint használatakor a rendszer felhasználja a képeket az ujjlenyomatmodell frissítésére. Az ujjlenyomatmodell elkészítéséhez használt képeket nem, de magát az ujjlenyomatmodellt biztonságosan tárolja a telefon, és az ujjlenyomatmodell sosem kerül ki a telefonról. A feldolgozás teljes mértékben és biztonságos módon a telefonon történik.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">A Beállítások menüben bármikor törölheti az ujjlenyomatmodellt, továbbá kikapcsolhatja a Pixel Imprint funkciót. A telefon addig tárolja az ujjlenyomatmodelleket, amíg Ön nem törli őket.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">A Pixel Imprint egyéni modellt hoz létre a gyermeke ujjlenyomatáról a személyazonossága ellenőrzéséhez. Az ujjlenyomatmodellnek a beállítás során való létrehozásához gyermekének képeket kell készítenie az ujjlenyomatáról különböző szögekből.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">A Beállításokban Ön és gyermeke bármikor törölheti gyermeke ujjlenyomatmodelljét, illetve kikapcsolhatja a Pixel Imprint funkciót. A telefon addig tárolja az ujjlenyomatmodelleket, amíg Ön vagy gyermeke nem törli őket.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"További információ a Pixel Feloldás ujjlenyomattal funkciójáról: &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint munkahelyi használatra</string>
     <string name="setup_suggestion_summary">Már csak pár lépés van hátra</string>
     <string name="setup_suggestion_title">A beállítás befejezése</string>
+    <string name="show_stylus_pointer_icon">Engedélyezi az appoknak a mutató megjelenítését rámutatás közben</string>
+    <string name="simple_mode_category">Gyors hozzáférés</string>
+    <string name="simple_mode_description">Növelheti a szöveg és az ikonok méretét, egyszerűsítheti az elrendezést, valamint hozzáadhat navigációs gombokat. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">További információ</a> az egyszerűsített nézetről.</string>
+    <string name="simple_mode_summary">Szöveg olvashatóságának javítása, valamint a képernyőelrendezés és a navigáció egyszerűsítése</string>
+    <string name="simple_mode_suw_description">A letisztultabb kinézet és a használat egyszerű megkezdése érdekében a Pixel automatikusan letöltheti az alapvető alkalmazásokat és modulokat, optimalizálhatja a képernyő elrendezését, beállíthatja a betűméretet, stb.</string>
+    <string name="simple_mode_suw_done_button">Kész</string>
+    <string name="simple_mode_switch_title">Egyszerűsített nézet használata</string>
+    <string name="simple_mode_title">Egyszerűsített nézet</string>
+    <string name="simple_view_dialog_negative_button">Mégse</string>
+    <string name="simple_view_dialog_positive_button">Folytatás</string>
+    <string name="simple_view_feature_disabled_dialog_message">Az Egyszerűsített nézet kikapcsolásával eszköze visszaáll az eredeti betűtípus-, kijelző- és elrendezési beállításaira. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">További információ</a> arról, hogyan módosíthatja az egyes betűtípus-beállításokat.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Eszköze visszaáll a korábbi beállításaira</string>
+    <string name="simple_view_feature_enabled_dialog_message">Az aktuális betűméret nagyobb, mint ami az Egyszerűsített nézet beállításaiban található. Az Egyszerűsített nézet használatával kisebbre állítja a betűméretet.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Kisebb lesz a betűméret</string>
     <string name="smart_battery_a11y_collapse_label">Összecsukás, Alkalmazkodó akkumulátor</string>
     <string name="smart_battery_a11y_expand_label">Kibontás, Alkalmazkodó akkumulátor</string>
     <string name="smart_battery_footer">Az akkumulátor üzemidejének növelése érdekében az Alkalmazkodó akkumulátor funkció csökkentheti a teljesítményt és a háttérbeli tevékenységet. Bizonyos értesítések késve érkezhetnek meg.</string>
     <string name="smart_battery_manager_title">Adaptív beállítások</string>
+    <string name="smart_battery_summary" product="default">Az Alkalmazkodó akkumulátor tanul a telefon használata során, hogy folyamatosan optimalizálhassa az alkalmazások akkumulátorhasználatát. Az akkumulátoros üzemidő meghosszabbítása érdekében csökkentheti a teljesítményt és késleltetheti az értesítéseket.</string>
     <string name="smart_battery_title">Alkalmazkodó akkumulátor</string>
     <string name="software_update_can_be_updated_header">Tegye még jobbá Pixel eszközét</string>
     <string name="software_update_detail_indication_1_update_available">1 frissítés áll rendelkezésre</string>
@@ -347,7 +396,8 @@ Megjegyzés: Az ujjlenyomat az eszköz feloldására nem használható. Ha tová
     <string name="software_update_up_to_date_summary">Naprakész</string>
     <string name="software_update_up_to_specific_date_summary">Frissítve: %1$s</string>
     <string name="software_update_update_available_summary">Frissítés áll rendelkezésre</string>
-    <string name="sound_dashboard_summary">Hangerő, haptikus visszajelzés, Ne zavarjanak</string>
+    <string name="sound_dashboard_summary">Hangerő és rezgő visszajelzések</string>
+    <string name="sound_dashboard_summary_with_dnd">Hangerő, rezgő visszajelzések, Ne zavarjanak</string>
     <string name="spatial_audio_head_tracking_available">A Fejkövetés rendelkezésre áll</string>
     <string name="spatial_audio_head_tracking_unavailable">A Fejkövetés nem áll rendelkezésre</string>
     <string name="speed_boost_summary_off">Ki</string>
@@ -396,4 +446,8 @@ Megjegyzés: Az ujjlenyomat az eszköz feloldására nem használható. Ha tová
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Koppintson a csatlakozáshoz</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Nem lehet csatlakozni. Próbálja újra.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Csatlakozás…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> További információ</annotation></string>
+    <string name="wireless_charging_learn_more_description">További információ a vezeték nélküli töltésről</string>
+    <string name="wireless_charging_state">Vezeték nélküli töltés… •</string>
+    <string name="wireless_charging_state_and_duration">Vezeték nélküli töltés… • %1$s •</string>
 </resources>

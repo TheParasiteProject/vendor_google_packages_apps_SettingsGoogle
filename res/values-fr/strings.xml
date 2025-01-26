@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="accessibility_keyboard_haptics_title">Retour haptique du clavier</string>
-    <string name="accessibility_screen_magnifier_summary">Utilisez votre appareil photo pour agrandir les détails qui vous entourent</string>
+    <string name="accessibility_screen_magnifier_summary">Utilisez votre appareil photo pour voir en plus grand tout ce qui vous entoure</string>
     <string name="accessibility_screen_magnifier_title">Loupe</string>
     <string name="adaptive_alert_vibration_summary">"Réduit la puissance du vibreur lorsque votre téléphone est immobile et que l'écran est tourné vers le haut"</string>
     <string name="adaptive_alert_vibration_title">Vibreur adaptatif des alertes</string>
@@ -14,8 +14,14 @@
     <string name="adaptive_charging_main_switch_title">Utiliser la recharge adaptative</string>
     <string name="adaptive_charging_time_estimate"><b>Recharge adaptative</b>" • Batterie chargée d'ici %1$s"</string>
     <string name="adaptive_charging_title">Recharge adaptative</string>
-    <string name="adaptive_touch_sensitivity_summary">"La sensibilité tactile s'adapte automatiquement à l'environnement, aux activités et à la protection de l'écran."</string>
+    <string name="adaptive_touch_sensitivity_summary">"La sensibilité tactile s'adapte automatiquement à votre environnement, vos activités et à votre protection d'écran."</string>
     <string name="adaptive_touch_sensitivity_title">Sensibilité tactile adaptative</string>
+    <string name="adaptive_vibration_footer">"Le microphone de votre téléphone et d'autres capteurs sont utilisés pour déterminer les niveaux sonores et le contexte. Aucune donnée n'est enregistrée."</string>
+    <string name="adaptive_vibration_settings_summary">Ajustez automatiquement les vibrations de votre téléphone en fonction de la situation, par exemple si votre téléphone est dans votre poche ou si vous vous trouvez dans un lieu bruyant</string>
+    <string name="adaptive_vibration_summary_off">Désactivé</string>
+    <string name="adaptive_vibration_summary_on">Activé</string>
+    <string name="adaptive_vibration_title">Vibreur adaptatif</string>
+    <string name="adaptive_vibration_toggle_title">Utiliser le vibreur adaptatif</string>
     <string name="add_bypassed_application_hint">Aucune appli ajoutée</string>
     <string name="advanced_vpn_preference_group_title">Intégré</string>
     <string name="all_apps_category_title">Toutes les applis</string>
@@ -27,16 +33,6 @@ Si vous autorisez l'accès, cette appli pourra "<b>récupérer et importer autom
 
 Si vous retirez l'accès, l'appli devra demander votre permission avant de récupérer et d'importer un rapport de bug à chaque fois qu'une erreur sera signalée."</string>
     <string name="app_and_notification_dashboard_summary">Assistant, applications récentes, applications par défaut</string>
-    <string name="audio_sharing_switch_title">Partager le contenu audio</string>
-    <string name="audio_sharing_title">Partage du contenu audio</string>
-    <string name="audio_streams_category_title">Connecter à un flux LE Audio</string>
-    <string name="audio_streams_connect">Connecter</string>
-    <string name="audio_streams_disconnect">Déconnecter</string>
-    <string name="audio_streams_pref_title">Flux audio à proximité</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">"Le format de code QR n'est pas valide"</string>
-    <string name="audio_streams_qr_code_scanner">Pour commencer à écouter, centrez le code QR ci-dessous</string>
-    <string name="audio_streams_qr_code_summary">"Connecter à un flux audio à l'aide d'un code QR"</string>
-    <string name="audio_streams_title">Flux audio</string>
     <string name="automatic_storage_manager_activation_warning">Lorsque vous êtes connecté, vous pouvez toujours accéder à vos photos et vidéos dans la qualité que vous avez choisie pour leur sauvegarde.</string>
     <string name="automatic_storage_manager_days_title">Supprimer photos et vidéos sauvegardées</string>
     <string name="automatic_storage_manager_deactivation_warning">"Désactiver le Stockage intelligent ? 
@@ -73,10 +69,12 @@ Le Stockage intelligent ne libère pas d'espace lorsque votre espace de stockage
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Recharge complète</string>
     <string name="battery_tip_limited_temporarily_extra_summary">"Pour protéger la batterie, la recharge est mise en pause à %1$s quand votre tablette est sur sa station d'accueil"</string>
     <string name="battery_tip_smart_battery_summary">Activer la batterie adaptative</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">En savoir plus sur la recharge sans fil</string>
-    <string name="battery_tip_wireless_charging_summary">"La recharge sans fil est susceptible de consommer davantage d'énergie que les autres méthodes de recharge"</string>
-    <string name="battery_tip_wireless_charging_title">Recharge sans fil en cours</string>
-    <string name="calls_and_alarms_device_title">Appels et alarmes</string>
+    <string name="charging_optimization_charge_label">%1$s - Fin de la recharge dans %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Fin de la recharge</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Fin de la recharge</string>
+    <string name="charging_optimization_remaining_time_label">Fin de la recharge dans %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Fin de la recharge sans fil •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Fin de la recharge sans fil à %1$s •</string>
     <string name="clear_calling_footer">"Pour protéger votre confidentialité, la Clarté du son de l'interlocuteur n'envoie pas de données audio ni de conversations à Google.
 
 Cette fonctionnalité est compatible avec les appels Wi-Fi et la plupart des réseaux. Elle n'est pas disponible pour les réseaux 3G."</string>
@@ -130,12 +128,12 @@ Cette fonctionnalité est compatible avec les appels Wi-Fi et la plupart des ré
     <string name="columbus_title">Double appui pour lancer des actions</string>
     <string name="communal_lock_screen_summary">Confidentialité, notifications et commandes pour la maison</string>
     <string name="communal_other">Autre</string>
-    <string name="communal_settings_summary">"Options station d'accueil et écran de verrouillage"</string>
+    <string name="communal_settings_summary">"Options de la station d'accueil et de l'écran de verrouillage"</string>
     <string name="communal_settings_title">Mode Hub</string>
-    <string name="communal_smartspace_summary">"Rappels, alertes, etc. de l'Assistant"</string>
+    <string name="communal_smartspace_summary">"Rappels, alertes et plus avec l'Assistant"</string>
     <string name="communal_smartspace_title">Aperçu</string>
-    <string name="communal_what_to_show">Quoi afficher</string>
-    <string name="communal_what_to_use">Quoi utiliser</string>
+    <string name="communal_what_to_show">Que voulez-vous afficher ?</string>
+    <string name="communal_what_to_use">Que voulez-vous utiliser ?</string>
     <string name="connectivity_helper_call_quality_category">Qualité des appels</string>
     <string name="connectivity_helper_call_quality_summary">Recevoir des notifications sur les raisons des problèmes de connexion pendant les appels</string>
     <string name="connectivity_helper_call_quality_title">Recevoir des notifications</string>
@@ -147,15 +145,23 @@ Cette fonctionnalité est compatible avec les appels Wi-Fi et la plupart des ré
 
 L'hameçonnage est une tentative de vol d'identifiants de connexion ou d'autres informations personnelles."</string>
     <string name="content_protection_preference_subpage_summary">"L'analyse s'exécute en privé sur votre appareil. Elle vérifie l'activité de l'application afin de détecter un éventuel hameçonnage ou tout autre comportement malveillant. Si tel est le cas, certaines informations sur l'application sont envoyées à Google Play Protect pour confirmer la menace et avertir les utilisateurs de l'application."</string>
-    <string name="contextual_timeout_description">"L'écran s'éteint de manière automatique et prématurée lorsque vous n'utilisez plus votre appareil"</string>
+    <string name="contextual_timeout_description">"Éteint automatiquement l'écran lorsque vous n'utilisez plus votre appareil"</string>
     <string name="contextual_timeout_title">Délai de mise en veille adaptatif</string>
+    <string name="credentials_install_summary" product="default">Installer les certificats depuis la mémoire de stockage</string>
     <string name="dark_ui_text">"Le thème sombre utilise un fond noir pour préserver l'autonomie de la batterie. Si vous le programmez, il attend que l'écran soit éteint pour s'activer."</string>
     <string name="debugging_data_title">Données de débogage</string>
+    <string name="default_notification_summary">Notification classique</string>
+    <string name="default_ringtone_summary">Sonnerie classique</string>
     <string name="discover_tips_button">Découvrir les astuces</string>
+    <string name="display_dashboard_summary">Thème sombre, taille de police, commandes tactiles</string>
+    <string name="display_settings">Écran et commandes tactiles</string>
     <string name="dock_summary_charging_phone">Recharge du téléphone</string>
     <string name="double_twist_for_camera_mode_summary">"Pour passer en mode selfie, ou en sortir, tournez le poignet deux fois de suite de droite à gauche quand vous êtes dans l'appli Appareil photo Google."</string>
     <string name="duration_less_than_one_minute">"Moins d'une minute"</string>
-    <string name="enable_glanceable_hub_toggle">Mode Hub</string>
+    <string name="enable_glanceable_hub_toggle">"Afficher les widgets sur l'écran de verrouillage"</string>
+    <string name="enable_glanceable_hub_toggle_summary">Sans déverrouiller votre tablette</string>
+    <string name="erase_external_storage" product="default">Effacer la mémoire USB</string>
+    <string name="erase_external_storage_description" product="default">Effacer toutes les données de la mémoire de stockage USB interne, telles que la musique ou les photos</string>
     <string name="extreme_battery_saver_summary">Applique tous les changements ci-dessus. Suspend aussi les applis non essentielles et leurs notifications.</string>
     <string name="extreme_battery_saver_title">Ultra économiseur de batterie</string>
     <string name="face_confirmation_hide_illustration_description">"Vous pouvez déverrouiller votre téléphone par reconnaissance faciale quand vous le saisissez ou appuyez sur l'écran."</string>
@@ -163,7 +169,7 @@ L'hameçonnage est une tentative de vol d'identifiants de connexion ou d'autres 
     <string name="face_confirmation_info_outside_screen">"La reconnaissance faciale fonctionne uniquement avec l'écran extérieur"</string>
     <string name="face_enrolling_center_head">Centrez votre visage dans le cadre intérieur</string>
     <string name="face_enrolling_close_to_continue">Plier le téléphone durant la configuration</string>
-    <string name="face_enrolling_close_to_continue_description">Pliez le téléphone pour configurer ou utiliser Face Unlock.</string>
+    <string name="face_enrolling_close_to_continue_description">Pliez le téléphone pour configurer ou utiliser le déverrouillage par reconnaissance faciale.</string>
     <string name="face_enrolling_description">"Photographiez votre visage sous tous les angles jusqu'à faire disparaître l'ensemble des tuiles."</string>
     <string name="face_enrolling_do_it_later">Plus tard</string>
     <string name="face_enrolling_gaze_dialog_cancel">Annuler</string>
@@ -199,8 +205,7 @@ Lorsque vous activez la sauvegarde automatique, les données de l'appareil et de
 
 Les données de sauvegarde ne sont pas prises en compte dans le quota de stockage de Drive. Les fichiers volumineux ou ceux que les développeurs ont choisi d'exclure du service ne sont pas sauvegardés."</string>
     <string name="fullbackup_erase_dialog_message">"Voulez-vous vraiment arrêter de sauvegarder les données de l'appareil (telles que les mots de passe Wi-Fi et l'historique des appels) et celles des applications (telles que les paramètres et les fichiers enregistrés par ces applications), et en effacer toutes les copies sur Google Drive ?"</string>
-    <string name="gesture_settings_activity_title">Navigation par gestes</string>
-    <string name="hub_mode_content_setting">"Autoriser n'importe quel widget en mode Hub"</string>
+    <string name="help_footer_content_description">À propos de %1$s. %2$s</string>
     <string name="install_unknown_applications">"Autoriser l'installation d'applications issues de sources autres que le Play Store"</string>
     <string name="keywords_accessibility_menu">motricité, menu rapide, menu Accessibilité, toucher, dextérité, arthrite, TMS, accident vasculaire cérébral, tremblements, sclérose en plaques, paralysie cérébrale, bouton, matériel, appui, troubles musculosquelettiques, main, douleur, accessible, aide</string>
     <string name="keywords_adaptive_alert_vibration">technologie tactile, vibreur, téléphone, appel, sonnerie, alerte, notifications, fort, faible, bruit, coque, adaptatif</string>
@@ -222,16 +227,25 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="keywords_touch_sensitivity">"toucher, tactile, sensibilité, sensible, protecteur d'écran, film, réactif, réactivité"</string>
     <string name="keywords_touch_sensitivity_settings">"tactile, adaptative, toucher, sensibilité, sensible, protecteur d'écran, film, réactif, réactivité"</string>
     <string name="keywords_voice_access">voix, commande vocale, moteur, main, micro, microphone, dictée, parler, commande</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">En savoir plus</a></string>
     <string name="led_preference_title">Indicateurs</string>
     <string name="legal_source_code_description">"Pour connaître les détails sur le code source des composants disponibles en Open Source, consultez le centre d'aide Pixel."</string>
     <string name="legal_source_code_title">Code source</string>
     <string name="limited_warranty_introduction">"Appuyez sur le pays d'achat pour voir les conditions de garantie de cet appareil. La garantie est aussi disponible sur g.co/devicewarranty"</string>
     <string name="limited_warranty_title">Garantie limitée</string>
-    <string name="lockscreen_show_weather_summary">Afficher les conditions météo actuelles</string>
-    <string name="lockscreen_show_weather_title">Afficher la météo</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Pour supprimer la musique, les photos et les autres données utilisateur, vous devez effacer la "<b>mémoire de stockage USB</b>.</string>
     <string name="my_device_info_account_preference_title">Compte Google</string>
+    <string name="notification_dismissal_sync_summary">"Les notifications que vous fermez sur votre téléphone ou votre tablette Pixel n'apparaîtront plus sur les deux appareils"</string>
+    <string name="notification_dismissal_sync_title">Fermer les notifications sur tous les appareils Pixel</string>
+    <string name="overrided_google_settings_summary">Services Google et préférences</string>
+    <string name="overrided_google_settings_title">Se connecter</string>
     <string name="owner_info_settings_edit_text_hint">Par exemple \"Pixel de Jean\".</string>
     <string name="permit_debugging_data">"Autoriser l'accès aux rapports de bug"</string>
+    <string name="phone_notification_channel_sound_title">Son et vibreur</string>
+    <string name="phone_notification_title">Alerte de notification</string>
+    <string name="phone_ringtone_title">Alerte par sonnerie</string>
     <string name="play_application_detail_indication_summary">Recherchez des mises à jour</string>
     <string name="play_application_update_entry_title">"Mises à jour d'applications"</string>
     <string name="private_space_retry_summary">Connectez-vous à un compte Google à utiliser avec votre espace privé.</string>
@@ -240,17 +254,18 @@ Les données de sauvegarde ne sont pas prises en compte dans le quota de stockag
     <string name="repair_mode_summary">"Environnement sécurisé pour réparer l'appareil"</string>
     <string name="repair_mode_title">Mode réparation</string>
     <string name="request_google_account_summary">Ajouter un compte Google</string>
-    <string name="reverse_charging_auto_turn_on_subtitle">"S'activera automatiquement pendant une courte période lorsque votre téléphone sera branché sur un chargeur"</string>
+    <string name="reverse_charging_auto_turn_on_subtitle">"La fonctionnalité s'activera automatiquement pendant une courte période lorsque votre téléphone sera branché sur un chargeur"</string>
     <string name="reverse_charging_auto_turn_on_title">Activer automatiquement</string>
     <string name="reverse_charging_charging_wirelessly_message">Indisponible, car le téléphone est en mode de recharge sans fil</string>
-    <string name="reverse_charging_detail_charging_overheat_message">"Le partage de batterie n'est pas disponible, car le Pixel est trop chaud. Attendez qu'il refroidisse, puis réessayez."</string>
+    <string name="reverse_charging_detail_charging_overheat_message">"Téléphone indisponible en raison de sa température élevée. Attendez qu'il refroidisse, puis réessayez"</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">"Le partage de batterie n'est pas disponible, car le téléphone est en mode de recharge sans fil"</string>
     <string name="reverse_charging_detail_footer_title">"La batterie de votre téléphone s'épuisera plus vite si vous utilisez le partage de batterie. Ce partage fonctionne avec les écouteurs, montres, téléphones et autres appareils compatibles. Pour optimiser la recharge, retirez l'étui du téléphone."</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Le partage de batterie fonctionne avec les écouteurs, téléphones et autres appareils compatibles.
 
-La batterie de votre téléphone s'épuisera plus vite si vous utilisez cette fonctionnalité. Celle-ci sera automatiquement désactivée au bout de quelques minutes si aucun autre appareil n'est détecté. Pour optimiser la recharge, retirez l'étui du téléphone et les autres éléments susceptibles d'interférer, comme des objets métalliques."</string>
+La batterie de votre téléphone s'épuisera plus vite si vous utilisez cette fonctionnalité. Celle-ci sera automatiquement désactivée au bout de quelques minutes si aucun autre appareil n'est détecté. Pour optimiser le processus, retirez la coque du téléphone et les autres éléments susceptibles d'interférer avec la recharge, comme des objets métalliques."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">"Le partage de batterie n'est pas disponible, car l'économiseur de batterie est activé"</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">"Le partage de batterie n'est pas disponible, car un périphérique USB-C est branché"</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">"Le Partage de batterie n'est pas disponible pendant la recharge"</string>
     <string name="reverse_charging_instructions_title">"Rechargez d'autres appareils avec votre Pixel.
 Retournez votre téléphone pour essayer."</string>
     <string name="reverse_charging_is_off_summary">Désactivé</string>
@@ -258,7 +273,6 @@ Retournez votre téléphone pour essayer."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Partage de la batterie</string>
     <string name="reverse_charging_is_on_summary">"Activé/Recharger d'autres appareils"</string>
     <string name="reverse_charging_main_switch">Utiliser le partage de batterie</string>
-    <string name="reverse_charging_overheat_summary">"Fonctionnalité non disponible, car le Pixel est trop chaud. Attendez qu'il refroidisse, puis réessayez."</string>
     <string name="reverse_charging_power_save_mode_is_on_message">"Indisponible, car l'économiseur de batterie est activé"</string>
     <string name="reverse_charging_sharing_level_message">Indisponible, car le niveau de batterie du téléphone est inférieur au niveau requis pour le partage</string>
     <string name="reverse_charging_switch_title">"Recharger d'autres appareils en les plaçant sur le dos de votre Pixel"</string>
@@ -266,6 +280,7 @@ Retournez votre téléphone pour essayer."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Indisponible, car un périphérique USB-C est branché</string>
     <string name="reverse_charging_warning_summary">Indisponible, car le niveau de la batterie est inférieur à %1$s</string>
     <string name="reverse_charging_warning_title">"Le partage de batterie n'est pas disponible, car le niveau de batterie est inférieur à %1$s"</string>
+    <string name="ringtone_synchronized_summary">Synchronisé</string>
     <string name="rtt_settings_always_visible">Toujours visible</string>
     <string name="rtt_settings_no_visible">Non visible</string>
     <string name="rtt_settings_title">Texte en temps réel</string>
@@ -273,13 +288,13 @@ Retournez votre téléphone pour essayer."</string>
     <string name="screen_time_summary_usage_today">"%1$s aujourd'hui"</string>
     <string name="search_bar_account_avatar_content_description">Photo de profil, appuyez deux fois pour ouvrir le compte Google</string>
     <string name="search_gesture_category_title">Rechercher</string>
-    <string name="search_gesture_feature_title">Entourer pour rechercher</string>
-    <string name="search_long_press_home_button_summary">"Appuyez de manière prolongée sur le bouton d'accueil en bas de l'écran, puis entourez ou sélectionnez l'élément à rechercher."</string>
-    <string name="search_press_hold_gesture_summary">"Appuyez de manière prolongée sur la poignée en bas de l'écran, puis entourez ou sélectionnez l'élément à rechercher."</string>
+    <string name="search_gesture_feature_summary">"Appuyez de manière prolongée sur le bouton d'accueil ou la barre de navigation pour effectuer une recherche basée sur le contenu de votre écran."</string>
+    <string name="search_gesture_feature_title">Entourer pour chercher</string>
     <string name="security_dismiss_dialog_dismiss_button">Ignorer</string>
     <string name="security_dismiss_dialog_title">Ignorer cet avertissement ?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Appuyez pour configurer</string>
     <string name="security_settings_face_enroll_education_message">"Sur l'écran suivant, tournez la tête pour enregistrer votre visage sous tous les angles"</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">"Sur l'écran suivant, tenez votre téléphone à hauteur des yeux"</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Délai de configuration du déverrouillage dépassé</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Vous pouvez désormais utiliser la reconnaissance faciale pour déverrouiller votre téléphone ou confirmer votre identité, par exemple pour vous connecter à des applis ou approuver un achat</string>
     <string name="security_settings_face_enroll_finish_description_with_bp_full">"Vous pouvez désormais utiliser votre visage pour déverrouiller votre téléphone ou confirmer votre identité, par exemple quand vous vous connectez à des applis ou approuvez un achat.
@@ -293,19 +308,35 @@ Le déverrouillage par reconnaissance faciale fonctionne de façon optimale lors
 Le déverrouillage par reconnaissance faciale fonctionne mieux quand la lumière est suffisante et que vous ne portez pas de masque ni de lunettes sombres."</string>
     <string name="security_settings_face_enroll_finish_title">Parfait !</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Configuration en cas de vision limitée ou mobilité réduite de la tête</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Le déverrouillage par reconnaissance faciale peut nécessiter que vous placiez votre visage plus directement face à votre téléphone.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Les yeux doivent rester ouverts</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"À tout moment dans les paramètres, vous et votre enfant pouvez supprimer son empreinte faciale, ou désactiver le déverrouillage par reconnaissance faciale. Les empreintes faciales sont stockées sur le téléphone jusqu'à leur suppression.&lt;br&gt;&lt;br&gt; En savoir plus : &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Gardez le contrôle, vous et votre enfant</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Vous pouvez supprimer votre empreinte faciale ou désactiver le déverrouillage par reconnaissance faciale à tout moment dans les paramètres. Les empreintes faciales sont stockées sur le téléphone jusqu'à ce que vous les supprimiez.&lt;br&gt;&lt;br&gt;En savoir plus : &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Vous avez le contrôle</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Le déverrouillage par reconnaissance faciale crée une empreinte unique du visage de votre enfant pour valider son identité. Pour générer cette empreinte faciale lors de la configuration, votre enfant prendra des photos de son visage sous différents angles.
+
+Lorsqu'il se servira du déverrouillage par reconnaissance faciale, les images seront utilisées pour mettre à jour son empreinte faciale. Les images permettant de créer son empreinte faciale ne seront pas stockées, contrairement à l'empreinte faciale qui sera enregistrée de façon sécurisée sur son téléphone sans le quitter. Le traitement des données a lieu de manière sécurisée sur le téléphone."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Le déverrouillage par reconnaissance faciale crée un modèle unique de votre visage pour valider votre identité. L'empreinte faciale est générée lors de la configuration en prenant des photos de votre visage sous différents angles.
+
+Lorsque vous utilisez le déverrouillage par reconnaissance faciale, les images servent à mettre à jour votre empreinte faciale. Les images utilisées pour créer cette empreinte ne sont pas stockées, mais l'empreinte faciale est enregistrée de façon sécurisée sur votre téléphone et ne le quitte jamais. Tout le traitement a lieu de manière sécurisée sur votre téléphone."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Comment ça marche</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Le déverrouillage par reconnaissance faciale peut exiger que votre enfant ait les yeux ouverts pour déverrouiller le téléphone ou valider son identité. Vous et votre enfant pouvez activer cette option à tout moment dans les paramètres.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Si votre enfant porte des lunettes, il peut les mettre lors de la configuration.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">"L'utilisation du déverrouillage par reconnaissance faciale par votre enfant peut être moins sûre qu'un schéma, un code ou un mot de passe sécurisés"</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">"Il peut déverrouiller son téléphone sans le vouloir, simplement en le regardant. De plus, le téléphone peut être déverrouillé par toute personne qui lui ressemble beaucoup, comme un jumeau, ou si quelqu'un le place devant son visage."</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Le déverrouillage par reconnaissance faciale peut exiger que vous ayez les yeux ouverts pour déverrouiller le téléphone ou valider votre identité. Vous pouvez activer cette option à tout moment dans les paramètres.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Le port de lunettes de vue ou de lunettes de soleil légèrement teintées ne pose pas de problème.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">"Le déverrouillage par reconnaissance faciale peut être moins sûr qu'un schéma, un code ou un mot de passe sécurisés."</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">"Vous pouvez déverrouiller votre téléphone rien qu'en le regardant, même sans le vouloir. Il peut aussi être déverrouillé par quelqu'un qui vous ressemble beaucoup (votre jumeau, par ex.) ou qui le tient devant votre visage."</string>
     <string name="security_settings_face_enroll_introduction_info_title">À noter</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Utilisez la reconnaissance faciale pour déverrouiller votre téléphone ou valider votre identité, par exemple pour vous connecter à des applis ou approuver un achat.</string>
     <string name="security_settings_face_enroll_introduction_title">Configurer le déverrouillage par reconnaissance faciale</string>
     <string name="security_settings_face_enroll_next">Suivant</string>
     <string name="security_settings_face_enroll_partial_message">Pour de meilleures performances, vous pouvez reconfigurer le déverrouillage par reconnaissance faciale dans les paramètres</string>
     <string name="security_settings_face_enroll_partial_start_over">Recommencer</string>
     <string name="security_settings_face_enroll_partial_title">Configuration du déverrouillage facial terminée</string>
-    <string name="security_settings_face_enroll_timeout_message">"Essayez plutôt la configuration rapide. Il se peut que vous deviez placer votre tête plus en face de votre téléphone lorsque vous utilisez le déverrouillage par reconnaissance faciale.
+    <string name="security_settings_face_enroll_timeout_message">"Essayez plutôt la configuration rapide. Sachez que vous devrez peut-être placer votre tête plus en face de votre téléphone lorsque vous utiliserez le déverrouillage par reconnaissance faciale.
 
 Pour de meilleures performances, vous pouvez reconfigurer ce mode de déverrouillage dans les paramètres."</string>
     <string name="security_settings_face_enroll_timeout_title">Impossible de poursuivre la configuration</string>
@@ -326,15 +357,34 @@ Remarque : vous ne pouvez pas utiliser votre empreinte digitale pour déverrouil
     <string name="security_settings_fingerprint_preference_summary_none">Appuyez pour configurer une empreinte digitale</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint crée un modèle unique de votre empreinte digitale pour confirmer votre identité. Celui-ci est généré lors de la configuration en scannant votre doigt dans différentes positions.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">Lorsque vous vous servez de Pixel Imprint, les images sont utilisées pour mettre à jour le modèle de votre empreinte digitale. Les images utilisées pour créer ce modèle ne sont jamais stockées, mais celui-ci est enregistré de façon sécurisée sur votre téléphone et ne le quitte jamais. Le traitement des données a lieu de manière sécurisée sur votre téléphone.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">"À tout moment dans les paramètres, vous pouvez supprimer le modèle de votre empreinte ou désactiver Pixel Imprint. Les modèles sont stockés sur le téléphone jusqu'à ce que vous les supprimiez."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">"Pixel Imprint crée un modèle unique de l'empreinte digitale de votre enfant pour confirmer son identité. Celui-ci est généré lors de la configuration en scannant son doigt dans différentes positions."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">"Lorsqu'il se sert de Pixel Imprint, les images sont utilisées pour mettre à jour le modèle de son empreinte digitale. Les images permettant de créer ce modèle ne sont jamais stockées, mais celui-ci est enregistré de façon sécurisée sur son téléphone sans le quitter. Le traitement des données a lieu de manière sécurisée sur le téléphone."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">"À tout moment dans les paramètres, vous et votre enfant pouvez supprimer le modèle de son empreinte digitale ou désactiver Pixel Imprint. Les modèles d'empreintes digitales sont stockés sur le téléphone jusqu'à leur suppression."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"En savoir plus sur le déverrouillage par empreinte digitale du Pixel : &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;"</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint pour le travail</string>
     <string name="setup_suggestion_summary">Encore quelques étapes</string>
     <string name="setup_suggestion_title">Terminer la configuration</string>
-    <string name="smart_battery_a11y_collapse_label">Fermé, batterie adaptative</string>
-    <string name="smart_battery_a11y_expand_label">Ouvert, batterie adaptative</string>
+    <string name="show_stylus_pointer_icon">"Permettre aux applications d'afficher le pointeur lors du passage du stylet"</string>
+    <string name="simple_mode_category">Accès rapide</string>
+    <string name="simple_mode_description">Augmentez la taille du texte et des icônes, simplifiez la mise en page et ajoutez des boutons de navigation. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">En savoir plus</a> sur la Vue simplifiée.</string>
+    <string name="simple_mode_summary">"Améliorer la lisibilité du texte et simplifier la navigation ainsi que la disposition de l'écran"</string>
+    <string name="simple_mode_suw_description">"Pour offrir un design plus épuré et faciliter la prise en main, le Pixel peut automatiquement télécharger les applis et widgets essentiels, optimiser le format d'écran, adapter la police et bien plus."</string>
+    <string name="simple_mode_suw_done_button">OK</string>
+    <string name="simple_mode_switch_title">Utiliser la Vue simplifiée</string>
+    <string name="simple_mode_title">Vue simplifiée</string>
+    <string name="simple_view_dialog_negative_button">Annuler</string>
+    <string name="simple_view_dialog_positive_button">Continuer</string>
+    <string name="simple_view_feature_disabled_dialog_message">"Si vous désactivez Simple View, votre appareil retrouvera ses paramètres de police, d'affichage et de mise en page d'origine. "<a href="https://support.google.com/pixelphone?p=pixel_simple_view">Découvrez comment</a> modifier les paramètres de ces polices individuelles.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Votre appareil reviendra aux paramètres précédents</string>
+    <string name="simple_view_feature_enabled_dialog_message">"Votre police actuelle est plus grande que celle définie dans les paramètres Simple View. L'utilisation de Simple View réduira votre taille de police."</string>
+    <string name="simple_view_feature_enabled_dialog_title">Réduction de la taille de police</string>
+    <string name="smart_battery_a11y_collapse_label">Section Batterie adaptative réduite</string>
+    <string name="smart_battery_a11y_expand_label">Section Batterie adaptative développée</string>
     <string name="smart_battery_footer">"Pour prolonger l'autonomie, la batterie adaptative pourra réduire les performances et l'activité en arrière-plan. Certaines notifications pourront être retardées."</string>
     <string name="smart_battery_manager_title">Préférences adaptatives</string>
+    <string name="smart_battery_summary" product="default">"La batterie adaptative exploite les données d'utilisation de votre téléphone pour optimiser en permanence l'utilisation de la batterie par les applis. Pour prolonger l'autonomie de la batterie, il se peut que les performances soient réduites et que les notifications soient retardées."</string>
     <string name="smart_battery_title">Batterie adaptative</string>
     <string name="software_update_can_be_updated_header">Rendez votre Pixel encore plus performant</string>
     <string name="software_update_detail_indication_1_update_available">1 mise à jour disponible</string>
@@ -348,7 +398,8 @@ Remarque : vous ne pouvez pas utiliser votre empreinte digitale pour déverrouil
     <string name="software_update_up_to_date_summary">À jour</string>
     <string name="software_update_up_to_specific_date_summary">Mise à jour le %1$s</string>
     <string name="software_update_update_available_summary">Mise à jour disponible</string>
-    <string name="sound_dashboard_summary">Volume, retour haptique, Ne pas déranger</string>
+    <string name="sound_dashboard_summary">Volume et technologies haptiques</string>
+    <string name="sound_dashboard_summary_with_dnd">Volume, technologies haptiques, Ne pas déranger</string>
     <string name="spatial_audio_head_tracking_available">Suivi des mouvements de la tête</string>
     <string name="spatial_audio_head_tracking_unavailable">"Le suivi des mouvements de la tête n'est pas disponible"</string>
     <string name="speed_boost_summary_off">Désactivée</string>
@@ -397,4 +448,8 @@ Remarque : vous ne pouvez pas utiliser votre empreinte digitale pour déverrouil
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Appuyez pour connecter</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Impossible de se connecter. Appuyez pour réessayer.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Connexion…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> En savoir plus</annotation></string>
+    <string name="wireless_charging_learn_more_description">En savoir plus sur la recharge sans fil</string>
+    <string name="wireless_charging_state">Recharge sans fil •</string>
+    <string name="wireless_charging_state_and_duration">Recharge sans fil… • %1$s •</string>
 </resources>

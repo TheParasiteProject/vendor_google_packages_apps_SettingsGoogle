@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="accessibility_keyboard_haptics_title">Гарын хүртэхүйн тохиргоо</string>
-    <string name="accessibility_screen_magnifier_summary">Эргэн тойрныхоо деталийг томруулахын тулд камераа ашиглана уу</string>
+    <string name="accessibility_screen_magnifier_summary">Эргэн тойрныхоо зүйлсийг томруулахын тулд камераа ашиглана уу</string>
     <string name="accessibility_screen_magnifier_title">Томруулагч</string>
     <string name="adaptive_alert_vibration_summary">Таны утас хөдөлгөөнгүй, дэлгэц нь дээшээ харсан үед чичиргээний хэмжээг бууруулдаг</string>
     <string name="adaptive_alert_vibration_title">Дасан зохицох сэрэмжлүүлэг чичиргээ</string>
@@ -12,31 +12,27 @@
     <string name="adaptive_charging_footer">Батарейн эдэлгээг уртасгахад туслахын тулд таны цэнэглэх хэвшлийг утас тань сурдаг бөгөөд таныг үүнийг бүрэн цэнэглэх шаардлагатай болох хүртэл хүлээнэ.</string>
     <string name="adaptive_charging_link_a11y">Орчинтой тохируулан цэнэглэх талаар нэмэлт мэдээлэл авах</string>
     <string name="adaptive_charging_main_switch_title">Орчинтой тохируулан цэнэглэхийг ашиглах</string>
-    <string name="adaptive_charging_time_estimate"><b>Орчинтой тохируулан цэнэглэх</b> • %1$s дотор дүүрнэ</string>
+    <string name="adaptive_charging_time_estimate"><b>Орчинтой тохируулан цэнэглэх</b> • %1$s гэхэд дүүрнэ</string>
     <string name="adaptive_charging_title">Орчинтой тохируулан цэнэглэх</string>
     <string name="adaptive_touch_sensitivity_summary">Хүрэлтийн мэдрэгшил нь таны хүрээлэн буй орчин, үйл ажиллагаа болон дэлгэц хамгаалагчид автоматаар тохирно</string>
     <string name="adaptive_touch_sensitivity_title">Дасан зохицох хүрэлт</string>
+    <string name="adaptive_vibration_footer">Таны утасны микрофон болон бусад мэдрэгчийг дууны түвшин ба хам сэдвийг тодорхойлоход ашигладаг. Ямар ч өгөгдлийг хэзээ ч бүртгэдэггүй.</string>
+    <string name="adaptive_vibration_settings_summary">Таны утас халаасанд тань эсвэл чанга дуу чимээтэй газар байх зэрэг орчинд тулгуурлан утасныхаа чичиргээг автоматаар тохируулна уу</string>
+    <string name="adaptive_vibration_summary_off">Унтраалттай</string>
+    <string name="adaptive_vibration_summary_on">Асаалттай</string>
+    <string name="adaptive_vibration_title">Дасан зохицох чичиргээ</string>
+    <string name="adaptive_vibration_toggle_title">Дасан зохицох чичиргээг ашиглах</string>
     <string name="add_bypassed_application_hint">Апп нэмээгүй</string>
     <string name="advanced_vpn_preference_group_title">Бүрэлдэхүүн</string>
     <string name="all_apps_category_title">Бүх апп</string>
     <string name="allow_debugging_data_description">Google <a href="https://policies.google.com/privacy">нууцлалын бодлогынхоо</a>" дагуу апп болон төхөөрөмжийн асуудлыг оношлоход алдааны мэдээг ашигладаг.
 
-"<b>Алдааны мэдээ нь апп, системийн логийг</b>" агуулах бөгөөд мөн нэр, имэйл хаяг, утасны дугаар, байршлын өгөгдөл, төхөөрөмжийн таниулбар, холбогдсон төхөөрөмж болон сүлжээний мэдээлэл зэрэг хувийн болон төхөөрөмжийн мэдээллийг багтааж болно. Мэдээг таны асуудалд өртсөн байж болзошгүй инженерчлэлийн түншүүдтэй хуваалцаж магадгүй.
+"<b>Алдааны мэдээ нь апп, системийн логийг</b>" агуулах бөгөөд мөн нэр, имэйл хаяг, утасны дугаар, байршлын өгөгдөл, төхөөрөмжийн танигч, холбогдсон төхөөрөмж болон сүлжээний мэдээлэл зэрэг хувийн болон төхөөрөмжийн мэдээллийг багтааж болно. Мэдээг таны асуудалд өртсөн байж болзошгүй инженерчлэлийн түншүүдтэй хуваалцаж магадгүй.
 
 Хандах эрх олгох нь энэ аппад таны илгээсэн бүх асуудлын мэдээнд хувийн болон ажлын профайлуудаас апп болон системийн логийг оруулаад "<b>алдааны мэдээг автоматаар цуглуулж, байршуулахыг</b>" зөвшөөрнө.
 
 Хандах эрхийг цуцалснаар тус аппаас асуудлын мэдээ тус бүрд алдааны мэдээг цуглуулах болон байршуулах зөвшөөрлийг танаас хүсэхийг шаардана."</string>
     <string name="app_and_notification_dashboard_summary">Туслах, саяхны аппууд, өгөгдмөл аппууд</string>
-    <string name="audio_sharing_switch_title">Аудиог хуваалцах</string>
-    <string name="audio_sharing_title">Аудио хуваалцах</string>
-    <string name="audio_streams_category_title">LE аудио дамжуулалтад холбогдох</string>
-    <string name="audio_streams_connect">Холбогдох</string>
-    <string name="audio_streams_disconnect">Салгах</string>
-    <string name="audio_streams_pref_title">Ойролцоох аудио дамжуулалтууд</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">QR код буруу форматтай байна</string>
-    <string name="audio_streams_qr_code_scanner">Сонсож эхлэхийн тулд доорх QR кодыг голлуулаарай</string>
-    <string name="audio_streams_qr_code_summary">QR код ашиглан аудио дамжуулалтад холбогдоно уу</string>
-    <string name="audio_streams_title">Аудио дамжуулалтууд</string>
     <string name="automatic_storage_manager_activation_warning">Та холбогдсон үедээ нөөцлөхөөр сонгосон чанараар зураг, видеонд хандах боломжтой</string>
     <string name="automatic_storage_manager_days_title">Нөөцөлсөн зураг, видеог устгах</string>
     <string name="automatic_storage_manager_deactivation_warning">"Ухаалаг санг унтраах уу? 
@@ -53,11 +49,11 @@
     <string name="battery_manager_summary_unsupported">Батарейн ажиллах хугацааг сунгах</string>
     <string name="battery_missing_link_message">Нэмэлт мэдээлэл авах</string>
     <string name="battery_saver_reminder_category">Сануулагчид</string>
-    <string name="battery_saver_reminder_switch_summary">Батарей бага байх үед сануулагч аваарай</string>
+    <string name="battery_saver_reminder_switch_summary">Цэнэг бага байх үед сануулагч аваарай</string>
     <string name="battery_saver_reminder_switch_title">Батарей хэмнэгчийн сануулагч</string>
     <string name="battery_saver_schedule_category">Хуваарь</string>
-    <string name="battery_saver_schedule_switch_summary">Батарей таны тохируулсан түвшнээс доош унах үед Батарей хэмнэгч асна</string>
-    <string name="battery_saver_schedule_switch_title">Батарейн түвшинд туглуурлан асаах</string>
+    <string name="battery_saver_schedule_switch_summary">Цэнэг таны тохируулсан түвшнээс доош унах үед Батарей хэмнэгч асна</string>
+    <string name="battery_saver_schedule_switch_title">Цэнэгийн түвшинд тулгуурлан асаах</string>
     <string name="battery_schedule_summary">Батарей хэмнэгч асах үед удирдах</string>
     <string name="battery_schedule_title">Хуваарь болон сануулагчид</string>
     <string name="battery_tip_battery_health_learn_more_description">Батарейн барилтын талаар нэмэлт мэдээлэл авах</string>
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Бүрэн цэнэглэх</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Таны таблетын батарейг хамгаалахын тулд үүнийг холбосон үед цэнэг нь %1$s-тай болсон үед цэнэглэхийг түр зогсооно</string>
     <string name="battery_tip_smart_battery_summary">Дасан зохицох батарейг асаах</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Утасгүй цэнэглэх талаар нэмэлт мэдээлэл авах</string>
-    <string name="battery_tip_wireless_charging_summary">Утсаа утасгүй цэнэглэх нь бусад цэнэглэх аргаас илүү их эрчим хүч ашиглаж магадгүй</string>
-    <string name="battery_tip_wireless_charging_title">Утасгүй цэнэглэх</string>
-    <string name="calls_and_alarms_device_title">Дуудлага болон сэрүүлгүүд</string>
+    <string name="charging_optimization_charge_label">%1$s - %2$s гэхэд цэнэглэж дуусна</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - Цэнэглэж дууслаа</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Цэнэглэж дууслаа</string>
+    <string name="charging_optimization_remaining_time_label">%1$s гэхэд цэнэглэж дуусна</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Утасгүй цэнэглэж дууслаа •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">%1$s гэхэд утасгүй цэнэглэж дууслаа •</string>
     <string name="clear_calling_footer">"Таны нууцлалыг хамгаалахын тулд Тод дуудлага Google рүү аудио эсвэл харилцан яриануудыг илгээдэггүй.
 
 Тод дуудлага нь Wi-Fi дуудлага болон ихэнх сүлжээнд ажилладаг бөгөөд 3G сүлжээнүүдэд боломжгүй."</string>
@@ -146,23 +144,31 @@
     <string name="content_protection_preference_subpage_info">"Үүнийг аюулгүй байдлын онцлогоор хамгаалсан. Google-тэй ямар ч төхөөрөмжийг эсвэл хувийн мэдээллийг хуваалцдаггүй. 
 
 Фишинг нь нэвтрэх мандат үнэмлэх эсвэл бусад хувийн мэдээллийг хулгайлах оролдлого юм."</string>
-    <string name="content_protection_preference_subpage_summary">Скан хийх нь таны төхөөрөмжид шууд нууцлалтайгаар ажиллах бөгөөд фишинг эсвэл бусад хууран мэхлэх зан авир байгаа эсэхийг үйл ажиллагаанаас шалгадаг. Хэрэв энэ нь илэрвэл аюул заналыг баталгаажуулж, аппын хэрэглэгчдэд сануулахын тулд зарим аппын мэдээллийг Google Play Хамгаалалт руу илгээдэг.</string>
-    <string name="contextual_timeout_description">Таныг төхөөрөмжөө ашиглахгүй байвал таны дэлгэцийг автоматаар эрт унтраадаг</string>
+    <string name="content_protection_preference_subpage_summary">Скан хийх нь шууд таны төхөөрөмж дээр нууцлалтайгаар ажиллах бөгөөд аппын үйл ажиллагаанд фишинг эсвэл бусад хууран мэхлэх үйлдэл байгаа эсэхийг шалгадаг. Хэрэв энэ нь илэрвэл аюул заналыг баталгаажуулж, аппын хэрэглэгчдэд сануулахын тулд зарим аппын мэдээллийг Google Play Хамгаалалт руу илгээдэг.</string>
+    <string name="contextual_timeout_description">Таныг төхөөрөмжөө ашиглахгүй байвал таны дэлгэцийг автоматаар унтраадаг</string>
     <string name="contextual_timeout_title">Дасан зохицох хугацаа</string>
+    <string name="credentials_install_summary" product="default">Сертификатыг сангаас суулгах</string>
     <string name="dark_ui_text">Бараан загвар нь таны батарейн ашиглалтын хугацааг уртасгахад туслахын тулд хар өнгийн дэвсгэр ашигладаг. Бараан загварын хуваарьт төлөв нь таны дэлгэц унтрах хүртэл хүлээж байгаад асдаг.</string>
     <string name="debugging_data_title">Дебагийн өгөгдөл</string>
+    <string name="default_notification_summary">Сонгодог мэдэгдэл</string>
+    <string name="default_ringtone_summary">Сонгодог хонхны ая</string>
     <string name="discover_tips_button">Зөвлөгөөнүүдтэй танилцах</string>
+    <string name="display_dashboard_summary">Бараан загвар, фонтын хэмжээ, хүрэлт</string>
+    <string name="display_settings">Дэлгэц, хүрэлт</string>
     <string name="dock_summary_charging_phone">Утсыг цэнэглэж байна</string>
     <string name="double_twist_for_camera_mode_summary">Google Камерын сельфи хийх горимыг унтрааж асаахын тулд аппыг ашиглах үедээ бугуйгаа хоёр эргүүлнэ үү.</string>
     <string name="duration_less_than_one_minute">1 минутаас бага</string>
-    <string name="enable_glanceable_hub_toggle">Hub горим</string>
+    <string name="enable_glanceable_hub_toggle">Түгжээтэй дэлгэц дээр виджетүүд харуулах</string>
+    <string name="enable_glanceable_hub_toggle_summary">Таблетынхаа түгжээг тайлалгүйгээр</string>
+    <string name="erase_external_storage" product="default">USB санг арилгах</string>
+    <string name="erase_external_storage_description" product="default">Дотоод USB сан дээрх хөгжим буюу зураг гэх мэт бүх өгөгдлийг арилгах</string>
     <string name="extreme_battery_saver_summary">Дээр жагсаасан бүх өөрчлөлт багтсан. Мөн чухал бус аппууд болон тэдгээрийн мэдэгдлүүдийг түр зогсооно.</string>
     <string name="extreme_battery_saver_title">Дээд зэргээр батарей хэмнэгч</string>
     <string name="face_confirmation_hide_illustration_description">Одоо та утсаа авах эсвэл дэлгэцийг нь товших үедээ царайгаараа түгжээг тайлах боломжтой.</string>
     <string name="face_confirmation_info_enough_light">Царайгаар түгжээ тайлах нь хангалттай гэрэлтэй, таныг амны хаалт, бараан нүдний шил зүүгээгүй үед хамгийн сайн ажиллана.</string>
     <string name="face_confirmation_info_outside_screen">Царайгаар түгжээ тайлах нь зөвхөн дэлгэцийн гадна ажиллана</string>
     <string name="face_enrolling_center_head">Царайгаа дотор талын хүрээнд тааруулна уу</string>
-    <string name="face_enrolling_close_to_continue">Тохируулгын үеэр утсыг нугалах</string>
+    <string name="face_enrolling_close_to_continue">Тохируулгын үеэр утсыг эвхэх</string>
     <string name="face_enrolling_close_to_continue_description">Царайгаар түгжээ тайлахыг тохируулах эсвэл ашиглахын тулд утсыг нугалах ёстой</string>
     <string name="face_enrolling_description">Бүх хавтанг арилгаж царайныхаа бүх өнцгийн зургийг авна уу.</string>
     <string name="face_enrolling_do_it_later">Дараа хийх</string>
@@ -199,8 +205,7 @@
 
 Нөөцөлсөн өгөгдөл нь таны Драйвын багтаамжид нөлөөлөхгүй. Томоохон файл эсвэл файл боловсруулагчийн үйлчилгээнд оруулахыг хүсээгүй файлыг нөөцлөхгүй."</string>
     <string name="fullbackup_erase_dialog_message">Төхөөрөмжийн өгөгдөл (Wi-Fi-ийн нууц үг, дуудлагын түүх зэрэг) болон апп-н өгөгдлийг (тохиргоо болон апп-н хадгалсан файл зэрэг) нөөцлөхөө зогсоож, Google Драйвт байгаа хуулбарыг устгах уу?</string>
-    <string name="gesture_settings_activity_title">Зангааны навигац</string>
-    <string name="hub_mode_content_setting">Hub горимд дурын виджетийг зөвшөөрөх</string>
+    <string name="help_footer_content_description">%1$s-н тухай. %2$s</string>
     <string name="install_unknown_applications">Play Store-с өөр эх үүсвэрээс татсан апп-уудыг суулгахыг зөвшөөрөх</string>
     <string name="keywords_accessibility_menu">хөдөлгөөн, шуурхай цэс, туслах цэс, хүрэлт, эв дүй, үе мөчний үрэвсэл, rsi, цус харвалт, салгалах, түгээмэл хатуурал, тархины саажилт, товчлуур, техник хангамж, хэвлэл мэдээлэл, олон дахин шөрмөсний гэмтэл, гар, өвдөлт, хүртээмж, тусламж</string>
     <string name="keywords_adaptive_alert_vibration">хүртэхүй, чичиргээ, утас, дуудлага, хонх, сэрэмжлүүлэг,мэдэгдлүүд чанга, чимээгүй болгох. дуу чимээ, гэр, зохицох чанар</string>
@@ -222,16 +227,25 @@
     <string name="keywords_touch_sensitivity">хүрэх, мэдрэгшил, мэдрэг, дэлгэц хамгаалагч, хальс, хариу үйлдэлтэй, хариу үйлдэл</string>
     <string name="keywords_touch_sensitivity_settings">хүрэх, дасан зохицох, мэдрэгшил, эзмэг, дэлгэц хамгаалагч, хальс, хариу үйлдэлт, хариу үйлдэл үзүүлэх чадвар</string>
     <string name="keywords_voice_access">дуу хоолой, дуут хяналт, мотор, гар, мик, микрофон, дуу хоолойгоор бичих, ярих, хянах</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Нэмэлт мэдээлэл авах</a></string>
     <string name="led_preference_title">LED заалтын загварууд</string>
     <string name="legal_source_code_description">Нээлттэй эх код байдлаар боломжтой болгосон бүрэлдэхүүн хэсгийн эх кодын талаарх дэлгэрэнгүйг Pixel-н тусламжийн төвөөс олж болно.</string>
     <string name="legal_source_code_title">Эх код</string>
     <string name="limited_warranty_introduction">Энэ төхөөрөмжийн баталгааг харахын тулд худалдан авсан улс дээрээ товшино уу. Мөн баталгааг g.co/devicewarranty дээрээс авах боломжтой</string>
     <string name="limited_warranty_title">Хязгаарлагдмал баталгаа</string>
-    <string name="lockscreen_show_weather_summary">Одоогийн цаг агаарын нөхцөл байдлыг харах</string>
-    <string name="lockscreen_show_weather_title">Цаг агаар харуулах</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Хөгжим, зураг болон бусад хэрэглэгчийн өгөгдлийг цэвэрлэхийн тулд "<b>USB санг</b> устгах хэрэгтэй.</string>
     <string name="my_device_info_account_preference_title">Google Бүртгэл</string>
+    <string name="notification_dismissal_sync_summary">Таны Pixel-н утас эсвэл таблет дээр хаасан мэдэгдэл цаашид аль алин дээр нь гарч ирэхгүй</string>
+    <string name="notification_dismissal_sync_title">Pixel төхөөрөмжүүд дээр мэдэгдлийг хаах</string>
+    <string name="overrided_google_settings_summary">Google-н үйлчилгээ, сонголт</string>
+    <string name="overrided_google_settings_title">Нэвтрэх</string>
     <string name="owner_info_settings_edit_text_hint">Жишээ нь Joe-н Pixel.</string>
     <string name="permit_debugging_data">Алдааны мэдээний хандалтыг зөвшөөрөх</string>
+    <string name="phone_notification_channel_sound_title">Дуу болон чичиргээ</string>
+    <string name="phone_notification_title">Мэдэгдлийн дохио</string>
+    <string name="phone_ringtone_title">Хонхны аяны дохио</string>
     <string name="play_application_detail_indication_summary">Шинэчлэлт шалгах</string>
     <string name="play_application_update_entry_title">Аппын шинэчлэлтүүд</string>
     <string name="private_space_retry_summary">Хувийн орон зайтайгаа ашиглах Google Бүртгэлд нэвтэрнэ үү</string>
@@ -242,14 +256,15 @@
     <string name="reverse_charging_auto_turn_on_subtitle">Таныг утсаа цэнэглэгчид залгасан үед богино хугацааны турш автоматаар асна</string>
     <string name="reverse_charging_auto_turn_on_title">Автоматаар асаах</string>
     <string name="reverse_charging_charging_wirelessly_message">Утсыг утасгүйгээр цэнэглэж байгаа тул боломжгүй</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Pixel хэт халсан тул Батарей хуваалцах боломжгүй байна. Утас хөрөхийг хүлээгээд, дахин оролдоно уу.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Температурын улмаас боломжгүй. Утас хөрөхийг хүлээгээд, дахин оролдоно уу</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Утсыг утасгүйгээр цэнэглэж байгаа тул батарей хуваалцах боломжгүй</string>
     <string name="reverse_charging_detail_footer_title">Батарей хуваалцахыг ашиглах үед таны утасны батарей илүү хурдан дуусна. Батарей хуваалцах нь тохирох чихэвч, цаг, утас болон бусад төхөөрөмжтэй ажилладаг. Илүү сайн цэнэглэхийн тулд утасны гэрээ салгана уу.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Батарей хуваалцах онцлог нь тохирох чихэвч, утас болон бусад зүйлтэй ажилладаг.
 
-Энэ онцлогийг ашиглаж байх үед таны утасны батарей илүү хурдан дуусна. Өөр төхөөрөмж илрүүлээгүй бол батарей хуваалцах онцлог хэдэн минутын дараа автоматаар унтардаг. Илүү сайн цэнэглэхийн тулд утасны гэр болон металл объект зэрэг саад болж болзошгүй бусад зүйлийг салгана уу"</string>
-    <string name="reverse_charging_detail_power_save_mode_is_on_message">Батарей хэмнэгч асаалттай байгаа тул батарей хуваалцах боломжгүй</string>
+Энэ онцлогийг ашиглаж байх үед таны утасны батарей илүү хурдан дуусна. Өөр төхөөрөмж илрүүлээгүй бол Батарей хуваалцах онцлог хэдэн минутын дараа автоматаар унтардаг. Илүү сайн цэнэглэхийн тулд утасны гэр болон металл объект зэрэг саад болж болзошгүй бусад зүйлийг салгана уу"</string>
+    <string name="reverse_charging_detail_power_save_mode_is_on_message">Батарей хэмнэгч асаалттай байгаа тул Батарей хуваалцах боломжгүй</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">USB-C төхөөрөмж залгаатай байгаа тул батарей хуваалцах боломжгүй</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Цэнэглэх үед Батарей хуваалцах боломжгүй</string>
     <string name="reverse_charging_instructions_title">"Та Pixel-р бусад төхөөрөмжийг цэнэглэнэ үү.
 Утсаа дээш нь харуулан туршиж үзнэ үү."</string>
     <string name="reverse_charging_is_off_summary">Унтраалттай</string>
@@ -257,7 +272,6 @@
     <string name="reverse_charging_is_on_and_discharging_summary">Батарейг хуваалцаж байна</string>
     <string name="reverse_charging_is_on_summary">Асаалттай / Бусад төхөөрөмжийг цэнэглэх</string>
     <string name="reverse_charging_main_switch">Батарей хуваалцахыг ашиглах</string>
-    <string name="reverse_charging_overheat_summary">Pixel хэт халсан тул ашиглах боломжгүй. Утас хөрөхийг хүлээгээд, дахин оролдоно уу.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Батарей хэмнэгч асаалттай тул боломжгүй</string>
     <string name="reverse_charging_sharing_level_message">Батарей хуваалцах түвшнээс доогуур байгаа тул боломжгүй</string>
     <string name="reverse_charging_switch_title">Бусад төхөөрөмжийг Pixel-н ард байрлуулан цэнэглэх</string>
@@ -265,6 +279,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">USB-C төхөөрөмжийг залгасан тул боломжгүй</string>
     <string name="reverse_charging_warning_summary">Батарей %1$s-с бага байгаа тул боломжгүй</string>
     <string name="reverse_charging_warning_title">Батарей %1$s-с бага цэнэгтэй байгаа тул батарей хуваалцах боломжгүй</string>
+    <string name="ringtone_synchronized_summary">Синк хийсэн</string>
     <string name="rtt_settings_always_visible">Байнга харагдана</string>
     <string name="rtt_settings_no_visible">Харагдахгүй</string>
     <string name="rtt_settings_title">Тухайн агшны текст (RTT)</string>
@@ -272,14 +287,14 @@
     <string name="screen_time_summary_usage_today">Өнөөдөр %1$s</string>
     <string name="search_bar_account_avatar_content_description">Профайлын зураг, Google Бүртгэлийг нээхийн тулд хоёр товшино уу</string>
     <string name="search_gesture_category_title">Хайх</string>
+    <string name="search_gesture_feature_summary">Дэлгэц дээрээ байгаа контентыг ашиглан хайхын тулд Нүүр хуудасны товчлуур эсвэл навигацын бариулд хүрээд удаан дарна уу.</string>
     <string name="search_gesture_feature_title">Дугуйлаад хай</string>
-    <string name="search_long_press_home_button_summary">Дэлгэцийн доор байх нүүр хуудасны товчлуурыг удаан дараад, дараа нь хайх аливаа зүйлийг дугуйлах эсвэл тодруулна уу</string>
-    <string name="search_press_hold_gesture_summary">Дэлгэцийн доод талд байх бариулыг удаан дараад, дараа нь хайх аливаа зүйлийг дугуйлах эсвэл тодруулна уу</string>
     <string name="security_dismiss_dialog_dismiss_button">Хаах</string>
     <string name="security_dismiss_dialog_title">Энэ сануулгыг хаах уу?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Тохируулахын тулд товшино уу</string>
     <string name="security_settings_face_enroll_done">Дууссан</string>
     <string name="security_settings_face_enroll_education_message">Дараагийн дэлгэц дээр царайныхаа бүхий л өнцгийн зургийг авахын тулд толгойгоо эргүүлнэ үү</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Дараагийн дэлгэц дээр утсаа нүднийхээ түвшинд барина уу</string>
     <string name="security_settings_face_enroll_error_dialog_title">Бүртгэлийг гүйцээж чадсангүй</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Царайгаар түгжээ тайлах завсарласан</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Одоо та утасныхаа түгжээг тайлахад эсвэл аппуудад нэвтрэх, худалдан авалтыг зөвшөөрөх үед өөрийгөө мөн болохыг баталгаажуулахад царайгаа ашиглах боломжтой</string>
@@ -294,21 +309,37 @@
 Царайгаар түгжээ тайлах нь хангалттай гэрэлтэй, таныг амны хаалт, бараан нүдний шил зүүгээгүй үед хамгийн сайн ажиллана."</string>
     <string name="security_settings_face_enroll_finish_title">Ямар ч асуудалгүй байна!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Харааны бэрхшээлтэй эсвэл толгойгоо хөдөлгөх боломжгүй хэрэглэгчийн тохируулга</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Царайгаар түгжээ тайлахыг ашиглах үед та толгойгоо утасныхаа урд аль болох эгц байлгах шаардлагатай.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Нүд нээлттэй байх шаардлагатай</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Та болон таны хүүхэд хүссэн үедээ Тохиргоо хэсэгт түүний нүүрний загварыг устгах эсвэл Царайгаар түгжээ тайлах онцлогийг унтраах боломжтой. Нүүрний загваруудыг устгах хүртэл утсанд хадгална. href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt; дээрээс &lt;br&gt;&lt;br&gt;нэмэлт мэдээлэл авна уу&lt;a."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Хяналт танд болон таны хүүхдэд байна</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Та хүссэн үедээ Тохиргоо хэсэгт нүүрний загвараа устгах эсвэл Царайгаар түгжээ тайлах онцлогийг унтраах боломжтой. Та нүүрний загваруудыг устгах хүртэл тэдгээрийг утсанд хадгална.&lt;br&gt;&lt;br&gt; &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt; дээрээс нэмэлт мэдээлэл авна уу."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Хяналт таны гарт</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Царайгаар түгжээ тайлах онцлог нь таны хүүхдийг мөн болохыг баталгаажуулахын тулд түүний нүүрний өвөрмөц загварыг үүсгэдэг. Тохируулгын үед энэ нүүрний загварыг үүсгэхийн тулд таны хүүхэд нүүрнийхээ зургийг өөр өнцгөөс авна.
+
+Түүнийг Царайгаар түгжээ тайлах онцлогийг ашиглах үед зургийг түүний нүүрний загварыг шинэчлэхэд ашиглана. Түүний нүүрний загвараа үүсгэхэд ашигласан зургийг хадгалахгүй хэдий ч нүүрнийх нь загварыг утсанд аюулгүйгээр бүрмөсөн хадгална. Бүх боловсруулалт утсан дээр аюулгүйгээр хийгдэнэ."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Царайгаар түгжээ тайлах онцлог нь таныг мөн болохыг баталгаажуулахын тулд таны нүүрний өвөрмөц загварыг үүсгэдэг. Тохируулгын үеэр энэ нүүрний загварыг үүсгэхийн тулд та нүүрнийхээ зургийг өөр өнцгөөс авна.
+
+Та Царайгаар түгжээ тайлах онцлогийг ашиглах үед зургийг таны нүүрний загварыг шинэчлэхэд ашиглана. Таны нүүрний загвараа үүсгэхэд ашигласан зургийг хадгалахгүй хэдий ч нүүрний загварыг утсанд тань аюулгүйгээр бүрмөсөн хадгална. Бүх боловсруулалт таны утсанд аюулгүйгээр хийгдэнэ."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Энэ нь хэрхэн ажилладаг вэ?</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Царайгаар түгжээ тайлах онцлог нь утасны түгжээг тайлах эсвэл таны хүүхдийг мөн болохыг баталгаажуулахын тулд түүнээс нүдээ нээлттэй байлгахыг шаардаж болно. Та болон таны хүүхэд энэ сонголтыг хүссэн үедээ Тохиргоо хэсэгт асаах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Хэрэв таны хүүхэд ердийн үед нүдний шил зүүдэг бол тохируулгын үеэр шилээ зүүж болно.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Хүүхдийнхээ царайг утасных нь түгжээг тайлахад ашиглах нь сайн хээ, ПИН эсвэл нууц үгээс хамгаалалт сул байж магадгүй</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Тэрээр утас руу санамсаргүй харснаар түгжээг нь тайлах боломжтой. Таны хүүхдийн утасны түгжээг мөн түүний ихэр зэрэг түүнтэй маш адилхан харагддаг хүн эсвэл хэн нэгэн үүнийг түүний нүүрний өмнө барьсан тохиолдолд тайлах боломжтой.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Царайгаар түгжээ тайлах онцлог нь утасны түгжээг тайлах эсвэл таныг мөн болохыг баталгаажуулахын тулд танаас нүдээ нээлттэй байлгахыг шаардаж болно. Та энэ сонголтыг хүссэн үедээ Тохиргоо хэсэгт асаах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Нүдний шил эсвэл үл ялиг өнгө оруулсан нарны шил зүүж болно.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Царайгаа ашиглан утасныхаа түгжээг тайлах нь хүчтэй хээ, ПИН эсвэл нууц үгээс хамгаалалт багатай байж магадгүй</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Та утас руу санамсаргүй харснаар түгжээг нь тайлах боломжтой. Таны утасны түгжээг мөн таны ихэр зэрэг тантай маш адилхан харагддаг хүн эсвэл хэн нэгэн утсыг таны нүүрний өмнө барьсан тохиолдолд тайлах боломжтой.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Санамж</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Утасныхаа түгжээг тайлах эсвэл аппуудад нэвтрэх, худалдан авалтыг зөвшөөрөх зэргээр өөрийгөө мөн болохыг баталгаажуулахын тулд царайгаа ашиглана уу.</string>
     <string name="security_settings_face_enroll_introduction_title">Царайгаар түгжээ тайлахыг тохируулах</string>
     <string name="security_settings_face_enroll_next">Дараах</string>
     <string name="security_settings_face_enroll_partial_message">Гүйцэтгэлийг сайжруулахын тулд та Царайгаар түгжээ тайлахыг Тохиргоонд дахин тохируулж болно</string>
     <string name="security_settings_face_enroll_partial_start_over">Дахин эхлүүлэх</string>
     <string name="security_settings_face_enroll_partial_title">Царайгаар түгжээ тайлахыг тохируулж дууслаа</string>
-    <string name="security_settings_face_enroll_timeout_message">"Оронд нь хурдан тохируулгыг туршиж үзнэ үү. Та Царайгаар түгжээ тайлахыг ашиглахдаа толгойгоо утасныхаа урд талд аль болох эгц байлгах шаардлагатайг санаарай.
+    <string name="security_settings_face_enroll_timeout_message">"Оронд нь Хурдан тохируулгыг туршиж үзнэ үү. Та Царайгаар түгжээ тайлахыг ашиглахдаа толгойгоо утасныхаа урд талд аль болох эгц байлгах хэрэгтэйг санаарай.
 
-Гүйцэтгэлийг сайжруулахын тулд та Царайгаар түгжээ тайлахыг Тохиргоонд дахин тохируулж болно."</string>
+Гүйцэтгэлийг сайжруулахын тулд та Тохиргоонд Царайгаар түгжээ тайлахыг дахин тохируулах боломжтой."</string>
     <string name="security_settings_face_enroll_timeout_title">Тохируулгыг үргэлжлүүлэх боломжгүй байна</string>
     <string name="security_settings_face_enroll_timeout_try_again">Дахин оролдох</string>
     <string name="security_settings_face_enroll_timeout_use_fast_setup">Хурдан тохируулгыг ашиглах</string>
@@ -326,15 +357,34 @@
     <string name="security_settings_fingerprint_preference_summary_none">Хурууны хээ тохируулахын тулд товшино уу</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Pixel Imprint нь таныг мөн болохыг баталгаажуулахын тулд таны хурууны хээний өвөрмөц загварыг үүсгэнэ. Тохируулгын үеэр энэ хурууны хээний загварыг үүсгэхийн тулд та хурууныхаа хээний зургийг өөр өөр байрлалаас авна.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">Таныг Pixel Imprint-г ашиглах үед зургийг таны хурууны хээний загварыг шинэчлэхэд ашиглана. Таны хурууны хээний загварыг үүсгэхэд ашигласан зургийг хэзээ ч хадгалахгүй хэдий ч хурууны хээний загварыг утсанд тань аюулгүйгээр бүрмөсөн хадгална. Бүх боловсруулалт таны утсанд аюулгүйгээр хийгдэнэ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Та хүссэн үедээ Тохиргоо хэсэгт хурууны хээний загварыг устгах эсвэл Pixel Imprint-г унтраах боломжтой. Таныг хурууны хээний загваруудыг устгах хүртэл тэдгээрийг утсанд хадгална.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Pixel Imprint нь таны хүүхдийг мөн болохыг баталгаажуулахын тулд түүний хурууны хээний өвөрмөц загварыг үүсгэнэ. Тохируулгын үеэр энэ хурууны хээний загварыг үүсгэхийн тулд таны хүүхэд хурууныхаа хээний зургийг өөр өөр байрлалаас авна.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" product="default">Таны хүүхэд Pixel Imprint-г ашиглах үед зургийг түүний хурууны хээний загварыг шинэчлэхэд ашиглана. Таны хүүхдийн хурууны хээний загвараа үүсгэхэд ашигласан зургийг хэзээ ч хадгалахгүй хэдий ч хурууны хээний загварыг түүний утсанд аюулгүйгээр бүрмөсөн хадгална. Бүх боловсруулалт утсан дээр аюулгүйгээр хийгдэнэ.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Та болон таны хүүхэд хүссэн үедээ Тохиргоо хэсэгт түүний хурууны хээг устгах эсвэл Pixel Imprint-г унтраах боломжтой. Хурууны хээний загваруудыг устгах хүртэл утсанд хадгална.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; дээрээс Pixel-н Хурууны хээгээр түгжээ тайлах талаар нэмэлт мэдээлэл авна уу."</string>
     <string name="security_settings_work_fingerprint_preference_title">Ажлын зориулалттай Pixel Imprint</string>
     <string name="setup_suggestion_summary">Ердөө цөөн хэдэн алхам үлдлээ</string>
     <string name="setup_suggestion_title">Тохируулж дуусгах</string>
+    <string name="show_stylus_pointer_icon">Заагчийг зөөж байхад харуулахыг аппуудад зөвшөөрөх</string>
+    <string name="simple_mode_category">Шуурхай хандалт</string>
+    <string name="simple_mode_description">Текст, дүрс тэмдгийн хэмжээг нэмэгдүүлж, бүдүүвчийг хялбарчилж, навигацын товчлуур нэмнэ үү. Энгийн харагдах байдлын талаар <a href="https://support.google.com/pixelphone?p=pixel_simple_view">нэмэлт мэдээлэл авна уу</a>.</string>
+    <string name="simple_mode_summary">Текстийн гаргацыг сайжруулж, дэлгэцийн бүдүүвч, навигацыг хялбарчилна уу</string>
+    <string name="simple_mode_suw_description">Дизайныг илүү цэвэрхэн байлгаж, дасан зохицох явцыг хялбаршуулахын тулд Pixel нь үндсэн апп, виджетийг автоматаар татах, дэлгэцийн бүдүүвчийг оновчлох, фонт тохируулах болон илүү олон зүйл хийх боломжтой</string>
+    <string name="simple_mode_suw_done_button">Болсон</string>
+    <string name="simple_mode_switch_title">Энгийн харагдах байдлыг ашиглах</string>
+    <string name="simple_mode_title">Энгийн харагдах байдал</string>
+    <string name="simple_view_dialog_negative_button">Цуцлах</string>
+    <string name="simple_view_dialog_positive_button">Үргэлжлүүлэх</string>
+    <string name="simple_view_feature_disabled_dialog_message">Энгийн харагдах байдлыг унтрааснаар таны төхөөрөмж фонт, дэлгэц, бүдүүвчийн анхны тохиргоо руугаа буцна. Эдгээр тусдаа фонтын тохиргоог хэрхэн өөрчлөхийг <a href="https://support.google.com/pixelphone?p=pixel_simple_view">мэдэж авна уу</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Таны төхөөрөмж өмнөх тохиргоо руугаа буцна</string>
+    <string name="simple_view_feature_enabled_dialog_message">Таны одоогийн фонт Энгийн харагдах байдлын тохиргооноос том байна. Энгийн харагдах байдлыг ашиглавал таны фонтын хэмжээг багасгана.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Фонтын хэмжээг багасгана</string>
     <string name="smart_battery_a11y_collapse_label">Хураах, Дасан зохицох батарей</string>
     <string name="smart_battery_a11y_expand_label">Дэлгэх, Дасан зохицох батарей</string>
     <string name="smart_battery_footer">Батарейн ажиллах хугацааг уртасгахын тулд Дасан зохицох батарей нь гүйцэтгэл болон дэвсгэрийн үйл ажиллагааг багасгаж болно. Зарим мэдэгдэл саатаж болзошгүй.</string>
     <string name="smart_battery_manager_title">Орчинтой тохируулах сонголт</string>
+    <string name="smart_battery_summary" product="default">Дасан зохицох батарей нь аппууд батарейг хэрхэн ашигладаг болохыг тасралтгүй оновчлохын тулд таны утасны ашиглалтаас суралцдаг. Батарейн ажиллах хугацааг уртасгахын тулд энэ нь гүйцэтгэлийг багасгаж, мэдэгдлүүдийг саатуулж болно.</string>
     <string name="smart_battery_title">Дасан зохицох батарей</string>
     <string name="software_update_can_be_updated_header">Pixel-ээ илүү сайжруулаарай</string>
     <string name="software_update_detail_indication_1_update_available">1 шинэчлэлт боломжтой</string>
@@ -348,7 +398,8 @@
     <string name="software_update_up_to_date_summary">Хамгийн шинэ</string>
     <string name="software_update_up_to_specific_date_summary">%1$s болгож шинэчилсэн</string>
     <string name="software_update_update_available_summary">Шинэчлэлт боломжтой</string>
-    <string name="sound_dashboard_summary">Дууны түвшин, хүртэхүй, Бүү саад бол</string>
+    <string name="sound_dashboard_summary">Дууны түвшин, хүртэхүй</string>
+    <string name="sound_dashboard_summary_with_dnd">Дууны түвшин, хүртэхүй, Бүү саад бол</string>
     <string name="sound_settings">Дуу болон чичиргээ</string>
     <string name="spatial_audio_head_tracking_available">Толгойн хяналт боломжтой байна</string>
     <string name="spatial_audio_head_tracking_unavailable">Толгойн хяналт боломжгүй байна</string>
@@ -357,7 +408,7 @@
     <string name="speed_boost_title">Spectrum Speed Boost</string>
     <string name="suggested_fingerprint_lock_settings_title">Pixel Imprint-г ашиглах</string>
     <string name="suw_limited_warranty_title">Хязгаарлагдмал баталгаа</string>
-    <string name="suw_warranty_description">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу.&lt;br /&gt;&lt;br /&gt;Баталгааг мөн &lt;b&gt;Тохиргоо &gt; Утасны тухай&gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээрээс харах боломжтой.</string>
+    <string name="suw_warranty_description">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу.&lt;br /&gt;&lt;br /&gt;Баталгааг мөн &lt;b&gt;Тохиргоо &gt; Утасны тухай &gt; Хязгаарлагдмал баталгаа&lt;/b&gt; болон g.co/devicewarranty дээрээс харах боломжтой.</string>
     <string name="suw_warranty_description_content">Хязгаарлагдмал баталгаагаа харахын тулд энэ төхөөрөмжийг худалдаж авсан улсаа сонгоно уу. Баталгааг мөн Тохиргоо, дараа нь утасны тухай, дараа нь Хязгаарлагдмал баталгаа тэгээд g.co/devicewarranty дээрээс харах боломжтой.</string>
     <string name="suw_warranty_next_button_text">Дараах</string>
     <string name="suw_warranty_positive_button_text">Хаах</string>
@@ -398,4 +449,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Холбогдохын тулд товшино уу</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Холбогдох боломжгүй байна. Дахин оролдохын тулд товшино уу.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Холбогдож байна…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> Нэмэлт мэдээлэл авах</annotation></string>
+    <string name="wireless_charging_learn_more_description">Утасгүй цэнэглэх талаар нэмэлт мэдээлэл авах</string>
+    <string name="wireless_charging_state">Утасгүй цэнэглэж байна •</string>
+    <string name="wireless_charging_state_and_duration">Утасгүй цэнэглэж байна • %1$s •</string>
 </resources>

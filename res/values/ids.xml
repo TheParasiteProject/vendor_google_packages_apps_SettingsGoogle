@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <item type="id" name="action_intro_to_find_sensor"/>
     <item type="id" name="agree_to_participate"/>
     <item type="id" name="animation"/>
     <item type="id" name="biometric_enrollment_immobile_help"/>
     <item type="id" name="bottom_sheet_description"/>
     <item type="id" name="bottom_sheet_title"/>
-    <item type="id" name="btn_list"/>
-    <item type="id" name="cancel_btn"/>
     <item type="id" name="candidate_apps_header_text"/>
     <item type="id" name="candidate_apps_list"/>
     <item type="id" name="card"/>
@@ -17,9 +16,6 @@
     <item type="id" name="carrier_apps_list"/>
     <item type="id" name="carrier_apps_suggestion_chip"/>
     <item type="id" name="columbus_gesture_illustration"/>
-    <item type="id" name="device_btn_list"/>
-    <item type="id" name="device_button"/>
-    <item type="id" name="dialog_subtitle_2"/>
     <item type="id" name="distance_indicator_view"/>
     <item type="id" name="enabled_apps_header_text"/>
     <item type="id" name="enabled_apps_hint_text"/>
@@ -32,6 +28,7 @@
     <item type="id" name="face_enroll_participation"/>
     <item type="id" name="face_enrolled_anim"/>
     <item type="id" name="face_smiley"/>
+    <item type="id" name="find_sensor"/>
     <item type="id" name="fingerprint_in_app_indicator_rest"/>
     <item type="id" name="icon_fold"/>
     <item type="id" name="icon_light"/>
@@ -41,11 +38,12 @@
     <item type="id" name="indicator_view"/>
     <item type="id" name="info_enough_light"/>
     <item type="id" name="info_outside_screen"/>
+    <item type="id" name="intro"/>
     <item type="id" name="item_language"/>
     <item type="id" name="learn_more_btn"/>
-    <item type="id" name="lock_icon"/>
     <item type="id" name="lock_screen_bypass_lottie"/>
     <item type="id" name="lock_screen_bypass_toggle"/>
+    <item type="id" name="material_shape_qr_fragment"/>
     <item type="id" name="nav_bar"/>
     <item type="id" name="notification_text"/>
     <item type="id" name="ok_btn"/>
@@ -53,25 +51,31 @@
     <item type="id" name="percentage_number"/>
     <item type="id" name="preview_caption"/>
     <item type="id" name="preview_image"/>
+    <item type="id" name="qr_code_background_view"/>
+    <item type="id" name="qr_code_fragment_container_view"/>
+    <item type="id" name="qr_code_img_view_for_finder_patterns"/>
+    <item type="id" name="qr_code_img_view_for_non_finder_patterns"/>
+    <item type="id" name="qrcode_view_frame_layout"/>
     <item type="id" name="rest_to_unlock_desc"/>
     <item type="id" name="rest_to_unlock_option"/>
     <item type="id" name="rest_to_unlock_switch"/>
     <item type="id" name="rest_to_unlock_title"/>
-    <item type="id" name="share_audio_disconnect_description"/>
-    <item type="id" name="share_audio_guidance"/>
-    <item type="id" name="share_audio_subtitle"/>
-    <item type="id" name="share_audio_subtitle1"/>
-    <item type="id" name="share_audio_subtitle2"/>
-    <item type="id" name="share_btn"/>
+    <item type="id" name="sfps_enroll.xml"/>
     <item type="id" name="show_more_title"/>
+    <item type="id" name="simple_mode_preview"/>
+    <item type="id" name="simple_view_dialog_description"/>
+    <item type="id" name="simple_view_dialog_negative_button"/>
+    <item type="id" name="simple_view_dialog_positive_button"/>
+    <item type="id" name="simple_view_dialog_scroll_view"/>
+    <item type="id" name="simple_view_dialog_title"/>
     <item type="id" name="square_frame_layout"/>
     <item type="id" name="status_image"/>
     <item type="id" name="status_summary"/>
     <item type="id" name="status_title"/>
     <item type="id" name="suw_warranty_dialog"/>
-    <item type="id" name="text_container"/>
     <item type="id" name="toolbar_title"/>
     <item type="id" name="toolbar_wrapper"/>
+    <item type="id" name="top_content"/>
     <item type="id" name="video_view"/>
     <item type="id" name="warranty_scroll_view"/>
     <item type="id" name="warranty_text"/>

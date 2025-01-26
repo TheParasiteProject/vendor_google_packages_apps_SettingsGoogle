@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:icon="@drawable/ic_qrcode_32dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        style="@style/SudContentFrame">
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:accessibilityLiveRegion="polite"
+            android:layout_marginEnd="?sudMarginEnd"
+            android:layout_marginStart="?sudMarginStart"
+            android:textAlignment="center"
+            style="@style/TextAppearance.SudGlifBody" />
+
+        <LinearLayout
+            android:id="@id/wifi_dpp_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@id/qrcode_view_frame_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@id/qrcode_view"
+                    android:layout_width="@dimen/qrcode_size"
+                    android:layout_height="@dimen/qrcode_size"
+                    android:src="@android:color/transparent" />
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@id/qr_code_fragment_container_view"
+                    android:layout_width="@dimen/wifi_sharing_qrcode_fragment_size"
+                    android:layout_height="@dimen/wifi_sharing_qrcode_fragment_size"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:gravity="center"
+                android:layout_marginBottom="12.0dip"
+                android:layout_marginTop="12.0dip"
+                android:longClickable="true"
+                android:minHeight="@dimen/min_tap_target_size"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textIsSelectable="true"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.setupdesign.GlifLayout>

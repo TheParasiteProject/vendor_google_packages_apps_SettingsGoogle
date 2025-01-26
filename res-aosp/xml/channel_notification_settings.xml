@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="channel_settings"
+    android:title="@string/notification_channel_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="pref_app_header"
+        android:layout="@layout/settings_entity_header"
+        android:order="1" />
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="block"
+        android:order="2" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/empty_icon"
+        android:key="allow_sound"
+        android:order="3"
+        android:summary="@string/allow_interruption_summary"
+        android:title="@string/allow_interruption" />
+
+    <com.android.settings.notification.app.ImportancePreference
+        android:key="importance"
+        android:order="4"
+        android:title="@string/notification_importance_title" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/ic_notification_min"
+        android:key="min_importance"
+        android:order="5"
+        android:summary="@string/notification_channel_summary_min"
+        android:title="@string/notification_importance_min_title" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/ic_notification_peek"
+        android:key="high_importance"
+        android:order="6"
+        android:summary="@string/notification_channel_summary_high"
+        android:title="@string/notification_importance_high_title" />
+
+    <Preference
+        android:icon="@drawable/ic_promote_conversation"
+        android:key="convo_promote"
+        android:order="7"
+        android:summary="@string/promote_conversation_summary"
+        android:title="@string/promote_conversation_title" />
+
+    <com.google.android.settings.notification.GooglePhoneNotificationSoundPreference
+        android:dialogTitle="@string/notification_channel_sound_title"
+        android:icon="@drawable/ic_notifications"
+        android:key="ringtone"
+        android:order="11"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:title="@string/notification_channel_sound_title" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/ic_volume_ringer_vibrate"
+        android:key="vibrate"
+        android:order="12"
+        android:title="@string/notification_vibrate_title" />
+
+    <com.android.settings.RestrictedListPreference
+        android:icon="@drawable/ic_notification_vis_override"
+        android:key="visibility_override"
+        android:order="13"
+        android:title="@string/app_notification_visibility_override_title" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/ic_lightbulb_outline_24"
+        android:key="lights"
+        android:order="14"
+        android:title="@string/notification_show_lights_title" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/ic_notification_dot"
+        android:key="badge"
+        android:order="15"
+        android:title="@string/notification_channel_badge_title"
+        settings:restrictedSwitchSummary="@string/enabled_by_admin" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:icon="@drawable/ic_do_not_disturb_on_24dp"
+        android:key="bypass_dnd"
+        android:order="17"
+        android:summary="@string/app_notification_override_dnd_summary"
+        android:title="@string/app_notification_override_dnd_title" />
+
+    <Preference
+        android:icon="@drawable/ic_settings_24dp"
+        android:key="app_link"
+        android:order="18"
+        android:title="@string/app_settings_link"
+        settings:allowDividerAbove="true" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="block_desc"
+        android:order="110"
+        settings:allowDividerAbove="false" />
+
+</PreferenceScreen>

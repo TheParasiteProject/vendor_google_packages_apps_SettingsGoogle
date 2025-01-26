@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">Lai paildzinātu akumulatora darbmūžu, tālrunis apgūst jūsu uzlādes paradumus un gaida, līdz būs nepieciešama pilnīga uzlāde.</string>
     <string name="adaptive_charging_link_a11y">Uzzināt vairāk par adaptīvo uzlādi</string>
     <string name="adaptive_charging_main_switch_title">Izmantot adaptīvo uzlādi</string>
-    <string name="adaptive_charging_time_estimate"><b>Adaptīvā uzlāde</b> • Tiks pabeigta līdz: %1$s</string>
+    <string name="adaptive_charging_time_estimate"><b>Adaptīvā uzlāde</b> • Tiks pabeigta līdz plkst. %1$s</string>
     <string name="adaptive_charging_title">Adaptīvā uzlāde</string>
     <string name="adaptive_touch_sensitivity_summary">Skārienjutība tiks automātiski pielāgota jūsu videi, darbībām un ekrāna aizsargplēvei.</string>
     <string name="adaptive_touch_sensitivity_title">Adaptīvais skāriens</string>
+    <string name="adaptive_vibration_footer">Tālruņa mikrofons un citi sensori tiek izmantoti, lai noteiktu skaņas līmeni un kontekstu. Nekādi dati netiek ierakstīti.</string>
+    <string name="adaptive_vibration_settings_summary">Automātiski pielāgojiet tālruņa vibrāciju atkarībā no vides, piemēram, kad tālrunis atrodas kabatā vai skaļā vietā.</string>
+    <string name="adaptive_vibration_summary_off">Izslēgta</string>
+    <string name="adaptive_vibration_summary_on">Ieslēgta</string>
+    <string name="adaptive_vibration_title">Adaptīvā vibrācija</string>
+    <string name="adaptive_vibration_toggle_title">Izmantot adaptīvo vibrāciju</string>
     <string name="add_bypassed_application_hint">Neviena lietotne netika pievienota</string>
     <string name="advanced_vpn_preference_group_title">Iebūvēts</string>
     <string name="all_apps_category_title">Visas lietotnes</string>
@@ -27,16 +33,7 @@ Ja tiks piešķirta piekļuve, šī lietotne varēs "<b>automātiski vākt un au
 
 Ja piekļuve tiks atsaukta, lietotne lūgs jūsu atļauju vākt un augšupielādēt kļūdas pārskatu katram atsevišķam ziņojumam par problēmu."</string>
     <string name="app_and_notification_dashboard_summary">Asistents, pēdējās izmantotās lietotnes, noklusējuma lietotnes</string>
-    <string name="audio_sharing_switch_title">Kopīgot audio</string>
-    <string name="audio_sharing_title">Audio kopīgošana</string>
-    <string name="audio_streams_category_title">Pievienošanās LE audio straumei</string>
-    <string name="audio_streams_connect">Izveidot savienojumu</string>
-    <string name="audio_streams_disconnect">Pārtraukt savienojumu</string>
-    <string name="audio_streams_pref_title">Audio straumes tuvumā</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">Kvadrātkoda formāts nav derīgs.</string>
-    <string name="audio_streams_qr_code_scanner">Lai sāktu klausīties, centrējiet tālāk norādīto kvadrātkodu.</string>
-    <string name="audio_streams_qr_code_summary">Pievienojieties audio straumei, izmantojot kvadrātkodu.</string>
-    <string name="audio_streams_title">Audio straumes</string>
+    <string name="audio_sharing_comfirm_dialog_content">Lai sāktu audio kopīgošanu, vispirms savienojiet LE Audio austiņas ar savu tālruni</string>
     <string name="automatic_storage_manager_activation_warning">Kad būsiet izveidojis savienojumu, joprojām varēsiet piekļūt fotoattēliem un videoklipiem tādā kvalitātē, ko atlasījāt dublējumam.</string>
     <string name="automatic_storage_manager_days_title">Noņemt dublētos fotoattēlus un videoklipus</string>
     <string name="automatic_storage_manager_deactivation_warning">"Vai izslēgt viedo krātuvi? 
@@ -73,10 +70,12 @@ Viedā krātuve neatbrīvos vietu, ja krātuve ir gandrīz pilna."</string>
     <string name="battery_tip_dock_defender_temporarily_bypass_title">Pilnīga uzlāde</string>
     <string name="battery_tip_limited_temporarily_extra_summary">Lai taupītu akumulatora enerģiju, kad planšetdators ir dokots, uzlāde tiek pārtraukta, sasniedzot %1$s uzlādes līmeni.</string>
     <string name="battery_tip_smart_battery_summary">Ieslēgt režīmu Adaptīvais akumulators</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">Uzzināt vairāk par bezvadu uzlādi</string>
-    <string name="battery_tip_wireless_charging_summary">Tālruņa uzlāde bezvadu režīmā var patērēt vairāk enerģijas nekā citas uzlādes metodes.</string>
-    <string name="battery_tip_wireless_charging_title">Notiek bezvadu uzlāde</string>
-    <string name="calls_and_alarms_device_title">Zvani un signāli</string>
+    <string name="charging_optimization_charge_label">%1$s — uzlāde tiks pabeigta līdz plkst. %2$s</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s — uzlāde pabeigta.</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">Uzlāde pabeigta.</string>
+    <string name="charging_optimization_remaining_time_label">Uzlāde tiks pabeigta līdz plkst. %1$s</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Bezvadu uzlāde pabeigta •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">Bezvadu uzlāde tiks pabeigta līdz plkst. %1$s •</string>
     <string name="clear_calling_footer">"Lai aizsargātu jūsu konfidencialitāti, funkcija Skaidri zvani nesūta audio vai sarunas uzņēmumam Google.
 
 Funkcija Skaidri zvani darbojas Wi-Fi zvanos un vairumā tīklu, taču nav pieejama 3G tīklos."</string>
@@ -127,7 +126,7 @@ Funkcija Skaidri zvani darbojas Wi-Fi zvanos un vairumā tīklu, taču nav piee
     <string name="columbus_setting_app_shortcut_selection_help_text">Atlasiet darbību, kas jāveic, ja atverat šo lietotni, izmantojot ātro pieskārienu.</string>
     <string name="columbus_setting_enable_switch_title">Izmantot ātro pieskārienu</string>
     <string name="columbus_setting_sensitivity_title">Reaģēt tikai uz stiprākiem pieskārieniem</string>
-    <string name="columbus_title">Ātri pieskarieties, lai sāktu darbības</string>
+    <string name="columbus_title">Ātrais pieskāriens, lai sāktu darbības</string>
     <string name="communal_lock_screen_summary">Konfidencialitāte, paziņojumi un mājas viedierīču pārvaldība</string>
     <string name="communal_other">Citi</string>
     <string name="communal_settings_summary">Doka un bloķēšanas ekrāna iespējas</string>
@@ -147,15 +146,23 @@ Funkcija Skaidri zvani darbojas Wi-Fi zvanos un vairumā tīklu, taču nav piee
 
 Pikšķerēšana ir mēģinājums nozagt pierakstīšanās akreditācijas datus vai citu personas informāciju."</string>
     <string name="content_protection_preference_subpage_summary">Pārbaude tiek veikta privāti tieši jūsu ierīcē, nosakot, vai lietotnēs tiek veikta pikšķerēšana vai citas maldinošas darbības. Ja tās tiek konstatētas, noteikta lietotnes informācija tiek nosūtīta pakalpojumam Google Play Protect, lai apstiprinātu apdraudējumu un brīdinātu lietotājus.</string>
-    <string name="contextual_timeout_description">Ekrāns tiek automātiski izslēgts agrāk, ja neizmantojat ierīci.</string>
+    <string name="contextual_timeout_description">Ekrāns tiek automātiski izslēgts, ja neizmantojat ierīci</string>
     <string name="contextual_timeout_title">Adaptīvā noildze</string>
+    <string name="credentials_install_summary" product="default">Instalēt sertifikātus no atmiņas</string>
     <string name="dark_ui_text">Tumšajā motīvā tiek izmantots melns fons, lai paildzinātu akumulatora darbību. Turklāt jūs varat iestatīt, kad ieslēgt un izslēgt tumšo motīvu.</string>
     <string name="debugging_data_title">Atkļūdošanas dati</string>
+    <string name="default_notification_summary">Klasisks paziņojums</string>
+    <string name="default_ringtone_summary">Klasisks zvana signāls</string>
     <string name="discover_tips_button">Skatīt padomus</string>
+    <string name="display_dashboard_summary">Tumšais motīvs, fonta lielums, skārienievade</string>
+    <string name="display_settings">Attēlojums un skārienievade</string>
     <string name="dock_summary_charging_phone">Tālruņa uzlādēšana</string>
     <string name="double_twist_for_camera_mode_summary">Lai ieslēgtu vai izslēgtu pašbilžu režīmu lietotnē Google kamera, divreiz pagrieziet ierīci, kad ir atvērta šī lietotne.</string>
     <string name="duration_less_than_one_minute">Mazāk par 1 minūti</string>
-    <string name="enable_glanceable_hub_toggle">Centra režīms</string>
+    <string name="enable_glanceable_hub_toggle">Rādīt logrīkus bloķēšanas ekrānā</string>
+    <string name="enable_glanceable_hub_toggle_summary">Neatbloķējot planšetdatoru</string>
+    <string name="erase_external_storage" product="default">Dzēst USB krātuvi</string>
+    <string name="erase_external_storage_description" product="default">Dzēst visus iekšējā USB atmiņā saglabātos datus, piemēram, mūziku vai fotoattēlus</string>
     <string name="extreme_battery_saver_summary">Ietver visas iepriekš norādītās izmaiņas. Tiek arī pārtraukta nesvarīgu lietotņu darbība un to paziņojumi.</string>
     <string name="extreme_battery_saver_title">Akumulatora enerģijas maksimālas taupīšanas režīms</string>
     <string name="face_confirmation_hide_illustration_description">Tagad, paņemot tālruni vai pieskaroties tā ekrānam, varat izmantot autorizāciju pēc sejas.</string>
@@ -163,7 +170,7 @@ Pikšķerēšana ir mēģinājums nozagt pierakstīšanās akreditācijas datus 
     <string name="face_confirmation_info_outside_screen">Autorizācija pēc sejas darbojas tikai no ārējā ekrāna</string>
     <string name="face_enrolling_center_head">Centrējiet seju iekšējā rāmī</string>
     <string name="face_enrolling_close_to_continue">Iestatīšanas laikā salokiet tālruni</string>
-    <string name="face_enrolling_close_to_continue_description">Lai iestatītu, lietotu autoriz. pēc sejas, tālrunis jāsaloka</string>
+    <string name="face_enrolling_close_to_continue_description">Tālr. jāsaloka, lai iestatītu vai lietotu autoriz. pēc sejas</string>
     <string name="face_enrolling_description">Tveriet seju no visiem leņķiem, noņemot visus elementus.</string>
     <string name="face_enrolling_do_it_later">Vēlāk</string>
     <string name="face_enrolling_gaze_dialog_cancel">Atcelt</string>
@@ -199,8 +206,7 @@ Ieslēdzot automātisko dublēšanu, ierīces un lietotņu dati tiek periodiski 
 
 Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēti lieli faili, kā arī faili, kurus izstrādātāji ir izvēlējušies izslēgt no pakalpojuma."</string>
     <string name="fullbackup_erase_dialog_message">Vai pārtraukt ierīces datu (piemēram, Wi-Fi paroļu un zvanu vēstures) un lietotņu datu (piemēram, lietotņu iestatījumu un saglabāto failu) dublēšanu un dzēst visas to kopijas Google diskā?</string>
-    <string name="gesture_settings_activity_title">Žestu navigācija</string>
-    <string name="hub_mode_content_setting">Atļaut jebkuru logrīku Centra režīmā</string>
+    <string name="help_footer_content_description">Par %1$s. %2$s</string>
     <string name="install_unknown_applications">Atļaut instalēt lietotnes no avotiem, kas nav Play veikals</string>
     <string name="keywords_accessibility_menu">motorika, ātrā izvēlne, papildu darbību izvēlne, pieskāriens, roku koordinācija, artrīts, insults, roku trīce, multiplā skleroze, cerebrālā trieka, poga, aparatūra, nospiest, atkārtotas slodzes traumas, roka, sāpes, pieejams, palīdzība</string>
     <string name="keywords_adaptive_alert_vibration">haptiskā tehnoloģija, vibrācija, tālrunis, zvans, zvanīt, brīdinājums, paziņojumi, skaļš, kluss, troksnis, aizsargvāciņš, adaptīvs</string>
@@ -223,16 +229,25 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="keywords_touch_sensitivity">skāriens, jutīgums, jutīgs, ekrāna aizsargplēve, filma, adaptīvs, reaģētspēja</string>
     <string name="keywords_touch_sensitivity_settings">skāriens, adaptīvs, jutīgums, jutīgs, ekrāna aizsargplēve, filma, adaptīva, reaģētspēja</string>
     <string name="keywords_voice_access">balss, balss vadība, motorika, roka, mikrofons, diktēšana, runa, kontrole</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">Uzzināt vairāk</a></string>
     <string name="led_preference_title">LED indikatoru signāli</string>
     <string name="legal_source_code_description">Pixel palīdzības centrā varat skatīt informāciju par to komponentu pirmkodu, kuri ir pieejami kā atklātais pirmkods.</string>
     <string name="legal_source_code_title">Pirmkods</string>
     <string name="limited_warranty_introduction">Pieskarieties iegādes valstij, lai skatītu šai ierīcei pieejamo garantiju. Garantija ir atrodama arī vietnē g.co/devicewarranty.</string>
     <string name="limited_warranty_title">Ierobežotā garantija</string>
-    <string name="lockscreen_show_weather_summary">Skatiet pašreizējos laikapstākļus</string>
-    <string name="lockscreen_show_weather_title">Rādīt laikapstākļus</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"
+
+Lai dzēstu mūziku, attēlus un citus lietotāja datus, ir jāizdzēš "<b>USB atmiņas</b> saturs.</string>
     <string name="my_device_info_account_preference_title">Google konts</string>
+    <string name="notification_dismissal_sync_summary">Paziņojumi, ko noraidīsiet savā Pixel tālrunī vai planšetdatorā, vairs netiks rādīti otrā ierīcē.</string>
+    <string name="notification_dismissal_sync_title">Noraidīt paziņojumus visās Pixel ierīcēs</string>
+    <string name="overrided_google_settings_summary">Google pakalpojumi un preferences</string>
+    <string name="overrided_google_settings_title">Pierakstīšanās</string>
     <string name="owner_info_settings_edit_text_hint">Piemērs: Jāņa Pixel ierīce.</string>
     <string name="permit_debugging_data">Atļaut piekļuvi kļūdu pārskatiem</string>
+    <string name="phone_notification_channel_sound_title">Skaņa un vibrācija</string>
+    <string name="phone_notification_title">Paziņojuma brīdinājums</string>
+    <string name="phone_ringtone_title">Zvana signāls</string>
     <string name="play_application_detail_indication_summary">Pārbaudiet, vai ir pieejami atjauninājumi.</string>
     <string name="play_application_update_entry_title">Lietotņu atjauninājumi</string>
     <string name="private_space_retry_summary">Pierakstieties Google kontā, ko izmantot ar privāto telpu</string>
@@ -243,7 +258,7 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
     <string name="reverse_charging_auto_turn_on_subtitle">Tiks automātiski ieslēgta uz neilgu laiku, kad tālrunis būs pievienots lādētājam.</string>
     <string name="reverse_charging_auto_turn_on_title">Ieslēgt automātiski</string>
     <string name="reverse_charging_charging_wirelessly_message">Nav pieejama, jo notiek tālruņa bezvadu uzlāde</string>
-    <string name="reverse_charging_detail_charging_overheat_message">Akumulatora dalīšana nav pieejama, jo Pixel tālrunis ir pārāk uzkarsis. Uzgaidiet, līdz tālrunis būs atdzisis, un mēģiniet vēlreiz.</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Nav pieejama nepiemērotas temperatūras dēļ. Uzgaidiet, līdz tālrunis būs atdzisis, un mēģiniet vēlreiz.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Akumulatora dalīšana nav pieejama, jo notiek tālruņa bezvadu uzlāde.</string>
     <string name="reverse_charging_detail_footer_title">Izmantojot akumulatora kopīgošanu, tālruņa akumulators tiks izlādēts ātrāk. Akumulatora dalīšana darbojas ar saderīgām austiņām, pulksteņiem, tālruņiem un citām ierīcēm. Lai uzlabotu uzlādes procesu, noņemiet tālruņa futrāli.</string>
     <string name="reverse_charging_detail_footer_title_advanced">"Akumulatora dalīšanas funkcija darbojas ar saderīgām austiņām, tālruņiem un citām ierīcēm.
@@ -251,6 +266,7 @@ Dublētie dati netiks ieskaitīti Google diska krātuves kvotā. Netiks dublēt
 Izmantojot šo funkciju, tālruņa akumulators tiks izlādēts ātrāk. Akumulatora dalīšanas funkcija tiek automātiski izslēgta pēc dažām minūtēm, ja netiek noteikta neviena cita ierīce. Lai uzlabotu uzlādes procesu, noņemiet tālruņa futrāli un citus vienumus, kas var traucēt uzlādei, piemēram, metāla objektus."</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">Akumulatora dalīšana nav pieejama, jo ir ieslēgts akumulatora enerģijas taupīšanas režīms.</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">Akumulatora dalīšana nav pieejama, jo ir pievienota USB-C ierīce.</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">Akumulatora dalīšana nav pieejama uzlādes laikā</string>
     <string name="reverse_charging_instructions_title">"Uzlādējiet citas ierīces, izmantojot savu Pixel tālruni.
 Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
     <string name="reverse_charging_is_off_summary">Izslēgta</string>
@@ -258,7 +274,6 @@ Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
     <string name="reverse_charging_is_on_and_discharging_summary">Notiek akumulatora dalīšana</string>
     <string name="reverse_charging_is_on_summary">Ieslēgta/uzlādēt citas ierīces</string>
     <string name="reverse_charging_main_switch">Izmantot akumulatora dalīšanu</string>
-    <string name="reverse_charging_overheat_summary">Funkcija nav pieejama, jo Pixel tālrunis ir pārāk uzkarsis. Uzgaidiet, līdz tālrunis būs atdzisis, un mēģiniet vēlreiz.</string>
     <string name="reverse_charging_power_save_mode_is_on_message">Nav pieejama, jo ir ieslēgts akumulatora enerģijas taupīšanas režīms</string>
     <string name="reverse_charging_sharing_level_message">Nav pieejama, jo akumulatora uzlādes līmenis ir mazāks par kopīgošanai nepieciešamo līmeni</string>
     <string name="reverse_charging_switch_title">Citu ierīču uzlāde, novietojot tās uz Pixel tālruņa aizmugures</string>
@@ -266,6 +281,7 @@ Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
     <string name="reverse_charging_unplug_usb_cable_message">Nav pieejama, jo ir pievienota USB-C ierīce</string>
     <string name="reverse_charging_warning_summary">Nav pieejama, jo akumulatora uzlādes līmenis ir mazāks nekā %1$s</string>
     <string name="reverse_charging_warning_title">Akumulatora dalīšana nav pieejama, jo akumulatora uzlādes līmenis ir mazāks nekā %1$s.</string>
+    <string name="ringtone_synchronized_summary">Sinhronizēts</string>
     <string name="rtt_settings_always_visible">Vienmēr redzams</string>
     <string name="rtt_settings_no_visible">Nav redzams</string>
     <string name="rtt_settings_title">Reāllaika teksts (RTT)</string>
@@ -273,14 +289,14 @@ Apvērsiet tālruni otrādi, lai to izmēģinātu."</string>
     <string name="screen_time_summary_usage_today">%1$s šodien</string>
     <string name="search_bar_account_avatar_content_description">Profila attēls; veiciet dubultskārienu, lai atvērtu Google kontu</string>
     <string name="search_gesture_category_title">Meklēšana</string>
+    <string name="search_gesture_feature_summary">Pieskarieties un turiet pogu “Sākums” vai navigācijas turi, lai meklētu, izmantojot saturu, kas parādās jūsu ekrānā.</string>
     <string name="search_gesture_feature_title">Apvilkt un meklēt</string>
-    <string name="search_long_press_home_button_summary">Ekrāna apakšdaļā pieskarieties pogai Sākums un turiet. Pēc tam jebko apvelciet vai atzīmējiet, lai meklētu.</string>
-    <string name="search_press_hold_gesture_summary">Ekrāna apakšdaļā pieskarieties turim un turiet. Pēc tam jebko apvelciet vai atzīmējiet, lai meklētu.</string>
     <string name="security_dismiss_dialog_dismiss_button">Nerādīt</string>
     <string name="security_dismiss_dialog_title">Vai nerādīt šo brīdinājumu?</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">Pieskarieties, lai iestatītu</string>
     <string name="security_settings_face_enroll_dialog_ok">Labi</string>
     <string name="security_settings_face_enroll_education_message">Pēc pāriešanas uz nākamo ekrānu groziet galvu, lai tvertu seju no visiem leņķiem.</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">Pēc pāriešanas uz nākamo ekrānu turiet tālruni acu līmenī</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Sasniegts sejas reģistrēšanas reižu skaits. Mēģiniet vēlreiz.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">Iestatot autorizāciju pēc sejas, iestājās noildze</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">Tagad varat izmantot seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
@@ -295,13 +311,29 @@ Autorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un j�
 Autorizācija pēc sejas vislabāk darbojas, ja ir pietiekams apgaismojums un jūs nevalkājat masku vai tumšas brilles."</string>
     <string name="security_settings_face_enroll_finish_title">Gatavs!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Redzes vai galvas kust. ierobež.</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">Izmantojot autorizāciju pēc sejas, galvai jābūt tieši pretī tālrunim.</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">Jābūt atvērtām acīm</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"Jūs un jūsu bērns varat jebkurā laikā dzēst sejas modeli vai iestatījumos izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz tie tiek izdzēsti.&lt;br&gt;&lt;br&gt;Uzziniet vairāk vietnē &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">Visu nosakāt jūs un jūsu bērns</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"Varat jebkurā laikā dzēst sejas modeli vai iestatījumos izslēgt autorizāciju pēc sejas. Sejas modeļi tiek glabāti tālrunī, līdz jūs tos izdzēšat.&lt;br&gt;&lt;br&gt;Uzziniet vairāk vietnē &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt;."</string>
     <string name="security_settings_face_enroll_introduction_control_title">Viss ir jūsu pārziņā</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu bērna sejas modelis viņa identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūsu bērns uzņems savas sejas attēlus no dažādiem leņķiem.
+
+Izmantojot autorizāciju pēc sejas, sejas modeļa atjaunināšanai tiek izmantoti attēli. Sejas modeļa izveidei izmantotie attēli netiek saglabāti, savukārt sejas modelis tiek droši glabāts jūsu bērna tālrunī un vienmēr atrodas tikai tālrunī. Apstrāde tiek veikta drošā veidā un tikai bērna tālrunī."</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"Iestatot autorizāciju pēc sejas, tiek izveidots unikāls jūsu sejas modelis jūsu identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo sejas modeli, jūs uzņemsiet savas sejas attēlus no dažādiem leņķiem.
+
+Izmantojot autorizāciju pēc sejas, sejas modeļa atjaunināšanai tiek izmantoti attēli. Sejas modeļa izveidei izmantotie attēli netiek saglabāti, savukārt sejas modelis tiek droši glabāts jūsu tālrunī un vienmēr atrodas tikai tālrunī. Apstrāde tiek veikta drošā veidā un tikai jūsu tālrunī."</string>
     <string name="security_settings_face_enroll_introduction_how_title">Darbības principi</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">Varat iestatīt, lai tālruņa atbloķēšana vai identitātes apstiprināšana ar autorizāciju pēc sejas darbotos tikai tad, ja bērna acis ir atvērtas. Jebkurā laikā jūs vai jūsu bērns varat šo opciju ieslēgt sadaļā Iestatījumi.</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">Ja jūsu bērns parasti valkā brilles, viņš var tās valkāt iestatīšanas laikā.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">Autorizācijas pēc sejas izmantošana, lai atbloķētu bērna tālruni, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole.</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jūsu bērnam līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, pavēršot tālruni pret bērna seju.</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">Varat iestatīt, lai tālruņa atbloķēšana vai identitātes apstiprināšana ar autorizāciju pēc sejas darbotos tikai tad, ja jūsu acis ir atvērtas. Jebkurā laikā varat ieslēgt šo opciju sadaļā Iestatījumi.</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">Brilles vai viegli tonētas saulesbrilles netraucēs.</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">Tālruņa atbloķēšana, izmantojot sejas atpazīšanu, var būt mazāk droša nekā sarežģīta kombinācija, PIN vai parole</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">Paskatoties uz tālruni, tas var tikt nejauši atbloķēts. Tālruni var atbloķēt arī jums līdzīga persona, piemēram, identiskais dvīnis, vai arī cita persona, pavēršot tālruni pret jūsu seju.</string>
     <string name="security_settings_face_enroll_introduction_info_title">Svarīga informācija</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">Izmantojiet seju, lai atbloķētu tālruni vai apstiprinātu savu identitāti, piemēram, pierakstoties lietotnēs vai apstiprinot pirkumu.</string>
     <string name="security_settings_face_enroll_introduction_title">Autorizācijas pēc sejas iestatīšana</string>
     <string name="security_settings_face_enroll_next">Tālāk</string>
     <string name="security_settings_face_enroll_partial_message">Lai uzlabotu darbību, iestatījumos varat atkal iestatīt autorizāciju pēc sejas.</string>
@@ -327,15 +359,32 @@ Piezīme. Pirksta nospiedumu nevar izmantot šīs ierīces atbloķēšanai. Lai 
     <string name="security_settings_fingerprint_preference_summary_none">Pieskarieties, lai iestatītu pirksta nospiedumu</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Izmantojot funkciju Pixel Imprint, tiek izveidots unikāls jūsu pirksta nospieduma modelis jūsu identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo pirksta nospieduma modeli, jūs uzņemsiet pirksta nospieduma attēlus no dažādām pozīcijām.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">Varat jebkurā laikā izdzēst pirksta nospieduma modeli vai iestatījumos izslēgt funkciju Pixel Imprint. Pirkstu nospiedumu modeļi tiek glabāti tālrunī, līdz jūs tos izdzēšat.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Izmantojot funkciju Pixel Imprint, tiek izveidots unikāls jūsu bērna pirksta nospieduma modelis viņa identitātes apstiprināšanai. Lai iestatīšanas laikā izveidotu šo pirksta nospieduma modeli, jūsu bērns uzņems pirksta nospieduma attēlus no dažādām pozīcijām.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">Iestatījumos jūs un jūsu bērns varat jebkurā laikā dzēst pirksta nospieduma modeli vai izslēgt funkciju Pixel Imprint. Pirkstu nospiedumu modeļi tiek glabāti tālrunī, līdz tie tiek dzēsti.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"Uzziniet vairāk par Pixel autorizāciju ar pirksta nospiedumu vietnē &lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt;."</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint darbam</string>
     <string name="setup_suggestion_summary">Vēl tikai dažas darbības</string>
     <string name="setup_suggestion_title">Iestatīšanas pabeigšana</string>
+    <string name="show_stylus_pointer_icon">Atļaut lietotnēm attēlot rādītāju, virzot kursoru</string>
+    <string name="simple_mode_category">Ātrā piekļuve</string>
+    <string name="simple_mode_description">Lielāki teksta un ikonu izmēri, vienkāršots izkārtojums un pievienotas navigācijas pogas. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Uzziniet vairāk</a> par vienkāršo skatu.</string>
+    <string name="simple_mode_summary">Uzlabojiet teksta salasāmību un vienkāršojiet ekrāna izkārtojumu un navigāciju ekrānā.</string>
+    <string name="simple_mode_suw_description">Pārskatāmākam noformējumam un vienkāršai darba sākšanai Pixel var automātiski lejupielādēt svarīgas lietotnes un logrīkus, optimizēt ekrāna izkārtojumu, pielāgot fontu un paveikt daudz ko citu.</string>
+    <string name="simple_mode_suw_done_button">Gatavs</string>
+    <string name="simple_mode_switch_title">Izmantot vienkāršo skatu</string>
+    <string name="simple_mode_title">Vienkāršais skats</string>
+    <string name="simple_view_dialog_negative_button">Atcelt</string>
+    <string name="simple_view_dialog_positive_button">Turpināt</string>
+    <string name="simple_view_feature_disabled_dialog_message">Izslēdzot vienkāršo skatu, ierīcē tiks atjaunoti sākotnējie fonta, attēlojuma un izkārtojuma iestatījumi. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Uzziniet, kā</a> mainīt šos atsevišķos fontu iestatījumus.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Ierīcē tiks atjaunoti iepriekšējie iestatījumi</string>
+    <string name="simple_view_feature_enabled_dialog_message">Jūsu pašreizējais fonta lielums ir lielāks par vienkāršā skata iestatījumos noteikto. Izmantojot vienkāršo skatu, fonta lielums samazināsies.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Fonta lielums samazināsies</string>
     <string name="smart_battery_a11y_collapse_label">Sakļaut, adaptīvais akumulators</string>
     <string name="smart_battery_a11y_expand_label">Izvērst, adaptīvais akumulators</string>
     <string name="smart_battery_footer">Lai paildzinātu akumulatora darbību, adaptīvā akumulatora funkcija var ierobežot veiktspēju un fonā veiktās darbības. Daži paziņojumi var darboties ar aizkavi.</string>
     <string name="smart_battery_manager_title">Adaptīvās preferences</string>
+    <string name="smart_battery_summary" product="default">Adaptīvais akumulators nepārtraukti optimizē lietotņu patērēto akumulatora enerģiju, ņemot vērā to, kā jūs lietojat savu tālruni. Lai palielinātu akumulatora darbības ilgumu, var tikt ierobežota veiktspēja un aizkavēta paziņojumu piegāde.</string>
     <string name="smart_battery_title">Adaptīvais akumulators</string>
     <string name="software_update_can_be_updated_header">Padariet savu Pixel ierīci vēl labāku</string>
     <string name="software_update_detail_indication_1_update_available">Ir pieejams 1 atjauninājums</string>
@@ -349,7 +398,8 @@ Piezīme. Pirksta nospiedumu nevar izmantot šīs ierīces atbloķēšanai. Lai 
     <string name="software_update_up_to_date_summary">Atjaunināta</string>
     <string name="software_update_up_to_specific_date_summary">Atjaunināta šādā datumā: %1$s.</string>
     <string name="software_update_update_available_summary">Ir pieejams atjauninājums</string>
-    <string name="sound_dashboard_summary">Skaļums, vibrācija pieskaroties, funkcija Netraucēt</string>
+    <string name="sound_dashboard_summary">Skaļums un haptiskā tehnoloģija</string>
+    <string name="sound_dashboard_summary_with_dnd">Skaļums, haptiskā tehnoloģija, režīms “Netraucēt”</string>
     <string name="spatial_audio_head_tracking_available">Galvas kustību reģistrēšana ir pieejama</string>
     <string name="spatial_audio_head_tracking_unavailable">Galvas kustību reģistrēšana nav pieejama</string>
     <string name="speed_boost_summary_off">Izslēgta</string>
@@ -398,4 +448,8 @@ Piezīme. Pirksta nospiedumu nevar izmantot šīs ierīces atbloķēšanai. Lai 
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Pieskarieties, lai izveidotu savienojumu.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Nevar izveidot savienojumu. Pieskarieties vēlreiz.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Notiek savienojuma izveide…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url">Uzzināt vairāk</annotation></string>
+    <string name="wireless_charging_learn_more_description">Uzzināt vairāk par bezvadu uzlādi</string>
+    <string name="wireless_charging_state">Notiek bezvadu uzlāde •</string>
+    <string name="wireless_charging_state_and_duration">Notiek bezvadu uzlāde • %1$s •</string>
 </resources>

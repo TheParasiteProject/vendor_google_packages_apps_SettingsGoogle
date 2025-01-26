@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/transparent"
@@ -46,7 +47,7 @@
                 android:paddingStart="12.0dip"
                 android:singleLine="true"
                 android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                android:textColor="?android:textColorPrimary" />
+                android:textColor="?androidprv:attr/materialColorOnSurface" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -60,8 +61,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="12.0dip"
-                    android:textAppearance="?android:textAppearanceSmall"
-                    android:textColor="?android:textColorSecondary" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="?androidprv:attr/materialColorOnSurfaceVariant" />
 
                 <SeekBar
                     android:id="@*android:id/seekbar"

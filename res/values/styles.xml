@@ -2,14 +2,14 @@
 <resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
     <style name="BiometricEnrollIntroMessage">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:paddingBottom">@dimen/biometric_enroll_introduction_message_padding_bottom</item>
         <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
     <style name="BiometricEnrollIntroTitle">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
         <item name="android:textSize">20.0sp</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:paddingVertical">@dimen/biometric_enroll_introduction_title_padding_vertical</item>
     </style>
     <style name="BottomSheetButtonBorderless" parent="@android:style/Widget.DeviceDefault.Button.Borderless.Colored">
@@ -30,63 +30,79 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
     <style name="ContextualSuggestionCardStyle">
-        <item name="cardBackgroundColor">?androidprv:attr/colorAccentPrimary</item>
+        <item name="cardBackgroundColor">?androidprv:attr/materialColorPrimaryFixed</item>
         <item name="cardCornerRadius">@dimen/suggestion_card_corner_radius</item>
         <item name="cardElevation">0.0dip</item>
     </style>
     <style name="ContextualSuggestionCardStyle.TwoPane" parent="@style/ContextualSuggestionCardStyle">
-        <item name="cardBackgroundColor">?androidprv:attr/colorSurface</item>
+        <item name="cardBackgroundColor">?androidprv:attr/materialColorPrimaryFixed</item>
     </style>
     <style name="DreamSudCardStyle" parent="@style/DreamCardStyle">
         <item name="cardBackgroundColor">@color/dream_card_suw_color_state_list</item>
     </style>
     <style name="NoScreenSaverTextColor">
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
     <style name="SecurityShowMoreWarningsCard" parent="@style/ContextualCardStyle">
         <item name="strokeWidth">0.0dip</item>
     </style>
+    <style name="SimpleViewNegativeButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:paddingHorizontal">20.0dip</item>
+        <item name="android:paddingVertical">2.0dip</item>
+    </style>
+    <style name="SimpleViewPositiveButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:background">@drawable/simple_view_colored_button</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:paddingHorizontal">20.0dip</item>
+        <item name="android:paddingVertical">2.0dip</item>
+    </style>
     <style name="SuggestionCardIconStyle">
-        <item name="android:tint">?android:textColorPrimary</item>
+        <item name="android:tint">@android:color/system_on_primary_fixed</item>
     </style>
     <style name="SuggestionCardIconStyle.TwoPane" parent="@style/SuggestionCardIconStyle">
-        <item name="android:tint">?android:textColorPrimary</item>
+        <item name="android:tint">@android:color/system_on_primary_fixed</item>
     </style>
     <style name="SuggestionCardSummaryColor">
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@android:color/system_on_primary_fixed_variant</item>
     </style>
     <style name="SuggestionCardTitleColor">
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@android:color/system_on_primary_fixed</item>
     </style>
     <style name="TextAppearance.FaceErrorText" parent="@android:style/TextAppearance.Material.Body1">
         <item name="android:textColor">?android:colorError</item>
     </style>
     <style name="TextAppearance.SecurityShowMoreTitle" parent="@style/TextAppearance.SecurityStatusSummary">
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
     <style name="TextAppearance.SecurityStatusSummary" parent="@android:style/TextAppearance.DeviceDefault.Small">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
         <item name="android:fontFamily">@*android:string/config_bodyFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.SecurityStatusTitle" parent="@android:style/TextAppearance.DeviceDefault.Medium">
         <item name="android:textSize">22.0sp</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFeatureSettings</item>
     </style>
     <style name="TextAppearance.SuggestionCardSummary" parent="@style/SuggestionCardSummaryColor">
         <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/settingslib_materialColorOnSecondary</item>
         <item name="android:fontFamily">@*android:string/config_bodyFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.SuggestionCardSummary.TwoPane" parent="@style/TextAppearance.SuggestionCardSummary">
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@android:color/system_on_primary_fixed_variant</item>
     </style>
     <style name="TextAppearance.SuggestionCardTitle" parent="@style/SuggestionCardTitleColor">
         <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/settingslib_materialColorOnPrimary</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFeatureSettings</item>
     </style>
     <style name="TextAppearance.SuggestionCardTitle.TwoPane" parent="@style/TextAppearance.SuggestionCardTitle">
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@android:color/system_on_primary_fixed</item>
     </style>
     <style name="Theme.Settings.Clips" parent="@style/Theme.Settings">
         <item name="android:clipChildren">true</item>

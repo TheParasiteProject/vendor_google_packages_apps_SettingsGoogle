@@ -12,10 +12,16 @@
     <string name="adaptive_charging_footer">بیٹری کی عمر بڑھانے میں مدد کے لیے آپ کا فون آپ کی چارجنگ روٹین سیکھتا ہے اور اس وقت تک انتظار کرتا ہے جب تک کہ آپ کو اسے مکمل چارج کرنے کی ضرورت نہ ہو۔</string>
     <string name="adaptive_charging_link_a11y">اڈاپٹیو چارجنگ کے بارے میں مزید جانیں</string>
     <string name="adaptive_charging_main_switch_title">اڈاپٹیو چارجنگ استعمال کریں</string>
-    <string name="adaptive_charging_time_estimate"><b>اڈاپٹیو چارجنگ</b> • %1$s تک مکمل</string>
+    <string name="adaptive_charging_time_estimate"><b>اڈاپٹیو چارجنگ</b> • %1$s تک مکمل چارج ہو جائے گا</string>
     <string name="adaptive_charging_title">اڈاپٹیو چارجنگ</string>
     <string name="adaptive_touch_sensitivity_summary">ٹچ کی حساسیت خودکار طور پر آپ کے ماحول، سرگرمیوں اور اسکرین پروٹیکٹر پر ایڈجسٹ ہو جائے گی</string>
     <string name="adaptive_touch_sensitivity_title">اڈاپٹیو ٹچ</string>
+    <string name="adaptive_vibration_footer">آواز کی سطحوں اور سیاق و سباق کا تعین کرنے کے لیے، آپ کے فون کے مائیکروفون اور دیگر سینسرز کا استعمال کیا جاتا ہے۔ کوئی ڈیٹا کبھی ریکارڈ نہیں کیا جاتا ہے۔</string>
+    <string name="adaptive_vibration_settings_summary">ماحول کی بنیاد پر اپنے فونز کی وائبریشنز کو خودکار طور پر ایڈجسٹ کریں مثلاً، جب وہ جیب میں ہو یا شور والے مقام پر ہو</string>
+    <string name="adaptive_vibration_summary_off">آف ہے</string>
+    <string name="adaptive_vibration_summary_on">آن ہے</string>
+    <string name="adaptive_vibration_title">اڈاپٹیو وائبریشن</string>
+    <string name="adaptive_vibration_toggle_title">اڈاپٹیو وائبریشن استعمال کریں</string>
     <string name="add_bypassed_application_hint">کوئی ایپ شامل نہیں کی گئی</string>
     <string name="advanced_vpn_preference_group_title">پہلے سے شامل</string>
     <string name="all_apps_category_title">سبھی ایپس</string>
@@ -27,16 +33,6 @@
 
 رسائی ہٹانے سے ایپ کو ہر انفرادی مسئلے کی خاطر بگ رپورٹس اکٹھا کرنے اور اپ لوڈ کرنے کے لیے آپ سے اجازت کی درخواست کرنی ہوگی۔"</string>
     <string name="app_and_notification_dashboard_summary">اسسٹنٹ، حالیہ ایپس، ڈیفالٹ ایپس</string>
-    <string name="audio_sharing_switch_title">آڈیو کا اشتراک کریں</string>
-    <string name="audio_sharing_title">آڈیو کا اشتراک</string>
-    <string name="audio_streams_category_title">‏LE آڈیو سلسلہ سے منسلک کریں</string>
-    <string name="audio_streams_connect">منسلک کریں</string>
-    <string name="audio_streams_disconnect">غیر منسلک کریں</string>
-    <string name="audio_streams_pref_title">قریبی آڈیو سلسلے</string>
-    <string name="audio_streams_qr_code_is_not_valid_format">‏QR کوڈ درست فارمیٹ نہیں ہے</string>
-    <string name="audio_streams_qr_code_scanner">‏سننا شروع کرنے کے لیے، نیچے کے QR کوڈ کو سینٹر میں رکھیں</string>
-    <string name="audio_streams_qr_code_summary">‏QR کوڈ استعمال کر کے آڈیو سلسلہ سے منسلک کریں</string>
-    <string name="audio_streams_title">آڈیو سلسلے</string>
     <string name="automatic_storage_manager_activation_warning">جب آپ منسلک ہوں تو آپ پھر بھی تصاویر اور ویڈیوز تک اس معیار پر رسائی کر سکتے ہیں جسے آپ نے بیک اپ کیلئے منتخب کیا تھا</string>
     <string name="automatic_storage_manager_days_title">بیک اپ کردہ تصاویر اور ویڈیوز ہٹائیں</string>
     <string name="automatic_storage_manager_deactivation_warning">"اسمارٹ اسٹوریج آف کر دیں؟ 
@@ -73,10 +69,12 @@
     <string name="battery_tip_dock_defender_temporarily_bypass_title">مکمل چارج ہو رہا ہے</string>
     <string name="battery_tip_limited_temporarily_extra_summary">آپ کے ٹیبلیٹ کے ڈاک ہونے کے دوران آپ کی بیٹری کی حفاظت کرنے کیلئے، چارجنگ کو %1$s پر روک دیا گیا ہے</string>
     <string name="battery_tip_smart_battery_summary">تغیر پذیر بیٹری آن کریں</string>
-    <string name="battery_tip_wireless_charging_learn_more_description">وائرلیس چارجنگ کے بارے میں مزید جانیں</string>
-    <string name="battery_tip_wireless_charging_summary">آپ کے فون کو وائرلیس طریقے سے چارج کرنے میں دیگر چارجنگ طریقوں سے زیادہ توانائی استعمال ہو سکتی ہے</string>
-    <string name="battery_tip_wireless_charging_title">وائرلیس چارجنگ</string>
-    <string name="calls_and_alarms_device_title">کالز اور الارمز</string>
+    <string name="charging_optimization_charge_label">%1$s - %2$s تک چارج مکمل ہو گیا</string>
+    <string name="charging_optimization_reach_limit_charge_label">%1$s - چارجنگ مکمل ہو گئی</string>
+    <string name="charging_optimization_reach_limit_remaining_time_label">چارجنگ مکمل ہو گئی</string>
+    <string name="charging_optimization_remaining_time_label">%1$s تک چارج مکمل ہو گیا</string>
+    <string name="charging_optimization_wireless_reach_limit_remaining_time_label">وائرلیس چارجنگ مکمل ہو گئی •</string>
+    <string name="charging_optimization_wireless_remaining_time_label">وائرلیس چارجنگ %1$s تک مکمل ہوگی •</string>
     <string name="clear_calling_footer">"‏آپ کی رازداری کے تحفظ کے لیے، کلیئر کالنگ آڈیو یا گفتگوئیں Google کو نہیں بھیجتی ہے۔
 
 کلیئر کالنگ Wi-Fi کالنگ اور زیادہ تر نیٹ ورکس پر کام کرتی ہے، 3G نیٹ ورکس کیلئے دستیاب نہیں ہے۔"</string>
@@ -147,15 +145,23 @@
 
 فریب دہی سائن ان کی اسناد یا دیگر ذاتی معلومات چرانے کی کوشش ہے۔"</string>
     <string name="content_protection_preference_subpage_summary">‏اسکیننگ آپ کے آلے پر نجی طور پر چلتی ہے، ایپ کی سرگرمی کو فریب دہی یا دیگر جعلسازی کے برتاؤ کے لیے چیک کیا جا رہا ہے۔ اس کا پتہ چلنے پر خطرے کی تصدیق اور ایپ کے صارفین کو متنبہ کرنے کے لیے ایپ کی کچھ معلومات Google Play Protect کو بھیجی جاتی ہیں۔</string>
-    <string name="contextual_timeout_description">اگر آپ اپنا آلہ استعمال نہیں کر رہے ہیں تو آپ کی اسکرین کو جلد از جلد آف کر دیتا ہے</string>
+    <string name="contextual_timeout_description">آپ کے اپنا آلہ استعمال نہ کرنے کی صورت میں خودکار طور پر آپ کی اسکرین کو آف کر دیتا ہے</string>
     <string name="contextual_timeout_title">اڈاپٹیو ٹائم آؤٹ</string>
+    <string name="credentials_install_summary" product="default">اسٹوریج سے سرٹیفیکیٹس انسٹال کریں</string>
     <string name="dark_ui_text">گہری تھیم آپ کی بیٹری کو زیادہ دیر تک فعال رکھنے میں مدد کے ليے سیاہ پس منظر کا استعمال کرتی ہے۔ گہری تھیم کے شیڈولز آپ کی اسکرین کے آف ہونے پر آن ہونے کا انتظار کرتے ہیں۔</string>
     <string name="debugging_data_title">ڈیبگنگ ڈیٹا</string>
+    <string name="default_notification_summary">کلاسک اطلاع</string>
+    <string name="default_ringtone_summary">کلاسک رنگ ٹون</string>
     <string name="discover_tips_button">تجاویز دریافت کریں</string>
+    <string name="display_dashboard_summary">گہری تھیم، فونٹ سائز، ٹچ</string>
+    <string name="display_settings">ڈسپلے اور ٹچ</string>
     <string name="dock_summary_charging_phone">فون چارج کیا جا رہا ہے</string>
     <string name="double_twist_for_camera_mode_summary">‏جب آپ ایپ میں ہوں تو Google کیمرا میں سیلفی موڈ میں سوئچ اِن اور آؤٹ کرنے کیلئے دو بار مروڑیں۔</string>
     <string name="duration_less_than_one_minute">1 منٹ سے کم</string>
-    <string name="enable_glanceable_hub_toggle">ہب موڈ</string>
+    <string name="enable_glanceable_hub_toggle">مقفل اسکرین پر ویجٹ دکھائیں</string>
+    <string name="enable_glanceable_hub_toggle_summary">اپنے ٹیبلیٹ کو اَن لاک کئے بغیر</string>
+    <string name="erase_external_storage" product="default">‏USB اسٹوریج کو حذف کریں</string>
+    <string name="erase_external_storage_description" product="default">‏داخلی USB اسٹوریج پر موجود سبھی ڈیٹا، جیسے موسیقی یا تصاویر کو حذف کریں</string>
     <string name="extreme_battery_saver_summary">اوپر درج کردہ تمام تبدیلیاں شامل ہیں۔ غیر ضروری ایپس اور ان کی اطلاعات کو بھی موقوف کرتا ہے۔</string>
     <string name="extreme_battery_saver_title">انتہائی بیٹری سیور</string>
     <string name="face_confirmation_hide_illustration_description">اب جب آپ اپنا فون اٹھاتے ہیں یا اسکرین پر تھپتھپاتے ہیں تو آپ اپنے چہرے کو غیر مقفل کرنے کے لیے استعمال کر سکتے ہیں۔</string>
@@ -199,8 +205,7 @@
 
 بیک اپ ڈیٹا کا شمار آپ کے Drive storage کوٹہ میں نہیں ہوگا۔ بڑی فائلیں، یا ایسی فائلیں جنہیں ڈویلپرز نے سروس میں شامل نہ کرنے کا انتخاب کیا ہے ان کا بیک اپ نہیں لیا جائے گا۔"</string>
     <string name="fullbackup_erase_dialog_message">‏آلہ کے ڈیٹا (جیسے کہ Wi-Fi پاسورڈز اور کال کی سرگزشت) اور ایپ ڈیٹا (جیسے کہ ایپس کی جانب سے اسٹور کردہ ترتیبات اور فائلز) کا بیک اپ لینا بند کریں، نیز Google Drive پر موجود سبھی کاپیاں مٹا دیں؟</string>
-    <string name="gesture_settings_activity_title">اشاروں والی نیویگیشن</string>
-    <string name="hub_mode_content_setting">ہب موڈ میں کسی بھی ویجیٹ کی اجازت دیں</string>
+    <string name="help_footer_content_description">%1$s کے بارے میں۔ %2$s</string>
     <string name="install_unknown_applications">‏Play اسٹور کے علاوہ دیگر مآخذ سے ایپس انسٹال کرنے کی اجازت دیں</string>
     <string name="keywords_accessibility_menu">موٹر، فوری مینو، مددگار مینیو، ٹچ، مہارت، گٹھیا، آر ایس آئی، اسٹروک، رَعشہ، مضاعفِ تصلب، دماغی فالج، بٹن، ہارڈویئر، پریس، بار بار عصاب کی کھچھاؤ، ہاتھ، درد، قابل رسائی، مدد</string>
     <string name="keywords_adaptive_alert_vibration">ہیپٹکس، وائبریٹ، فون، کال، رنگ، الرٹ، اطلاعات، بلند آواز، خاموش، شور، کیس، تغیر پذیر</string>
@@ -223,16 +228,25 @@
     <string name="keywords_touch_sensitivity">ٹچ ، حساسیت ، حساس ، اسکرین محافظ ، فلم ، ذمہ دار ، ردعمل</string>
     <string name="keywords_touch_sensitivity_settings">ٹچ، تغیر پذیر، حساسیت، حساس، اسکرین پروٹیکٹر، فلم، ریسپانسیو، ردعمل</string>
     <string name="keywords_voice_access">آواز، صوتی کنٹرول، اعصاب کی حرکی سرگرمی سے متعلق مہارتیں، ہاتھ، مائیک، مائیکروفون، ڈکٹیشن، بات کرنا، کنٹرول</string>
-    <string name="led_preference_title">‏LED انڈیکیٹر کے پیٹرنز</string>
+    <string name="learnMore_help_url_connectivity_helper"><a href="https://support.google.com/pixelphone?p=connectivity_helper">مزید جانیں</a></string>
+    <string name="led_preference_title">‏‫LED انڈیکیٹر کے پیٹرنز</string>
     <string name="legal_source_code_description">‏Pixel ہیلپ سینٹر میں اوپن سورس کے بطور دستیاب بنائے گئے اجزاء کے ماخذ کوڈ کے بارے میں تفصیلات مل سکتی ہیں۔</string>
     <string name="legal_source_code_title">ماخذ کوڈ</string>
     <string name="limited_warranty_introduction">‏اس آلے کی وارنٹی دیکھنے کے لیے خریداری کے ملک پر تھپتھپائیں۔ وارنٹی g.co/devicewarranty پر بھی دستیاب ہے</string>
     <string name="limited_warranty_title">محدود وارنٹی</string>
-    <string name="lockscreen_show_weather_summary">موجودہ موسمی حالات دیکھیں</string>
-    <string name="lockscreen_show_weather_title">موسم دکھائیں</string>
+    <string name="main_clear_desc_erase_external_storage" product="default">"‏
+
+موسیقی، تصاویر اور صارف کا دیگر ڈیٹا، "<b>USB اسٹوریج</b> کو حذف کیے جانے کی ضرورت ہے۔</string>
     <string name="my_device_info_account_preference_title">‏Google اکاؤنٹ</string>
+    <string name="notification_dismissal_sync_summary">‏آپ کے Pixel فون یا ٹیبلیٹ پر برخاست کردہ اطلاعات اب دونوں پر ظاہر نہیں ہوں گی</string>
+    <string name="notification_dismissal_sync_title">‏تمام Pixel آلات پر اطلاعات کو برخاست کریں</string>
+    <string name="overrided_google_settings_summary">‏‫Google سروسز اور ترجیحات</string>
+    <string name="overrided_google_settings_title">سائن ان کریں</string>
     <string name="owner_info_settings_edit_text_hint">‏جیسے، شمائلہ کا Pixel۔</string>
     <string name="permit_debugging_data">بگ رپورٹ تک رسائی کی اجازت دیں</string>
+    <string name="phone_notification_channel_sound_title">آواز اور وائبریشن</string>
+    <string name="phone_notification_title">اطلاع الرٹ</string>
+    <string name="phone_ringtone_title">رنگ ٹون الرٹ</string>
     <string name="play_application_detail_indication_summary">اپ ڈیٹس چیک کریں</string>
     <string name="play_application_update_entry_title">ایپ کی اپ ڈیٹس</string>
     <string name="private_space_retry_summary">‏اپنی پرائیویٹ اسپیس کے ساتھ استعمال کرنے کے لیے Google اکاؤنٹ میں سائن ان کریں</string>
@@ -243,7 +257,7 @@
     <string name="reverse_charging_auto_turn_on_subtitle">جب آپ کا فون چارجر میں پلگ ان ہوتا ہے تو یہ تھوڑی مدت کے لیے خودکار طور پر آن ہو جائے گا</string>
     <string name="reverse_charging_auto_turn_on_title">خودکار طور پر آن کریں</string>
     <string name="reverse_charging_charging_wirelessly_message">دستیاب نہیں ہے کیونکہ فون وائر لیس طریقے سے چارج ہو رہا ہے</string>
-    <string name="reverse_charging_detail_charging_overheat_message">‏بیٹری کا اشتراک دستیاب نہیں ہے کیونکہ Pixel بہت زیادہ گرم ہے۔ فون ٹھنڈا ہونے کا انتظار کریں اور دوبارہ کوشش کریں۔</string>
+    <string name="reverse_charging_detail_charging_overheat_message">درجہ حرارت کی وجہ سے دستیاب نہیں ہے۔ فون ٹھنڈا ہونے کا انتظار کریں اور دوبارہ کوشش کریں</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">بیٹری کا اشتراک دستیاب نہیں ہے کیونکہ فون وائر لیس طریقے سے چارج ہو رہا ہے</string>
     <string name="reverse_charging_detail_footer_title">بیٹری کا اشتراک کا استعمال کرنے پر آپ کے فون کی بیٹری تیزی سے ختم ہوجائے گی۔ بیٹری کا اشتراک موافق ایئربڈز، گھڑیاں، فونز اور مزید آلات کے ساتھ کام کرتا ہے۔ بہتر چارجنگ کے ليے، اپنے فون کا کیس ہٹائیں۔</string>
     <string name="reverse_charging_detail_footer_title_advanced">"بیٹری کا اشتراک موافق ایئر بڈز، فونز اور مزید کے ساتھ کام کرتا ہے۔
@@ -251,6 +265,7 @@
 اس خصوصیت کا استعمال کرنے پر آپ کے فون کی بیٹری تیزی سے ختم ہو جائے گی۔ اگر دوسرے آلے کا پتہ نہیں چلتا ہے تو چند منٹ کے بعد بیٹری کا اشتراک خود کار طور پر بند ہو جاتا ہے۔ بہتر چارجنگ کے لیے، اپنے فون کا کیس اور دیگر آئٹمز جو مداخلت کر سکتے ہیں انہیں ہٹا دیں، جیسے میٹل آبجیکٹس۔"</string>
     <string name="reverse_charging_detail_power_save_mode_is_on_message">بیٹری کا اشتراک دستیاب نہیں ہے کیونکہ بیٹری سیور آن ہے</string>
     <string name="reverse_charging_detail_unplug_usb_cable_message">‏بیٹری کا اشتراک دستیاب نہیں ہے کیونکہ USB-C آلہ پلگ ان ہے</string>
+    <string name="reverse_charging_detail_unsupported_charger_message">چارجنگ کے دوران بیٹری کا اشتراک دستیاب نہیں ہے</string>
     <string name="reverse_charging_instructions_title">"‏اپنے Pixel کے ساتھ دیگر آلات کو چارج کریں۔
  کوشش کرنے کے ليے اپنے فون پر پلٹائیں۔"</string>
     <string name="reverse_charging_is_off_summary">آف</string>
@@ -258,7 +273,6 @@
     <string name="reverse_charging_is_on_and_discharging_summary">بیٹری کا اشتراک کیا جا رہا ہے</string>
     <string name="reverse_charging_is_on_summary">آن ہے / دیگر آلات چارج کریں</string>
     <string name="reverse_charging_main_switch">بیٹری کا اشتراک استعمال کریں</string>
-    <string name="reverse_charging_overheat_summary">‏دستیاب نہیں ہے کیونکہ Pixel بہت زیادہ گرم ہے۔ فون ٹھنڈا ہونے کا انتظار کریں اور دوبارہ کوشش کریں۔</string>
     <string name="reverse_charging_power_save_mode_is_on_message">دستیاب نہیں ہے کیونکہ بیٹری سیور آن ہے</string>
     <string name="reverse_charging_sharing_level_message">دستیاب نہیں ہے کیونکہ بیٹری اشتراک لیول سے کم ہے</string>
     <string name="reverse_charging_switch_title">‏دیگر آلات کو اپنے Pixel کی پشت پر رکھ کر انہیں چارج کریں</string>
@@ -266,6 +280,7 @@
     <string name="reverse_charging_unplug_usb_cable_message">‏دستیاب نہیں ہے کیونکہ USB-C آلہ پلگ ان ہے</string>
     <string name="reverse_charging_warning_summary">دستیاب نہیں ہے کیونکہ بیٹری %1$s کے تحت ہے</string>
     <string name="reverse_charging_warning_title">بیٹری کا اشتراک دستیاب نہیں ہے کیونکہ بیٹری %1$s سے کم ہے</string>
+    <string name="ringtone_synchronized_summary">مطابقت پذیر ہے</string>
     <string name="rtt_settings_always_visible">ہمیشہ مرئی</string>
     <string name="rtt_settings_no_visible">مرئی نہیں</string>
     <string name="rtt_settings_title">‏ریئل ٹائم ٹیکسٹ (RTT)</string>
@@ -273,13 +288,13 @@
     <string name="screen_time_summary_usage_today">%1$s آج</string>
     <string name="search_bar_account_avatar_content_description">‏پروفائل تصویر، Google اکاؤنٹ کو کھولنے کے لیے دو بار تھپتھپائیں</string>
     <string name="search_gesture_category_title">تلاش کریں</string>
-    <string name="search_gesture_feature_title">تلاش کے لیے دائرہ</string>
-    <string name="search_long_press_home_button_summary">اسکرین کے نیچے ہوم بٹن کو ٹچ کریں اور دبائے رکھیں، پھر کسی بھی چیز کو تلاش کرنے کے لیے دائرہ بنائیں یا نمایاں کریں</string>
-    <string name="search_press_hold_gesture_summary">اسکرین کے نیچے ہینڈل کو ٹچ کریں اور دبائے رکھیں، پھر کسی بھی چیز کو تلاش کرنے کے لیے دائرہ بنائیں یا نمایاں کریں</string>
+    <string name="search_gesture_feature_summary">اپنی اسکرین پر موجود مواد کو استعمال کر کے تلاش کرنے کے لیے ہوم بٹن یا نیویگیشن ہینڈل کو ٹچ کریں اور دبائے رکھیں۔</string>
+    <string name="search_gesture_feature_title">تلاش کے لیے دائرہ بنائيں</string>
     <string name="security_dismiss_dialog_dismiss_button">برخاست کریں</string>
     <string name="security_dismiss_dialog_title">اس وارننگ کو برخاست کریں؟</string>
     <string name="security_settings_biometric_preference_summary_none_enrolled">سیٹ اپ کرنے کیلئے تھپتھپائیں</string>
     <string name="security_settings_face_enroll_education_message">اگلی اسکرین پر، اپنے چہرے کے تمام زاویے کیپچر کرنے کے ليے اپنے سر کو گھمائیں</string>
+    <string name="security_settings_face_enroll_education_message_accessibility" product="default">اگلی اسکرین پر، اپنے فون کو آنکھ کے سامنے پکڑے رکھیں</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">چہرے کے اندراج کے وقت کی حد پوری ہو گئی۔ دوبارہ کوشش کریں۔</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_title">فیس اَنلاک کے سیٹ اپ کا وقت ختم ہو گیا</string>
     <string name="security_settings_face_enroll_finish_description_with_bp">اب آپ اپنا فون غیر مقفل کرنے یا اس بات کی توثیق کرنے کیلئے اپنے چہرے کا استعمال کر سکتے ہیں کہ یہ آپ ہی ہیں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی منظوری دیتے ہیں</string>
@@ -294,13 +309,29 @@
 فیس انلاک اس وقت بہترین کام کرتا ہے جب کافی روشنی ہو اور آپ ماسک یا گہرے چشمے نہ لگائے ہوں۔"</string>
     <string name="security_settings_face_enroll_finish_title">ٹھیک لگ رہا ہے!</string>
     <string name="security_settings_face_enroll_introduction_accessibility">محدود بصارت یا سر کی حرکت کے لیے سیٹ اپ کریں</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" product="default">فیس اَنلاک کی خصوصیت کا استعمال کرتے وقت، آپ کے سر کو فون کے براہ راست سامنے ہونے کی ضرورت ہو سکتی ہے۔</string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision">آنکھوں کو کھولنا ہوگا</string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" product="default">"‏آپ اور آپ کا بچہ اپنے چہرے کے ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت فیس اَنلاک کو آف کر سکتے ہیں۔ چہرے کے ماڈلز فون پر اس وقت تک اسٹور ہوتے ہیں جب تک انہیں حذف نہیں کر دیا جاتا۔&lt;br&gt;&lt;br&gt;&lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt; پر مزید جانیں۔"</string>
     <string name="security_settings_face_enroll_introduction_control_consent_title">آپ اور آپ کے بچے کا کنٹرول ہے</string>
+    <string name="security_settings_face_enroll_introduction_control_message" product="default">"‏آپ کسی بھی وقت ترتیبات میں اپنے چہرے کا ماڈل حذف کر سکتے ہیں یا فیس اَنلاک آف کر سکتے ہیں۔ چہرے کے ماڈلز فون پر اس وقت تک محفوظ رہتے ہیں جب تک آپ انہیں حذف نہیں کر دیتے۔&lt;br&gt;&lt;br&gt; اس لنک &lt;a href='http://g.co/pixel/faceunlock'&gt;g.co/pixel/faceunlock&lt;/a&gt; پر مزید جانیں۔"</string>
     <string name="security_settings_face_enroll_introduction_control_title">سب کچھ آپ کے اختیار میں ہے</string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" product="default">"فیس اَنلاک کی خصوصیت آپ کے بچے کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ وہی بچہ ہے۔ سیٹ اپ کے دوران چہرے کا یہ ماڈل تخلیق کرنے کے لیے آپ کا بچہ اپنے چہرے کی تصاویر مختلف زاویوں سے لے گا۔
+
+جب وہ فیس اَنلاک کی خصوصیت کا استعمال کرتا ہے تو تصاویر اس کے چہرے کا ماڈل اپ ڈیٹ کرنے کے لیے استعمال کی جاتی ہیں۔ اس کے چہرے کا ماڈل تخلیق کرنے کے لیے استعمال کی جانے والی تصاویر کو اسٹور نہیں کیا جاتا ہے لیکن چہرے کا ماڈل فون پر محفوظ طریقے سے اسٹور کیا جاتا ہے اور یہ کبھی بھی فون سے باہر نہیں جاتا ہے۔ فون پر سبھی کارروائیاں محفوظ طریقے سے ہوتی ہیں۔"</string>
+    <string name="security_settings_face_enroll_introduction_how_message" product="default">"فیس اَنلاک کی خصوصیت آپ کے چہرے کا ایک منفرد ماڈل تخلیق کرتی ہے تاکہ یہ توثیق کی جا سکے کہ یہ آپ ہی ہیں۔ سیٹ اپ کے دوران یہ چہرے کا ماڈل تخلیق کرنے کے لیے آپ اپنے چہرے کی تصاویر مختلف زاویوں سے لیں گے۔
+
+جب آپ فیس اَنلاک کی خصوصیت استعمال کرتے ہیں تو تصاویر آپ کے چہرے کا ماڈل اپ ڈیٹ کرنے کے لیے استعمال کی جاتی ہیں۔ آپ کے چہرے کا ماڈل تخلیق کرنے کے لیے استعمال کی جانے والی تصاویر کو اسٹور نہیں کیا جاتا ہے لیکن چہرے کا ماڈل آپ کے فون پر محفوظ طریقے سے اسٹور کیا جاتا ہے اور یہ کبھی بھی فون سے باہر نہیں جاتا ہے۔ آپ کے فون پر سبھی کاروائیاں محفوظ طریقے سے ہوتی ہیں۔"</string>
     <string name="security_settings_face_enroll_introduction_how_title">یہ کیسے کام کرتا ہے</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" product="default">فون کو غیر مقفل کرنے یا اس کی توثیق کرنے کے لیے کہ یہ وہی بچہ ہے، چہرے کے ذریعے غیر مقفل کرنے کا آپ کے بچے کی آنکھیں کھلی رکھنے کا تقاضہ ہو سکتا ہے۔ آپ اور آپ کا بچہ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_info_consent_glasses">اگر آپ کا بچہ عام طور پر عینک پہنتا ہے تو وہ سیٹ اپ کے دوران انہیں پہن سکتا ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_less_secure" product="default">‏اپنے بچے کے فون کو غیر مقفل کرنے کے لیے اس کا چہرہ استعمال کرنا ایک مضبوط پیٹرن، PIN یا پاس ورڈ کی بنسبت کم محفوظ ہو سکتا ہے</string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" product="default">غیر ارادتاً طور پر بھی فون کو دیکھنا اس کو غیر فعال کر سکتا ہے۔ اس کے فون کو اس سے بہت زیادہ مشابہ کسی شخص کے ذریعے بھی غیر مقفل کیا جا سکتا ہے جیسے کوئی ہم شکل بھائی بہن یا اگر کوئی اسے اس کے چہرے کے سامنے رکھ دے تو بھی غیر مقفل ہو سکتا ہے۔</string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" product="default">فون کو غیر مقفل کرنے یا یہ توثیق کرنے کے لیے کہ یہ آپ ہی ہیں چہرے کے ذریعے غیر مقفل کرنے کا آپ کی آنکھیں کھلی رکھنے کا تقاضہ ہو سکتا ہے۔ آپ ترتیبات میں کسی بھی وقت اس اختیار کو تبدیل کر سکتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_info_glasses">چشمے یا ہلکے ٹِنٹ کردہ دھوپ چشمے ٹھیک ہیں۔</string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" product="default">‏اپنے فون کو غیر مقفل کرنے کے لیے اپنے چہرے کا استعمال مضبوط پیٹرن، PIN یا پاس ورڈ سے کم محفوظ ہو سکتا ہے</string>
+    <string name="security_settings_face_enroll_introduction_info_looking" product="default">فون کو غیر ارادتاً دیکھنے سے بھی یہ غیر مقفل ہو سکتا ہے۔ آپ سے بہت زیادہ مشابہ کوئی بھی شخص، جیسے کوئی ہم شکل بھائی بہن، آپ کے فون کو غیر مقفل کر سکتا ہے، یا اگر کوئی اسے آپ کے چہرے کے سامنے رکھ دے تو بھی یہ غیر مقفل ہو سکتا ہے۔</string>
     <string name="security_settings_face_enroll_introduction_info_title">یاد رکھیں</string>
+    <string name="security_settings_face_enroll_introduction_message" product="default">اپنا فون غیر مقفل کرنے یا یہ توثیق کرنے کیلئے کہ یہ آپ ہی ہیں اپنا چہرہ استعمال کریں، جیسے جب آپ ایپس میں سائن ان کرتے ہیں یا کسی خریداری کی اجازت دیتے ہیں۔</string>
     <string name="security_settings_face_enroll_introduction_title">فیس اَنلاک سیٹ اپ کریں</string>
     <string name="security_settings_face_enroll_next">آگے</string>
     <string name="security_settings_face_enroll_partial_message">کارکردگی کو بہتر بنانے کے لیے، آپ ترتیبات میں فیس اَنلاک کو دوبارہ سے سیٹ اپ کر سکتے ہیں</string>
@@ -326,15 +357,33 @@
     <string name="security_settings_fingerprint_preference_summary_none">فنگر پرنٹ سیٹ اپ کرنے کیلئے تھپتھپائیں</string>
     <string name="security_settings_fingerprint_preference_title">Nexus Imprint</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">‏Pixel Imprint آپ کے فنگر پرنٹ کا ایک منفرد ماڈل تخلیق کرتا ہے تاکہ یہ توثیق کی جا سکے کہ یہ آپ ہی ہیں۔ سیٹ اپ کے دوران اس فنگر پرنٹ کا ماڈل تخلیق کرنے کے لیے آپ اپنے فنگر پرنٹ کی تصاویر مختلف پوزیشنز سے لیں گے۔</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" product="default">‏جب آپ Pixel Imprint کا استعمال کرتے ہیں تو تصاویر آپ کے فنگر پرنٹ ماڈل کو اپ ڈیٹ کرنے کے لیے استعمال کی جاتی ہیں۔ آپ کے فنگر پرنٹ کا ماڈل تخلیق کرنے کے لیے استعمال کی جانے والی تصاویر کو کبھی بھی اسٹور نہیں کیا جاتا ہے لیکن فنگر پرنٹ ماڈل آپ کے فون پر محفوظ طریقے سے اسٹور کیا جاتا ہے اور یہ کبھی بھی فون سے باہر نہیں جاتا ہے۔ آپ کے فون پر سبھی کاروائیاں محفوظ طریقے سے ہوتی ہیں۔</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" product="default">‏آپ اپنے فنگر پرنٹ کے ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت Pixel Imprint کو آف کر سکتے ہیں۔ فنگر پرنٹ کے ماڈلز فون پر تب تک اسٹور ہوتے ہیں جب تک آپ انہیں حذف نہیں کرتے ہیں۔</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">‏Pixel Imprint آپ کے بچے کے فنگر پرنٹ کا ایک منفرد ماڈل تخلیق کرتا ہے تاکہ یہ توثیق کی جا سکے کہ یہ وہی بچہ ہے۔ سیٹ اپ کے دوران اس فنگر پرنٹ کا ماڈل تخلیق کرنے کے لیے وہ اپنے فنگر پرنٹ کی تصاویر مختلف پوزیشنز سے لے گا۔</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" product="default">‏آپ اور آپ کا بچہ اپنے فنگر پرنٹ ماڈل کو حذف کر سکتے ہیں یا ترتیبات میں کسی بھی وقت Pixel Imprint کو آف کر سکتے ہیں۔ فنگر پرنٹ کے ماڈلز کو فون پر تب تک اسٹور کیا جاتا ہے جب تک انہیں حذف نہیں کیا جاتا ہے۔</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more">"‏&lt;a href='http://g.co/pixel/fingerprintunlock'&gt;g.co/pixel/fingerprintunlock&lt;/a&gt; پر Pixel فنگر پرنٹ اَن لاک کے بارے میں مزید جانیں۔"</string>
     <string name="security_settings_work_fingerprint_preference_title">‏کام کیلئےPixel Imprint</string>
     <string name="setup_suggestion_summary">صرف چند مزید اقدامات</string>
     <string name="setup_suggestion_title">سیٹ اپ مکمل کریں</string>
+    <string name="show_stylus_pointer_icon">ہوور کرتے وقت ایپس کو پوائنٹر دکھانے کی اجازت دیں</string>
+    <string name="simple_mode_category">فوری رسائی</string>
+    <string name="simple_mode_description">ٹیکسٹ اور آئیکن کا سائز بڑھائیں، لے آؤٹ کو سادہ بنائیں اور نیویگیشن بٹنز شامل کریں۔ آسان منظر کے بارے میں <a href="https://support.google.com/pixelphone?p=pixel_simple_view">مزید جانیں</a>۔</string>
+    <string name="simple_mode_summary">ٹیکسٹ کی شفافیت کو بہتر بنائیں اور اسکرین لے آؤٹ اور نیویگیشن کو آسان بنائیں</string>
+    <string name="simple_mode_suw_description">‏صاف ستھرا ڈیزائن اور آسان آن بورڈنگ کے لیے، Pixel خودکار طور پر ضروری ایپس اور ویجیٹس ڈاؤن لوڈ کر سکتا ہے، اسکرین لے آؤٹ کو بہتر بنا سکتا ہے، فونٹ کو ایڈجسٹ کر سکتا ہے اور بہت کچھ کر سکتا ہے</string>
+    <string name="simple_mode_suw_done_button">ہو گیا</string>
+    <string name="simple_mode_switch_title">آسان منظر استعمال کریں</string>
+    <string name="simple_mode_title">آسان منظر</string>
+    <string name="simple_view_dialog_negative_button">منسوخ کریں</string>
+    <string name="simple_view_dialog_positive_button">آگے بڑھیں</string>
+    <string name="simple_view_feature_disabled_dialog_message">آسان منظر کو آف کرنے پر، آپ کا آلہ اپنے اصل فونٹ، ڈسپلے اور لے آؤٹ کی ترتیبات پر واپس لوٹ جائے گا۔ فونٹ کی ان انفرادی ترتیبات کو بدلنے کا <a href="https://support.google.com/pixelphone?p=pixel_simple_view">طریقہ جانیں</a>۔</string>
+    <string name="simple_view_feature_disabled_dialog_title">آپ کا آلہ پچھلی ترتیبات پر واپس لوٹ جائے گا</string>
+    <string name="simple_view_feature_enabled_dialog_message">آپ کا موجودہ فونٹ آسان منظر کی ترتیبات سے بڑا ہے۔ آسان منظر استعمال کرنے سے آپ کے فونٹ کا سائز کم ہو جائے گا۔</string>
+    <string name="simple_view_feature_enabled_dialog_title">فونٹ کا سائز کم ہو جائے گا</string>
     <string name="smart_battery_a11y_collapse_label">سکیڑیں، تغیر پذیر بیٹری</string>
     <string name="smart_battery_a11y_expand_label">پھیلائیں، تغیر پذیر بیٹری</string>
     <string name="smart_battery_footer">بیٹری لائف کو بڑھانے کے لیے تغیر پذیر بیٹری کارکردگی اور پس منظر کی سرگرمی کو کم کر سکتی ہے۔ ممکن ہے کچھ اطلاعات میں تاخیر ہو جائے۔</string>
     <string name="smart_battery_manager_title">اڈاپٹیو ترجیحات</string>
+    <string name="smart_battery_summary" product="default">تغیر پذیر بیٹری آپ کے فون کے استعمال کی بنیاد پر ایپس بیٹری کو کس طرح استعمال کرتی ہے اسے مسلسل بہتر بنانا سیکھتی ہے۔ بیٹری لائف کو بڑھانے کے لیے، یہ کارکردگی کم کر سکتی اور اطلاعات میں تاخیر کر سکتی ہے۔</string>
     <string name="smart_battery_title">تغیر پذیر بیٹری</string>
     <string name="software_update_can_be_updated_header">‏اپنے Pixel کو مزید بہتر بنائیں</string>
     <string name="software_update_detail_indication_1_update_available">1 اپ ڈیٹ دستیاب ہے</string>
@@ -348,7 +397,8 @@
     <string name="software_update_up_to_date_summary">اپ ٹو ڈیٹ</string>
     <string name="software_update_up_to_specific_date_summary">%1$s کو اپ ڈیٹ کر دیا گیا</string>
     <string name="software_update_update_available_summary">اپ ڈیٹ دستیاب ہے</string>
-    <string name="sound_dashboard_summary">والیوم، ہیپٹکس، ڈسٹرب نہ کریں</string>
+    <string name="sound_dashboard_summary">والیوم اور ہیپٹکس</string>
+    <string name="sound_dashboard_summary_with_dnd">والیوم، ہیپٹکس، ڈسٹرب نہ کریں</string>
     <string name="spatial_audio_head_tracking_available">ہیڈ ٹریکنگ دستیاب ہے</string>
     <string name="spatial_audio_head_tracking_unavailable">ہیڈ ٹریکنگ دستیاب نہیں ہے</string>
     <string name="speed_boost_summary_off">آف ہے</string>
@@ -397,4 +447,8 @@
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">منسلک کرنے کیلئے تھپتھپائیں</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">منسلک نہیں ہو سکتا۔ دوبارہ کوشش کرنے کے لیے تھپتھپائیں۔</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">منسلک ہو رہا ہے…</string>
+    <string name="wireless_charging_learn_more"><annotation id="url"> مزید جانیں</annotation></string>
+    <string name="wireless_charging_learn_more_description">وائرلیس چارجنگ کے بارے میں مزید جانیں</string>
+    <string name="wireless_charging_state">وائرلیس طریقے چارج ہو رہا ہے •</string>
+    <string name="wireless_charging_state_and_duration">وائرلیس طریقے چارج ہو رہا ہے • %1$s •</string>
 </resources>

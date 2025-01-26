@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/adaptive_vibration_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="adaptive_vibration_top_intro"
+        android:title="@string/adaptive_vibration_settings_summary" />
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="adaptive_vibration_illustration"
+        android:selectable="false"
+        app:dynamicColor="true"
+        app:lottie_rawRes="@raw/lottie_adaptive_vibration"
+        app:searchable="false" />
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="adaptive_vibration_intensity_preference"
+        android:title="@string/adaptive_vibration_toggle_title"
+        app:controller="com.google.android.settings.accessibility.AdaptiveVibrationTogglePreferenceController"
+        app:keywords="@string/keywords_adaptive_alert_vibration" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="adaptive_vibration_footer"
+        android:selectable="false"
+        android:title="@string/adaptive_vibration_footer"
+        app:controller="com.google.android.settings.accessibility.AdaptiveVibrationFooterPreferenceController" />
+
+</PreferenceScreen>
