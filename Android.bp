@@ -11,6 +11,14 @@ android_library {
         "android.frameworks.stats-V1-java",
         "SettingsGoogle-lib",
         "googlebattery-lib",
+        "androidx.room_room-runtime",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+    ],
+    plugins: [
+        "SettingsLibMetadata-processor",
+        "androidx.room_room-compiler-plugin",
+        "androidx.appsearch_appsearch-compiler-plugin",
     ],
     resource_dirs: [
         "res",
