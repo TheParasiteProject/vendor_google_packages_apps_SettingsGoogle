@@ -5,6 +5,8 @@ android_library {
     use_resource_processor: true,
     static_libs: [
         "Settings-core",
+        "androidx.datastore_datastore-preferences",
+        "com.google.android.material_material",
         "android.hidl.base-V1.0-java",
         "android.frameworks.stats-V1-java",
         "SettingsGoogle-lib",
