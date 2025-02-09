@@ -5,8 +5,12 @@ android_library {
     use_resource_processor: true,
     static_libs: [
         "Settings-core",
+        "androidx.datastore_datastore",
         "androidx.datastore_datastore-core",
         "androidx.datastore_datastore-preferences",
+        "androidx.datastore_datastore-core-okio",
+        "androidx.datastore_datastore-preferences-core",
+        "androidx.datastore_datastore-preferences-external-protobuf",
         "androidx.datastore_datastore-preferences-rxjava2",
         "com.google.android.material_material",
         "android.hidl.base-V1.0-java",
@@ -16,6 +20,10 @@ android_library {
         "androidx.room_room-runtime",
         "androidx.fragment_fragment-ktx",
         "androidx.lifecycle_lifecycle-runtime-ktx",
+        "kotlinx_coroutines_reactive",
+        "kotlinx_coroutines_rx2",
+        "rxjava",
+        "SpaLib",
     ],
     plugins: [
         "SettingsLibMetadata-processor",
